@@ -1,0 +1,20 @@
+{
+  "name": "schoology-archive",
+  "version": "0.1.0",
+  "description": "Node CLI to archive every Schoology course (including archived) + local viewer server.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "scrape": "node scrape.mjs",
+    "mirror": "node mirror.mjs",
+    "serve": "node server.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2",
+    "puppeteer": "^25.0.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

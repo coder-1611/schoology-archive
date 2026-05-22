@@ -1,0 +1,8 @@
+{
+  "domain": "https://app.schoology.com",
+  "cookie": "PASTE_YOUR_COOKIE_HEADER_HERE",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+  "includeArchived": true,
+  "dataDir": "./data",
+  "port": 3000
+}
