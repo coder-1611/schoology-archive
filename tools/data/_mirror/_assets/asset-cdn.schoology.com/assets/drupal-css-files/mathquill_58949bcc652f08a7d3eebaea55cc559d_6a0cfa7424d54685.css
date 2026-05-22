@@ -10,21 +10,21 @@
 /* Altered to use a absolute path to avoid problems with popups.js loading the css files 
 @font-face {
   font-family: Symbola;
-  src: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.eot__q_6a0cfa7424d54685");
+  src: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.eot__q_6a0cfa7424d54685");
   src: local("Symbola Regular"), local("Symbola"),
-    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.ttf__q_6a0cfa7424d54685") format("truetype"),
-    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.otf__q_6a0cfa7424d54685") format("opentype"),
-    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.svg__q_6a0cfa7424d54685") format("svg");
+    url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.ttf__q_6a0cfa7424d54685") format("truetype"),
+    url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.otf__q_6a0cfa7424d54685") format("opentype"),
+    url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.svg__q_6a0cfa7424d54685") format("svg");
 }
 */
 
 @font-face {
   font-family: Symbola;
-  src: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.eot__q_6a0cfa7424d54685");
+  src: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.eot__q_6a0cfa7424d54685");
   src: local("Symbola Regular"), local("Symbola"),
-  url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.ttf__q_6a0cfa7424d54685") format("truetype"),
-  url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.otf__q_6a0cfa7424d54685") format("opentype"),
-  url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.svg__q_6a0cfa7424d54685") format("svg");
+  url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.ttf__q_6a0cfa7424d54685") format("truetype"),
+  url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.otf__q_6a0cfa7424d54685") format("opentype"),
+  url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_media/s_tinymce/font/Symbola.svg__q_6a0cfa7424d54685") format("svg");
 }
 .mathquill-editable {
   display: -moz-inline-box;

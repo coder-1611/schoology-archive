@@ -1,5 +1,6 @@
 node_modules/
-data/
 config.json
 *.log
 .npm-cache/
+# Single file over GitHub's 100MB per-file limit
+data/6052026620/U.S. & Canada/U.S Canada PRWPoint.pptx

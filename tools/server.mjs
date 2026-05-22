@@ -165,6 +165,17 @@ app.get('/mirror/*', (req, res) => {
   res.sendFile(target);
 });
 
+// Backward-compat alias: the mirrored HTML uses GitHub-Pages-absolute paths
+// (/schoology-archive/tools/data/_mirror/...) so it works when published. Serve
+// the same files locally too so npm run serve keeps working.
+app.get('/schoology-archive/tools/data/_mirror/*', (req, res) => {
+  const rel = decodeURIComponent(req.params[0] || '');
+  const target = path.resolve(MIRROR_ROOT, rel);
+  if (!target.startsWith(path.resolve(MIRROR_ROOT))) return res.status(400).send('bad path');
+  if (!fs.existsSync(target)) return res.status(404).send('mirror file not found');
+  res.sendFile(target);
+});
+
 app.listen(config.port, () => {
   console.log(`Schoology archive viewer running:  http://localhost:${config.port}`);
 });

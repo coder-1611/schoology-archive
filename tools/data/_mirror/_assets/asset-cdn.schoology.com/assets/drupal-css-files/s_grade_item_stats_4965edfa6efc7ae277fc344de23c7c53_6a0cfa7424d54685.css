@@ -2,7 +2,7 @@
 [dir="rtl"] .stats-tables table { float: right; }
 .stats-tables th { padding: 3px; }
 .stats-tables td { padding: 3px; }
-.return-to { /* rtl-processor:ignore */ float: right; margin: 5px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat 0 -283px; padding-inline-start: 22px; }
+.return-to { /* rtl-processor:ignore */ float: right; margin: 5px; background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat 0 -283px; padding-inline-start: 22px; }
 [dir="rtl"] .return-to { float: left; }
 #assignment-stats-graph { margin-inline-start: 11px; height: 200px; margin-bottom: 10px; }
 .header-stats { display: none; }

@@ -173,7 +173,7 @@
     padding-top: 10px;
 }
 .add-rule{
-    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_realm.png__q_6a0cfa7424d54685") no-repeat scroll 7px -115px transparent;
+    background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_realm.png__q_6a0cfa7424d54685") no-repeat scroll 7px -115px transparent;
     padding-inline-start: 35px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -184,7 +184,7 @@
 }
 
 .add-rule-triangle {
-    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a0cfa7424d54685") no-repeat scroll 6px 50% transparent;
+    background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a0cfa7424d54685") no-repeat scroll 6px 50% transparent;
     display: inline-block;
     width:20px;
     height: 8px;
@@ -211,7 +211,7 @@
     text-decoration:none !important;
 }
 .delete-btn.disabled-assign:hover {
-    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/delete-btn.gif__q_6a0cfa7424d54685") no-repeat 3px 4px !important;
+    background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/delete-btn.gif__q_6a0cfa7424d54685") no-repeat 3px 4px !important;
 }
 .visible-assign {
     display: block !important;
@@ -308,7 +308,7 @@
     content: "";
     position: absolute;
     inset-inline-end: 22px;
-    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/unread_icon.png__q_6a0cfa7424d54685") no-repeat 0 2px;
+    background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/unread_icon.png__q_6a0cfa7424d54685") no-repeat 0 2px;
     height: 14px;
     width: 10px;
 }
@@ -321,7 +321,7 @@
     height: 17px;
     width: 12px;
     inset-inline-end: 8px;
-    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat -5px -238px;
+    background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat -5px -238px;
 }
 .s-course-csm-toggler.select2-toggle .select2-results .select2-active.select2-highlighted:before {
     background-position: -5px -258px;
@@ -338,14 +338,14 @@
 }
 [dir="rtl"] .link-sections-form .original-message { float: right; }
 .link-sections-form .master-icon {
-    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a0cfa7424d54685") no-repeat scroll 0px -1353px transparent;
+    background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a0cfa7424d54685") no-repeat scroll 0px -1353px transparent;
     display:inline-block;
     width: 16px;
     height: 11px;
     margin-inline-start: 5px;
 }
 .link-sections-form .unlink-icon {
-    background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685");
+    background-image: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685");
     background-repeat: no-repeat;
     background-position: 0px -747px;
     display:inline-block;

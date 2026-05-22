@@ -10,12 +10,12 @@
 #s-grade-item-add-combined-form .advanced-options { margin: 0 10px 0; margin-inline-start: 0; text-align: end; position: relative; /* rtl-processor:ignore */ float: right; }
 [dir="rtl"] #s-grade-item-add-combined-form .advanced-options { float: left; }
 #smart-box #s-grade-item-add-combined-form { padding-bottom: 30px; }
-.toggle-advanced-options { color: #333; margin: 1px 0 0 0; padding: 5px 20px 5px; padding-inline-start: 8px; display: inline-block; font-weight: normal; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat right -576px; }
+.toggle-advanced-options { color: #333; margin: 1px 0 0 0; padding: 5px 20px 5px; padding-inline-start: 8px; display: inline-block; font-weight: normal; background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat right -576px; }
 .toggle-advanced-options:hover { text-decoration: none; }
 .toggle-advanced-options.active { background-color: #333; color: #fff; background-position: right -594px; }
 #s-grade-item-add-combined-form .copy-settings { display: none; }
 #s-grade-item-add-combined-form .addl-course-first .copy-settings { display: block; position: absolute; inset-inline-end: 0; bottom: 20px; font-weight: normal; }
-.option-not-found { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/alert-icon.png__q_6a0cfa7424d54685") no-repeat 5px 0; display: inline-block; height: 15px; width: 15px; padding: 0 5px; margin-bottom: -3px; }
+.option-not-found { background: url("/schoology-archive/tools/data/_mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/alert-icon.png__q_6a0cfa7424d54685") no-repeat 5px 0; display: inline-block; height: 15px; width: 15px; padding: 0 5px; margin-bottom: -3px; }
 .addl-grading-category label::after {
   content: "*";
   color: #4753da;
