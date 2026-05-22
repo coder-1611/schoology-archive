@@ -1,0 +1,380 @@
+/* assignment block */
+.drop-items .picture { width: 30px; }
+.drop-items li { min-height: 32px; }
+.drop-items li:hover { background: #eef3f8; }
+.drop-items .dropbox-view-link { display: block; }
+.drop-items li .student-name, .drop-items .revision-num  { padding: 0 0 3px; padding-inline-start: 40px; }
+.drop-items li .student-name { overflow: hidden; padding-inline-start: 0; text-overflow: ellipsis; white-space: nowrap; }
+.drop-items .no-submission .student-name { font-weight: bold; color: #9a9fa8; }
+.drop-items .no-submission .picture, .drop-items .draft .picture { opacity: .7; filter: alpha(opacity=70); }
+.drop-items .no-submission:hover { background: none; }
+.drop-items .edit-draft:hover { text-decoration: none; }
+.drop-items .draft .revision-num { font-weight: bold; color: #9a9fa8; }
+.dropbox-revisions .description { font-weight: normal; padding-inline-start: 40px; }
+.dropbox-view-link:hover { text-decoration: none; }
+.ungraded-userlist { color: #fff; background: #4AA4E7; padding: 1px 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.submission-status.late { color: #DD373A; }
+.submission-status.ontime { color: #38852C; }
+#dropbox-submitted-filter-wrapper { /* rtl-processor:ignore */ float: right; margin-top: -4px; }
+[dir="rtl"] #dropbox-submitted-filter-wrapper { float: left; }
+#dropbox-submitted-filter-wrapper select { display: none; }
+#dropbox-submitted-filter-button { background: none; color: #4479B3; border: none; width: auto !important; font-weight: normal; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+#dropbox-submitted-filter-button:hover { text-decoration: underline; }
+#dropbox-submitted-filter-button .ui-selectmenu-status { padding-inline-end: 20px; }
+#dropbox-submitted-filter-button .ui-selectmenu-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a0cfa7424d54685") no-repeat 2px 5px; }
+#dropbox-submitted-filter-menu { white-space: nowrap; margin: 0 0 0; margin-inline-start: -1px; width: 165px !important; z-index: 100; }
+#dropbox-submitted-filter-menu .ontime { color: #5AB135; margin-inline-start: 10px; }
+#dropbox-submitted-filter-menu .late { color: #FF0000; margin-inline-start: 10px; }
+#dropbox-submitted-filter-menu .ungraded { color: #327cbb; margin-inline-start: 10px; }
+#dropbox-submitted-filter-menu .graded { color: #9a9fa8; margin-inline-start: 10px; }
+#dropbox-submitted-filter-menu li:hover a, #dropbox-submitted-filter-menu li.ui-selectmenu-item-focus a { background-color: #444; background-position: right -258px; }
+[dir="rtl"] #dropbox-submitted-filter-menu li:hover a,[dir="rtl"] #dropbox-submitted-filter-menu li.ui-selectmenu-item-focus a,[dir="rtl"] #dropbox-submitted-filter-menu li.ui-selectmenu-item-selected a { display: list-item; }
+#s-drop-item-submit-upload-form { padding: 15px 73px; }
+#s-drop-item-submit-upload-form #fsUploadProgress { max-height: 105px; height: auto; }
+#s-drop-item-submit-upload-form #attachment-links { height: 32px; border: 1px solid #c7c7c7; margin: 0 -6px; }
+#s-drop-item-submit-upload-form #attachment-file { margin: -1px -6px 0; width: 100%; padding-inline-end: 10px; }
+#s-drop-item-submit-upload-form .progressContainer { margin: -1px -6px 0; }
+#s-drop-item-submit-upload-form #attachments { margin-bottom: 10px; }
+.revision-title { color: #9a9fa8; position: absolute; inset-inline-end: 25px; margin-top: 10px; }
+.popups-dropbox-submit { width: 600px; }
+.popups-dropbox-submit .submit-buttons { width: 598px; }
+.popups-dropbox-submit.popups-compose { width: 860px; }
+.popups-dropbox-submit.popups-compose .submit-buttons { width: 858px; }
+#s-drop-item-submit-upload-form .form-textarea { height: 58px !important; overflow-y: auto !important; width: 100%; margin: 0 -6px; }
+#dropbox-submit-create-tab-content { padding: 15px 20px; }
+#dropbox-submit-create-tab-content .tinymceToggleContainer { inset-inline-end: 0; }
+#s-drop-item-submit-create-form { position: absolute; inset-inline-start: -9999px; }
+#s-drop-item-submit-create-form #edit-submission-wrapper { padding: 0 6px; }
+.visible #s-drop-item-submit-create-form { position: static; inset-inline-start: auto; }
+#s-drop-item-submit-wrapper .popups-tab-content { display: none; }
+#s-drop-item-submit-wrapper .popups-tab-content.visible { display: block; }
+#dropbox-viewer-item-compare-select-wrapper #dropbox-viewer-item-compare-select {display: inline-block;}
+#s-drop-item-submit-create-form #edit-submission { height: 350px; width: 100%; margin: 0 -6px; }
+#s-drop-item-submit-create-form #edit-submission_parent { margin: 0 -6px; }
+#s-drop-item-submit-create-form .submit-buttons span:first-child { margin-inline-end: 4px; }
+#s-drop-item-submit-create-form p { display: none; }
+#s-drop-item-submit-create-form #edit-submission_tbl { width: 100%; }
+#s-drop-item-submit-create-form fieldset { display: none; }
+#s-drop-item-revision-delete-form { padding: 10px; text-align: center; }
+.dropbox-download-all { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685") no-repeat 0 -147px; display: inline-block; height: 14px; width: 16px; margin: 0 0 -1px; margin-inline-start: 5px; vertical-align: top; }
+.dropbox-download-all.inactive { opacity: .5; filter: alpha(opacity=50); }
+.dropback { margin-top: 15px; }
+#container .dropback-warning .warning { font-size: 11px; padding-inline-start: 15px; margin-top: 10px !important; }
+#right-column .dropbox-submit span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a0cfa7424d54685") 0 -25px; height: 16px; width: 16px; margin: -1px 7px 0; margin-inline-start: 0; }
+.submit-assignment { padding-top: 5px; }
+#s-grade-item-edit-enrollment-grade-form .comment-area-toggle { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_comment.png__q_6a0cfa7424d54685") no-repeat 5px 8px; height: 28px; width: 20px; display: inline-block;  opacity: .5; filter: alpha(opacity=50); zoom: 1; }
+#s-grade-item-edit-enrollment-grade-form:not(.active) > div {display: flex; align-items: center;}
+#s-grade-item-edit-enrollment-grade-form .comment-area-toggle:hover, #s-grade-item-edit-enrollment-grade-form.active .comment-area-toggle:hover, #s-grade-item-edit-enrollment-grade-form .comment-area-toggle.has-comment { opacity: 1; filter: alpha(opacity=100); cursor: pointer; }
+#s-grade-item-edit-enrollment-grade-form .rubric-label {float: none; margin: 0; width: auto; display: inline-block; padding-inline-end: 5px; padding-bottom: 2px;}
+#s-grade-item-edit-enrollment-grade-form .s-grades-rubric-grading-launch-btn { display: inline-block; margin-inline-start: 5px;}
+#s-grade-item-edit-enrollment-grade-form .s-grades-rubric-grading-launch-btn .grading-rubric-launch-icon { width: auto; min-width: 45px; }
+#s-grade-item-edit-enrollment-grade-form .grade-exception-icon { height: 14px; width: 14px; }
+#s-grade-item-edit-enrollment-grade-form #edit-grade {padding: 4px 0; box-sizing: border-box;}
+#s-grade-item-edit-enrollment-grade-form #edit-grade-wrapper .field-prefix{vertical-align: middle;}
+[dir="rtl"] #s-grade-item-edit-enrollment-grade-form #edit-grade-wrapper .field-prefix { display: inline-block; }
+#s-grade-item-edit-enrollment-grade-form.active .grade-exception-wrapper .grade-exception-icon {position: absolute; top: calc(50% - 7px);}
+#s-grade-item-edit-enrollment-grade-form.active .rubric-label {/* rtl-processor:ignore */float: left; padding-top: 6px;}
+[dir="rtl"] #s-grade-item-edit-enrollment-grade-form.active .rubric-label { float: right; }
+#s-grade-item-edit-enrollment-grade-form.active .grade-exception-wrapper {vertical-align: top; height: 30px; width: 14px; position: relative; display: inline-block;}
+#s-grade-item-edit-enrollment-grade-form.active .s-grades-rubric-grading-launch-btn {vertical-align: top;}
+
+/* popup */
+#dropbox-viewer-wrapper, .dropbox-viewer-item { height: 100%; }
+#dropbox-viewer-right {
+    position: absolute;
+    inset-inline-end: 0;
+    z-index: 2000;
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    background: #fcfcfb; /* neutral-lighter */
+    margin: auto;
+}
+#dropbox-viewer-right-toggle { position: absolute; inset-inline-end: 300px; border: 1px solid #c7c7c7; border-width: 0 1px; top: 0; z-index: 2000; width: 10px; height: 100%; background: #f2f2f2 url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/dropbox-toggle.png__q_6a0cfa7424d54685") no-repeat 3px 50%; cursor: pointer; }
+[dir="rtl"] #dropbox-viewer-right-toggle { background-position-x: -48px }
+#dropbox-viewer-right-toggle:hover, #dropbox-viewer-right-toggle:focus { background-color: #e9e9e9; }
+#dropbox-viewer-right-toggle:focus {
+    outline: none;
+}
+#dropbox-viewer-left { padding: 0 345px 0; padding-inline-start: 35px; height: 100%; }
+#dropbox-viewer-ajax-response-wrapper { height: 100%; }
+.hide-right-col #dropbox-viewer-right { display: none; }
+.hide-right-col #dropbox-viewer-left { padding-inline-end: 70px; }
+.hide-right-col .dropbox-viewer-user-pictures { width: 100% !important; }
+.hide-right-col #dropbox-viewer-right-toggle { inset-inline-end: 0; background-position: -48px 50%;}
+[dir="rtl"] .hide-right-col #dropbox-viewer-right-toggle { background-position-x: 3px; }
+.hide-right-col #dropbox-viewer-grade { inset-inline-end: 60px; }
+.hide-right-col .dropbox-viewer-user-pictures .wrapper-outer { padding-inline-end: 40px; }
+.hide-right-col .scroll-right { inset-inline-end: 10px; }
+.hide-right-col .popups-close { inset-inline-end: 25px !important; }
+.popups-box.popups-dropbox-viewer {
+    background: #fcfcfb; /* neutral-lighter */
+    padding: 0;
+    color: #666;
+    inset-inline-start: 0 !important;
+    position: fixed;
+}
+.popups-dropbox-viewer .popups-body { height: 100%; padding: 0; background: none; border: none; }
+.popups-dropbox-viewer .popups-title { background: none; padding: 0; border: none; }
+.popups-dropbox-viewer .popups-close { position: absolute; inset-inline-end: 325px; top: 10px; }
+.popups-dropbox-viewer .title, .popups-dropbox-viewer .clear-block { display: none; }
+.popups-dropbox-viewer #s_comments .comment, .s-drop-item #s_comments .comment { padding: 10px; border-bottom: 1px dotted #c7c7c7; margin: 0 -10px; }
+.popups-dropbox-viewer a.ui-selectmenu, .s-drop-item a.ui-selectmenu { background: none; border: none; display: inline-block; width: auto !important; height: auto; color: #327cbb; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+.popups-dropbox-viewer a.ui-selectmenu .ui-selectmenu-icon, .s-drop-item a.ui-selectmenu .ui-selectmenu-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a0cfa7424d54685") no-repeat 3px 5px; }
+[dir="rtl"] .popups-dropbox-viewer a.ui-selectmenu .ui-selectmenu-icon, [dir="rtl"] .s-drop-item a.ui-selectmenu .ui-selectmenu-icon { background-position-x : 0; }
+.popups-dropbox-viewer .ui-selectmenu-status, .s-drop-item .ui-selectmenu-status { padding-inline-end: 20px; }
+.popups-dropbox-viewer .ui-state-active .ui-selectmenu-status, .s-drop-item .ui-state-active .ui-selectmenu-status { color: #333; }
+.popups-dropbox-viewer .ui-selectmenu-status span, .s-drop-item .ui-selectmenu-status span, #dropbox-viewer-user-select-menu span { display: inline; }
+[dir="rtl"] .popups-dropbox-viewer .ui-selectmenu-status span, [dir="rtl"] .s-drop-item .ui-selectmenu-status span, [dir="rtl"] #dropbox-viewer-user-select-menu span { display: inline-block; }
+#dropbox-viewer-user-select-button { font-size: 18px; }
+#s-grade-item-edit-enrollment-grade-form { padding: 10px; width: 190px; }
+#dropbox-viewer-grade .grade-wrapper.not-editable { text-align: end; margin-top: 5px; }
+#dropbox-viewer-grade { position: absolute; top: 0; inset-inline-end: 360px; }
+#dropbox-viewer-grade.ungraded, #dropbox-viewer-grade.view-only { top: 15px; }
+#dropbox-viewer-grade label { float: none;}
+[dir="rtl"] #dropbox-viewer-grade label { display: inline-block;}
+#dropbox-viewer-grade #edit-grade { width: 65px; text-align: center;}
+#dropbox-viewer-grade .grade-input-wrapper { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #dropbox-viewer-grade .grade-input-wrapper { float: right; }
+#dropbox-viewer-grade #edit-comment { width: 160px; }
+#dropbox-viewer-grade #edit-comment-wrapper { padding: 10px 0 5px; clear: both; }
+#dropbox-viewer-grade .grade-submit-buttons { text-align: center; }
+#dropbox-viewer-grade .loader { width: auto; padding: 0; background: none; border: none; margin: 10px 15px 0; margin-inline-start: 0; }
+#dropbox-viewer-grade #edit-grade-wrapper { display: inline; }
+.submission-viewer-title-row { margin: 0; padding-top: 15px; overflow: hidden; }
+.submission-viewer-title-row .select-wrapper { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .submission-viewer-title-row .select-wrapper { float: right; }
+.single-user-name-wrapper { padding: 2px 0 3px; padding-inline-start: 6px; line-height: 1.4em; font-size: 18px; font-weight: bold; height: 32px; display: inline-block; vertical-align: middle; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-width: 90%; }
+#dropbox-viewer-grade #edit-comment-wrapper, #dropbox-viewer-grade .grade-submit-buttons, #dropbox-viewer-grade #edit-comment-wrapper, #dropbox-viewer-grade #edit-comment-status-wrapper, #dropbox-viewer-grade #comment_status_note { display: none; }
+#dropbox-viewer-grade .active #edit-comment-wrapper, #dropbox-viewer-grade .active .grade-submit-buttons, #dropbox-viewer-grade .active #edit-comment-status-wrapper, #dropbox-viewer-grade .active #comment_status_note { display: block; }
+#dropbox-viewer-grade .read-only-comment__title { font-size: 12px; }
+#dropbox-viewer-grade .read-only-comment__comment { padding: 10px 0; color: #000; }
+#dropbox-viewer-grade .read-only-comment__status {
+    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat 0 -82px;
+    padding-inline-start: 20px;
+}
+#dropbox-viewer-grade .read-only-comment__status--shared {
+    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_present.png__q_6a0cfa7424d54685") no-repeat 0 0;
+}
+#dropbox-viewer-revision-select-wrapper, #dropbox-viewer-item-select-wrapper { /* rtl-processor:ignore */ float: left; margin: 0; }
+[dir="rtl"] #dropbox-viewer-revision-select-wrapper, [dir="rtl"] #dropbox-viewer-item-select-wrapper { float: right; }
+#dropbox-viewer-user-select-wrapper { margin: 0; }
+#dropbox-viewer-user-select-wrapper .ui-selectmenu { max-width: 290px; }
+form.active div:first-child { background: #fff; border: 1px solid #000; padding: 10px; margin: -1px -1px 0; margin-inline-start: 0; width: 170px; }
+form.active div div:first-child { background: none; border: none; margin: 0; padding: 0; width: auto; }
+form.active { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/popup-shadow.png__q_6a0cfa7424d54685"); color: #333; margin: -10px -10px 0; margin-inline-start: 0; }
+#dropbox-viewer-user-select-menu, #dropbox-viewer-item-select-menu, #dropbox-viewer-revision-select-menu { z-index: 2000; margin-top: 32px; white-space: nowrap; width: auto !important; font-size: 12px; max-height: 500px; overflow-y: auto; }
+#dropbox-viewer-user-select-menu { margin-top: 0; }
+#dropbox-viewer-revision-select-menu, #dropbox-viewer-item-select-menu { top: 36px !important; }
+#dropbox-viewer-comments { background: #fff; border-bottom: 1px solid #c7c7c7; padding: 0 10px 10px; box-shadow: 0 0 5px rgba(0,0,0,.1); -moz-box-shadow: 0 0 5px rgba(0,0,0,.1); -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1); -ms-box-shadow: 0 0 5px rgba(0,0,0,.1); }
+#dropbox-viewer-comments p { margin: 0; }
+#dropbox-viewer-comments .comment-contents, #dropbox-viewer-comments .comment-footer { padding-inline-start: 42px; }
+#dropbox-viewer-comments .attachments-file-name a { font-weight: normal; }
+#dropbox-viewer-comments #comment-entry-links { display: none; }
+#dropbox-viewer-comments .attachments-file-icon { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #dropbox-viewer-comments .attachments-file-icon { float: right; }
+#dropbox-viewer-comments .attachments-file-name { padding-inline-start: 19px; display: block; }
+#dropbox-viewer-comments .picture { width: 32px; margin-top: 10px; }
+#dropbox-viewer-comments #s_comments .picture { margin-top: 0; }
+#dropbox-viewer-comments .no-comments { display: block; padding: 10px 0 12px; text-align: center; }
+#dropbox-viewer-comments .revision-notification { display: block; }
+#dropbox-viewer-submitted-date, #dropbox-viewer-submission-status { padding: 3px 6px 5px; /* rtl-processor:ignore */ float: left; height: 18px; color: #9a9fa8; }
+[dir="rtl"] #dropbox-viewer-submitted-date, [dir="rtl"] #dropbox-viewer-submission-status { float: right; }
+#dropbox-viewer-submitted-date {
+    color: #677583;
+}
+#dropbox-native-viewer-banner {
+    padding: 20px 15px;
+    background-color: #43C5F9;
+    color: #333333;
+    font-size: 14px;
+    z-index:4000;
+    position: relative;
+}
+#dropbox-native-viewer-banner a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333333;
+}
+#dropbox-native-viewer-banner a:hover{
+    background: #D4F3FF;
+}
+#dropbox-close-banner {
+    /* rtl-processor:ignore */
+    float:right;
+    display: inline-block;
+}
+[dir="rtl"] #dropbox-close-banner { float: left; }
+#dropbox-close-banner:hover {
+    cursor: pointer;
+}
+#dropbox-viewer-annotation-update-status {
+    /* rtl-processor:ignore */
+    float: right;
+    margin-top: 5px;
+    font: 12px var(--sgy-font-default);
+    color: #556370; /*$color-graphite-med-dark*/
+}
+[dir="rtl"] #dropbox-viewer-annotation-update-status { float: left; }
+#dropbox-viewer-item-select-wrapper-outer:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#dropbox-viewer-user-select-wrapper {
+    height: 28px;
+}
+#submission-viewer-title-row {
+    height: 43px;
+}
+.hide-right-col .dropbox-viewer-submission-activity {
+    display: none;
+}
+.dropbox-viewer-submission-activity {
+    position: absolute;
+    inset-inline-end: 0;
+    z-index: 2001;
+    height: 40px;
+    width: 300px;
+    background-color: #f2f2f2;
+    padding-inline-start: 10px;
+}
+.dropbox-viewer-submission-activity-inner {
+    padding-top: 10px;
+    padding-bottom: 4px;
+    line-height: 26px;
+    border-bottom: 1px solid #c7c7c7;
+    color: #666;
+    font-weight: bold;
+}
+.dropbox-viewer-user-pictures { position: absolute; inset-inline-start: 0; bottom: 0; padding: 9px 0; width: 100%; background: #f2f2f2; border-top: 1px solid #c7c7c7; }
+.dropbox-viewer-user-pictures .wrapper-outer { padding: 0 340px 0; padding-inline-start: 30px; height: 52px; }
+.dropbox-viewer-user-pictures .wrapper-inner { width: 100%; height: 52px; overflow: hidden; }
+.dropbox-viewer-user-pictures .picture { height: 46px; padding: 0; margin-inline-end: 5px; border: 1px solid transparent; cursor: pointer; }
+.dropbox-viewer-user-pictures .active .picture, .dropbox-viewer-user-pictures .active .picture:hover { border-color: #999; }
+.dropbox-viewer-user-pictures .picture:hover { border-color: #eaeaea; }
+#dropbox-viewer-comments { margin-top: 40px; }
+#dropbox-viewer-comments  #fsUploadProgress { height: auto; max-height: 56px; }
+#dropbox-viewer-comments #edit-file-swf-wrapper { padding: 0; }
+#dropbox-viewer-comments #attachment-file { width: auto; margin: 0; border-bottom: none; }
+#dropbox-viewer-comments #attachment-file .description { margin-inline-start: 0; font-size: 9px; }
+#s-drop-item-add-comment-form { overflow: hidden; margin-top: 10px; }
+#s-drop-item-add-comment-form .form-item { padding: 0 6px; }
+#s-drop-item-add-comment-form .resizable-textarea span { display: block; }
+#s-drop-item-add-comment-form .grippie { display: none; }
+#s-drop-item-add-comment-form textarea { width: 100%; margin: 0 -6px; max-height: 150px; overflow-y: auto !important; }
+#s-drop-item-add-comment-form #attachment-selector { border: 1px solid #c7c7c7; border-top: 1px dotted #c7c7c7; height: 32px; }
+#s-drop-item-add-comment-form #attachments { background: #fff; margin-top: -1px; position: relative; }
+#dropbox-viewer-comments .progressContainer { margin: 0; border-bottom: none; border-top: 1px dotted #c7c7c7; background: #f9f9f9; }
+#s-drop-item-add-comment-form .form-item { line-height: 0; margin: 0; }
+#s-drop-item-add-comment-form .submit-span-wrapper { margin-top: 5px; }
+#s-drop-item-add-comment-form #attachments-added-container .progressShowHide{ display: none; }
+#s-drop-item-add-comment-form .action-links { background: none; }
+#s-drop-item-add-comment-form #attachment-links .action-links a:hover { background-color: transparent; text-decoration: none; }
+#dropbox-viewer-header { height: 72px; }
+#dropbox-viewer-wrapper .select-wrapper select { display: none; }
+#dropbox-viewer-wrapper #dropbox-viewer-revision-select-wrapper .single-option { display: none; }
+#dropbox-viewer-item-new-draft { position: absolute; inset-inline-end: 383px; top: 45px; }
+.popups-dropbox-submit #s-library-import-select-wrapper-form { padding: 0; }
+.tipsy { z-index: 3000; }
+.tipsy-error .tipsy-inner {
+    background-color: #cd1d27; /* $color-red-dark */
+    border-radius: 2px;
+}
+.tipsy-error .tipsy-arrow {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    top: 2px;
+    inset-inline-start: 50%;
+    box-sizing: border-box;
+    border: 4px solid white;
+    border-color: transparent transparent #cd1d27 #cd1d27;
+    background-image: none;
+    transform: rotate(135deg);
+}
+.annotation-save-error {
+    max-width: 195px;
+    text-align: start;
+}
+.scroll-left, .scroll-right { height: 70px; width: 30px; position: absolute; bottom: 0; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/popups-arrows.png__q_6a0cfa7424d54685") no-repeat; cursor: pointer; opacity: .25; filter: alpha(opacity=25); zoom: 1; }
+.scroll-left { inset-inline-start: 0; background-position: 6px 12px; }
+.scroll-right { inset-inline-end: 312px; background-position: -67px 12px; }
+.scroll-left.user-scroll, .scroll-right.user-scroll { position: absolute; top: 50%; margin-top: -35px; }
+.scroll-left:hover, .scroll-right:hover { opacity: .75; filter: alpha(opacity=75); }
+.item-type-other .file-icon, .item-type-other .file-name { display: inline; }
+.dropbox-viewer-item-wrapper .item-type-other { padding-top: 40px; text-align: center; }
+.item-type-other .file-size { margin-inline-start: 5px; }
+.dropbox-viewer-item-wrapper {
+    text-align: center;
+    clear: both;
+    border: 1px solid #c1c7cb; /* color-graphite-light */
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    height: calc(100% - 173px);
+}
+.dropbox-viewer-item-wrapper .file-error {
+    margin-top: 60px;
+}
+@media screen and (max-width: 1024px) {
+    .dropbox-viewer-item-wrapper {
+        height: calc(100% - 180px);
+    }
+}
+.revision-compare-output { height: 400px; }
+.revision-compare-output ins { color: #333; background: #e3ffd8; }
+.revision-compare-output del { background-color: #fcc; color: #a30000; }
+#ajax-loader { margin: 6px 0 0; margin-inline-start: 10px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #ajax-loader { float: right; }
+#dropbox-viewer-item-new-draft .link-btn { color: #333; font-size: 13px; height: auto; padding: 5px 10px; }
+#dropbox-viewer-item-compare-wrapper { /* rtl-processor:ignore */ float: left; padding: 5px; margin-inline-end: 5px; position: relative; }
+[dir="rtl"] #dropbox-viewer-item-compare-wrapper { float: right; }
+#compare-form { display: none; }
+#compare-form .link-btn { color: #333; white-space: nowrap; }
+#compare-activate { padding: 3px 5px; cursor: pointer; }
+#compare-activate:hover { text-decoration: underline; }
+.active #compare-form { display: block; background: #fff; border: 1px solid #000; padding: 10px; position: absolute; top: 24px; inset-inline-start: 0; }
+.revision-compare-output { padding: 0; }
+.popups-box.popups-dropbox-viewer { border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
+#dropbox-viewer-comments .comment-attachments { padding-top: 5px; }
+#dropbox-viewer-comments .attachments-file { min-height: 32px; }
+#dropbox-viewer-comments .attachments-file-thumbnail a { padding: 0; }
+.popups-dropbox-viewer .popups-close a { background-position: 3px -76px !important; background-color: #f2f2f2; border: 1px solid #c7c7c7; height: 24px; width: 23px; }
+.popups-dropbox-viewer .popups-close a:hover { background-color: #e9e9e9; }
+
+.popups-revision-compare .popups-body-inner-has-buttons { padding: 0; width: 448px;}
+
+/* Recording Attachments in Comments */
+#dropbox-viewer-comments .attachments-file .attachments-file-name a { display: inline-block; max-width: 175px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; vertical-align: middle; }
+#dropbox-viewer-comments .attachments-file .attachments-file-size { white-space: nowrap; vertical-align: middle; }
+#dropbox-viewer-comments .progressContainer { width: auto; padding: 15px 44px 10px; padding-inline-start: 40px; }
+#dropbox-viewer-comments .progressDelete, #dropbox-viewer-comments .progressCancel { margin-inline-end: -38px; }
+#dropbox-viewer-comments .progressContainer .progressShowHide { margin-inline-end: -22px; display: block; height: 15px; width: 15px; overflow: hidden; text-indent: -9999px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") -4px -42px; /* rtl-processor:ignore */ float: right; opacity: .5; filter: alpha(opacity=50); }
+[dir="rtl"] #dropbox-viewer-comments .progressContainer .progressShowHide { float: left; }
+#dropbox-viewer-comments .progressContainer .progressShowHide:hover { opacity: 1; filter: alpha(opacity=100); }
+#dropbox-viewer-comments #attachments-added-container .inline-icon { margin-inline-start: -37px; }
+
+/* image scroller */
+.img-scroller { height: 200px; overflow-y: auto; }
+
+/* Dropbox Popup */
+.popups-dropbox-submit { -webkit-transform: translateZ(0); }
+
+.s-drop-item { font-size: 13px; }
+.s-drop-item #dropbox-viewer-left {
+    background: #fcfcfb; /* neutral-lighter */
+}
+.s-drop-item #dropbox-viewer-wrapper { position: fixed; top: 0; inset-inline-start: 0; inset-inline-end: 0; bottom: 0; }
+.s-drop-item { height: 100%; width: 100%; overflow: hidden; }
+
+/* Submission Overlay View CSM Switcher */
+.csm-course-switcher.submission-overlay-switcher { margin-inline-start: 6px; }
+.csm-course-switcher.submission-overlay-switcher .select2-container { max-width: 200px; }
+.csm-course-switcher.submission-overlay-switcher .select2-choice { height: 20px; line-height: 20px; padding: 2px 0 3px; } /* match the user switcher */
+.csm-course-switcher.submission-overlay-switcher .select2-chosen { font-size: 18px; }
+
+.s-grades-rubric-grading-launch-btn--read-only.s-grades-rubric-grading-launch-btn > .grading-rubric-launch-icon {
+    border: transparent;
+    color: black;
+}

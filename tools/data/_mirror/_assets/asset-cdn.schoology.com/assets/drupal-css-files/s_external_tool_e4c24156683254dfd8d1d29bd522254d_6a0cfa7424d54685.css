@@ -1,0 +1,139 @@
+#s-external-tool-provider-create-form .config-option-item, #s-library-collection-add-external-tool-form .config-option-item { display: none; }
+#s-external-tool-provider-create-form select, #s-library-collection-add-external-tool-form select { width: 175px; }
+#s-external-tool-provider-create-form .description, #s-library-collection-add-external-tool-form .description { padding: 5px 0 0; padding-inline-start: 155px; }
+#s-external-tool-provider-create-form #edit-privacy, #s-library-collection-add-external-tool-form #edit-privacy { width: 362px; }
+#s-external-tool-provider-create-form .iframe-permissions fieldset { padding:0; }
+#s-external-tool-provider-create-form .iframe-permissions legend { /* rtl-processor:ignore */ float:left; width: 150px; margin: 5px 5px 0; margin-inline-start: 0; padding:0; font-weight: bold; }
+[dir="rtl"] #s-external-tool-provider-create-form .iframe-permissions legend { float: right; }
+#s-external-tool-provider-create-form .iframe-permissions-options { margin-inline-start: 155px; }
+#s-external-tool-provider-create-form .clear-secret-btn { margin-top: -35px; margin-inline-start: 462px !important; position: absolute; height: 30px !important;}
+#s-external-tool-provider-create-form .with-clear-button { width: 296px !important; }
+#s-external-tool-add-link-form, #s-external-tool-provider-create-form, #s-library-collection-add-external-tool-form { padding: 15px 20px; }
+#s-external-tool-add-link-form label, #s-external-tool-provider-create-form label, #s-library-collection-add-external-tool-form label { /* rtl-processor:ignore */ float: left; width: 150px; margin: 5px 5px 0; margin-inline-start: 0; }
+[dir="rtl"] #s-external-tool-add-link-form label, [dir="rtl"] #s-external-tool-provider-create-form label, [dir="rtl"] #s-library-collection-add-external-tool-form label { float: right; }
+#s-external-tool-provider-create-form label, #s-library-collection-add-external-tool-form label { width: 150px; }
+#s-external-tool-add-link-form .external-tool-options-wrapper .form-item, #s-external-tool-provider-create-form .external-tool-options-wrapper .form-item, #s-library-collection-add-external-tool-form .external-tool-options-wrapper .form-item { margin-bottom: 10px; clear: both; }
+/* External Tool > Due Date > Datepicker */
+#s-external-tool-add-link-form #edit-external-tool-grading-due-date-wrapper .form-item {
+  clear: none;
+}
+#s-external-tool-add-link-form .form-text, #s-external-tool-add-link-form textarea, #s-external-tool-provider-create-form .form-text, #s-external-tool-provider-create-form textarea, #s-library-collection-add-external-tool-form .form-text, #s-library-collection-add-external-tool-form textarea { width: 350px; }
+#s-external-tool-add-link-form .csm-due-date {width: 110px;}
+#s-external-tool-add-link-form .time-input input{width: 80px;}
+#s-external-tool-add-link-form .without-wrapper-container { margin-top: -40px !important; }
+#s-external-tool-add-link-form #edit-external-tool-shared-secret-wrapper .clear-secret-btn { margin-inline-start: -1px !important; height: 30px !important; display: none; /* rtl-processor:ignore */ float: left; margin-bottom: 10px; }
+[dir="rtl"] #s-external-tool-add-link-form #edit-external-tool-shared-secret-wrapper .clear-secret-btn { float: right; }
+#s-external-tool-add-link-form .with-clear-button { width: 296px !important; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #s-external-tool-add-link-form .with-clear-button { float: right; }
+#s-external-tool-add-link-form .auto-populate-disabled-field-text { width: 350px; padding: 6px; color: #327cbb; margin-inline-start: 125px; text-align: start; display: none; }
+#s-external-tool-add-link-form .auto-populate-disabled-field-text:hover { cursor: pointer; }
+#s-external-tool-add-link-form select { width: 225px; }
+#s-external-tool-add-link-form #edit-external-tool-tp-nid,
+#s-external-tool-add-link-form #edit-external-tool-launch-type {
+  width: 362px;
+}
+#edit-external-tool-launch-type-warning {
+  display: none;
+  padding-inline-start: 155px;
+  margin-top: -5px;
+  padding-bottom: 10px;
+}
+#s-external-tool-add-link-form #edit-external-tool-grading-max-points { width: 60px; }
+#s-external-tool-add-link-form .grading-options-wrapper { display: none; clear: left; }
+#s-external-tool-add-link-form .due-disabled .container-inline-date .form-item { padding-bottom: 10px; }
+#s-external-tool-add-link-form .due-disabled .infotip { margin: 0 0 0; margin-inline-start: 4px; }
+#s-external-tool-add-link-form .alignment-item-container { padding-inline-start: 155px } /* Accommodates 150px width and 5px margin-right set for labels */
+.add-tool-btn.link-btn { margin: 5px 0 10px; }
+.add-tool-btn.link-btn span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a0cfa7424d54685") 0 -950px; height: 16px; width: 16px; /* rtl-processor:ignore */ float: left; margin: 0 5px 0; margin-inline-start: -3px; }
+[dir="rtl"] .add-tool-btn.link-btn span { float: right; }
+.external-tool-list li { padding: 15px 0; border-bottom: 1px solid #eaeaea; font-weight: bold; }
+.external-tool-list { border-top: 1px solid #ddd; }
+.external-tool-list .item-action-links { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .external-tool-list .item-action-links { float: left; }
+.external-tool-list .item-action-links a { font-weight: normal; margin-inline-start: 10px; }
+.external-tool-list .item-title { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-inline-start: 30px; font-size: 14px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a0cfa7424d54685") 5px -949px no-repeat; }
+.external-tool-list p { padding: 3px 0 0; padding-inline-start: 30px; font-weight: normal; color: #9a9fa8; }
+#s-external-tool-provider-delete-form { padding: 15px; text-align: center; }
+#external-tool-iframe { min-height: 500px; }
+#edit-external-tool-grading-enabled-wrapper { padding: 5px 0 0; padding-inline-start: 155px; }
+#s-external-tool-add-link-form #edit-external-tool-grading-enabled-wrapper label { float: none; width: auto; }
+#s-external-tool-add-link-form .grading-options-wrapper { padding-top: 5px; }
+#s-external-tool-add-link-form #edit-external-tool-grading-due-date-wrapper { margin-bottom: 0; }
+#edit-external-tool-grading-enabled-wrapper span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a0cfa7424d54685") no-repeat 5px -25px; padding-inline-start: 27px; }
+[dir="rtl"] #edit-external-tool-grading-enabled-wrapper span { background-position: calc(100% - 4px) -25px; }
+.lti-instructions p { margin-bottom: 15px; }
+.external-tool-load-error, #external-tool-iframe { margin-top: 15px; }
+#external-tool-iframe { min-height: 400px; border: 1px solid #ddd; }
+.grading-category-wrapper label::after {
+  content: "*";
+  color: #4753da;
+}
+
+/* Popups */
+#s-external-tool-add-link-form #edit-external-tool-grading-factor { width: 60px; }
+
+/* Locked Resources */
+.locked-field { margin-bottom: 10px; padding-inline-start: 155px; }
+.locked-field-label { font-weight: bold; /* rtl-processor:ignore */ float: left; width: 145px; margin-inline-start: -155px; }
+[dir="rtl"] .locked-field-label { float: right; }
+
+/* submission review link */
+#s-lti-launch-frame-wrapper .s-page-actions-links { padding: 6px 0; }
+#s-lti-launch-frame-wrapper:has(.s-page-actions-links) #external-tool-iframe { margin-top: 0; }
+/* fullscreen */
+#s-scorm-launch-frame-wrapper .fullscreen-option { position: absolute; inset-inline-end: 0; margin-top: -42px; }
+#s-lti-launch-frame-wrapper .fullscreen-option { position: absolute; inset-inline-end: 0; margin-top: -42px; }
+.lti-full-screen #taught-courses-switcher {display: none;}
+.lti-full-screen #sidebar-left, .lti-full-screen .content-top-upper, .lti-full-screen #footer, .lti-full-screen #header, .lti-full-screen #site-navigation-footer, .lti-full-screen #navigation-header-banners {
+  display: none;
+}
+.lti-full-screen #wrapper { max-width: 100%; }
+.lti-full-screen #container, .lti-full-screen #main-content-wrapper { margin: 0; padding: 0; border: none; }
+.lti-full-screen #center-top { padding: 10px 15px; background: #333; color: #fff; }
+.lti-full-screen #center-top .content-top-below-title { color: #333; }
+.lti-full-screen #external-tool-iframe { margin-top: 0; }
+.lti-full-screen #content-wrapper { padding-bottom: 0; }
+
+/* LTI individual assign */
+#s-lti-launch-frame-wrapper .ind-assign {
+  position: absolute;
+  inset-inline-end: 25px;
+  margin-top: -42px;
+  height: 24px;
+}
+#s-external-tool-add-link-form .autocomplete-wrapper { width: 352px; }
+#s-external-tool-add-link-form .autocomplete-wrapper .form-item input { width: 60px; }
+#s-external-tool-add-link-form #ind-assign-read-only-message { margin-inline-start: 150px; padding-inline-start: 4px; }
+
+/* Provider / Teacher App Config */
+#s-external-tool-provider-create-form.s-external-tool-provider-is-app input.readonly { border: none; padding-inline-start: 0px;  }
+#s-external-tool-provider-create-form.s-external-tool-provider-is-app input.readonly:focus{ outline: none; }
+#s-external-tool-provider-create-form.s-external-tool-provider-is-app .form-text, #s-external-tool-provider-create-form.s-external-tool-provider-is-app .form-textarea { width: 397px; }
+#s-external-tool-provider-create-form.s-external-tool-provider-is-app label { width: 143px; }
+#s-external-tool-provider-create-form.s-external-tool-provider-is-app .description, #s-library-collection-add-external-tool-form .description { padding-inline-start: 146px; }
+
+/* Due Date Warning */
+#s-external-tool-add-link-form .due-date-warning-wrapper { margin-inline-start: 150px; display: flex; align-items: flex-start; }
+#s-external-tool-add-link-form .due-date-warning-wrapper .due-date-warning-text { margin-inline-start: 1rem; line-height: 1.357; }
+#s-external-tool-add-link-form .due-date-warning-wrapper .due-date-warning-icon { width: 2rem; height: 2rem;}
+
+/* Collected-Only Material Option */
+#s-external-tool-add-link-form .collected-wrapper { display: inline-flex; }
+#s-external-tool-add-link-form .collected-wrapper > label { margin-top: -2px; }
+#s-external-tool-add-link-form .collected-wrapper .form-item > label.option { margin-top: 0; width: 350px; }
+
+/* Automatically Publish Grades */
+#s-external-tool-add-link-form .publish-grades-wrapper .form-item > label.option { padding: 0 156px; width: 100%; margin-bottom: 10px; }
+
+/* PowerBuddy Options */
+#s-external-tool-add-link-form .powerbuddy-chat-row .form-item > label { width: auto; }
+#s-external-tool-add-link-form .powerbuddy-dependent-option .form-item > label {
+  width: auto;
+  padding-bottom: 4px;
+}
+#s-external-tool-add-link-form .powerbuddy-dependent-option .form-item > label.option {
+  width: auto;
+}
+#s-external-tool-add-link-form .powerbuddy-inline-field {
+  margin-inline-start: 145px;
+}

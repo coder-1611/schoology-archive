@@ -1,0 +1,1397 @@
+{
+  "id": "7919100090",
+  "title": "Adv Computer Sci I: Section 4-04",
+  "source": "active",
+  "scrapedAt": "2026-05-22T04:12:11.209Z",
+  "downloaded": 90,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "folder",
+      "title": "Days 31 - 40 (4/10 - 5/6)",
+      "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=991868745",
+      "children": [
+        {
+          "type": "folder",
+          "title": "4/22",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=994964797",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Article on AI",
+              "href": "https://roundrockisd.schoology.com/assignment/8358308947",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\">Please read this article on AI. After reading this, please write a 100-word reflection essay. I will choose 10 different essays when I get back and we will discuss.</p>",
+                "googleLinks": [
+                  {
+                    "url": "/link?a=3450583059&path=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1owTC6CeeOD2nFMwyw_MfQbeSMpD0H9yJN-nLQ37lHVk%2Fedit%3Fusp%3Dsharing&nid=8358308947",
+                    "kind": "Google file"
+                  }
+                ],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Friday, April 24, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 31 - 40 (4_10 - 5_6)/4_22/Article on AI.html"
+            }
+          ],
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/4_22"
+        },
+        {
+          "type": "folder",
+          "title": "Day 31 (4/10)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=991868815",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 10-2 (Reading/Writing Files)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8324212116",
+              "commonAssessmentDetails": {
+                "score": "14/14",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 31 - 40 (4_10 - 5_6)/Day 31 (4_10)/Formative 10-2 (Reading_Writing Files).html"
+            }
+          ],
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/Day 31 (4_10)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 32 (4/14)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=991869227",
+          "children": [],
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/Day 32 (4_14)"
+        },
+        {
+          "type": "assignment",
+          "title": "Data Science Unit 1 Kahoot",
+          "href": "https://roundrockisd.schoology.com/assignment/8347560303",
+          "assignmentDetails": {
+            "score": "10/10",
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": false,
+            "metadata": "Due: Tuesday, April 14, 2026 at 11:59 pm"
+          },
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/Data Science Unit 1 Kahoot.html"
+        },
+        {
+          "type": "assignment",
+          "title": "Data Science Unit 2 Kahoot",
+          "href": "https://roundrockisd.schoology.com/assignment/8350753026",
+          "assignmentDetails": {
+            "score": "12/12",
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": false,
+            "metadata": "Due: Thursday, April 16, 2026 at 11:59 pm"
+          },
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/Data Science Unit 2 Kahoot.html"
+        },
+        {
+          "type": "assignment",
+          "title": "Data Science Unit 3 Kahoot",
+          "href": "https://roundrockisd.schoology.com/assignment/8365811997",
+          "assignmentDetails": {
+            "score": "12/12",
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": false,
+            "metadata": "Due: Tuesday, April 28, 2026 at 11:59 pm"
+          },
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/Data Science Unit 3 Kahoot.html"
+        },
+        {
+          "type": "assignment",
+          "title": "Data Science Project",
+          "href": "https://roundrockisd.schoology.com/assignment/8365931170",
+          "assignmentDetails": {
+            "score": "35.33/36",
+            "description": "<p dir=\"ltr\">Instructions -&gt;&nbsp;<a href=\"https://docs.google.com/document/d/1132n19uqzHSM56gI7GN0eimT9AgTfl0M/edit?usp=sharing&amp;ouid=109058245956079667095&amp;rtpof=true&amp;sd=true\">Data Science Project Instructions</a></p>",
+            "googleLinks": [
+              {
+                "url": "https://docs.google.com/document/d/1132n19uqzHSM56gI7GN0eimT9AgTfl0M/edit?usp=sharing&ouid=109058245956079667095&rtpof=true&sd=true",
+                "kind": "Doc"
+              }
+            ],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": false,
+            "metadata": "Due: Wednesday, May 6, 2026 at 9:00 am"
+          },
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/Data Science Project.html"
+        },
+        {
+          "type": "link",
+          "title": "Data Science Evaluation Form",
+          "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8372361998",
+          "localPath": "Days 31 - 40 (4_10 - 5_6)/Data Science Evaluation Form.url"
+        }
+      ],
+      "localPath": "Days 31 - 40 (4_10 - 5_6)"
+    },
+    {
+      "type": "folder",
+      "title": "Days 21 - 30(3/9 - 4/8)",
+      "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=986755147",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 30 (4/8)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=991713863",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Files Lab  1",
+              "href": "https://roundrockisd.schoology.com/assignment/8337625352",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\"><span style=\"font-size:18px;\"><a href=\"https://docs.google.com/document/d/16Omei10eyO8fi41oQFrRdWtREK1sT_YK1aC0CSUe6dk/edit?usp=sharing\">Follow these instructions for Lab 1</a></span></p>",
+                "googleLinks": [
+                  {
+                    "url": "https://docs.google.com/document/d/16Omei10eyO8fi41oQFrRdWtREK1sT_YK1aC0CSUe6dk/edit?usp=sharing",
+                    "kind": "Doc"
+                  }
+                ],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Friday, April 10, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 30 (4_8)/Files Lab  1.html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 30 (4_8)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 29 (4/6)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=991713671",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 10-1 (Filenames)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8324212043",
+              "commonAssessmentDetails": {
+                "score": "8/8",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 29 (4_6)/Formative 10-1 (Filenames).html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 29 (4_6)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 28 (4/1)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=990060119",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 9 Test",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8330802384",
+              "commonAssessmentDetails": {
+                "score": "17/17",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 28 (4_1)/Unit 9 Test.html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 28 (4_1)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 27 (3/30)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=990059616",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 9 Lab",
+              "href": "https://roundrockisd.schoology.com/assignment/8323888958",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1FyK9Me0VY9Wjc6ZSckY42nyQWHi-w8Hye2TV2LFqQs8/edit?usp=sharing\">Unit 9 lab instructions</a></p>\n<p dir=\"ltr\">Submit your CodeHS sandbox here!</p>",
+                "googleLinks": [
+                  {
+                    "url": "https://docs.google.com/document/d/1FyK9Me0VY9Wjc6ZSckY42nyQWHi-w8Hye2TV2LFqQs8/edit?usp=sharing",
+                    "kind": "Doc"
+                  }
+                ],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Thursday, March 26, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 27 (3_30)/Unit 9 Lab.html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 27 (3_30)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 25 (3/26)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989735287",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Try It Yourself (9-3) - Nesting Dictionaries",
+              "href": "https://roundrockisd.schoology.com/assignment/8272988732",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Thursday, March 26, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 25 (3_26)/Try It Yourself (9-3) - Nesting Dictionaries.html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 25 (3_26)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 24 (3/24)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=987132427",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 9-2 (Traversing Dictionaries)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8272988828",
+              "commonAssessmentDetails": {
+                "score": "6/6",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 24 (3_24)/Formative 9-2 (Traversing Dictionaries).html"
+            },
+            {
+              "type": "assignment",
+              "title": "Try It Yourself (9-2) - Traversing Dictionaries",
+              "href": "https://roundrockisd.schoology.com/assignment/8272988721",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, March 24, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 24 (3_24)/Try It Yourself (9-2) - Traversing Dictionaries.html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 24 (3_24)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 22 (3/11)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=987129176",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Try It Yourself (9-1) - Dictionary Basics",
+              "href": "https://roundrockisd.schoology.com/assignment/8272988712",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, March 24, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 22 (3_11)/Try It Yourself (9-1) - Dictionary Basics.html"
+            },
+            {
+              "type": "common_assessment",
+              "title": "Formative 9-1 (Dictionary Basics)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8272988778",
+              "commonAssessmentDetails": {
+                "score": "9/9",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 22 (3_11)/Formative 9-1 (Dictionary Basics).html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 22 (3_11)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 21 (3/9)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=986755498",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Write a story about when you faced adversity",
+              "href": "https://roundrockisd.schoology.com/assignment/8287230683",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\">Think of a time that you faced a challenge. What did you do? Write me a paragraph on how you dealt with it.</p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Monday, March 9, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30(3_9 - 4_8)/Day 21 (3_9)/Write a story about when you faced adversity.html"
+            }
+          ],
+          "localPath": "Days 21 - 30(3_9 - 4_8)/Day 21 (3_9)"
+        }
+      ],
+      "localPath": "Days 21 - 30(3_9 - 4_8)"
+    },
+    {
+      "type": "folder",
+      "title": "Days 11 - 20 (2/10 - 3/6)",
+      "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977267291",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 17 (3/2)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977267325",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 8 Test - String Manipulation",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8273010412",
+              "commonAssessmentDetails": {
+                "score": "22.5/23",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 17 (3_2)/Unit 8 Test - String Manipulation.html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 17 (3_2)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 16 (2/26)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977267315",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 8 Group Quiz",
+              "href": "https://roundrockisd.schoology.com/assignment/8271792112",
+              "assignmentDetails": {
+                "score": "13/13",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Thursday, February 26, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 16 (2_26)/Unit 8 Group Quiz.html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 16 (2_26)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 14 (2/20)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977267303",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Challenge Lab - Table Printer",
+              "href": "https://roundrockisd.schoology.com/assignment/8246900586",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\">https://docs.google.com/document/d/10Bjl1I5eAHb7_z7w-pY3knsByK7ZfKiokexIOY2e5Ys/edit?usp=sharing</p>\n<p dir=\"ltr\">Submit a link to your CodeHS assignment here.</p>",
+                "googleLinks": [
+                  {
+                    "url": "https://docs.google.com/document/d/10Bjl1I5eAHb7_z7w-pY3knsByK7ZfKiokexIOY2e5Ys/edit?usp=sharing",
+                    "kind": "Doc"
+                  }
+                ],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Thursday, February 26, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 14 (2_20)/Challenge Lab - Table Printer.html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 14 (2_20)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 13 (2/18)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977267302",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 8-2 (String Methods)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8194521710",
+              "commonAssessmentDetails": {
+                "score": "11/11",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 13 (2_18)/Formative 8-2 (String Methods).html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 13 (2_18)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 12 (2/12)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977267298",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 8-1 (String Basics)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8194521637",
+              "commonAssessmentDetails": {
+                "score": "12.67/13",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 12 (2_12)/Formative 8-1 (String Basics).html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 12 (2_12)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 11 (2/10)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977267292",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 7 Test[0]",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8223111650",
+              "commonAssessmentDetails": {
+                "score": "18/18",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 11 (2_10)/Unit 7 Test[0].html"
+            },
+            {
+              "type": "common_assessment",
+              "title": "Unit 7 Test[1]",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8223113639",
+              "commonAssessmentDetails": {
+                "score": "N/AExempt",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 11 (2_10)/Unit 7 Test[1].html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (2_10 - 3_6)/Day 11 (2_10)"
+        }
+      ],
+      "localPath": "Days 11 - 20 (2_10 - 3_6)"
+    },
+    {
+      "type": "folder",
+      "title": "Days 0 - 10 (1/6 - 1/29)",
+      "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966949550",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 8 (2/2)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969442303",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Group Labs",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977725923",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 7 Group Labs Instructions",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8226360593",
+                  "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 8 (2_2)/Group Labs/Unit 7 Group Labs Instructions.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Unit 7 Group Labs Starter Code",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8226360603",
+                  "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 8 (2_2)/Group Labs/Unit 7 Group Labs Starter Code.url"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Group Lab 2",
+                  "href": "https://roundrockisd.schoology.com/assignment/8239942061",
+                  "assignmentDetails": {
+                    "score": "16/16",
+                    "description": "<p dir=\"ltr\">3-person group lab:</p>\n<p dir=\"ltr\">Only one person should submit their CodeHS link here.</p>\n<p dir=\"ltr\">Type in your name as a comment at the top of each comment.</p>",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false,
+                    "metadata": "Due: Wednesday, February 4, 2026 at 11:59 pm"
+                  },
+                  "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 8 (2_2)/Group Labs/Group Lab 2.html"
+                }
+              ],
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 8 (2_2)/Group Labs"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 8 (2_2)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 7 (1/29)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969441518",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Clickbait Lab",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=977290264",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Clickbait Instructions",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8223247127",
+                  "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 7 (1_29)/Clickbait Lab/Clickbait Instructions.url"
+                },
+                {
+                  "type": "page",
+                  "title": "clickbait.py Starter Code",
+                  "href": "https://roundrockisd.schoology.com/page/8223247132",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre># file: clickbait.py<br># name:<br># date: <br># I received help from: <br><br>import random<br><br># Constants<br>SUBJECT_PRONOUNS = ['He', 'She', 'They', 'It']<br>OBJECT_PRONOUNS = ['Him', 'Her', 'Them', 'It']<br>POSSESSIVE_PRONOUNS = ['His', 'Her', 'Their', 'Its']<br><br>STATES = ['Alabama', 'California', 'Florida', 'Georgia', 'Illinois', 'Michigan', 'New York', 'North Carolina', 'Ohio', 'Pennsylvania', 'Texas']<br>WEBSITES = ['wobsite', 'blag', 'Facebuuk', 'Googles', 'Facesbook', 'Tweedie', 'Pastagram']<br>WHEN = ['Soon', 'This Year', 'Later Today', 'RIGHT NOW', 'Next Week']<br><br>NOUNS = # FIXME<br>PLACES = # FIXME<br><br>def main():<br>  print('Clickbait Headline Generator')<br>  print()<br>  print('Our website needs to trick people into looking at ads!')<br><br>  # Get number of headlines<br>  while True:<br>    print('Enter the number of clickbait headlines to generate:')<br>    response = input('&gt; ')<br>    if not response.isdecimal():<br>      print('Please enter a number.')<br>    else:<br>      number_of_headlines = int(response)<br>      break  # Exit the loop once a valid number is entered<br><br>  clickbait_types = [<br>    lambda: generate_are_millennials_killing_headline(),<br>    lambda: generate_what_you_dont_know_headline(),<br>    lambda: generate_big_companies_hate_her_headline(),<br>    lambda: generate_you_wont_believe_headline(),<br>    lambda: generate_dont_want_you_to_know_headline(),<br>    # lambda: generate_gift_idea_headline(),<br>    # lambda: generate_reasons_why_headline(),<br>    # lambda: generate_job_automated_headline(),<br>  ]<br><br>  # Generate headlines<br>  for i in range(number_of_headlines):<br>    generate_headline = random.choice(clickbait_types)<br>    headline = generate_headline()<br>    print(str(i+1) + ': ' + headline)<br>  print()<br><br>  # Print closing threat<br>  website = random.choice(WEBSITES)<br>  when = random.choice(WHEN).lower()<br>  print('Post these to our', website, when, 'or you\\'re fired!')<br><br>def generate_are_millennials_killing_headline():<br>  noun = random.choice(NOUNS)<br>  return 'Are Millennials Killing the {} Industry?'.format(noun)<br><br>def generate_what_you_dont_know_headline():<br>  noun = random.choice(NOUNS)<br>  plural_noun = random.choice(NOUNS) + 's'<br>  when = random.choice(WHEN)<br>  return 'Without This {}, {} Could Kill You {}'.format(noun, plural_noun, when)<br><br>def generate_big_companies_hate_her_headline():<br>  pronoun = random.choice(OBJECT_PRONOUNS)<br>  state = random.choice(STATES)<br>  noun1 = random.choice(NOUNS)<br>  noun2 = random.choice(NOUNS)<br>  return 'Big Companies Hate {}! See How This {} {} Invented a Cheaper {}'.format(pronoun, state, noun1, noun2)<br><br>def generate_you_wont_believe_headline():<br>  state = random.choice(STATES)<br>  noun = random.choice(NOUNS)<br>  pronoun = random.choice(POSSESSIVE_PRONOUNS)<br>  place = random.choice(PLACES)<br>  return 'You Won\\'t Believe What This {} {} Found in {} {}'.format(state, noun, pronoun, place)<br><br>def generate_dont_want_you_to_know_headline():<br>  plural_noun1 = random.choice(NOUNS) + 's'<br>  plural_noun2 = random.choice(NOUNS) + 's'<br>  return 'What {} Don\\'t Want You To Know About {}'.format(plural_noun1, plural_noun2)<br><br>def generate_gift_idea_headline():<br>  # FIXME<br>  # number from 7 to 14<br>  return '{} Gift Ideas to Give Your {} From {}'.format(number, noun, state)<br><br>def generate_reasons_why_headline():<br>  # FIXME<br>  # number 1 from 3 to 18<br>  # number 2 should be no larger than number 1<br>  return '{} Reasons Why {} Are More Interesting Than You Think (Number {} Will Surprise You!)'.format(number1, plural_noun, number2)<br><br>def generate_job_automated_headline():<br>  # FIXME<br>  # Pronouns should match<br>  return 'This {} {} Didn\\'t Think Robots Would Take {} Job. {} Was Wrong.'.format(state, noun, pronoun1, pronoun2)<br><br># If the program is run (instead of imported), run the game:<br>if __name__ == '__main__':<br>  main()</pre></div>",
+                  "images": [],
+                  "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 7 (1_29)/Clickbait Lab/clickbait.py Starter Code.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Clickbait Assignment",
+                  "href": "https://roundrockisd.schoology.com/assignment/8235832628",
+                  "assignmentDetails": {
+                    "score": "100/100",
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false,
+                    "metadata": "Due: Monday, February 2, 2026 at 11:59 pm"
+                  },
+                  "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 7 (1_29)/Clickbait Lab/Clickbait Assignment.html"
+                }
+              ],
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 7 (1_29)/Clickbait Lab"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 7 (1_29)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 6 (1/23)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969439537",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 7-5 (Tuples & Mutability)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8169667727",
+              "commonAssessmentDetails": {
+                "score": "9.5/10",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 6 (1_23)/Formative 7-5 (Tuples & Mutability).html"
+            },
+            {
+              "type": "link",
+              "title": "Guest Speaker Form 1",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8225063516",
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 6 (1_23)/Guest Speaker Form 1.url"
+            },
+            {
+              "type": "link",
+              "title": "Guest Speaker Form 2",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8225065610",
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 6 (1_23)/Guest Speaker Form 2.url"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 6 (1_23)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 (1/21)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969376928",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 7-4 (Slices & Comprehensions)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8169667708",
+              "commonAssessmentDetails": {
+                "score": "7/7",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 5 (1_21)/Formative 7-4 (Slices & Comprehensions).html"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 5 (1_21)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 (1/16)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969375859",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 7 Lab",
+              "href": "https://roundrockisd.schoology.com/assignment/8194559145",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\"><span style=\"font-size:14px;\">Option 1:</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Create github account</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Join this classroom\"</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">https://classroom.github.com/a/RGAu6Ztx</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Open this CodeHs sandbox.&nbsp;<a href=\"https://codehs.com/sandbox/dinorito702/python-list-lab-1\">Python List lab 1</a></span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Copy this code to your github repo and learn to use the GitHub codespace.</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Option 2:</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Open this CodeHs sandbox.&nbsp;<a href=\"https://codehs.com/sandbox/dinorito702/python-list-lab-1\">Python List lab 1</a></span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">All options: This sample code will create a random list of various data types. For example:</span></p>\n<p dir=\"ltr\"><strong><span style=\"font-size:14px;\">['fxzvo', 58, 100, 7.880516138044803, False, 9.038888481391199, 57, 'hgxpw', True, 45]</span></strong></p>\n<p dir=\"ltr\"><strong><span style=\"font-size:14px;\">Write code to sort this list into this order: bool, string, numbers(int and float)</span></strong></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Final sorted list: <strong>[False, True,&nbsp;'fxzvo',&nbsp;'hgxpw',&nbsp;7.880516138044803,&nbsp;9.038888481391199, 45, 57, 58, 100]</strong></span></p>\n<p dir=\"ltr\"><strong>This lab has 2 parts:</strong></p>\n<p dir=\"ltr\"><strong>Part 1(70 %): the original code is creating a fixed list length of 10 items. Sort the 10 items.</strong></p>\n<p dir=\"ltr\"><strong>Part 2 (30 %): Modify your code to take in user input(12 - 20). Your code should be able to sort a list up to 20 items.</strong></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">This is a partner lab. Put the name of your partner as a comment at the top of your code file. Only one person has to turn in the sandbox!</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">Points will be taken off for bad coding style, and not having comments!</span></p>\n<p dir=\"ltr\"><span style=\"font-size:14px;\">&nbsp;</span></p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Wednesday, January 21, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 4 (1_16)/Unit 7 Lab.html"
+            },
+            {
+              "type": "assignment",
+              "title": "Unit 7 Group Quiz",
+              "href": "https://roundrockisd.schoology.com/assignment/8194581669",
+              "assignmentDetails": {
+                "score": "30/30",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Friday, January 16, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 4 (1_16)/Unit 7 Group Quiz.html"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 4 (1_16)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 3 (1/14)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969366766",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 7-3 (List Operations)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8169667692",
+              "commonAssessmentDetails": {
+                "score": "7/7",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 3 (1_14)/Formative 7-3 (List Operations).html"
+            },
+            {
+              "type": "link",
+              "title": "answers to shell worksheet",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8207993731",
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 3 (1_14)/answers to shell worksheet.url"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 3 (1_14)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 (1/12)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=971741167",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 7-2 (List Methods)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8169667673",
+              "commonAssessmentDetails": {
+                "score": "10/10",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 2 (1_12)/Formative 7-2 (List Methods).html"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 2 (1_12)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 0 (1/6)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966949885",
+          "children": [
+            {
+              "type": "link",
+              "title": "Instructions",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8182142943",
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 0 (1_6)/Instructions.url"
+            },
+            {
+              "type": "assignment",
+              "title": "2nd semester warmup - 4th period",
+              "href": "https://roundrockisd.schoology.com/assignment/8179779461",
+              "assignmentDetails": {
+                "score": "120/100",
+                "description": "<p dir=\"ltr\"><a href=\"https://codehs.com/sandbox/dinorito702/2nd-semester-warmup-4th-period\">&nbsp;</a></p>\n<p dir=\"ltr\"><a href=\"https://codehs.com/sandbox/dinorito702/2nd-semester-warmup-4th-period?collaborate=-OiJNpakcQlAq7ZVEf8L\">Warm up free for all</a></p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, January 6, 2026 at 11:59 pm"
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 0 (1_6)/2nd semester warmup - 4th period.html"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 0 (1_6)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 1 (1/8)",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969363368",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 7-1 (Lists)",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8169667660",
+              "commonAssessmentDetails": {
+                "score": "8/8",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 1 (1_8)/Formative 7-1 (Lists).html"
+            }
+          ],
+          "localPath": "Days 0 - 10 (1_6 - 1_29)/Day 1 (1_8)"
+        }
+      ],
+      "localPath": "Days 0 - 10 (1_6 - 1_29)"
+    },
+    {
+      "type": "folder",
+      "title": "Units",
+      "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=969368965",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Unit 7 - Lists",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966948806",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966948807",
+              "children": [
+                {
+                  "type": "document",
+                  "title": "Unit 7 Reading[0]Unit 6 Reading (1)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/gp/8169667571",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3356244489/source/4b0c821f3144a939c17fd5014150c3f4.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 7 - Lists/Notes/Unit 7 Reading[0]Unit 6 Reading (1).pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Unit 7 Reading[1]Unit 6 Reading (2)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/gp/8169667582",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3356244497/source/eb8b343e7703746ca285ec3544adb016.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 7 - Lists/Notes/Unit 7 Reading[1]Unit 6 Reading (2).pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Unit 7 Reading[2] (Passing Lists)Unit 6 Reading (3)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/gp/8169667591",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3356244501/source/1434ce00b9e83fea0ea6648f8884278d.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 7 - Lists/Notes/Unit 7 Reading[2] (Passing Lists)Unit 6 Reading (3).pdf"
+                },
+                {
+                  "type": "link",
+                  "title": "Unit 7 Slides[0]",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8169667599",
+                  "localPath": "Units/Unit 7 - Lists/Notes/Unit 7 Slides[0].url"
+                },
+                {
+                  "type": "link",
+                  "title": "Unit 7 Slides[1]",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8169667604",
+                  "localPath": "Units/Unit 7 - Lists/Notes/Unit 7 Slides[1].url"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Organizer: List Methods",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667607",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Notes/Organizer_ List Methods.html"
+                },
+                {
+                  "type": "link",
+                  "title": "Lists Quick Reference",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8169667615",
+                  "localPath": "Units/Unit 7 - Lists/Notes/Lists Quick Reference.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Data Structures & Lists",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8190902674",
+                  "localPath": "Units/Unit 7 - Lists/Notes/Data Structures & Lists.url"
+                }
+              ],
+              "localPath": "Units/Unit 7 - Lists/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966948811",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Interactive Shell Practice",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667621",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Interactive Shell Practice.html"
+                },
+                {
+                  "type": "link",
+                  "title": "Interactive Shell Practice (Answers)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8169667628",
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Interactive Shell Practice (Answers).url"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Try It Yourself: Lists",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667632",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Try It Yourself_ Lists.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Try It Yourself: List Methods",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667638",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Try It Yourself_ List Methods.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Try It Yourself: Looping Through Lists",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667640",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Try It Yourself_ Looping Through Lists.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Try It Yourself: List Functions",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667647",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Try It Yourself_ List Functions.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Try It Yourself: Slices and Comprehensions",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667653",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Try It Yourself_ Slices and Comprehensions.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Try It Yourself: Mutability",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667657",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Classwork/Try It Yourself_ Mutability.html"
+                }
+              ],
+              "localPath": "Units/Unit 7 - Lists/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966948816",
+              "children": [],
+              "localPath": "Units/Unit 7 - Lists/Formative Assessment"
+            },
+            {
+              "type": "folder",
+              "title": "Unit 7 Test Review",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966948828",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Unit 7 Test Review",
+                  "href": "https://roundrockisd.schoology.com/assignment/8169667751",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": "https://roundrockisd.schoology.com/course/7919100090/materials?f=966948828",
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 7 - Lists/Unit 7 Test Review/Unit 7 Test Review.html"
+                },
+                {
+                  "type": "link",
+                  "title": "Unit 7 Review (Select Answers)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8169667754",
+                  "localPath": "Units/Unit 7 - Lists/Unit 7 Test Review/Unit 7 Review (Select Answers).url"
+                }
+              ],
+              "localPath": "Units/Unit 7 - Lists/Unit 7 Test Review"
+            }
+          ],
+          "localPath": "Units/Unit 7 - Lists"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 8 - String Manipulation",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=972207444",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=972207445",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "String Methods Quick Reference",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8194521499",
+                  "localPath": "Units/Unit 8 - String Manipulation/Notes/String Methods Quick Reference.url"
+                }
+              ],
+              "localPath": "Units/Unit 8 - String Manipulation/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=972207475",
+              "children": [],
+              "localPath": "Units/Unit 8 - String Manipulation/Formative Assessment"
+            },
+            {
+              "type": "folder",
+              "title": "Test Review",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=972207496",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 8 Test Review worksheet",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8272959348",
+                  "localPath": "Units/Unit 8 - String Manipulation/Test Review/Unit 8 Test Review worksheet.url"
+                }
+              ],
+              "localPath": "Units/Unit 8 - String Manipulation/Test Review"
+            }
+          ],
+          "localPath": "Units/Unit 8 - String Manipulation"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 9 - Dictionaries",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=984690146",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=984690147",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 9 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8272988708",
+                  "localPath": "Units/Unit 9 - Dictionaries/Notes/Unit 9 Slides.url"
+                },
+                {
+                  "type": "document",
+                  "title": "Unit 9 ReadingUnit 9 Reading",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/gp/8272988709",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3404507537/source/feb873877a911a1576e2483c188821ee.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 9 - Dictionaries/Notes/Unit 9 ReadingUnit 9 Reading.pdf"
+                }
+              ],
+              "localPath": "Units/Unit 9 - Dictionaries/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=984690148",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Dictionaries Labs",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8272988740",
+                  "localPath": "Units/Unit 9 - Dictionaries/Classwork/Dictionaries Labs.url"
+                },
+                {
+                  "type": "page",
+                  "title": "display_inventory",
+                  "href": "https://roundrockisd.schoology.com/page/8272988744",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">def display_inventory(inventory):<br>    print('Inventory:')<br>    #FIXME-01 # Initialize the counter<br>    for count, item in #FIXME-02:<br>        #FIXME-03 # Print out each item in the correct format<br>        #FIXME-04 # Increment the counter<br>    print('Total number of items:', item_total)</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 9 - Dictionaries/Classwork/display_inventory.html"
+                },
+                {
+                  "type": "page",
+                  "title": "add_to_inventory",
+                  "href": "https://roundrockisd.schoology.com/page/8272988753",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">def add_to_inventory(inventory, added_items):<br>    for #FIXME-01 in #FIXME-02: # Loop through each new item being added<br>        if #FIXME-03 in #FIXME-04: # Determine whether htis item is already in the inventory<br>            #FIXME-05 #FIXME-06 1 # If so, increment the count for this item by 1<br>        else:<br>            #FIXME-07 #FIXME-08 1 # Otherwise, initialize this item in the inventory as 1</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 9 - Dictionaries/Classwork/add_to_inventory.html"
+                },
+                {
+                  "type": "page",
+                  "title": "favorite_colors",
+                  "href": "https://roundrockisd.schoology.com/page/8272988762",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">favorite_colors = {'Ishaan': 'lavendar'}<br><br>while True:<br>    print('Enter a name:')<br>    name = input()<br><br>    if not name:<br>        break<br><br>    if #FIXME-01: # If you know the name.<br>        print(f\"{#FIXME-02}'s favorite color is {#FIXME-03}.\")<br><br>    else:<br>        print(f\"I don't know {#FIXME-04}'s favorite color. What is it?\")<br>        color = input()<br>        #FIXME-05 # Add the new favorite color to the database.<br>        print('Updated!')</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 9 - Dictionaries/Classwork/favorite_colors.html"
+                },
+                {
+                  "type": "page",
+                  "title": "Labs Answers",
+                  "href": "https://roundrockisd.schoology.com/page/8272988767",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre style=\"margin-bottom:0px;font-size:12px;font-style:normal;font-weight:400;\" dir=\"ltr\">def display_inventory(inventory):<br style=\"margin:0px;padding:0px;\">    print('Inventory:')<br style=\"margin:0px;padding:0px;\">    item_total = 0 # Initialize the counter<br style=\"margin:0px;padding:0px;\">    for item, count in inventory.items():<br style=\"margin:0px;padding:0px;\">        print(count, item) # Print out each item in the correct format<br style=\"margin:0px;padding:0px;\">        item_total += count # Increment the counter<br style=\"margin:0px;padding:0px;\">    print('Total number of items:', item_total)<br><br></pre>\n<pre style=\"margin-bottom:0px;font-size:12px;font-style:normal;font-weight:400;\" dir=\"ltr\">def add_to_inventory(inventory, added_items):<br style=\"margin:0px;padding:0px;\">    for item in added_items: # Loop through each new item being added<br style=\"margin:0px;padding:0px;\">        if item in inventory: # Determine whether htis item is already in the inventory<br style=\"margin:0px;padding:0px;\">            iventory[item] += 1 # If so, increment the count for this item by 1<br style=\"margin:0px;padding:0px;\">        else:<br style=\"margin:0px;padding:0px;\">            inventory[item] = 1 # Otherwise, initialize this item in the inventory as 1</pre>\n<pre style=\"font-style:normal;font-weight:400;font-size:12px;\" dir=\"ltr\">favorite_colors = {}<br><br>while True:<br>    print('Enter a name:')<br>    name = input()<br><br>    if not name:<br>        break<br><br>    if name in favorite_colors: # If you know the name.<br>        print(f\"{name}'s favorite color is {favorite_colors[name]}.\")<br><br>    else:<br>        print(f\"I don't know {name}'s favorite color. What is it?\")<br>        color = input()<br>        favorite_colors[name] = color # Add the new color to the database.<br>        print('Updated!')</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 9 - Dictionaries/Classwork/Labs Answers.html"
+                }
+              ],
+              "localPath": "Units/Unit 9 - Dictionaries/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=984690152",
+              "children": [],
+              "localPath": "Units/Unit 9 - Dictionaries/Formative Assessment"
+            }
+          ],
+          "localPath": "Units/Unit 9 - Dictionaries"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 10 - Files",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784495",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784496",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 10 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8324212008",
+                  "localPath": "Units/Unit 10 - Files/Notes/Unit 10 Slides.url"
+                },
+                {
+                  "type": "document",
+                  "title": "Unit 10 ReadingU10 Reading",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/materials/gp/8324212019",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3435555180/source/d2407becaae2895e32458f91d6e1fccd.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 10 - Files/Notes/Unit 10 ReadingU10 Reading.pdf"
+                },
+                {
+                  "type": "page",
+                  "title": "sonnet29.txt",
+                  "href": "https://roundrockisd.schoology.com/page/8324212028",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">When, in disgrace with fortune and men’s eyes,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">I all alone beweep my outcast state,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">And trouble deaf heaven with my bootless cries,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">And look upon myself and curse my fate,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">Wishing me like to one more rich in hope,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">Featured like him, like him with friends possessed,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">Desiring this man’s art and that man’s scope,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">With what I most enjoy contented least;</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">Yet in these thoughts myself almost despising,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">Haply I think on thee, and then my state,</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">(Like to the lark at break of day arising</span></p>\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">From sullen earth) sings hymns at heaven’s gate;</span></p>\n<p style=\"line-height:1.2;text-indent:36pt;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">For thy sweet love remembered such wealth brings</span></p>\n<p style=\"line-height:1.2;text-indent:36pt;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">That then I scorn to change my state with kings.</span></p>\n<p><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;vertical-align:baseline;\">&nbsp;</span></p></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 10 - Files/Notes/sonnet29.txt.html"
+                }
+              ],
+              "localPath": "Units/Unit 10 - Files/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784506",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "Formative 10-3 (JSON, with-open, modules)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100080/assessments/8324212194",
+                  "commonAssessmentDetails": {
+                    "score": null,
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Units/Unit 10 - Files/Formative Assessment/Formative 10-3 (JSON, with-open, modules).html"
+                }
+              ],
+              "localPath": "Units/Unit 10 - Files/Formative Assessment"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784534",
+              "children": [
+                {
+                  "type": "page",
+                  "title": "Letter Finisher",
+                  "href": "https://roundrockisd.schoology.com/page/8324212282",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">recipient = input('Who are you sending a letter to? ')<br>sender = input('Who is sending the letter? ')<br>filename = input('Which file contains the letter? ')<br><br># step 1<br>f = open(filename)<br>contents = f.read()<br>f.close()<br><br># step 2<br>letter = f'''Dear {recipient},<br><br>{contents}<br><br>Love,<br>{sender}'''<br><br># step 3<br>f = open(filename, 'w')<br>f.write(letter)<br>f.close()</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 10 - Files/Classwork/Letter Finisher.html"
+                },
+                {
+                  "type": "folder",
+                  "title": "Lab: Favorite Colors",
+                  "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784536",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Lab: Favorite Colors",
+                      "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8324212298",
+                      "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Favorite Colors/Lab_ Favorite Colors.url"
+                    },
+                    {
+                      "type": "page",
+                      "title": "color_asker.py",
+                      "href": "https://roundrockisd.schoology.com/page/8324212305",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">name = input('Name: ')<br>color = input('Favorite color: ')<br><br># step 1<br>with open('favorite_colors.json') as f:<br>\tcontents = f.read()<br>favorite_colors = json.loads(contents)<br><br># step 2<br>favorite_colors[name] = color<br><br># step 3<br>output = json.dumps(favorite_colors)<br>with open('favorite_colors.json', 'w') as f:<br>\tf.write(output)<br><br>print('Database updated!')</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Favorite Colors/color_asker.py.html"
+                    }
+                  ],
+                  "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Favorite Colors"
+                },
+                {
+                  "type": "folder",
+                  "title": "Lab: Etching Drawer",
+                  "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784542",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Etching Drawer Instructions",
+                      "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8324212319",
+                      "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Etching Drawer/Etching Drawer Instructions.url"
+                    },
+                    {
+                      "type": "page",
+                      "title": "Etching Drawer Starter Code",
+                      "href": "https://roundrockisd.schoology.com/page/8324212331",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">import shutil, sys<br><br># Get the size of the terminal window:<br>CANVAS_WIDTH, CANVAS_HEIGHT = shutil.get_terminal_size()<br>CANVAS_WIDTH -= 1<br>CANVAS_HEIGHT -= 5<br><br>def getCanvasString(canvasData, cx, cy):<br>  \"\"\"Returns a multiline string of the line drawn in canvasData.\"\"\"<br>  canvasStr = ''<br><br>  # Set up the constants for line characters:<br>  UP_DOWN_CHAR = chr(9474)  # Character 9474 is '│'<br>  LEFT_RIGHT_CHAR = chr(9472)  # Character 9472 is '─'<br>  DOWN_RIGHT_CHAR = chr(9484)  # Character 9484 is '┌'<br>  DOWN_LEFT_CHAR = chr(9488)  # Character 9488 is '┐'<br>  UP_RIGHT_CHAR = chr(9492)  # Character 9492 is '└'<br>  UP_LEFT_CHAR = chr(9496)  # Character 9496 is '┘'<br>  UP_DOWN_RIGHT_CHAR = chr(9500)  # Character 9500 is '├'<br>  UP_DOWN_LEFT_CHAR = chr(9508)  # Character 9508 is '┤'<br>  DOWN_LEFT_RIGHT_CHAR = chr(9516)  # Character 9516 is '┬'<br>  UP_LEFT_RIGHT_CHAR = chr(9524)  # Character 9524 is '┴'<br>  CROSS_CHAR = chr(9532)  # Character 9532 is '┼'<br>  <br>  \"\"\"canvasData is a dictionary with (x, y) tuple keys and values that<br>  are sets of 'W', 'A', 'S', and/or 'D' strings to show which<br>  directions the lines are drawn at each xy point.\"\"\"<br>  for rowNum in range(CANVAS_HEIGHT):<br>    for columnNum in range(CANVAS_WIDTH):<br>      if columnNum == cx and rowNum == cy:<br>        canvasStr += '#'<br>        continue<br><br>      # Add the line character for this point to canvasStr.<br>      cell = canvasData.get((columnNum, rowNum))<br>      if cell in (set(['W', 'S']), set(['W']), set(['S'])):<br>        canvasStr += UP_DOWN_CHAR<br>      elif cell in (set(['A', 'D']), set(['A']), set(['D'])):<br>        canvasStr += LEFT_RIGHT_CHAR<br>      elif cell == set(['S', 'D']):<br>        canvasStr += DOWN_RIGHT_CHAR<br>      elif cell == set(['A', 'S']):<br>        canvasStr += DOWN_LEFT_CHAR<br>      elif cell == set(['W', 'D']):<br>        canvasStr += UP_RIGHT_CHAR<br>      elif cell == set(['W', 'A']):<br>        canvasStr += UP_LEFT_CHAR<br>      elif cell == set(['W', 'S', 'D']):<br>        canvasStr += UP_DOWN_RIGHT_CHAR<br>      elif cell == set(['W', 'S', 'A']):<br>        canvasStr += UP_DOWN_LEFT_CHAR<br>      elif cell == set(['A', 'S', 'D']):<br>        canvasStr += DOWN_LEFT_RIGHT_CHAR<br>      elif cell == set(['W', 'A', 'D']):<br>        canvasStr += UP_LEFT_RIGHT_CHAR<br>      elif cell == set(['W', 'A', 'S', 'D']):<br>        canvasStr += CROSS_CHAR<br>      elif cell == None:<br>        canvasStr += ' '<br>    canvasStr += '\\n'  # Add a newline at the end of each row.<br>  return canvasStr<br><br>def process_commands(response, moves, canvas, cursorX, cursorY):<br>  for command in response:<br>    # Clear all previous moves<br>    if command == 'C':<br>      canvas.clear()<br>      continue<br><br>    if command not in ('W', 'A', 'S', 'D'):<br>      continue  # Ignore this letter and continue to the next one.<br>    moves.append(command)  # Record this move.<br><br>    # The first line we add needs to form a full line:<br>    if canvas == {}:<br>      if command in ('W', 'S'):<br>        # Make the first line a horizontal one:<br>        canvas[(cursorX, cursorY)] = set(['W', 'S'])<br>      elif command in ('A', 'D'):<br>        # Make the first line a vertical one:<br>        canvas[(cursorX, cursorY)] = set(['A', 'D'])<br><br>    # Update x and y:<br>    if command == 'W' and cursorY &gt; 0:<br>      canvas[(cursorX, cursorY)].add(command)<br>      cursorY = cursorY - 1<br>    elif command == 'S' and cursorY &lt; CANVAS_HEIGHT - 1:<br>      canvas[(cursorX, cursorY)].add(command)<br>      cursorY = cursorY + 1<br>    elif command == 'A' and cursorX &gt; 0:<br>      canvas[(cursorX, cursorY)].add(command)<br>      cursorX = cursorX - 1<br>    elif command == 'D' and cursorX &lt; CANVAS_WIDTH - 1:<br>      canvas[(cursorX, cursorY)].add(command)<br>      cursorX = cursorX + 1<br>    else:<br>      # If the cursor doesn't move because it would have moved off<br>      # the edge of the canvas, then don't change the set at<br>      # canvas[(cursorX, cursorY)].<br>      continue<br><br>    # If there's no set for (cursorX, cursorY), add an empty set:<br>    if (cursorX, cursorY) not in canvas:<br>      canvas[(cursorX, cursorY)] = set()<br><br>    # Add the direction string to this xy point's set:<br>    if command == 'W':<br>      canvas[(cursorX, cursorY)].add('S')<br>    elif command == 'S':<br>      canvas[(cursorX, cursorY)].add('W')<br>    elif command == 'A':<br>      canvas[(cursorX, cursorY)].add('D')<br>    elif command == 'D':<br>      canvas[(cursorX, cursorY)].add('A')<br><br>  return cursorX, cursorY<br><br>def help_text():<br>  print('Enter W, A, S, and D characters to move the cursor and')<br>  print('draw a line behind it as it moves. For example, ddd')<br>  print('draws a line going right and sssdddwwwaaa draws a box.')<br>  print()<br>  print('You can save your drawing to a text file by entering F.')<br>  input('Press Enter to return to the program...')<br><br>def save_file(moves, canvas):<br>  pass<br>  # Ask user for filename<br>  # Open file in write mode<br>  # Write moves to the file<br>  # Write the canvas drawing to the file with no cursor<br>  # Close the file<br>  # Print \"Successfully saved to [filename]\"<br><br>def open_file():<br>  pass<br>  # Ask user for filename<br>  # Open file in read mode<br>  # Read moves (first line)<br>  # Close file<br>  # Return moves<br><br>def main():<br>  # The keys for canvas will be (x, y) integer tuples for the coordinate, and the value is a set of letters W, A, S, D that tell what kind of line should be drawn.<br>  canvas = {}<br>  cursorX = 0<br>  cursorY = 0<br>  moves = []<br>  <br>  while True:  # Main program loop.<br>    # Draw the lines based on the data in canvas:<br>    print(getCanvasString(canvas, cursorX, cursorY))<br><br>    print('WASD keys to move, H for help, C to clear, ' +<br>          'F to save, O to open, or Q to quit.')<br>    response = input('&gt; ').upper()<br><br>    if response[0] == 'Q':<br>      print('Thanks for playing!')<br>      sys.exit()  # Quit the program.<br>    elif response[0] == 'H':<br>      help_text()<br>      continue<br>    elif response[0] == 'C':<br>      canvas = {}  # Erase the canvas data.<br>      moves.append('C')  # Record this move.<br>    elif response[0] == 'F':<br>      try:<br>        save_file(moves, canvas)<br>      except:<br>        print('ERROR: Could not save file.')<br>    elif response[0] == 'O':<br>      try:<br>        response = open_file()<br>        canvas = {}<br>        cursorX = 0<br>        cursorY = 0<br>      except:<br>        print('ERROR: Could not open file.')<br><br>    cursorX, cursorY = process_commands(response, moves, canvas, cursorX, cursorY)<br><br>if __name__ == '__main__':<br>    main()</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Etching Drawer/Etching Drawer Starter Code.html"
+                    },
+                    {
+                      "type": "page",
+                      "title": "fractal.txt",
+                      "href": "https://roundrockisd.schoology.com/page/8324212341",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">DDSAASSDDWDDSDDWWAAWDDDDSDDWDDDDSAASDDSAAAAWAASSSDDWDDDDSAASDDSAAAAWAASAAAAWDDWWAASAAWAASSDDSAASSDDWDDDDSAASDDSAAAAWAASSDDSAASSDDWDDSDDWWAAWDDDDDDSAASSDDWDDSDDWWAAWDDWWAASAAAAWDDWAAWDDDDSDDWDDSDDWDDDDSAASDDSAAAAWAASSDDSAASSDDWDDSDDWWAAWDDDDDDSAASSDDWDDSDDWWAAWDDWWAASAAAAWDDWAAWDDDDSDDWWAAWDDWWAASAAWAASSDDSAAAAWAASAAAAWDDWAAWDDDDSDDWWWAASAAAAWDDWAAWDDDDSDDWDDDDSAASSDDWDDSDDWWAAWDD<br>──┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌──                                            <br>┌─┘ └─┐ └─┘ ┌─┘ └─┐ └─┘ ┌─┘ └─┐                                            <br>│ ┌─┐ │ ┌─┐ └─┐ ┌─┘ ┌─┐ │ ┌─┐ │                                            <br>└─┘ └─┘ │ └───┘ └───┘ │ └─┘ └─┘                                            <br>┌─┐ ┌─┐ │ ┌───┐ ┌───┐ │ ┌─┐ ┌─┐                                            <br>│ └─┘ │ └─┘ ┌─┘ └─┐ └─┘ │ └─┘ │                                            <br>└─┐ ┌─┘ ┌─┐ └─┐ ┌─┘ ┌─┐ └─┐ ┌─┘                                            <br>┌─┘ └───┘ └───┘ └───┘ └───┘ └─┐                                            <br>│ ┌───┐ ┌───┐ ┌─┐ ┌───┐ ┌───┐ │                                            <br>└─┘ ┌─┘ └─┐ └─┘ └─┘ ┌─┘ └─┐ └─┘                                            <br>┌─┐ └─┐ ┌─┘ ┌─┐ ┌─┐ └─┐ ┌─┘ ┌─┐                                            <br>│ └───┘ └───┘ │ │ └───┘ └───┘ │                                            <br>└─┐ ┌─────┐ ┌─┘ └─┐ ┌─────┐ ┌─┘                                            <br>┌─┘ └─┐ ┌─┘ └─┐ ┌─┘ └─┐ ┌─┘ └─┐                                            <br>│ ┌─┐ │ │ ┌─┐ │ │ ┌─┐ │ │ ┌─┐ │                                            <br>└─┘ └─┘ └─┘ └─┘ └─┘ └─┘ └─┘ └─┘</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Etching Drawer/fractal.txt.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Etching Drawer Response",
+                      "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8324212346",
+                      "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Etching Drawer/Etching Drawer Response.url"
+                    }
+                  ],
+                  "localPath": "Units/Unit 10 - Files/Classwork/Lab_ Etching Drawer"
+                }
+              ],
+              "localPath": "Units/Unit 10 - Files/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Summative Review",
+              "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784549",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Unit 10 Test Review",
+                  "href": "https://roundrockisd.schoology.com/assignment/8324212353",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": "https://roundrockisd.schoology.com/course/7919100090/materials?f=989784549",
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 10 - Files/Summative Review/Unit 10 Test Review.html"
+                }
+              ],
+              "localPath": "Units/Unit 10 - Files/Summative Review"
+            }
+          ],
+          "localPath": "Units/Unit 10 - Files"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 11 - Data Science",
+          "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=991841546",
+          "children": [
+            {
+              "type": "link",
+              "title": "Data Science Unit 1",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8350724967",
+              "localPath": "Units/Unit 11 - Data Science/Data Science Unit 1.url"
+            },
+            {
+              "type": "link",
+              "title": "Data Science Unit 2",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8355544920",
+              "localPath": "Units/Unit 11 - Data Science/Data Science Unit 2.url"
+            },
+            {
+              "type": "link",
+              "title": "Data Science Unit 3",
+              "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8368057908",
+              "localPath": "Units/Unit 11 - Data Science/Data Science Unit 3.url"
+            }
+          ],
+          "localPath": "Units/Unit 11 - Data Science"
+        }
+      ],
+      "localPath": "Units"
+    },
+    {
+      "type": "folder",
+      "title": "General/Resources",
+      "href": "https://roundrockisd.schoology.com/course/7919100090/materials?f=970371774",
+      "children": [
+        {
+          "type": "link",
+          "title": "Academic Integrity",
+          "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8184795140",
+          "localPath": "General_Resources/Academic Integrity.url"
+        },
+        {
+          "type": "page",
+          "title": "Email Dos and Don'ts",
+          "href": "https://roundrockisd.schoology.com/page/8184795149",
+          "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">I check my email during any school day from 8 am to 4:30 pm. If an email is sent in the evening or over the weekend, I will respond during the next school day. If you need quick information, it's often better to ask one of your classmates before asking me.</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of appropriate emails:</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I am sick and will miss the next 2 classes. What work will I miss?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I will be absent next week for a family vacation next week during the test. When can I schedule a time to take it?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Will you be available for tutorials Wednesday morning?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• This assignment says it's due on Friday but accepting submissions until Sunday. Can I get some clarification on this?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of inappropriate emails:</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Can you update my grade in HAC? - If a grade is correct in Schoology but out-of-date in HAC, you can rest assured I will sync your grades in the next few days. At a minimum, I will sync grades on Tuesday mornings and after entering summative grades. There is no need to email me about this.</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• What is wrong with my answer on this formative assessment? - We have time for formatives built into class each day. You may ask me for help during class or tutorials.</span></p></div>",
+          "images": [],
+          "localPath": "General_Resources/Email Dos and Don'ts.html"
+        },
+        {
+          "type": "page",
+          "title": "Python Style",
+          "href": "https://roundrockisd.schoology.com/page/8184795158",
+          "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://peps.python.org/pep-0008/\">Official PEP 8 Documentation</a></p>\n<p dir=\"ltr\"><a href=\"https://realpython.com/python-pep8/\">PEP 8 (Real Python Guide)</a></p>\n<p dir=\"ltr\"><a href=\"https://learn.openwaterfoundation.org/owf-learn-python/lessons/python-style-guide/python-style-guide/\">PEP 8 (Open Water Foundation Guide)</a></p>\n<p dir=\"ltr\"><a href=\"https://google.github.io/styleguide/pyguide.html\">Google Python Style Guide</a></p>\n<ul dir=\"ltr\">\n<li><a href=\"https://docs.python-guide.org/writing/style/\">The Hitchhiker's Guide to Python Style Guide</a></li>\n<li><a href=\"https://www.cs.utexas.edu/~ans/classes/cs303e/PythonStyleGuide.html\">UT Python Style Guide</a></li>\n<li><a href=\"https://forns.lmu.build/classes/tutorials/python-style-guide.html\">LMU Python Style Guide</a></li>\n<li><a href=\"https://www.cs.cornell.edu/courses/cs1110/2022fa/materials/style/\">Cornell Python Style Guide</a></li>\n</ul></div>",
+          "images": [],
+          "localPath": "General_Resources/Python Style.html"
+        },
+        {
+          "type": "link",
+          "title": "Playback Press",
+          "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8184795167",
+          "localPath": "General_Resources/Playback Press.url"
+        },
+        {
+          "type": "link",
+          "title": "Python Shell",
+          "href": "https://roundrockisd.schoology.com/course/7919100080/materials/link/view/8184795178",
+          "localPath": "General_Resources/Python Shell.url"
+        }
+      ],
+      "localPath": "General_Resources"
+    },
+    {
+      "type": "assignment",
+      "title": "Final Project",
+      "href": "https://roundrockisd.schoology.com/assignment/8376802875",
+      "assignmentDetails": {
+        "score": "46/45",
+        "description": "<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/10qG7XnNtnXbOUD4MxKGp0xUR6xxrDYt7gR14LBSe2bQ/edit?usp=sharing\">Instructions for the Final Project</a></p>",
+        "googleLinks": [
+          {
+            "url": "https://docs.google.com/document/d/10qG7XnNtnXbOUD4MxKGp0xUR6xxrDYt7gR14LBSe2bQ/edit?usp=sharing",
+            "kind": "Doc"
+          }
+        ],
+        "questions": [],
+        "submissionsLink": null,
+        "viaBrowser": false,
+        "metadata": "Due: Wednesday, May 20, 2026 at 11:59 pm"
+      },
+      "localPath": "Final Project.html"
+    }
+  ]
+}

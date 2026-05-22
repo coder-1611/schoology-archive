@@ -1,0 +1,1783 @@
+{
+  "id": "7919128380",
+  "title": "APHG-Fall: Section 2-02",
+  "source": "archived",
+  "scrapedAt": "2026-05-22T05:07:58.241Z",
+  "downloaded": 146,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "page",
+      "title": "AP Human Geography",
+      "href": "https://roundrockisd.schoology.com/page/7938332596",
+      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><img src=\"https://roundrockisd.schoology.com/system/files/attachments/page_embeds/m/2024-08/RRHS_Dragon_66b4f5ac5c17d.jpeg\" alt=\"\" title=\"\"></p>\n<p>Jennifer Ferguson<br><em>RRHS Room 740</em></p>\n<p dir=\"ltr\"><em>jennifer_ferguson@roundrockisd.org</em></p>\n<p style=\"margin:1em 0px;padding:0px;line-height:1.4;\">All teacher contact and content information will be found within Schoology. All&nbsp;<strong style=\"margin:0px;padding:0px;\">AP</strong>&nbsp;students will be given Learning Targets (LTs) at the beginning of each unit. The LTs will include the unit essential questions students need to be able to answer by the end of each unit, the daily learning targets, all tested content concepts/vocabulary terms, the daily agenda and ALL assessment dates. The LTs are also intended to be used as a study tool.&nbsp;</p>\n<p style=\"margin:1em 0px;padding:0px;line-height:1.4;\">I HIGHLY recommend that you form outside study groups to help prepare for the class assessments AND the AP exam in May 2026.</p>\n<p style=\"margin:1em 0px 0px;padding:0px;line-height:1.4;\">\"Rather fail with honor than succeed by fraud.\"<br style=\"margin:0px;padding:0px;\">-Sophocles</p></div>",
+      "images": [
+        "https://roundrockisd.schoology.com/system/files/attachments/page_embeds/m/2024-08/RRHS_Dragon_66b4f5ac5c17d.jpeg"
+      ],
+      "localPath": "AP Human Geography.html"
+    },
+    {
+      "type": "folder",
+      "title": "Syllabus and APHG Exam Info",
+      "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926834991",
+      "children": [
+        {
+          "type": "assignment",
+          "title": "APHG Syllabus",
+          "href": "https://roundrockisd.schoology.com/assignment/7938854693",
+          "assignmentDetails": {
+            "score": null,
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": true,
+            "usesLtiGoogleSubmission": true
+          },
+          "localPath": "Syllabus and APHG Exam Info/APHG Syllabus.html"
+        },
+        {
+          "type": "document",
+          "title": "joining-your-ap-class-section-for-students",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938854700",
+          "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/joining-your-ap-class-section-for-students_689a0f230f354.pdf",
+          "ext": "pdf",
+          "localPath": "Syllabus and APHG Exam Info/joining-your-ap-class-section-for-students.pdf"
+        },
+        {
+          "type": "discussion",
+          "title": "AP Classroom Join Code & Instructions for Registering for the AP Exam 5-5-26",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/7938854708"
+        },
+        {
+          "type": "document",
+          "title": "AP_2026_Financial_Assistance_Form",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8034857651",
+          "downloadLink": "https://roundrockisd.schoology.com/attachment/3298146069/source/3c3c20018c13f8031db7ff59cd4992c3.pdf",
+          "ext": "pdf",
+          "localPath": "Syllabus and APHG Exam Info/AP_2026_Financial_Assistance_Form.pdf"
+        }
+      ],
+      "localPath": "Syllabus and APHG Exam Info"
+    },
+    {
+      "type": "folder",
+      "title": "Fall Semester",
+      "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926846529",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Learning Targets (Unit 1-4)",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926846530",
+          "children": [
+            {
+              "type": "document",
+              "title": "Unit 1 LTs 2025-26",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938893283",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3249918397/source/db81c82ba64290299c0a7c152f311668.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Learning Targets (Unit 1-4)/Unit 1 LTs 2025-26.pdf"
+            },
+            {
+              "type": "document",
+              "title": "Unit 2 LTs 2025-26",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8015053920",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3289372754/source/44fbea6f552456926fb0f9e4fe9681d6.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Learning Targets (Unit 1-4)/Unit 2 LTs 2025-26.pdf"
+            },
+            {
+              "type": "document",
+              "title": "Unit 3 LTs 2025-26",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060816740",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3310217022/source/ff31aab1ad29053ab744013d0ede4ed2.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Learning Targets (Unit 1-4)/Unit 3 LTs 2025-26.pdf"
+            },
+            {
+              "type": "document",
+              "title": "Unit 4 LTs 2025-26",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095682737",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3324461510/source/211960074b1b941ba7e436d0238696f1.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Learning Targets (Unit 1-4)/Unit 4 LTs 2025-26.pdf"
+            }
+          ],
+          "localPath": "Fall Semester/Learning Targets (Unit 1-4)"
+        },
+        {
+          "type": "folder",
+          "title": "Region's Quiz & Essential Locations Test Docs",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926977490",
+          "children": [
+            {
+              "type": "document",
+              "title": "Regions Map Small and Large",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7939388224",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3250212248/source/778cbfe79d114776257e6ea22bc29ced.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Region's Quiz & Essential Locations Test Docs/Regions Map Small and Large.pdf"
+            },
+            {
+              "type": "document",
+              "title": "Blank research map",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7939388244",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3250212257/source/aa3d353e43ab1d32e2429bc3f5c6b181.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Region's Quiz & Essential Locations Test Docs/Blank research map.pdf"
+            },
+            {
+              "type": "document",
+              "title": "Essential locations",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7939388259",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3250212264/source/ae1a5b3d99c473905308e496cea4692f.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Region's Quiz & Essential Locations Test Docs/Essential locations.pdf"
+            },
+            {
+              "type": "common_assessment",
+              "title": "Essential Locations Study Tool",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/7939388272",
+              "commonAssessmentDetails": {
+                "score": "98.89/100",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Fall Semester/Region's Quiz & Essential Locations Test Docs/Essential Locations Study Tool.html"
+            }
+          ],
+          "localPath": "Fall Semester/Region's Quiz & Essential Locations Test Docs"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 1 Thinking Geographically",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926846532",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926846533",
+              "children": [
+                {
+                  "type": "document",
+                  "title": "Geographic Tools and Data and Geospatial Data.pdfGeographic_Tools_and_Data_and_Geospatial_Data",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938893295",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/Geographic_Tools_and_Data_and_Geospatial_Data_689a10dcea800.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes/Geographic Tools and Data and Geospatial Data.pdfGeographic_Tools_and_Data_and_Geospatial_Data.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Thematic and Projections Handout.pdfThematic_and_Projections_Handout",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938893299",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/Thematic_and_Projections_Handout_689a10dd095c9.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes/Thematic and Projections Handout.pdfThematic_and_Projections_Handout.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Spatial Concepts.pdfSpatial_Concepts",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938893304",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/Spatial_Concepts_689a10dd1b2a2.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes/Spatial Concepts.pdfSpatial_Concepts.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Human-Environmental Interaction.pdfHuman-Environmental_Interaction",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938893307",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/Human-Environmental_Interaction_689a10dd2c119.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes/Human-Environmental Interaction.pdfHuman-Environmental_Interaction.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Scale of Analysis.pdfScale_of_Analysis",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938893310",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/Scale_of_Analysis_689a10dd3d276.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes/Scale of Analysis.pdfScale_of_Analysis.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Regional Analysis.pdfRegional_Analysis",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7938893317",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/Regional_Analysis_689a10dd4dc11.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes/Regional Analysis.pdfRegional_Analysis.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Note Taking Guide.pdfNote_takin_g_Guide",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7939376637",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/Note_takin_g_Guide_689a21dc181ca.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes/Note Taking Guide.pdfNote_takin_g_Guide.pdf"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 1 Thinking Geographically/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Quick Writes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926846536",
+              "children": [
+                {
+                  "type": "discussion",
+                  "title": "QW #1 What is Geography?",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/7953571227"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #2 - GIS",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/7964842904"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #3 Site vs. Situation",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/7974343405"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #4 Human Environmental Interaction",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/7982368232"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 1 Thinking Geographically/Quick Writes"
+            },
+            {
+              "type": "folder",
+              "title": "Assignments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926846537",
+              "children": [
+                {
+                  "type": "document",
+                  "title": "Intro to Maps-Reference &amp; Thematic Maps, Location, Distance.pdfIntro to Maps-Reference & Thematic Maps, Location, Distance",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7964855281",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3263578798/source/bf07ab7fb224942a9524b578d465dcdc.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Intro to Maps-Reference &amp; Thematic Maps, Location, Distance.pdfIntro to Maps-Reference & Thematic Maps, Location, Distance.pdf"
+                },
+                {
+                  "type": "folder",
+                  "title": "Geospatial Revolution Case Study",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=933731973",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Geospatial Revolution",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7965906593",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3264120018/source/88fcbe9f5f5d5b69473d5eb182cbbbbe.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Geospatial Revolution Case Study/Geospatial Revolution.pdf"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "Geospatial Revolution Case Study",
+                      "href": "https://roundrockisd.schoology.com/assignment/7965906615",
+                      "assignmentDetails": {
+                        "score": "100/100",
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": false
+                      },
+                      "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Geospatial Revolution Case Study/Geospatial Revolution Case Study.html"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Geospatial Revolution Case Study"
+                },
+                {
+                  "type": "document",
+                  "title": "Spatial Concepts Google Slideshow Rubric",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7974354408",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3268689971/source/7087499753120c235e28fb627f01280c.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Spatial Concepts Google Slideshow Rubric.pdf"
+                },
+                {
+                  "type": "folder",
+                  "title": "How to Write an FRQ & Interpreting Maps",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=937002691",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "How to Write an FRQ for AP Human Geography.pdfHow_to_Write_an_FRQ_for_AP_Human_Geography",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7982401199",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202508/course/7919128380/How_to_Write_an_FRQ_for_AP_Human_Geography_68a86f31ebe10.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/How to Write an FRQ & Interpreting Maps/How to Write an FRQ for AP Human Geography.pdfHow_to_Write_an_FRQ_for_AP_Human_Geography.pdf"
+                    },
+                    {
+                      "type": "discussion",
+                      "title": "FRQ (Free Response Question) Interpreting maps.",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/7982401216"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/How to Write an FRQ & Interpreting Maps"
+                },
+                {
+                  "type": "folder",
+                  "title": "Scale of Analysis/Map Analysis Activity",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=939248863",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Maps - color",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7992577426",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3278242572/source/d9c8185c256458a94c4dabe36f8c45e2.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Scale of Analysis_Map Analysis Activity/Maps - color.pdf"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "Scale of Analysis/Map Analysis",
+                      "href": "https://roundrockisd.schoology.com/assignment/7992577434",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Scale of Analysis_Map Analysis Activity/Scale of Analysis_Map Analysis.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Scale of Analysis NotesScale of Analysis",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/7992577437",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3278242578/source/f84d41d59838a0a65811632ee6cc2b7f.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Scale of Analysis_Map Analysis Activity/Scale of Analysis NotesScale of Analysis.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Scale of Analysis_Map Analysis Activity"
+                },
+                {
+                  "type": "document",
+                  "title": "Understanding Regions - Measures of Development",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8007954690",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3285892592/source/b4db6b51dc807be6478754f0bb3a1ba0.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments/Understanding Regions - Measures of Development.pdf"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assignments"
+            },
+            {
+              "type": "folder",
+              "title": "Assessments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=926846538",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "Regions Quiz",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/7982361602",
+                  "commonAssessmentDetails": {
+                    "score": "96.77/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assessments/Regions Quiz.html"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "Vocab Check 1.2",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8007884455",
+                  "commonAssessmentDetails": {
+                    "score": "90/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assessments/Vocab Check 1.2.html"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 1 Thinking Geographically/Assessments"
+            }
+          ],
+          "localPath": "Fall Semester/Unit 1 Thinking Geographically"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 2 Population & Migration",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=943376739",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=943376740",
+              "children": [
+                {
+                  "type": "document",
+                  "title": "Population Distribution.pdfPopulation_Distribution",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968528",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Population_Distribution_68b9ad5fe2b9f.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Population Distribution.pdfPopulation_Distribution.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "The Demographic Transition ModelThe_Demographic_Transition_Model",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968537",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/The_Demographic_Transition_Model_68b9ad6006585.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/The Demographic Transition ModelThe_Demographic_Transition_Model.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Population Composition.pdfPopulation_Composition",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968543",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Population_Composition_68b9ad601995c.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Population Composition.pdfPopulation_Composition.pdf"
+                },
+                {
+                  "type": "link",
+                  "title": "The Demographic Transition Model (video if you ...",
+                  "href": "https://www.youtube.com/watch?v=l1_KBTk5FhQ&feature=youtu.be",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/The Demographic Transition Model (video if you.url"
+                },
+                {
+                  "type": "document",
+                  "title": "Zero Population Growth Video.pdfZero_Population_Growth_Video",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968553",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Zero_Population_Growth_Video_68b9ad6038735.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Zero Population Growth Video.pdfZero_Population_Growth_Video.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Theories of Population Growth and Decline.pdfTheories_of_Population_Growth_and_Decline",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968560",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Theories_of_Population_Growth_and_Decline_68b9ad6051b38.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Theories of Population Growth and Decline.pdfTheories_of_Population_Growth_and_Decline.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Women and Demographic Change.pdfWomen_and_Demographic_Change",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968567",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Women_and_Demographic_Change_68b9ad6067711.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Women and Demographic Change.pdfWomen_and_Demographic_Change.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Aging Populations.pdfAging_Populations",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968575",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Aging_Populations_68b9ad607b124.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Aging Populations.pdfAging_Populations.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Causes of migration.pdfCauses_of_migration",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968584",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Causes_of_migration_68b9ad60903e6.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Causes of migration.pdfCauses_of_migration.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Ravenstein's Laws of Migration (1).pdfRavensteins_Laws_of_Migration_1",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968588",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Ravensteins_Laws_of_Migration_1_68b9ad60a66c0.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Ravenstein's Laws of Migration (1).pdfRavensteins_Laws_of_Migration_1.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Effects of Migration.pdfEffects_of_Migration",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8014968593",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Effects_of_Migration_68b9ad60badfd.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Notes/Effects of Migration.pdfEffects_of_Migration.pdf"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 2 Population & Migration/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Quick Writes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=943376749",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "QW #1 \"Billy was a gravedigger\" - DTM Scenarios",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8026332289",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Quick Writes/QW #1 _Billy was a gravedigger_ - DTM Scenarios.html"
+                },
+                {
+                  "type": "folder",
+                  "title": "QW #2 (A, B, C)",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=945814384",
+                  "children": [
+                    {
+                      "type": "discussion",
+                      "title": "QW #2A Malthus vs Cornucopians",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8030665924"
+                    },
+                    {
+                      "type": "discussion",
+                      "title": "QW #2B Understanding Limitation Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8030665930"
+                    },
+                    {
+                      "type": "discussion",
+                      "title": "QW #2C Understanding Limitation Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8030665936"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Quick Writes/QW #2 (A, B, C)"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "QW #3 Population policies CFU",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8036947451",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Quick Writes/QW #3 Population policies CFU.html"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #4 Bearing Bracket/Aging Populations",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8042068076"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW#5 Refugees and Receiving Countries",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8055469170"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 2 Population & Migration/Quick Writes"
+            },
+            {
+              "type": "folder",
+              "title": "Assignments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=943376750",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "Population Composition Analysis",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=945241779",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Population Pyramid analysis",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8026373499",
+                      "commonAssessmentDetails": {
+                        "score": null,
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Population Composition Analysis/Population Pyramid analysis.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Population Pyramids of B and U Countries",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8026621435",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3294595704/source/a6683d91dd2f19d3d79c183735f30ad2.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Population Composition Analysis/Population Pyramids of B and U Countries.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Population Composition Analysis"
+                },
+                {
+                  "type": "link",
+                  "title": "Crash Course Thomas Malthus",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/link/view/8030681294",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Crash Course Thomas Malthus.url"
+                },
+                {
+                  "type": "document",
+                  "title": "FRQ Worksheet - Rate of Natural Increase - Copy",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8030684251",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3296371372/source/8f8895abe46fefda87678e43113ed77a.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/FRQ Worksheet - Rate of Natural Increase - Copy.pdf"
+                },
+                {
+                  "type": "folder",
+                  "title": "Don't Panic Video Questions",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=946805600",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Don't Panic Video Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8036949475",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Don't Panic Video Questions/Don't Panic Video Questions.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Don't Panic MC Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8037646367",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3299552760/source/f5f89f494ac3dcd561bc739deac5a213.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Don't Panic Video Questions/Don't Panic MC Questions.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Don't Panic Video.xspf",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8040493153"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Don't Panic Link if Gapminder link ...",
+                      "href": "https://www.youtube.com/watch?v=frVN1L_ES3g&t=2299s",
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Don't Panic Video Questions/Don't Panic Link if Gapminder link.url"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Don't Panic Video Questions"
+                },
+                {
+                  "type": "folder",
+                  "title": "Population Growth & Decline: Causes & Consequences",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=947405853",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Population Growth & Decline: Causes & ConsequencesPopulation Growth & Decline Causes & Consequences 2025-2026 JF",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8042087684",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3302023941/source/978cf010bf9f4d795ad7106bc41b5926.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Population Growth & Decline_ Causes & Consequences/Population Growth & Decline_ Causes & ConsequencesPopulation Growth & Decline Causes & Consequences 2025-2026 JF.pdf"
+                    },
+                    {
+                      "type": "common_assessment",
+                      "title": "Population Growth & Decline: Causes & Consequences",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8042087696",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Population Growth & Decline_ Causes & Consequences/Population Growth & Decline_ Causes & Consequences.html"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Population Growth & Decline_ Causes & Consequences"
+                },
+                {
+                  "type": "document",
+                  "title": "Migrations Concepts Application",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8050537830",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3305783968/source/65142f8d88723b6df3833bd29723e142.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Migrations Concepts Application.pdf"
+                },
+                {
+                  "type": "folder",
+                  "title": "Refugee & Migration GIS Activity",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=949341693",
+                  "children": [
+                    {
+                      "type": "assignment",
+                      "title": "Refugees & Migration GIS Activity",
+                      "href": "https://roundrockisd.schoology.com/assignment/8055490062",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Refugee & Migration GIS Activity/Refugees & Migration GIS Activity.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Refugees_Migration_GIS_Activity KEY(1)",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8055490070",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3307947106/source/67ea053fe3551b5c16246b59052a7f18.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Refugee & Migration GIS Activity/Refugees_Migration_GIS_Activity KEY(1).pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Refugee & Migration GIS Activity"
+                },
+                {
+                  "type": "document",
+                  "title": "Migration Concepts Application - KEY",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8056367209",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3308301578/source/161c744d477a30170557134d596c2be8.docx",
+                  "ext": "docx",
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments/Migration Concepts Application - KEY.docx"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 2 Population & Migration/Assignments"
+            },
+            {
+              "type": "folder",
+              "title": "Assessments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=943376752",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "Vocab Check 2-1",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8030671214",
+                  "commonAssessmentDetails": {
+                    "score": "90/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assessments/Vocab Check 2-1.html"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "Vocab Check 2-2",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8050535229",
+                  "commonAssessmentDetails": {
+                    "score": "90/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 2 Population & Migration/Assessments/Vocab Check 2-2.html"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 2 Population & Migration/Assessments"
+            }
+          ],
+          "localPath": "Fall Semester/Unit 2 Population & Migration"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 3 Cultural Patterns & Processes",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=950238193",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=950238194",
+              "children": [
+                {
+                  "type": "document",
+                  "title": "Cultural Landscape and Patterns.pdfCultural_Landscape_and_Patterns",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838315",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Cultural_Landscape_and_Patterns_68dbd946715f1.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Cultural Landscape and Patterns.pdfCultural_Landscape_and_Patterns.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Historical Causes of Diffusion.pdfHistorical_Causes_of_Diffusion",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838321",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Historical_Causes_of_Diffusion_68dbd9468b2a1.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Historical Causes of Diffusion.pdfHistorical_Causes_of_Diffusion.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Crash Course.pdfCrash_Course",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838326",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Crash_Course_68dbd946a2062.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Crash Course.pdfCrash_Course.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Contemporary Causes of Diffusion.pdfContemporary_Causes_of_Diffusion",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838336",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Contemporary_Causes_of_Diffusion_68dbd946b9380.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Contemporary Causes of Diffusion.pdfContemporary_Causes_of_Diffusion.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "FOLK AND POPULAR CULTURE.pdfFOLK_AND_POPULAR_CULTURE",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838347",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/FOLK_AND_POPULAR_CULTURE_68dbd946d0132.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/FOLK AND POPULAR CULTURE.pdfFOLK_AND_POPULAR_CULTURE.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Diffusion of Language.pdfDiffusion_of_Language",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838355",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Diffusion_of_Language_68dbd946e63f9.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Diffusion of Language.pdfDiffusion_of_Language.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Diffusion of Religion.pdfDiffusion_of_Religion",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838360",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Diffusion_of_Religion_68dbd9470d30a.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Diffusion of Religion.pdfDiffusion_of_Religion.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "pg 155 from textbook.pdfpg_155_from_textbook",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838367",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/pg_155_from_textbook_68dbd94724b08.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/pg 155 from textbook.pdfpg_155_from_textbook.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Textbook Readings Language and Religious Conflicts .pdfLanguage_and_Religious_Conflicts_Textbook",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838373",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Language_and_Religious_Conflicts_Textbook_68dbd9473ec72.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Textbook Readings Language and Religious Conflicts .pdfLanguage_and_Religious_Conflicts_Textbook.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Religious Diffusion Flow Lines.pdfReligious_Diffusion_Flow_Lines",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838387",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Religious_Diffusion_Flow_Lines_68dbd94758aa7.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Religious Diffusion Flow Lines.pdfReligious_Diffusion_Flow_Lines.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Religious regions USA pg 197.pdfReligious_regions_USA_pg_197",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838398",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Religious_regions_USA_pg_197_68dbd9476e143.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Religious regions USA pg 197.pdfReligious_regions_USA_pg_197.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "World Map of Religions.pdfWorld_Map_of_Religions",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838408",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/World_Map_of_Religions_68dbd94783eca.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/World Map of Religions.pdfWorld_Map_of_Religions.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Effects of Diffusion.pdfEffects_of_Diffusion",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8060838417",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202509/course/7919128380/Effects_of_Diffusion_68dbd94799bc3.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Effects of Diffusion.pdfEffects_of_Diffusion.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Creolization vs Syncretism Clarification",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8091898821",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3322898145/source/52e79bc000e172f0b7e381e9a553925d.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes/Creolization vs Syncretism Clarification.pdf"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Quick Writes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=950238204",
+              "children": [
+                {
+                  "type": "discussion",
+                  "title": "QW #1 Mercantilism, Colonialism and Imperialism",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8069186834"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW#2 Language Divergence & Centripetal/Centrifugal Forces",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8076323922"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #3 Universalizing vs. Ethnic Religions",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8082412450"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #4 Effects of Diffusion",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8085428547"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Quick Writes"
+            },
+            {
+              "type": "folder",
+              "title": "Assignments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=950238205",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "Culture of RRHS",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=950711961",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "CultureofRoundRockHS",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8064561873",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3311698100/source/805a06e886f16f0b75db1d6b8222693f.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Culture of RRHS/CultureofRoundRockHS.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Culture of RRHS"
+                },
+                {
+                  "type": "document",
+                  "title": "Crash Course",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8069223763",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3313561258/source/0a30de61ec6ea7b778ed96e9595d1409.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Crash Course.pdf"
+                },
+                {
+                  "type": "folder",
+                  "title": "Dependency Theory Reading & Guestions",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=951468599",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Dependency Theory 2 sentence summaries",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8069308898",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3313595465/source/2b72cb72fea8b28b56d01cbcb9e615a6.docx",
+                      "ext": "docx",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Dependency Theory Reading & Guestions/Dependency Theory 2 sentence summaries.docx"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Dependency Theory Reading",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8069308910",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3313595471/source/daa89a51d018e1957477270bc3691621.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Dependency Theory Reading & Guestions/Dependency Theory Reading.pdf"
+                    },
+                    {
+                      "type": "common_assessment",
+                      "title": "Dependency Theory Assignment Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8069308922",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Dependency Theory Reading & Guestions/Dependency Theory Assignment Questions.html"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Dependency Theory Reading & Guestions"
+                },
+                {
+                  "type": "folder",
+                  "title": "Case Studies: Impact of Globalization",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=951971860",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Fast Fashion Case Study",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8072924044",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3315033307/source/4b605668070d17c1d3c52f2d0e9470cb.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Case Studies_ Impact of Globalization/Fast Fashion Case Study.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Mental Floss Video Link",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8072924050",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3315033311/source/dc283dcbf568da45391605c3f82b6b1a.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Case Studies_ Impact of Globalization/Mental Floss Video Link.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "TV Comes to Bhutan Video and Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8072924056",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3315033313/source/831f5fec6a442bbeaccbf0751448086b.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Case Studies_ Impact of Globalization/TV Comes to Bhutan Video and Questions.pdf"
+                    },
+                    {
+                      "type": "common_assessment",
+                      "title": "TV Comes to Bhutan & Fast Fashion Case Studies",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8072924063",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Case Studies_ Impact of Globalization/TV Comes to Bhutan & Fast Fashion Case Studies.html"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Case Studies_ Impact of Globalization"
+                },
+                {
+                  "type": "folder",
+                  "title": "FRQ Practice: Diffusion of Language",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=952421715",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "2025-26 Language FRQ Rubric-Samples-Scoring Guideline",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8076338133",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3316435972/source/d1d66464b796ba432658493aa226416f.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/FRQ Practice_ Diffusion of Language/2025-26 Language FRQ Rubric-Samples-Scoring Guideline.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "FRQ Student Worksheet - Activity",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8076338137",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3316435974/source/9d7a01d81a81f1855a70c6ee77c899ae.docx",
+                      "ext": "docx",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/FRQ Practice_ Diffusion of Language/FRQ Student Worksheet - Activity.docx"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/FRQ Practice_ Diffusion of Language"
+                },
+                {
+                  "type": "folder",
+                  "title": "World Religions Resources",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=953514085",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Diffusion of Religion NotesDiffusion of Religion",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422922",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3318936955/source/c9ce0f9678eef8832220491188545074.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Diffusion of Religion NotesDiffusion of Religion.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Annotated World Religions Map Instructions.docxAnnotated World Religions Chart and map.docx",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422928",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3318936960/source/593cbf3c7596bd1aef62720403d96e28.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Annotated World Religions Map Instructions.docxAnnotated World Religions Chart and map.docx.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "World Map of Religions.pdfWorld_Map_of_Religions",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422938",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/World_Map_of_Religions_68efa52b9347a.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/World Map of Religions.pdfWorld_Map_of_Religions.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Religious Flow Lines",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082652777",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3319034672/source/e73d93e45487062241cad34456b79cab.jpg",
+                      "ext": "jpg",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Religious Flow Lines.jpg"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Hearths & Diffusion Linesculture-hearths-of-religions_orig",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422944",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3318936969/source/f512bb7ad94f0dee8d59299e15337be4.jpg",
+                      "ext": "jpg",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Hearths & Diffusion Linesculture-hearths-of-religions_orig.jpg"
+                    },
+                    {
+                      "type": "link",
+                      "title": "PBS Prevailing Beliefs Map",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/link/view/8082422955",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/PBS Prevailing Beliefs Map.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Global Education Religions Map",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/link/view/8082422958",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Global Education Religions Map.url"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Distribution of World ReligionsCultural Ch6 Study",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422964",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Cultural_Ch6_Study_68efa52bdb4c1.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Distribution of World ReligionsCultural Ch6 Study.pdf"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Animated Religious Diffusion",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/link/view/8082422967",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Animated Religious Diffusion.url"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Religions Review PDFaphg_unit3_religion_review",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422972",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/aphg_unit3_religion_review_68efa52c0761d.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Religions Review PDFaphg_unit3_religion_review.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "World Religions ReadingWorld Religions Reading",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422977",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/World_Religions_Reading_68efa52c1ca3a.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/World Religions ReadingWorld Religions Reading.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Eastern & Western Religions ChartWorld Religions Note Slides",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8082422980",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/World_Religions_Note_Slides_68efa52c32fa2.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources/Eastern & Western Religions ChartWorld Religions Note Slides.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/World Religions Resources"
+                },
+                {
+                  "type": "folder",
+                  "title": "Cultural Landscapes and Conflict FRQ Analysis",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=955036515",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Feedback response_score03",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8091878505",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3322890413/source/5803e059538ced37d60c0a15e031746a.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Cultural Landscapes and Conflict FRQ Analysis/Feedback response_score03.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "feedback response_score06",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8091878518",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3322890415/source/6f05c46db6e33f8974c8a4ea0a4b0e93.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Cultural Landscapes and Conflict FRQ Analysis/feedback response_score06.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "feedback response_score10",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8091878526",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3322890416/source/bc1f43919a7a12b37d3a1aa17b811606.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Cultural Landscapes and Conflict FRQ Analysis/feedback response_score10.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "q104 prompt",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8091878531",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3322890418/source/4ad7b1ca74772a5cfcc152b522d8c1dc.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Cultural Landscapes and Conflict FRQ Analysis/q104 prompt.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Rubric-Religious Pilgrimage SitesRubric-ReligiousPIlgrimageSites",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8091878536",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3322890419/source/ccdf7e1bba4716fcbdec44de9e0b689f.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Cultural Landscapes and Conflict FRQ Analysis/Rubric-Religious Pilgrimage SitesRubric-ReligiousPIlgrimageSites.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments/Cultural Landscapes and Conflict FRQ Analysis"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assignments"
+            },
+            {
+              "type": "folder",
+              "title": "Assessments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=950238206",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "VC 3.2",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8085435284",
+                  "commonAssessmentDetails": {
+                    "score": "70/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assessments/VC 3.2.html"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "Religions Quiz (Daily Grade)",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8091892239",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assessments/Religions Quiz (Daily Grade).html"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes/Assessments"
+            }
+          ],
+          "localPath": "Fall Semester/Unit 3 Cultural Patterns & Processes"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 4 Political Patterns & Processes",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=955535806",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=955535807",
+              "children": [
+                {
+                  "type": "document",
+                  "title": "Political Patterns & ProcessesPolitical_patterns_and_processes",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679840",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Political_patterns_and_processes_68fb8cd06be9f.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Political Patterns & ProcessesPolitical_patterns_and_processes.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Political Power and Territory.pdfPolitical_Power_and_Territory",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679847",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Political_Power_and_Territory_68fb8cd0843f2.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Political Power and Territory.pdfPolitical_Power_and_Territory.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Political Boundaries .pdfPolitical_Boundaries_",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679850",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Political_Boundaries__68fb8cd097cee.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Political Boundaries .pdfPolitical_Boundaries_.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "State Morphology Reference SheetState_morphology_reference_sheet",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679854",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/State_morphology_reference_sheet_68fb8cd0ac7f2.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/State Morphology Reference SheetState_morphology_reference_sheet.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Forms of Governance.pdfForms_of_Governance",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679859",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Forms_of_Governance_68fb8cd0c0747.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Forms of Governance.pdfForms_of_Governance.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Devolutionary Forces.pdfDevolutionary_Forces",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679865",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Devolutionary_Forces_68fb8cd0d570a.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Devolutionary Forces.pdfDevolutionary_Forces.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Devolution and Irridentism Handout.pdfDevolution_and_Irridentism_Handout",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679872",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Devolution_and_Irridentism_Handout_68fb8cd0e9010.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Devolution and Irridentism Handout.pdfDevolution_and_Irridentism_Handout.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Textbook readings for Devolutionary notes.pdfTextbook_readings_for_Devolutionary_notes",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679880",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Textbook_readings_for_Devolutionary_notes_68fb8cd1096f5.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Textbook readings for Devolutionary notes.pdfTextbook_readings_for_Devolutionary_notes.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Challenges to Governance.pdfChallenges_to_Governance",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679887",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Challenges_to_Governance_68fb8cd11d37e.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Challenges to Governance.pdfChallenges_to_Governance.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Supranationalism",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679893",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Supranationalism_68fb8cd13424d.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Supranationalism.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Consequences of Centripetal and Centrifugal forces.pdfConsequences_of_Centripetal_and_Centrifugal_forces",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8095679900",
+                  "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Consequences_of_Centripetal_and_Centrifugal_forces_68fb8cd149b20.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes/Consequences of Centripetal and Centrifugal forces.pdfConsequences_of_Centripetal_and_Centrifugal_forces.pdf"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Quick Writes",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=955535813",
+              "children": [
+                {
+                  "type": "discussion",
+                  "title": "QW#1 Neocolonialism, Shatterbelts and Satellite Sates",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8104427237"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #2 UNCLoS/Political Boundaries",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8108807546"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW#3 Review questions from VC 4.1",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8122969129"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW#4 Forms of Governance",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8123419467"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW#5 Devolution & Irredentism",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8126469951"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW#6 Challenges to Governance",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8131327487"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW#7 Geopolitical Theories",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8134884164"
+                },
+                {
+                  "type": "discussion",
+                  "title": "QW #8 Balkanization & Primate Cities",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/discussion/view/8142596986"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Quick Writes"
+            },
+            {
+              "type": "folder",
+              "title": "Assignments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=955535814",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "Nations & States Activity",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=956261830",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Nations and States.pdfNations_and_States",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8100039568",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202510/course/7919128380/Nations_and_States_68ffed105f93c.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Nations & States Activity/Nations and States.pdfNations_and_States.pdf"
+                    },
+                    {
+                      "type": "common_assessment",
+                      "title": "Nations and States Answer doc.",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8100039580",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Nations & States Activity/Nations and States Answer doc.html"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Nations & States Activity"
+                },
+                {
+                  "type": "document",
+                  "title": "Centripetal & Centrifugal ForcesCentripetal & Centrifugal Forces.pdf",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8100044747"
+                },
+                {
+                  "type": "folder",
+                  "title": "FRQ Analysis: Political Boundaries",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=956961671",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Political Boundaries FRQ Analysis Worksheet",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8104593310",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3328286113/source/c0a5664b3906e63df68f86eca7214e2e.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Analysis_ Political Boundaries/Political Boundaries FRQ Analysis Worksheet.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Political Boundaries FRQ Questions 2022",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8104593316",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3328286116/source/d0a51500cf0512949d8713f0210761af.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Analysis_ Political Boundaries/Political Boundaries FRQ Questions 2022.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Political Boundaries FRQ Student Samples- Rubric- Justification",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8104593322",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3328286118/source/5cda4a543e78c0cd6bc1173821d970fc.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Analysis_ Political Boundaries/Political Boundaries FRQ Student Samples- Rubric- Justification.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Analysis_ Political Boundaries"
+                },
+                {
+                  "type": "document",
+                  "title": "Political Geography & Boundaries Map AssignmentPolitical Geography & Boundaries Assignment",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8108861163",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3330018552/source/72c81082764eacbaf56f2db85e7ba1b6.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Political Geography & Boundaries Map AssignmentPolitical Geography & Boundaries Assignment.pdf"
+                },
+                {
+                  "type": "folder",
+                  "title": "UNCLoS Guided Research",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=958234684",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "UN Convention on the Law of the Sea Questions.pdfUN_Convention_on_the_Law_of_the_Sea_Questions_2019-2020",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846213",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/UN_Convention_on_the_Law_of_the_Sea_Questions_2019-2020_690b616cd0931.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/UN Convention on the Law of the Sea Questions.pdfUN_Convention_on_the_Law_of_the_Sea_Questions_2019-2020.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "A Sea of Disputes.pdfA_Sea_of_Disputes",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846224",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/A_Sea_of_Disputes_690b616ceaa0f.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/A Sea of Disputes.pdfA_Sea_of_Disputes.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Chinese Territorial Claims.pdfChinese_Territorial_Claims",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846234",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/Chinese_Territorial_Claims_690b616d0c370.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/Chinese Territorial Claims.pdfChinese_Territorial_Claims.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Dividing the Caspian Sea.pdfDividing_the_Caspian_Sea",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846238",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/Dividing_the_Caspian_Sea_690b616d20e05.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/Dividing the Caspian Sea.pdfDividing_the_Caspian_Sea.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Roiling South China Sea.pdfRoiling_South_China_Sea",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846242",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/Roiling_South_China_Sea_690b616d3733c.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/Roiling South China Sea.pdfRoiling_South_China_Sea.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Territorial Disputes Involving Japan - Graphic - NYTimes.com.pdfTerritorial_Disputes_Involving_Japan_-_Graphic_-_NYTimes.com_",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846247",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/Territorial_Disputes_Involving_Japan_-_Graphic_-_NYTimes.com__690b616d4b382.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/Territorial Disputes Involving Japan - Graphic - NYTimes.com.pdfTerritorial_Disputes_Involving_Japan_-_Graphic_-_NYTimes.com_.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "The  Global Commons.pdfThe__Global_Commons",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846252",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/The__Global_Commons_690b616d612e7.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/The  Global Commons.pdfThe__Global_Commons.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "US State Department and Law of the Sea Convention.pdfUS_State_Department_and_Law_of_the_Sea_Convention",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8112846259",
+                      "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202511/course/7919128380/US_State_Department_and_Law_of_the_Sea_Convention_690b616d76017.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research/US State Department and Law of the Sea Convention.pdfUS_State_Department_and_Law_of_the_Sea_Convention.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/UNCLoS Guided Research"
+                },
+                {
+                  "type": "folder",
+                  "title": "FRQ Practice: Internal Political Boundaries",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=959221892",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "FRQ Practice - Internal BoundariesFRQ Practice - Internal Boundaries 2022-23",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8119293496",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3334290724/source/f843cd3b6fccdc5e81613dcdfab527f8.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Practice_ Internal Political Boundaries/FRQ Practice - Internal BoundariesFRQ Practice - Internal Boundaries 2022-23.pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Forms of Governance",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8119293501",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3334290725/source/05d7fe8f6d098e29174034f261e2458d.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Practice_ Internal Political Boundaries/Forms of Governance.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Practice_ Internal Political Boundaries"
+                },
+                {
+                  "type": "link",
+                  "title": "The Gerrymandering Game",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/link/view/8122977464",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/The Gerrymandering Game.url"
+                },
+                {
+                  "type": "folder",
+                  "title": "Case Study: Devolution & the Velvet Revolution",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=960245667",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "The Velvet Revolution Case Study",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8126455554",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Case Study_ Devolution & the Velvet Revolution/The Velvet Revolution Case Study.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "The Velvet Revolution Case Study",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8126455627",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3337382258/source/558f82b9dd3fcfc813c19540bff1d230.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Case Study_ Devolution & the Velvet Revolution/The Velvet Revolution Case Study.pdf"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Case Study_ Devolution & the Velvet Revolution"
+                },
+                {
+                  "type": "folder",
+                  "title": "FRQ Analysis: Devolution & Challenges to State Sovereignty",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=961140655",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Gen Z and Protests in Nepal",
+                      "href": "https://www.youtube.com/watch?v=J2KoMPAKlsg",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Analysis_ Devolution & Challenges to State Sovereignty/Gen Z and Protests in Nepal.url"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/FRQ Analysis_ Devolution & Challenges to State Sovereignty"
+                },
+                {
+                  "type": "folder",
+                  "title": "Supranational Organizations Chart & Guided Questions",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=961448205",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "Scanned Textbook pages Supranational Org",
+                      "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8134952478",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3340815883/source/efc0f5be3a3811dca5fad0e9d77ec732.pdf",
+                      "ext": "pdf",
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Supranational Organizations Chart & Guided Questions/Scanned Textbook pages Supranational Org.pdf"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "Supranational Organizations Charts",
+                      "href": "https://roundrockisd.schoology.com/assignment/8134952486",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Supranational Organizations Chart & Guided Questions/Supranational Organizations Charts.html"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "League of Nations, UN, EU Guided Questions",
+                      "href": "https://roundrockisd.schoology.com/assignment/8134952490",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Supranational Organizations Chart & Guided Questions/League of Nations, UN, EU Guided Questions.html"
+                    }
+                  ],
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Supranational Organizations Chart & Guided Questions"
+                },
+                {
+                  "type": "document",
+                  "title": "Yugoslavia vocab application",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8142604727",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3344188167/source/d5d832ffc37db559b8d02ab046423040.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Yugoslavia vocab application.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Yugoslavia Vocab Key",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8145730316",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3345550912/source/3cc1c136a350d56ff94abbdcdae3c22d.pdf",
+                  "ext": "pdf",
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments/Yugoslavia Vocab Key.pdf"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assignments"
+            },
+            {
+              "type": "folder",
+              "title": "Assessments",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=955535815",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "VC 4.1",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8112824765",
+                  "commonAssessmentDetails": {
+                    "score": "90/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assessments/VC 4.1.html"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "UNCLOS Quiz (Daily Grade)",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8119250806",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assessments/UNCLOS Quiz (Daily Grade).html"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "VC 4.2",
+                  "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8134959807",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assessments/VC 4.2.html"
+                }
+              ],
+              "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/Assessments"
+            },
+            {
+              "type": "document",
+              "title": "FRQ Remediation (1)",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8131452812",
+              "downloadLink": "https://roundrockisd.schoology.com/attachment/3339436898/source/96353929470a4839191d319b012e8e40.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Unit 4 Political Patterns & Processes/FRQ Remediation (1).pdf"
+            }
+          ],
+          "localPath": "Fall Semester/Unit 4 Political Patterns & Processes"
+        },
+        {
+          "type": "common_assessment",
+          "title": "Essential Locations Study Tool",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/assessments/8104718681",
+          "commonAssessmentDetails": {
+            "score": "100/100",
+            "screenshotPath": null,
+            "renderedHtmlPath": null,
+            "viaBrowser": true
+          },
+          "localPath": "Fall Semester/Essential Locations Study Tool.html"
+        },
+        {
+          "type": "link",
+          "title": "GeoGuessr-Seterra Map Quiz",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials/link/view/8104723381",
+          "localPath": "Fall Semester/GeoGuessr-Seterra Map Quiz.url"
+        },
+        {
+          "type": "assignment",
+          "title": "Fall Cumulative Exam Review Checklist",
+          "href": "https://roundrockisd.schoology.com/assignment/8142697489",
+          "assignmentDetails": {
+            "score": null,
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": true,
+            "usesLtiGoogleSubmission": true
+          },
+          "localPath": "Fall Semester/Fall Cumulative Exam Review Checklist.html"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 5 Agriculture & Rural Land Use Patterns",
+          "href": "https://roundrockisd.schoology.com/course/7919128380/materials?f=964445852",
+          "children": [
+            {
+              "type": "document",
+              "title": "Agriculture Settlements and Survey MethodsAgriculture_settlements_and_survey_methods",
+              "href": "https://roundrockisd.schoology.com/course/7919128380/materials/gp/8168996328",
+              "downloadLink": "https://roundrockisd.schoology.com/system/files/attachments/files/m/202512/course/7919128380/Agriculture_settlements_and_survey_methods_69442bcb40728.pdf",
+              "ext": "pdf",
+              "localPath": "Fall Semester/Unit 5 Agriculture & Rural Land Use Patterns/Agriculture Settlements and Survey MethodsAgriculture_settlements_and_survey_methods.pdf"
+            }
+          ],
+          "localPath": "Fall Semester/Unit 5 Agriculture & Rural Land Use Patterns"
+        }
+      ],
+      "localPath": "Fall Semester"
+    }
+  ]
+}

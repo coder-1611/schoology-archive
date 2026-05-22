@@ -1,0 +1,65 @@
+:root {
+    --sgy-icon-discussion: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/discussion.svg");
+    --sgy-icon-discussion-gray: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/discussion-gray.svg");
+}
+
+/* DISCUSSION icon */
+[data-theme="modern"] .discussion-icon,
+[data-theme="modern"] .comment-notif.notify-icon,
+[data-theme="modern"] .inline-icon.mini.discussion-icon,
+[data-theme="modern"] .recently-completed-event .mini-icon.discussion-icon,
+[data-theme="modern"] .reminder-list-item .mini-icon.discussion-icon,
+[data-theme="modern"] .upcoming-event .mini-icon.discussion-icon,
+[data-theme="modern"] #folder-contents-table .item-icon.discussion-icon,
+[data-theme="modern"] #folder-contents-table .course-materials-simple .item-icon.discussion-icon,
+[data-theme="modern"] #folder-contents-table .planner-right-cell .item-icon.discussion-icon,
+[data-theme="modern"] #left-nav #menu-s-main .menu .group-discussion-left-menu.active-trail-dist-1 span,
+[data-theme="modern"] #left-nav #menu-s-main .menu .group-discussion-left-menu:hover span,
+[data-theme="modern"] #left-nav #menu-s-main .menu .school-discussion-left-menu.active-trail-dist-1 span,
+[data-theme="modern"] #left-nav #menu-s-main .menu .school-discussion-left-menu:hover span,
+[data-theme="modern"] #resource-types .discussion-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .item-icon.discussion-icon,
+[data-theme="modern"] #s-grade-item-manager .item-icon.item-discussion {
+    background-image: var(--sgy-icon-discussion);
+    background-position-y: center;
+}
+
+[data-theme="modern"] .discussion-buttons .create-new a span {
+    background-image: var(--sgy-icon-discussion);
+    background-position-y: -2px;
+}
+
+[data-theme="modern"] .course-content-action-links .action-links .action-create-discussion a,
+[data-theme="modern"] #course-materials-action-links-inline .action-create-discussion a,
+[data-theme="modern"] #toolbar-add-list #collection-add-discussion a,
+[data-theme="modern"] #toolbar-options-wrapper .action-join-discussion a {
+    background-image: var(--sgy-icon-discussion);
+    background-position-x: 12px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .course-content-action-links .action-links .action-create-discussion a,
+[dir="rtl"][data-theme="modern"] #course-materials-action-links-inline .action-create-discussion a,
+[dir="rtl"][data-theme="modern"] #toolbar-add-list #collection-add-discussion a,
+[dir="rtl"][data-theme="modern"] #toolbar-options-wrapper .action-join-discussion a {
+    background-position-x: calc(100% - 12px);
+}
+
+[data-theme="modern"] .materials-filter-wrapper .action-links .action-view-discussion a {
+    background-image: var(--sgy-icon-discussion);
+    background-position-x: 24px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .materials-filter-wrapper .action-links .action-view-discussion a {
+    background-position-x: calc(100% - 24px);
+}
+/* end DISCUSSION icon */
+
+/* GRAY DISCUSSION icon */
+[data-theme="modern"] #left-nav #menu-s-main .menu .group-discussion-left-menu span,
+[data-theme="modern"] #left-nav #menu-s-main .menu .school-discussion-left-menu span {
+    background-image: var(--sgy-icon-discussion-gray);
+    background-position-y: center;
+}
+/* end GRAY DISCUSSION icon */

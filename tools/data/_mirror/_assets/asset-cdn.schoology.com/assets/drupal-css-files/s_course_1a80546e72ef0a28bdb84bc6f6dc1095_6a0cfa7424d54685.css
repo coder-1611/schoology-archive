@@ -1,0 +1,922 @@
+li.academic-hide { display: none; }
+/* Courses */
+.page-title-wrapper { overflow: hidden; }
+.page-title-wrapper .page-title { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .page-title-wrapper .page-title { float: right; }
+.page-title-wrapper .content-top-after-title-wrapper { /* rtl-processor:ignore */ float: left; margin-inline-start: 4px; }
+[dir="rtl"] .page-title-wrapper .content-top-after-title-wrapper { float: right; }
+.page-title a { color: #333; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat right 2px; padding-inline-end: 27px; }
+[dir="rtl"] .page-title a { background-position-x: left; }
+.page-title .course-title a { font-weight: normal; font-size: 12px; }
+.content-top p.school-name { padding-top: 3px; }
+.page-title span a:first-child { background: none; padding: 0; }
+.course-title { font-weight: bold; font-size: 14px; }
+.page-title .course-title { display: block; font-size: 11px; }
+.page-title .course-title a { font-size: 11px; }
+.course-area { display: block; }
+.sections-active { margin-top: 5px; }
+.mycourses .course-info { margin-bottom: 5px; }
+.profile-picture-wrapper { position: relative; }
+.profile-picture-wrapper .profile-picture img { width: 100%; }
+.course-listings .section-item { padding: 10px 0; }
+.listing .course-details .section-item .section-name, .listing.mycourses .section-item, .listing.templates .section-item { padding: 7px 0; font-size: 13px; }
+.section-item a { font-weight: normal; }
+#main .section-item a span:first-child, #main .section-item .section-name span:first-child { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685'); background-repeat: no-repeat; background-position: 0 0; /* rtl-processor:ignore */ float: left; margin-inline-end: 7px; height: 20px; width: 20px; }
+[dir="rtl"] #main .section-item a span:first-child, [dir="rtl"] #main .section-item .section-name span:first-child { float: right; }
+#main .section-item .course-icon { background-position: 0 0; }
+#main .section-item a span:first-child.admin-icon, #main .section-item .section-name span:first-child.admin-icon { background-position: 0 -30px; background-size: auto; }
+[dir="rtl"] #main .section-item a span:first-child.admin-icon, [dir="rtl"] #main .section-item .section-name span:first-child.admin-icon { transform: scaleX(-1); }
+.course-info .gray { margin-inline-start: 5px; }
+.add-section, .delete-parent, .publish-btn, .edit-section { /* rtl-processor:ignore */ float: right; margin: -3px 0 0; margin-inline-start: 4px; }
+[dir="rtl"] .add-section, [dir="rtl"] .delete-parent, [dir="rtl"] .publish-btn, [dir="rtl"] .edit-section { float: left; }
+.add-section:hover, .delete-parent:hover, .publish-btn:hover { text-decoration: none; }
+.edit-section span, .delete-parent span { display: block; height: 16px; width: 10px; background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') -7px -42px; text-indent: -9999px; }
+.delete-parent span { background-position: -6px -82px; }
+.course-info-expander { margin-bottom: 7px; }
+.course-info-full { display: none; }
+#important-post-body { font-size: 12px; margin-top: 7px; }
+.right-col-reg #important-post-body { width: 510px; }
+#important-post-body .orange { font-weight: bold; }
+#smart-box-tab-content-3 { display: none !important; }
+#smart-box .smart-box-mid { margin-top: 20px; }
+input#edit-remove-important{ display: none; }
+.important-remove-hidden { font-size: 11px; font-weight: normal; padding: 2px 5px 2px; padding-inline-start: 12px; background: url('/sites/all/themes/schoology_theme/images/icon-x-remove.png?6a0cfa7424d54685') no-repeat 0 6px; }
+.right-block-sm-clear { text-align: center; }
+.right-block-sm-clear .button-big { margin: 10px auto; display: inline-block; float: none; }
+.inactive-courses { font-size: 14px; border: none; margin-bottom: 5px;}
+.right-col-sm .description { /* rtl-processor:ignore */ float: left; margin: 3px 0 0; margin-inline-start: 5px; }
+[dir="rtl"] .right-col-sm .description { float: right; }
+.right-col-sm .popups-box .description { float: none; margin: 0; }
+.courses-listing-container { margin: 0 0 25px; }
+.courses-listing.browse .sections-inactive { display: none; }
+.past-courses-listing { display: none; }
+.listing .course-item.list-item { padding: 10px 0 10px; padding-inline-start: 6px; border-top: none; border-bottom: 1px solid #eaeaea; }
+.section-grading-periods { color: #9a9fa8; margin-inline-start: 15px; }
+.student-section { font-weight: bold; }
+.assignments-list .clickable { font-size: 13px; line-height: 24px; }
+.assignments-list.listing { border: none; }
+.assignments-container { width: 100%; padding-top: 10px; }
+.grading-period-title { font-weight: bold; font-size: 14px; line-height: 24px; }
+.assignments-container h2 { padding: 0; }
+.no-courses { font-size: 12px; padding: 25px 50px; text-align: center; color: #9a9fa8; }
+#s-course-search-form .submit-span-wrapper { display: none; }
+.filter-course-search { position: absolute; inset-inline-end: 0; margin-top: -27px; }
+.filter-course-search a { display: block; background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685') no-repeat 4px -976px; height: 24px; width: 26px; }
+#s-course-search-form #edit-string { width: 100%; margin: 0 -6px; }
+#s-course-search-form #edit-string-wrapper { margin: 10px 0 0; padding: 0 6px; }
+#s-course-search-form { height: 80px; }
+.join-course-wrapper { padding-top: 5px; }
+.create-topic a, .edit-topic-settings a { /* rtl-processor:ignore */ float: right; margin: -5px -0 5px; font-weight: normal; }
+[dir="rtl"] .create-topic a, [dir="rtl"] .edit-topic-settings a { float: left; }
+.edit-topic-settings a{ margin-inline-start: 5px;}
+.enrollments-list .name a { font-weight: normal; }
+.inactive-courses span { font-size: 11px; color: #9a9fa8; font-weight: normal; margin-inline-start: 5px; }
+#course-materials-dropdown { position: absolute; z-index: 100; background: #fff; border: 1px solid #000; max-height: 200px; overflow-y: auto; overflow-x: hidden; display: none; min-width: 240px; max-width: 300px; margin-inline-start: -1px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+#course-materials-dropdown a:hover { background-color: #f5f5f5 !important; }
+.course-materials-left-menu .materials-dropdown-arrow { /* rtl-processor:ignore */ float: right; margin-top: -4px; cursor: pointer; }
+[dir="rtl"] .course-materials-left-menu .materials-dropdown-arrow { float: left; }
+#sidebar-left #left-nav #menu-s-main .course-materials-left-menu .materials-dropdown-arrow span { display: block; width: 22px; height: 24px; background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') no-repeat 1px -575px; margin: 0; }
+#sidebar-left #left-nav #menu-s-main .course-materials-left-menu .materials-dropdown-arrow.active span{ height: 22px; width: 20px; }
+#sidebar-left #left-nav #menu-s-main .course-materials-left-menu .materials-dropdown-arrow:hover span,
+#sidebar-left #left-nav #menu-s-main .course-materials-left-menu .materials-dropdown-arrow:focus span { height: 22px; width: 20px; background-position: 0 -577px; }
+.course-materials-left-menu:hover .materials-dropdown-arrow, .course-materials-left-menu .materials-dropdown-arrow.active { display: block; }
+.course-materials-left-menu .materials-dropdown-arrow:hover,
+.course-materials-left-menu .materials-dropdown-arrow:focus { background: #fff url('/sites/all/themes/schoology_theme/images/gray-btn-bg.gif?6a0cfa7424d54685') repeat-x 0 1px; border: 1px solid; border-color: #999 #888 #888; margin-top: -3px; }
+.course-materials-left-menu .materials-dropdown-arrow.active { background: #555 !important; border: 1px solid #333 !important; margin: -3px 0 0 !important; }
+#sidebar-left #left-nav .course-materials-left-menu .materials-dropdown-arrow.active span { background-position: 0 -595px !important; }
+#sidebar-left #left-nav .course-materials-folders li a { padding: 5px 0 5px !important; padding-inline-start: 35px !important; }
+#sidebar-left #left-nav .course-materials-folders li a:hover { background-color: #e9f0f6; }
+#sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_new.png?6a0cfa7424d54685'); height: 16px; width: 16px; margin-inline-start: -26px; }
+#course-materials-dropdown .course-materials-folders { padding: 5px 0; border-bottom: 1px solid #ddd; }
+#sidebar-left #left-nav .course-materials-topics li a { background: url('/sites/all/themes/schoology_theme/images/folder.png?6a0cfa7424d54685') no-repeat 10px 3px; }
+#sidebar-left #left-nav .course-materials-topics li a:hover { background-color: #e9f0f6; }
+#course-materials-dropdown .course-materials-topics { padding: 3px 0; border-bottom: 1px solid #c7c7c7; }
+#course-materials-dropdown li { padding: 1px 0; white-space: nowrap; }
+#course-materials-dropdown .course-materials-other { padding: 5px 0; }
+#course-materials-dropdown .course-materials-other a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_new.png?6a0cfa7424d54685') !important; background-repeat: no-repeat !important; padding: 5px 0 5px !important; padding-inline-start: 35px !important; }
+#course-materials-dropdown .course-assignments-left-menu a { background-position: 10px -20px !important; }
+#course-materials-dropdown .course-assessments-left-menu a { background-position: 10px -46px !important; }
+#course-materials-dropdown .course-documents-left-menu a { background-position: 10px -70px !important; }
+#course-materials-dropdown .course-discussion-left-menu a { background-position: 10px -94px !important; }
+#course-materials-dropdown .course-album-left-menu a { background-position: 10px -144px !important; }
+#course-materials-dropdown .course-pages-left-menu a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685') !important; background-position: 10px -877px !important; }
+#course-materials-dropdown a { background-color: #fff !important; font-weight: normal !important; border: none !important; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: normal; }
+#course-materials-dropdown a.active { font-weight: bold !important; margin: 0 !important; }
+#course-materials-dropdown a:hover { background-color: #E9F0F6; }
+#sidebar-left #left-nav #course-materials-dropdown .course-materials-folders li a.active { font-weight: normal !important; border: 0; white-space: nowrap; margin: 0; }
+.course-listing-nav { height: 28px; border-bottom: 1px solid #ddd; margin-bottom: 10px; }
+.topic-list { border-top: 1px solid #c7c7c7;}
+.topic-list li { /* rtl-processor:ignore */ float: left; width: 100%; border-bottom: 1px solid #c7c7c7;}
+[dir="rtl"] .topic-list li { float: right; }
+.bullets{ list-style: disc;}
+.assignments-container .instructions { text-align: center; color: #9a9fa8; padding: 15px; }
+.action-copy-section .copy-section { background-position: 8px -277px; }
+.action-copy-section .copy-section:hover { background-position: 8px -297px; }
+[dir="rtl"] .action-copy-section .copy-section:hover { background-position-x: calc(100% - 8px); }
+.action-copy-as-course-template .copy-as-course-template { background-position: 8px -896px; }
+.action-copy-as-course-template .copy-as-course-template:hover { background-position: 8px -916px; }
+[dir="rtl"] .action-copy-as-course-template .copy-as-course-template:hover { background-position-x: calc(100% - 8px); }
+.action-course-templates-publish .course-templates-publish {
+    background: url('/sites/all/themes/schoology_theme/images/course-template-publish-btn.svg?6a0cfa7424d54685') no-repeat 12px;
+    padding: 5px 5px 5px;
+    padding-inline-start: 35px;
+    min-width:120px;
+    cursor: pointer;
+}
+.action-course-templates-activate .activate-course-template {
+    background: url('/sites/all/themes/schoology_theme/images/icons_sprite_library.png?6a0cfa7424d54685') no-repeat 12px -1230px;
+    padding: 5px 5px 5px;
+    padding-inline-start: 35px;
+    min-width:120px;
+    cursor: pointer;
+}
+.action-course-templates-activate .inactivate-course-template {
+    background: url('/sites/all/themes/schoology_theme/images/unread_icon.png?6a0cfa7424d54685') no-repeat 12px;
+    background-size: 16px;
+    padding: 5px 5px 5px;
+    padding-inline-start: 35px;
+    min-width:120px;
+    cursor: pointer;
+}
+[dir="rtl"] .action-course-templates-publish .course-templates-publish { background-position-x: calc(100% - 10px); }
+.action-course-templates-publish .course-templates-publish:hover { background-color: #333; color: #89D4FA; }
+.action-duplicate-course-template .duplicate-course-template {
+    background: url('/sites/all/themes/schoology_theme/images/modern_icons/duplicate.svg?6a0cfa7424d54685') no-repeat 12px;
+    background-size: 16px;
+    padding: 5px 5px 5px;
+    padding-inline-start: 35px;
+    min-width:120px;
+    cursor: pointer;
+}
+[dir="rtl"] .action-duplicate-course-template .duplicate-course-template { background-position-x: calc(100% - 10px); }
+.action-duplicate-course-template .duplicate-course-template:hover { background-color: #333; color: #89D4FA; }
+.course-filter { /* rtl-processor:ignore */ float: left; width: 50%; font-weight: normal; margin-top: 5px; }
+[dir="rtl"] .course-filter { float: right; }
+.course-listing-nav .item-list { /* rtl-processor:ignore */ float: left; width: 50%; text-align: end; }
+[dir="rtl"] .course-listing-nav .item-list { float: right; }
+.course-template-listing-nav { text-align: end }
+#secondary-tabs-wrapper li { margin: 0; }
+#secondary-tabs-wrapper a { width: 70px; text-align: center; }
+.course-list-view #secondary-tabs-wrapper { width: 75%; /* rtl-processor:ignore */ float: left; padding-top: 10px; }
+[dir="rtl"] .course-list-view #secondary-tabs-wrapper { float: right; }
+.course-list-view #secondary-tabs-wrapper ul { height: 34px; border-bottom: 1px solid #ddd; margin-inline-end: 20px; }
+.course-list-view #center-wrapper .messages { /* rtl-processor:ignore */ float: left; width: 73%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+[dir="rtl"] .course-list-view #center-wrapper .messages { float: right; }
+.course-list-view #container #center-wrapper div.messages { margin-top: 8px; }
+.course-list-view .popups-box .messages { float: none; width: auto; }
+.course-list-view #main-inner{position: relative;}
+.course-list-view .course-search-loading{opacity: 0.5; filter: alpha(opacity=50);  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";}
+
+/* Feed titles */
+.feed-title { display: none; }
+.feed-title-alternate a { background: url('/sites/all/themes/schoology_theme/images/arrow.png?6a0cfa7424d54685') no-repeat right 4px; padding-inline-end: 12px; }
+.feed-contents .feed-title-alternate { display: block; }
+
+/* Override page-title hide from s_grade_item */
+#center-top .page-title, #center-top .page-title-wrapper { display: block; width: 67%; }
+#center-top .page-title-wrapper .page-title { width: auto; }
+.library-view #center-top .page-title, .library-view #center-top .page-title-wrapper { display: none; }
+
+/* popup */
+#s-course-delete-form, #s-course-delete-parent-form { text-align: center; padding-bottom: 5px; }
+
+/* Course listing */
+.listing .sections-active li, .listing .sections-inactive li { border: none; padding: 0; }
+.sections-active .listing, .sections-inactive .listing { border: none; padding: 0; }
+.grading-periods { display: inline; margin-inline-start: 5px; }
+.grading-period-chooser .grading-periods { display: block; margin: 0; }
+.course_name .clickable { font-size: 13px; }
+.no-sections { text-align: center; color: #9a9fa8; padding: 10px; display: none; }
+.course-info .num-sections { margin: 0; display: inline-block; padding: 3px 0; }
+.toggle-inactive-courses { padding-inline-start: 15px; margin-top: 5px; background: url('/sites/all/themes/schoology_theme/images/arrow-down.png?6a0cfa7424d54685') no-repeat 1px 50%; }
+.sections-inactive { margin-top: 5px; }
+.course-details img { margin-inline-start: 250px; }
+#edit-course-select-nid-wrapper { display: none; }
+#smart-box .smart-box-mid { margin-top: 10px; }
+.right-col-sm .course-item .description, .right-col-sm .description.school-name { float: none; margin: 0 0 5px; font-size: 10px; }
+.courses-listing-container h3 { border: 1px solid #ddd; background: #f2f2f2; padding: 5px; color: #707070; margin-top: -1px; font-size: 11px; font-weight: normal; }
+.courses-listing.mycourses h3 { padding: 10px 0; border-bottom: 1px solid #eaeaea; color: #9a9fa8; font-weight: normal; font-size: 13px; }
+.courses-listing-container .course-details h3 { background: none; border: none; padding: 0; }
+.action-links .action-add-members a { background: url('/sites/all/themes/schoology_theme/images/network_icons.png?6a0cfa7424d54685') no-repeat 12px 6px; }
+.action-links .action-edit-members a { background: url('/sites/all/themes/schoology_theme/images/network_icons.png?6a0cfa7424d54685') no-repeat 13px -59px; }
+.action-links .action-link-sections a, .action-links .action-link-existing-sections a, .action-links .action-link-sections, .action-links .action-link-existing-sections { background: url('/sites/all/themes/schoology_theme/images/completion-sprite.png?6a0cfa7424d54685') no-repeat 12px 5px; }
+.action-link-existing-sections { background: url('/sites/all/themes/schoology_theme/images/completion-sprite.png?6a0cfa7424d54685') no-repeat 12px 5px; }
+[dir="rtl"] .action-links .action-link-existing-sections { background-position-x: calc(100% - 10px); }
+#right-column .create-course-btn.add span, .add-section-icon.link-btn span { width: 20px; height: 20px; /* rtl-processor:ignore */ float: left; margin: -2px 6px 0; margin-inline-start: -3px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') 0 -120px; }
+[dir="rtl"] #right-column .create-course-btn.add span, [dir="rtl"] .add-section-icon.link-btn span { float: right; }
+#right-column .create-course-btn.add .infotip, #right-column .create-course-btn.add .infotip-content { background: none; width: auto; }
+#right-column .course-action-btns {margin-bottom: 15px;}
+#automated-course-template-link-block { text-align: end; margin: -10px 0 20px; display: block; padding: 15px 0 0; }
+#automated-course-template-link { font-weight: normal }
+
+/* Manage Courses */
+#right-column .course-action-btns h3 {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+#right-column .course-action-btns .link-btn {
+  margin-bottom: 10px;
+  margin-inline-end: 10px;
+}
+#right-column .create-course-btn,
+#right-column .courses-enroll {
+  background: #337dbc url('/sites/all/themes/schoology_theme/images/btn-bg-dark.gif?6a0cfa7424d54685') repeat-x;
+  border: 1px solid #023d5a;
+  color: #fff;
+}
+
+/* copy to course */
+.popups-box #addl-courses {
+  border: 5px solid #888;
+  background: #fff;
+  display: none;
+  max-height: 200px;
+  padding: 0;
+  overflow-y: auto;
+  position: absolute;
+  inset-inline-start: 50%;
+  width: 490px;
+  margin-inline-start: -245px;
+  z-index: 10;
+  top: auto;
+  bottom: 100px;
+}
+
+.addl-course .form-checkbox-title, #shared-details .form-checkbox-title { line-height: 32px; font-weight: bold; padding-inline-start: 45px; display: block; min-height: 32px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; }
+.addl-course .form-item { margin-bottom: 0; padding-bottom: 10px; }
+.addl-course label input { margin-top: 4px; }
+.addl-course .container-inline-date .form-item { padding: 0; }
+.addl-course { padding: 10px 10px 0; border-bottom: 1px solid #eaeaea; }
+.addl-course-options, .addl-course .advanced-options-wrapper { display: none; padding: 0 0 5px; padding-inline-start: 68px; }
+.addl-course .advanced-options-wrapper__due-date { height: 30px; }
+.addl-course-options select { width: 210px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: normal; }
+#copy-to-courses #addl-courses .form-item { margin: 0; }
+body #s-grade-item-add-combined-form #addl-courses { display: block; width: auto; position: static; border: none; max-height: none; overflow: hidden; }
+.addl-course .profile-picture, #shared-details .profile-picture { /* rtl-processor:ignore */ float: left; margin-inline-start: -45px; line-height: 0; }
+[dir="rtl"] .addl-course .profile-picture, [dir="rtl"] #shared-details .profile-picture { float: right; }
+.addl-course .form-item .option, #s-discussion-create-form .addl-course .form-item .option, #shared-details .form-item .option { padding-inline-start: 21px; font-weight: bold; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; width: auto; margin: 0; }
+.addl-course .form-item .option .form-checkbox, #shared-details .form-item .option .form-checkbox { /* rtl-processor:ignore */ float: left; margin-inline-start: -21px; margin-top: 10px; }
+[dir="rtl"] .addl-course .form-item .option .form-checkbox, [dir="rtl"] #shared-details .form-item .option .form-checkbox { float: right; }
+#s-scorm-copy-form .addl-course .advanced-options-wrapper .form-checkbox-title { padding-inline-start: 0; font-weight: normal; }
+#s-scorm-copy-form .advanced-options-wrapper .form-item { min-height: 28px; }
+#s-scorm-copy-form .advanced-options-wrapper .form-item { min-height: 24px; }
+
+/* assignment popup */
+.popups-box #s-grade-item-add-form .addl-grading-period { padding-bottom: 10px; }
+.popups-pm-lti-importer .popups-body { padding-bottom: 0px; }
+
+/* course listing */
+.courses-listing .course-details .course-mgmt-link { display: block !important; }
+.courses-listing .course-details .course-mgmt-link .action-links-wrapper { display: block !important; }
+#main .courses-listing.listing { border: none; padding: 0; margin: -10px 0 20px; }
+
+/* discussion */
+#discussion-return-link { display: none; }
+
+.unpublished { background: #f9f9f9; }
+tr.unpublished.ui-sortable-placeholder { border-inline-end: none; border-inline-start: none; }
+
+/* nav */
+body #content-left-top { margin-bottom: 10px; }
+#left-nav #menu-s-main .menu a span { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685'); background-repeat: no-repeat; }
+#left-nav #menu-s-main .menu .menu a { padding-inline-start: 35px; }
+#left-nav #menu-s-main .menu .menu a span { background: none; }
+.course-profile-left-menu { display: none; }
+a.course-materials-left-menu span { background-position: 5px -825px; }
+.active.course-materials-left-menu span, a.course-materials-left-menu:hover span, .active-trail-dist-2 a.course-materials-left-menu span { background-position: 5px -800px; }
+a.course-updates-left-menu span { background-position: 5px -1025px; }
+.active.course-updates-left-menu span, a.course-updates-left-menu:hover span { background-position: 5px -1000px; }
+a.course-attendance-left-menu span, a.course-student-attendance-left-menu span { background-position: 5px -875px; }
+.active.course-attendance-left-menu span, .active.course-student-attendance-left-menu span, a.course-attendance-left-menu:hover span, a.course-student-attendance-left-menu:hover span { background-position: 5px -850px; }
+a.course-grades-left-menu span, a.course-grader-left-menu span { background-position: 5px -175px; }
+.active.course-grades-left-menu span, a.course-grades-left-menu:hover span, .active-trail-dist-1 .course-grades-left-menu span, .active.course-grader-left-menu span, a.course-grader-left-menu:hover span, .active-trail-dist-1 .course-grader-left-menu span { background-position: 5px -150px; }
+a.course-student-grade-left-menu span { background-position: 5px -125px; }
+.active.course-student-grade-left-menu span, a.course-student-grade-left-menu:hover span { background-position: 5px -100px; }
+a.course-member-left-menu span { background-position: 5px -75px; }
+.active.course-member-left-menu span, a.course-member-left-menu:hover span { background-position: 5px -50px; }
+a.course-collaboration-left-menu span { background-position: 5px -625px; }
+.active.course-collaboration-left-menu span, a.course-collaboration-left-menu:hover span { background-position: 5px -600px; }
+a.course-workload-left-menu span { background-position: 5px -525px; }
+.active.course-workload-left-menu span, a.course-workload-left-menu:hover span { background-position: 5px -500px; }
+a.course-blog-left-menu span { background-position: 5px -924px; }
+.active.course-blog-left-menu span, a.course-blog-left-menu:hover span { background-position: 5px -899px; }
+a.course-learning-plan-left-menu span { background-position: 5px -1325px; }
+.active.course-learning-plan-left-menu span, a.course-learning-plan-left-menu:hover span { background-position: 5px -1300px; }
+a.course-gradesetup-left-menu span { background-position: 5px -1583px; }
+.active.course-gradesetup-left-menu span, a.course-gradesetup-left-menu:hover span { background-position: 5px -1552px; }
+
+body.s-gradebook-setup.s-grade-settings-mfe #container #sidebar-left .active-trail .active { font-weight: 500; }
+a.course-badges-left-menu span { background-position: 5px -1225px; }
+.active.course-badges-left-menu span, a.course-badges-left-menu:hover span, .active-trail-dist-1 .course-badges-left-menu span { background-position: 5px -1200px; }
+
+/* override defaults for district mastery (also see styles.css: #left-nav .menu a span) */
+#left-nav #menu-s-main .menu a.course-districtmastery-left-menu span {
+  background-image: url('/sites/all/themes/schoology_theme/images/learning_objective_grayscale.svg?6a0cfa7424d54685');
+  background-position: center top;
+  background-size: 22px 22px;
+}
+#left-nav #menu-s-main .menu .active.course-districtmastery-left-menu span,
+#left-nav #menu-s-main .menu a.course-districtmastery-left-menu:hover span,
+#sidebar-left #left-nav .menu .expanded.active-trail .active-trail-dist-1 a.course-districtmastery-left-menu span {
+  background-image: url('/sites/all/themes/schoology_theme/images/learning_objective.svg?6a0cfa7424d54685');
+}
+.grade.grader-rubric-edit.has-observation-score {
+  opacity: 0.4;
+  background-image: url('/sites/all/themes/schoology_theme/images/learning_objective_grayscale.svg?6a0cfa7424d54685');
+  background-position: center center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+#sidebar-left .active-trail-dist-2 a.course-grades-left-menu { background: none !important; border: none !important; margin: 0 !important; font-weight: normal !important; }
+#updates-count { background-image: none !important; background-color: #ddd; width: auto !important; height: auto !important; float: none !important; padding: 3px 5px 3px; font-size: 9px; font-weight: bold; color: #333; margin: -3px 3px -3px 3px !important; position: relative; top: -1px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+#s-course-settings .action-links { min-width: 169px; z-index: 10000; }
+#s-course-settings .s-course-send-message { background-image: url('/sites/all/themes/schoology_theme/images/mail_icon.png?6a0cfa7424d54685'); background-position: 13px 5px; }
+[dir="rtl"] #s-course-settings .s-course-send-message { background-position-x: calc(100% - 13px); }
+#s-course-settings .s-course-edit, #s-course-settings .s-course-edit-settings { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_feed.png?6a0cfa7424d54685'); background-position: 12px -34px; }
+[dir="rtl"] #s-course-settings .s-course-edit, [dir="rtl"] #s-course-settings .s-course-edit-settings { background-position-x: calc(100% - 12px); }
+#s-course-settings .s-course-edit-settings { background-position: 12px -108px; }
+[dir="rtl"] #s-course-settings .s-course-edit-settings { background-position-x: calc(100% - 12px); }
+#s-course-settings .s-course-external-tools { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_new.png?6a0cfa7424d54685') no-repeat 13px -945px; }
+[dir="rtl"] #s-course-settings .s-course-external-tools { background-position-x: calc(100% - 13px); }
+#s-course-settings .s-course-preview-members { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685'); background-position: 13px -1150px; }
+[dir="rtl"] #s-course-settings .s-course-preview-members { background-position-x: calc(100% - 13px); }
+#s-course-settings .s-course-moderate-posts { background-image: url('/sites/all/themes/schoology_theme/images/employee_sprite.png?6a0cfa7424d54685'); background-position: 13px -35px; }
+[dir="rtl"] #s-course-settings .s-course-moderate-posts { background-position-x: calc(100% - 13px); }
+#s-course-settings .s-action-recycle-bin { background-position: 12px -770px; }
+[dir="rtl"] #s-course-settings .s-action-recycle-bin { background-position-x: calc(100% - 12px); }
+.left-block .course-info { padding-bottom: 5px; }
+#sidebar-left .course-info-wrapper dt { color: #556370; }
+.access-code.left-block-wrapper, #roster-wrapper .parent-code { background: #bde2ad; padding: 10px; position: relative; }
+.access-code.left-block-wrapper h3 { display: inline; margin: 0; padding: 0; border: none; }
+.access-code.left-block-wrapper .left-block { margin: 3px 0 0; }
+.access-code.left-block-wrapper .reset-code-wrapper a { font-weight: normal; font-size: 11px; color: #024f7d; }
+#sidebar-left .access-code.left-block-wrapper .reset-code-wrapper a { font-size: 11px; padding: 0px; color: #024f7d; }
+.access-code.left-block-wrapper .reset-code-wrapper { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .access-code.left-block-wrapper .reset-code-wrapper { float: left; }
+#sidebar-left .access-code.left-block-wrapper .reset-code-wrapper { float: none; display: block; }
+#sidebar-left .access-code.left-block-wrapper .enrollment-code { display: block;  margin-top: 8px; margin-bottom: 3px; }
+.access-code.left-block-wrapper .infotip { padding: 0; background: none; }
+.access-code.left-block-wrapper .hide-infotip { position: absolute; inset-inline-end: 10px; }
+.access-code.left-block-wrapper .cluetip-section { display: block; overflow: hidden; }
+.under-13-message { display: block; margin-top: 10px; color: #c87d2b; }
+.access-code.left-block-wrapper .under-13-message .infotip { display: inline-block; margin-top: 2px; padding-inline-start: 25px; min-height: 20px; font-weight: bold; }
+.under-13-message .infotip .inline-icon { /* rtl-processor:ignore */ float: left; margin-inline-start: -25px; margin-top: -2px; }
+[dir="rtl"] .under-13-message .infotip .inline-icon { float: right; }
+
+.qr-code-print-all { margin-top: 10px; background: #024f7d; padding: 10px; position: relative; }
+.qr-code-print-all a { color: #ffffff; cursor: pointer }
+
+/* preview */
+.preview-members-popup .enrollment-preview-toggle { padding: 10px 15px; }
+.preview-members-popup .enrollment-preview-option { margin-inline-end: 10px; padding: 0 3px 0; padding-inline-start: 21px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_roles_16.png?6a0cfa7424d54685') no-repeat 0 0; }
+.preview-members-popup .enrollment-preview-option.active { color: #333; }
+.preview-members-popup .enrollment-preview-option.active:hover { text-decoration: none; }
+.preview-members-popup .enrollment-preview-students { background-position: 0 -26px; }
+.preview-members-popup .enrollment-preview-parents { background-position: 0 -102px; }
+.preview-members-popup .enrollments-wrapper { width: auto; }
+.preview-members-popup .enrollment-view-nav { width: 473px; }
+.preview-members-popup .enrollment-view-wrapper { height: auto; max-height: 300px; }
+.preview-members-popup .enrollment-member:hover { cursor: pointer; background: #eef3f8; }
+.preview-members-popup .user-name { color: #327cbb; text-align: start; }
+
+/* switcher */
+#edit-course-switcher-select-nid-menu { padding: 5px 10px; width: 250px !important; margin-inline-start: -221px; margin-top: 25px; }
+#edit-course-switcher-select-nid-menu li:hover a { background: none; color: #333; }
+#edit-course-switcher-select-nid-menu .ui-corner-top:hover a { color: #fff; }
+#edit-course-switcher-select-nid-menu .ui-selectmenu-group li:hover a { background: #3875D7; color: #fff; }
+#edit-course-switcher-select-nid-menu .ui-selectmenu-group li a {
+  position: relative;
+  padding: 5px 5px 5px;
+  padding-inline-start: 30px;
+  color: #327cbb;
+}
+
+#edit-course-switcher-select-nid-menu .ui-selectmenu-group li a:before {
+  position: absolute;
+  display: block;
+  width: 19px;
+  height: 18px;
+  margin-inline-start: -25px;
+  content: ' ';
+  background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat 0 0;
+}
+
+#edit-course-switcher-select-nid-menu .ui-corner-top { display: none; }
+#taught-courses-switcher { /* rtl-processor:ignore */ float: right; width: 50px; text-align: end; margin-inline-start: 4px; }
+[dir="rtl"] #taught-courses-switcher { float: left; }
+#taught-courses-switcher .infotip { padding: 0; background: none; display: block; }
+#taught-courses-switcher .infotip .link-btn { padding: 0; height: 24px; padding: 0; display: block; }
+#taught-courses-switcher .ui-selectmenu-icon { background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') no-repeat -5px -580px; display: inline-block; height: 24px; width: 10px; }
+#taught-courses-switcher .ui-state-active .ui-selectmenu-icon { background-position: -5px -598px; }
+#taught-courses-switcher .ui-selectmenu { width: auto !important; }
+#taught-courses-switcher .ui-selectmenu .ui-selectmenu-status { width: 26px; height: 22px; /* rtl-processor:ignore */ float: left; padding: 0; text-indent: -9999px; text-align: start; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat right 4px; }
+[dir="rtl"] #taught-courses-switcher .ui-selectmenu .ui-selectmenu-status { float: right; }
+#taught-courses-switcher .ui-selectmenu.ui-state-active { background: #555; color: #fff; padding: 0; border: 1px solid #000; }
+#taught-courses-switcher #edit-course-switcher-select-nid-menu { text-align: start; }
+#edit-course-switcher-select-nid { display: none; }
+#important-post-demote { display: none; }
+.edit-course-inline-image {position: absolute; clip: rect(0px, 50px, 40px, 0px); top: 3px; inset-inline-start: 4px; width: 26px;}
+.edit-course-inline-dropdown-arrow {position: absolute; clip: rect(0, 30px, 595px, 0); top: -576px; inset-inline-start: 27px; }
+.ui-state-active .edit-course-inline-dropdown-arrow { clip: rect(0, 30px, 610px, 0); top: -594px; }
+/* link sections action links in Members */
+#link-sections-wrapper { /* rtl-processor:ignore */ float: left; margin-inline-start: 4px; }
+[dir="rtl"] #link-sections-wrapper { float: right; }
+
+/* grading period warning */
+#container .messages.grading-period-warning { margin: 8px 0 0 !important; }
+
+/* materials */
+#course-profile-materials-other li { border-bottom: 1px solid #eaeaea; padding: 15px 0; }
+#course-profile-materials-other a { font-size: 14px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_large.png?6a0cfa7424d54685') no-repeat 5px -40px; padding: 6px 0 8px; padding-inline-start: 47px; display: inline-block; }
+#course-profile-materials-other .small { display: inline-block; padding: 8px; }
+#course-profile-materials-other .course-discussion-left-menu a { background-position: 5px -120px; }
+#course-profile-materials-other .course-album-left-menu a { background-position: 5px -200px; }
+#course-profile-materials-other .course-documents-left-menu a { background-position: 5px -160px; }
+#course-profile-materials-other .course-assessments-left-menu a { background-position: 5px -80px; }
+#course-profile-materials-other .course-pages-left-menu a { background-position: 5px -240px; }
+#course-profile-materials-other .item-list a.materials-hide-toggle { background: none; padding: 7px; /* rtl-processor:ignore */ float: right; font-size: 12px; font-weight: normal; }
+[dir="rtl"] #course-profile-materials-other .item-list a.materials-hide-toggle { float: left; }
+#course-profile-materials-other .hidden { background: #f5f5f5; }
+#course-events { display: none; }
+#course-events div#calendar, #course-events .upcoming-events h3 { display: none; }
+#event-selector .active { color: #333; font-weight: bold; }
+[dir="rtl"] #event-selector .active { float: right; }
+[dir="rtl"] #event-selector .mini.event-icon { float: none; }
+#right-column #event-selector { font-size: 14px; padding-bottom: 3px; }
+#event-selector span:hover { text-decoration: none; }
+#course-events { margin: 0 0 15px; }
+#course-events .upcoming-events { margin: 0; }
+#course-events #calendar { padding-top: 5px; }
+#sidebar-left #menu-s-main .active-trail .active-trail a.course-materials-left-menu {
+  font-weight: bold;
+}
+/* TODO remove selector below in PE-100590 SiteNavigationHeaderSelectionBll::isPdsEnabled */
+body:not(.is-detail-layout) #sidebar-left #menu-s-main .active-trail .active-trail a.course-materials-left-menu {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-inline-end: 0;
+  margin: -1px 0 -1px;
+  margin-inline-start: -1px;
+}
+.course-content-action-links, #toolbar-options-wrapper { /* rtl-processor:ignore */ float: left; margin-inline-end: 4px; }
+[dir="rtl"] .course-content-action-links, [dir="rtl"] #toolbar-options-wrapper { float: right; }
+.materials-top { height: 37px; padding-top: 10px; margin-bottom: 15px; border-bottom: 1px solid #ddd; position: relative; }
+#course-profile-materials > #course-profile-materials-folders { margin-top: -15px; }
+.has-right-col .materials-top { padding-top: 0; margin-top: -5px; }
+
+@media (max-width: 1096px) {
+
+  div#toolbar-options-wrapper + div {
+    /* rtl-processor:ignore */
+    float: right;
+    padding-top: 0px;
+  }
+
+  .btn-material-container{
+    padding-bottom: 15px
+  }
+  .btn-material-container:has(#folder-completion-status) {
+    padding-bottom: 38px
+  }
+}
+
+.materials-top.no-content { height: 0px; margin-top: -16px; border-bottom-color: transparent; }
+.action-create-event a { /* rtl-processor:ignore */ float: right; font-weight: normal; }
+[dir="rtl"] .action-create-event a { float: left; }
+#course-profile-materials h3 { padding: 20px 0 5px; border-bottom: 1px solid #ddd; margin-bottom: 15px; }
+#course-profile-materials-other { margin-top: -15px; }
+#calendar-legend { display: none; }
+.folder-description.description-clickable:hover { cursor: pointer; }
+
+/* student grades/attendance */
+.gradebook-course .gradebook-course-grades { display: block; margin: 0; }
+.gradebook-course .gradebook-course-title { display: none; }
+div.gradebook-course { border: none; padding: 0; }
+
+/* Icons */
+.parent-icon { height: 16px; width: 16px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_roles_16.png?6a0cfa7424d54685') no-repeat 0 -102px; }
+
+/* masquerade */
+.masquerade-box { margin: -16px -21px 15px; padding: 12px 20px; background: #f2f2f2; border: 1px solid #c7c7c7; position: relative; }
+.masquerade-box .link-btn { position: absolute; inset-inline-end: 20px; bottom: 12px; }
+.masquerade-user { font-size: 14px; font-weight: bold; padding-inline-start: 60px; }
+.masquerade-box p { padding: 5px 0 10px; padding-inline-start: 60px; }
+.masquerade-box .form-item { padding-inline-start: 60px; margin: 0; }
+.masquerade-box .form-text { font-size: 12px; width: 201px; }
+.masquerade-box .user-picture-container, .ac_results .user-picture-container { /* rtl-processor:ignore */ float: left; position: relative; }
+[dir="rtl"] .masquerade-box .user-picture-container, [dir="rtl"] .ac_results .user-picture-container { float: right; }
+.masquerade-box .user-picture-container .parent-icon, .ac_results .user-picture-container .parent-icon { position: absolute; inset-inline-end: 2px; bottom: -2px; }
+.ac_results .user-picture-container .parent-icon { bottom: -4px; inset-inline-end: 0; }
+.masquerade-box .select2-container .select2-choice { line-height: 18px; height: 18px; }
+.ac_popup ul { overflow: hidden !important; max-height: none !important; }
+.ac_popup.ac_results, .s-course-masquerade-child-select-dropdown .select2-results { max-height: 250px; overflow-y: auto; }
+.ac_popup.ac_results .picture, .s-course-masquerade-child-select-dropdown .picture { width: 35px; height: 32px; padding-inline-end: 7px; }
+.ac_popup.ac_results .autocomplete-username { display: table-cell; height: 32px; vertical-align: middle; }
+.s-course-masquerade-child-select-dropdown .select2-result-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; line-height: 30px; }
+body .s-course-masquerade-child-select-dropdown .select2-results .select2-result-label { padding: 7px; }
+
+/* temp */
+#main .s-edge-feed-more-link.first img { margin-top: 9px; }
+#s-course-edit-topics-form .action-links, .assignments-list .action-links, .s-page-container .action-links, .discussions-content .action-links { inset-inline-end: 0; }
+
+/* drag */
+#s-course-materials-reorder-form { display: none; }
+#course-profile-materials .reorder-target-placeholder { height: 22px; padding: 15px 17px; background-color: #f2f2f2; border: 1px dashed #ddd; display: block; width: 100%; }
+#course-profile-materials .course-materials-simple .reorder-target-placeholder, #course-profile-materials .folder-contents-cell.planner-right-cell .reorder-target-placeholder { height: 15px; padding: 5px; }
+#course-profile-materials .ui-sortable-helper .folder-expander, #course-profile-materials .ui-sortable-helper .folder-contents-cell.actions { display: none; }
+#course-profile-materials .ui-sortable-helper td { padding: 10px 10px 10px; padding-inline-start: 47px; border: 1px solid #cedbe8 !important; background: #eef3f8 !important; }
+#course-profile-materials .ui-sortable-helper:hover a { text-decoration: none; }
+#course-profile-materials .course-materials-simple .ui-sortable-helper td { padding: 5px 5px 5px; padding-inline-start: 30px; }
+#course-profile-materials .ui-sortable-helper .folder-visibility, #course-profile-materials .ui-sortable-helper .folder-description, #course-profile-materials .ui-sortable-helper .folder-alignment-wrapper { display: none; }
+#course-profile-materials .ui-sortable-helper .folder-contents-cell.alignments-cell, #course-profile-materials .ui-sortable-helper .folder-contents-cell.planner-right-cell { display: none; }
+#course-profile-materials .ui-sortable-helper .folder-subtree, #course-profile-materials .ui-sortable-helper .term-item-tags, #course-profile-materials .ui-sortable-helper .item-subtitle, #course-profile-materials .ui-sortable-helper .item-body { display: none; }
+#course-profile-materials .ui-sortable-helper.type-document .item-body { display: block; }
+#course-profile-materials .ui-sortable-helper.type-document .attachments-embed { display: none; }
+#folder-reorder-save-loader { position: fixed; bottom: 10px; inset-inline-start: 50%; width: 150px; font-weight: bold; margin-inline-start: -90px; padding: 10px 15px; text-align: center; background: #E3FFD8; border: 1px solid #9DD684; }
+#folder-reorder-save-loader span { background: url('/sites/all/themes/schoology_theme/images/ajax-loader-spinner.gif?6a0cfa7424d54685') no-repeat; display: inline-block; padding-inline-start: 24px; }
+
+/* parent */
+.course-advisor-help-msg { margin-top: 10px !important; }
+
+/* player */
+.navigator-buttons .infotip { background: none; padding: 0; display: inline-block; margin-inline-start: 4px; }
+.navigator-buttons .link-btn { height: 16px; line-height: 16px; }
+.navigator-buttons span.link-btn { opacity: .5; filter: alpha(opacity=50); zoom: 1; }
+.navbtn.disabled { display: none; }
+.navbtn span { background: url('/sites/all/themes/schoology_theme/images/play-btns.png?6a0cfa7424d54685') no-repeat right 2px; font-size: 14px; padding: 0 20px 0; padding-inline-start: 3px; display: inline-block; }
+[dir="rtl"] .navbtn span { background-position: 0 -28px; }
+.navbtn-prev span, .navbtn-rw span { background-position: 0 -28px; padding: 0 3px 0; padding-inline-start: 20px; }
+[dir="rtl"] .navbtn-prev span, [dir="rtl"] .navbtn-rw span { background-position: 36px 2px }
+.navbtn-next span, .navbtn-play span { background-position: right 2px; }
+[dir="rtl"] .navbtn-next span, [dir="rtl"] .navbtn-play span { background-position: 0 -28px; }
+.navigator-buttons { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .navigator-buttons { float: left; }
+.course-material-navigator .toolbar { /* rtl-processor:ignore */ float: right; display: flex; align-items: center; }
+[dir="rtl"] .course-material-navigator .toolbar { float: left; }
+.course-material-navigator .toolbar .immersive-reader-button-container { padding-top: 2px; }
+.course-material-navigator .folder-title { font-size: 16px; padding: 5px 0 0; padding-inline-start: 40px; font-weight: bold; }
+.course-material-navigator .inline-icon.folder-icon, .course-material-navigator .inline-icon.student-choice-icon { margin-inline-start: -40px; margin-top: -5px; }
+#folder-header-description { padding-bottom: 1rem; }
+.tipsy .item-icon.folder { margin: 1px 10px 0; margin-inline-start: 0; }
+.tipsy .material-navigator-item { font-size: 14px; padding: 10px 10px 10px; padding-inline-start: 45px; min-height: 14px; text-align: start; }
+.tipsy .material-navigator-item .inline-icon, .tipsy .material-navigator-item .item-icon { /* rtl-processor:ignore */ float: left; margin: -6px 10px -6px; margin-inline-start: -36px; }
+[dir="rtl"] .tipsy .material-navigator-item .inline-icon, [dir="rtl"] .tipsy .material-navigator-item .item-icon { float: right; }
+.tipsy .material-navigator-item .inline-icon.attachment-image-icon { margin-inline-start: -42px; margin-top: -3px; }
+.tipsy .material-navigator-item .inline-icon.attachment-image-icon a { padding: 1px; }
+.tipsy .material-navigator-item .folder { margin-top: -4px; }
+.material-navigator-item { padding: 5px 8px; }
+.has-folder-player #center-top .content-top-upper, .has-materials-player #center-top .content-top-upper { background: #f2f2f2; border: 1px solid #c7c7c7; margin: -16px -21px 15px; padding: 10px 20px 15px; }
+.has-folder-player #center-top .content-top-upper .more-less-action-text,
+.has-folder-player #center-top .content-top-upper .more-less-action-icon-tab { background-color: #f2f2f2; }
+.has-folder-player #center-top .content-top-upper .more-less-action-text button:focus,
+.has-folder-player #center-top .content-top-upper .more-less-action-text button:hover { background-color: #ffffff; }
+.has-folder-player #center-top .content-top-upper .more-less-action-text button:active { background-color: #43c5f9; }
+.has-folder-player #center-top .content-top-upper .more-less-fade { background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #f2f2f2); }
+.has-folder-player #center-top .page-title, .has-folder-player #center-top .page-title-wrapper { display: none; }
+.has-folder-player #s-container-bottom, .has-materials-player #s-container-bottom:not(:has(#course-materials-footer)) { background: #eef3f8; border: 1px solid #becddd; padding: 15px 20px; margin: 50px 0 0; margin-inline-start: -21px; height: 25px; width: 769px; display: none; }
+#s-container-bottom .course-title { display: none; }
+#s-container-bottom .folder-title { display: none; }
+#s-container-bottom .navigator-buttons { float: none; }
+#s-container-bottom .navigator-buttons .infotip { float: none; }
+#s-container-bottom .navigator-buttons span:first-child { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] #s-container-bottom .navigator-buttons span:first-child { float: left; }
+#s-container-bottom .navigator-buttons span span:first-child { float: none; }
+.has-materials-player img { max-width: 750px; }
+.has-materials-player .course-material-navigator .folder-title { font-size: 14px; line-height: 1.5; }
+#content-wrapper .dropbox-viewer-item {
+  height: 600px;
+  margin-bottom: 20px;
+}
+.s-pdftron-docviewer #content-wrapper .dropbox-viewer-item  {
+  border: 1px solid #c1c7cb; /* color-graphite-light */
+}
+.s-hide-left-nav #center-top .content-top-upper { padding: 0; border: none; background: none; }
+.s-hide-left-nav #center-top .course-material-navigator { display: none; }
+.navigator-split { /* rtl-processor:ignore */ float: right; border-inline-end: 1px solid #becddd; margin-inline-end: 5px; padding-inline-end: 10px; }
+[dir="rtl"] .navigator-split { float: left; }
+.hide-page-title #center-top .page-title, .hide-page-title #center-top .page-title-wrapper { display: none; }
+
+/* Search Results */
+#course-section-search-results { margin-bottom: 10px; margin-top: -10px; }
+#course-section-search-results.empty { margin-top: 15px; text-align: center; }
+#course-section-search-results.empty a { font-weight: normal; }
+#course-section-search-results .section-grading-periods { display: inline; }
+#course-section-search-results .course-sections-row { border-bottom: 1px solid #ddd; padding: 10px 0 5px; min-height: 26px; }
+
+/* Course Alignments */
+.assignment.list-item .term-item-tags, .discussion-row .term-item-tags, .s-page-nav .term-item-tags { padding-inline-start: 47px; }
+
+/* Moderate Posts */
+.s-blog-moderate-post-table { width: 100%; }
+.s-blog-moderate-post-table th, .s-blog-moderate-post-table td { text-align: start; border-bottom: 1px solid #ddd; padding: 10px 0; }
+.s-blog-moderate-post-sticky-header th { text-align: start; padding: 10px 0; }
+.s-blog-moderate-tables-wrapper .sticky-header th { text-align: start; padding: 10px 0; }
+.s-blog-moderate-post-table .action-links { inset-inline-end: 0; }
+
+/* Move to Folder Popup */
+.popups-small.popups-generic-post-add-to-folder form { padding: 15px 20px; }
+
+/* Deleted Courses */
+#deleted-courses-header { padding: 15px 0; font-size: 14px; }
+#deleted-courses-header .courses-return { margin-inline-end: 15px; }
+#deleted-courses-header .courses-return a { padding-inline-start: 10px; background: url('/sites/all/themes/schoology_theme/images/expandable.gif?6a0cfa7424d54685') no-repeat 0 -39px; }
+#deleted-courses-header .deleted-header { font-weight: bold; }
+.s-course-deleted-courses-form { width: 67%; }
+.s-course-deleted-courses-form .course-restore-top { overflow: hidden; padding: 9px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+.s-course-deleted-courses-form .course-restore-top .pagination { margin-top: 5px; }
+.s-course-deleted-courses-form .course-restore-button, .s-course-deleted-courses-form #edit-building-nid-wrapper { /* rtl-processor:ignore */ float: left; margin-inline-end: 4px; }
+[dir="rtl"] .s-course-deleted-courses-form .course-restore-button, [dir="rtl"] .s-course-deleted-courses-form #edit-building-nid-wrapper { float: right; }
+.s-course-deleted-courses-form table { width: 100%; }
+.s-course-deleted-courses-form td, .s-course-deleted-courses-form th { text-align: start; vertical-align: top; padding: 9px 0; border-bottom: 1px solid #ddd; }
+.s-course-deleted-courses-form td { padding-inline-end: 5px; }
+.s-course-deleted-courses-form .deleted-course-title { overflow: hidden; }
+.s-course-deleted-courses-form .profile-picture { /* rtl-processor:ignore */ float: left; height: 16px; width: 16px; margin-inline-end: 5px; }
+[dir="rtl"] .s-course-deleted-courses-form .profile-picture { float: right; }
+.s-course-deleted-courses-form .profile-picture img { width: 100%; height: auto !important; }
+.deleted-courses-table { margin-bottom: 15px; }
+/*.restore-item .popups-body-inner-has-buttons { text-align: left; padding: 0; width: 448px; }*/
+.restore-item .restore-messsage { margin: 15px 10px; display: inline-block; }
+.restore-item .s-base-list { border-top: 1px solid #EAEAEA; max-height: 300px; overflow: auto; }
+.restore-item .deleted-course-title { margin-inline-start: 5px; }
+.deleted-courses-table th.active img { margin-inline-start: 5px; }
+
+/* Assign to Individuals */
+.ind-assign a, .assignment .ind-assign a { position: relative; padding: 2px 2px 2px; padding-inline-start: 12px; color: #556370; font-weight: normal; }
+.ind-assign a::before, .assignment .ind-assign a::before { content: ''; position: absolute; inset-inline-start: 0; top: 0; width: 12px; height: 18px; background: url('/sites/all/themes/schoology_theme/images/icons-sprite-tiny.png?6a0cfa7424d54685') no-repeat 0 -15px; filter: brightness(0.65); }
+[dir="rtl"] .ind-assign a::before, [dir="rtl"] .assignment .ind-assign a::before { background-position: right -15px; }
+.ind-assign a:hover, .assignment .ind-assign a:hover { text-decoration: none; }
+.info-container .ind-assign { height: 22px; margin-inline-end: 4px; line-height: 14px; font-size: 12px; background: #fff url('/sites/all/themes/schoology_theme/images/gray-btn-bg.gif?6a0cfa7424d54685') repeat-x; border: 1px solid; border-color: #999 #999 #888; color: #333; display: inline-block; -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.1); -ms-box-shadow: 0 1px 0 rgba(0,0,0,0.1); -o-box-shadow: 0 1px 0 rgba(0,0,0,0.1); box-shadow: 0 1px 0 rgba(0,0,0,0.1); cursor: pointer; vertical-align: top; }
+.info-container .ind-assign .infotip { dispaly: inline-block;  padding: 0; }
+.info-container .ind-assign a { color: #333; height: 22px; width: 26px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_feed.png?6a0cfa7424d54685') no-repeat 4px 3px; display: block; padding: 0; }
+.info-container .ind-assign a::before { display: none; }
+
+/* Assign to Individuals - Popup */
+#ind-assign-container { position: relative; }
+#ind-assign-container #loading-ajax-gif { height: 8px; position: absolute; inset-inline-start: 130px; top: 50%; margin-top: -8px; }
+.popups-box #s-course-individual-assign-item-edit-form { padding: 0; }
+.popups-box #s-course-individual-assign-item-edit-form .form-menu { padding: 10px 15px; }
+.popups-box #s-course-individual-assign-item-edit-form #ind-count-title, .popups-box #s-course-individual-assign-item-edit-form .form-menu .message { font-weight: bold; }
+.popups-box #s-course-individual-assign-item-edit-form #edit-wrapper-override { overflow: hidden; max-height: 171px; overflow-x: hidden; overflow-y: auto; }
+.popups-box #s-course-individual-assign-item-edit-form .selected-enrollment { float: none; }
+.popups-box #s-course-individual-assign-item-edit-form .s-common-block { margin: 0; position: relative; border-top: 1px solid #ddd; }
+.popups-box #s-course-individual-assign-item-edit-form #edit-wrapper-override .s-common-block:first-child { border-top: 0 none; }
+.popups-box #s-course-individual-assign-item-edit-form .s-common-block .s-common-block_control { position: absolute; inset-inline-end: 10px; top: 50%; margin-inline-end: 0; display: none; }
+.popups-box #s-course-individual-assign-item-edit-form .s-common-block:hover .s-common-block_control { display: block; }
+.popups-box #s-course-individual-assign-item-edit-form .s-common-block .s-common-block_control.xx-small { margin-top: -8px; }
+.popups-box #s-course-individual-assign-item-edit-form .selected-enrollment span.name-wrapper { background: transparent; padding: 0; font-size: 13px; color: #333; font-weight: bold; margin: 0; }
+.popups-box #s-course-individual-assign-item-edit-form #ind-assign-container { border-top: 1px solid #ddd; padding: 10px 15px; }
+.popups-box #s-course-individual-assign-item-edit-form #ind-assign-container label { /* rtl-processor:ignore */ float: left; width: 105px; margin-top: 5px; font-size: 13px; }
+[dir="rtl"] .popups-box #s-course-individual-assign-item-edit-form #ind-assign-container label { float: right; }
+.popups-box #s-course-individual-assign-item-edit-form #ind-assign-container label { display: none; }
+.popups-box #s-course-individual-assign-item-edit-form #edit-assigned-users { width: 100%; }
+.popups-box #s-course-individual-assign-item-edit-form #ind-assign-container #loading-ajax-gif { inset-inline-start: 20px; }
+.popups-box #s-course-individual-assign-item-edit-form #ind-assign-container #ind-assign-read-only-message { padding-top: 10px; padding-bottom: 10px; }
+.grading-group .ac-picture { background: url('/sites/all/themes/schoology_theme/images/grading-group.png?6a0cfa7424d54685') no-repeat; }
+.grading-group-icon { background: url('/sites/all/themes/schoology_theme/images/grading-group.png?6a0cfa7424d54685') no-repeat; /* rtl-processor:ignore */ float: left; width: 35px; height: 32px; margin-inline-start: -45px; }
+[dir="rtl"] .grading-group-icon { float: right; }
+.selected-grading-group .name-wrapper { background-image: url('/sites/all/themes/schoology_theme/images/icons-sprite-tiny.png?6a0cfa7424d54685'); background-position: 5px -13px; background-repeat: no-repeat; padding-inline-start: 20px !important; }
+
+/* File view */
+.file_view_ia .realm-top-right { position: unset; }
+.file_view_ia #center-top .page-title { display: inline-block; width: calc(100% - 40px); }
+.file_view_ia #center-top .content-top { display: inline-block; }
+
+/* Locked Materials */
+.material-locked { display: inline-block; margin: 0 5px; vertical-align: top; }
+.page-title .material-locked { margin-inline-start: 0; }
+.page-title .material-locked .lock-enabled { height: 21px; }
+body #wrapper .material-locked .infotip.hide-qmark { cursor: help; }
+.material-locked .lock-enabled { background: url('/sites/all/themes/schoology_theme/images/lock-gray-flat.png?6a0cfa7424d54685') no-repeat center; height: 16px; width: 16px; display: inline-block; overflow: hidden; text-indent: -9999px; }
+
+/* Lock Form Item */
+.course-material-form #lock-form-container { overflow: hidden; margin-bottom: 10px; }
+.course-material-form #edit-option-locked-wrapper, .course-material-form #lock-form-date-selector-container, .course-material-form #lock-form-date-selector-container .container-inline-date, .course-material-form #edit-option-locked-date-wrapper .form-item { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .course-material-form #edit-option-locked-wrapper, [dir="rtl"] .course-material-form #lock-form-date-selector-container, [dir="rtl"] .course-material-form #lock-form-date-selector-container .container-inline-date, [dir="rtl"] .course-material-form #edit-option-locked-date-wrapper .form-item { float: right; }
+.course-material-form #lock-form-date-selector-container { margin-inline-start: 10px; }
+.course-material-form #edit-option-locked-date-wrapper .form-item { margin-bottom: 0; }
+.course-material-form #edit-option-locked { width: auto; }
+
+.course-material-form .submit-span-wrapper {
+  background-color: #2E66A3;
+  background-image: none;
+}
+/* Web Content Edit */
+.popups-body #s-web-edit-form { padding: 20px 25px; }
+
+/* Rubrics / Grading Scales Dropdown */
+.ui-selectmenu-menu .rubric-option-title, .ui-selectmenu-status .rubric-option-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Fake Popup? */
+.fake-popup-wrapper { position: absolute; background: #fff; border: 1px solid #bbb; padding: 10px 15px; inset-inline-end: 0; top: 36px; width: 210px; z-index: 1; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+.fake-popup-wrapper .arrow-top { background: url('/sites/all/themes/schoology_theme/images/tip-arrow-white.png?6a0cfa7424d54685') 0 0; /* rtl-processor:ignore */ float: right; height: 10px; width: 20px; margin: -20px 10px 0; margin-inline-start: 0; }
+[dir="rtl"] .fake-popup-wrapper .arrow-top { float: left; }
+.fake-popup-wrapper .form-item { margin-bottom: 10px; }
+.copy-link .fake-popup-wrapper .form-text { width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.copy-link .fake-popup-wrapper .link-copied { font-weight: bold; display: block; margin-bottom: 10px; }
+
+/* Badge/Gradebook/Attendance Switcher */
+.gradebook-badge-switcher, .gradebook-badge-switcher-single-item { /* rtl-processor:ignore */ float: left; margin-inline-end: 4px; margin-top: -2px; max-width: 140px; }
+[dir="rtl"] .gradebook-badge-switcher, [dir="rtl"] .gradebook-badge-switcher-single-item { float: right; }
+.gradebook-badge-switcher-single-item { font-weight: bold; font-size: 14px; margin-top: 2px; margin-inline-end: 15px; }
+.gradebook-badge-switcher .action-links a { padding-inline-start: 30px; background-image: none; }
+.gradebook-badge-switcher .action-links .active:hover { background-position: 95% -257px; }
+.gradebook-badge-switcher .action-links-wrapper-gearless .action-links-unfold .action-links-unfold-text { height: 14px; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; }
+.gradebook-badge-switcher .gradebook-action-links { margin-inline-end: 0; }
+
+/* CSM Course Switcher for Gradebook, Mastery, Badges, and Attendance */
+.csm-course-switcher.student-ledgers-switcher { /* rtl-processor:ignore */ float: left; margin-inline-end: 4px; }
+[dir="rtl"] .csm-course-switcher.student-ledgers-switcher { float: right; }
+.csm-course-switcher.student-ledgers-switcher .select2-container { max-width: 130px; }
+.csm-course-switcher.student-ledgers-switcher .select2-container .select2-choice { height: 24px; line-height: 24px; }
+
+/* Add to Folder */
+#s-course-materials-add-to-folder-form { padding: 15px 20px; }
+#s-course-materials-add-to-folder-form .form-item { padding-inline-start: 65px; }
+#s-course-materials-add-to-folder-form label { /* rtl-processor:ignore */ float: left; margin: 5px 0 0; margin-inline-start: -65px; width: 60px; }
+[dir="rtl"] #s-course-materials-add-to-folder-form label { float: right; }
+#s-course-materials-add-to-folder-form .form-select { max-width: 343px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: normal; }
+
+/* Links in iFrames */
+.link_view #center-top .page-title { width: 100%; }
+.link_view .page-title a { display: block; color: #327cbb; background-image: none; }
+.link_view .page-title .external-link-icon { /* rtl-processor:ignore */ float: right; margin-top: 3px; margin-inline-end: -25px; }
+[dir="rtl"] .link_view .page-title .external-link-icon { float: left; }
+.link_view .page-title a:hover { text-decoration: none; }
+.link_view .page-title a:hover .external-link-icon { background-position: 0 -1450px; }
+.link_view #main-inner iframe { width: 100%; min-height: 400px; border: 1px solid #ddd; margin-top: 15px; }
+
+/* Styling to account for when we need to display the individually assign icon */
+.link_view_ia .realm-top-right { position: relative; /* rtl-processor:ignore */ float: right; top: -20px; }
+[dir="rtl"] .link_view_ia .realm-top-right { float: left; }
+.link_view_ia #center-top .page-title { width: calc(100% - 40px); }
+
+/* Promo Switcher */
+.s-js-new-gradebook-promo { /* rtl-processor:ignore */ float: left; margin-inline-end: 10px; color: #5ab135; line-height: 26px; }
+[dir="rtl"] .s-js-new-gradebook-promo { float: right; }
+.s-js-new-gradebook-promo .clickable { font-weight: normal; color: #5ab135; padding-inline-start: 15px; position: relative; }
+.s-js-new-gradebook-promo .clickable .caret { position: absolute; inset-inline-start: 0; top: 5px; font-size: 24px; font-weight: normal; line-height: 0; }
+
+/* Verification Required Warning */
+#container .messages.verification-required-course-warning { padding-inline-start: 45px; background-image: url('/sites/all/themes/schoology_theme/images/icon-verify-warning.png?6a0cfa7424d54685'); background-repeat: no-repeat; background-position: 20px 10px; }
+#container .messages.verification-required-course-warning { text-align: start; }
+.verification-required-course-warning p, .verification-required-course-warning .verification-actions { margin-bottom: 10px; font-size: 13px; }
+.verification-required-course-warning .pending { display: inline-block; font-weight: bold; margin: 0 5px; color: #c87d2b; }
+
+/* Gradebook Update Message */
+.s-gradebook-update-message { padding-inline-start: 25px; }
+.s-gradebook-update-message .gradebook-icon { /* rtl-processor:ignore */ float: left; margin-inline-start: -25px; }
+[dir="rtl"] .s-gradebook-update-message .gradebook-icon { float: right; }
+.s-gradebook-update-message .gradebook-title { padding: 2px 0 5px; }
+
+/* Disabled Students Popup */
+.popups-disabled-students .enrollment-user-list { max-height: 300px; overflow: auto; }
+.popups-disabled-students .enrollment-user-list table { width: 100%; }
+.popups-disabled-students .enrollment-user-list td { border-top: 1px solid #ddd; }
+.popups-disabled-students .enrollment-user-list table tr:first-child td { border-top: 0 none; }
+.popups-disabled-students .enrollment-user-list .user-picture { width: 45px; }
+.popups-disabled-students .enrollment-user-list .user-picture .picture { width: 35px; padding-inline-end: 0; }
+.popups-disabled-students .enrollment-user-list .user-picture a { display: block; padding: 10px 0 10px; padding-inline-start: 10px; height: 35px; line-height: 0; }
+.popups-disabled-students .enrollment-user-list .user-name a { display: block; height: 35px; line-height: 35px; padding: 10px; width: 383px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; }
+
+/* Reports */
+.back-to-book-link a { font-weight: normal; /* rtl-processor:ignore */ float: right; margin-top: -35px; }
+[dir="rtl"] .back-to-book-link a { float: left; }
+
+/* Upgrade to New Material Index Message */
+.messages .message-text .message-has-icon { padding-inline-start: 25px; }
+.messages .message-text .message-has-icon .lead-icon { /* rtl-processor:ignore */ float: left; margin-inline-start: -25px; }
+[dir="rtl"] .messages .message-text .message-has-icon .lead-icon { float: right; }
+.upgrade-materials-index-message .update-buttons { margin-top: 10px; }
+
+/* CSM Switcher */
+.csm-course-switcher .form-item { margin-bottom: -8px; }
+.csm-course-switcher select.form-select { display: none; }
+.csm-course-switcher .select2-chosen { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; }
+
+/* CSM Switcher - Sidebar */
+.csm-course-switcher.submission-sidebar-switcher { margin: -10px 0 10px; }
+.csm-course-switcher.submission-sidebar-switcher .select2-container { max-width: 100%; }
+
+/* CSM Switcher - Page Title */
+.csm-course-switcher.page-title-switcher { display: inline-block; }
+.csm-course-switcher.page-title-switcher .select2-container { max-width: 225px; }
+.csm-course-switcher.page-title-switcher .select2-choice { font-size: 18px; }
+
+/* CSM Link Existing Sections */
+#s-course-link-existing-sections-form { padding: 0; }
+.link-sections-form .csm-heading-static-text-left { font-weight: bold; padding: 15px 10px; }
+.link-sections-form .csm-link-existing-sections-list { max-height: 290px; overflow: auto; border-top: 1px solid #eaeaea; }
+.link-sections-form .csm-link-existing-section-row { border-top: 1px solid #eaeaea; }
+.link-sections-form .csm-link-existing-sections-list .csm-link-existing-section-row:first-child { border-top: 0 none; }
+.link-sections-form .csm-link-existing-section-row.disabled .form-item { opacity: 0.4; filter: alpha(opacity=40); }
+.link-sections-form .form-checkbox-title .inline-icon, .link-sections-form .csm-link-existing-section-row.hide-checkbox .inline-icon { vertical-align: bottom; }
+.link-sections-form .option, .link-sections-form .csm-link-existing-section-row.hide-checkbox { display: block; padding: 15px 10px; font-weight: bold; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: normal; }
+.link-sections-form .csm-link-existing-section-row.hide-checkbox { padding-inline-start: 26px; }
+
+.link-sections-form .csm-link-section-bluebox { border-top: 1px solid #eaeaea; padding: 10px; }
+.link-sections-form .csm-link-section-bluebox .csm-link-section-line { font-weight: bold; padding: 10px; background: #e9f0f6; border: 1px solid #cedbe8; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: normal; }
+.link-sections-form .csm-link-section-bluebox .inline-icon { vertical-align: bottom; }
+
+/* Custom tag form */
+#s-common-item-properties-add-form { padding: 5px 10px; }
+#s-common-item-properties-add-form td { padding: 5px 10px; text-align: start; }
+#s-common-item-properties-add-form th { padding: 5px 10px; text-align: start; }
+#s-common-item-properties-add-form .form-text { width: 250px; }
+
+/* Force iframe, table content to be the width of their container in the course materials listing */
+.course-materials-full .s-rte iframe {max-width: 100% !important;}
+.course-materials-full .s-rte table {width: 100% !important;}
+
+.popups-box.profile-picture-upload .avatar-chooser { float: none; margin-inline-start: -10px; }
+.popups-box.profile-picture-upload .avatar-chooser p { font-weight: bold; }
+.popups-box.profile-picture-upload .avatar-chooser a { display: block; /* rtl-processor:ignore */ float: left; border: 1px solid #ddd; margin: 0 0 8px; margin-inline-start: 10px; padding: 3px; }
+[dir="rtl"] .popups-box.profile-picture-upload .avatar-chooser a { float: right; }
+.popups-box.profile-picture-upload .avatar-chooser a img.course { vertical-align: bottom; width: 120px; height: 90px; }
+
+.grades-published-tag,
+.grades-unpublished-tag,
+.lesson-plan-label {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 6px;
+  padding: 3px 8px;
+  padding-inline-start: 24px;
+  background-repeat: no-repeat;
+  background-position-x: 4px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+[dir="rtl"] .grades-published-tag,
+[dir="rtl"] .grades-unpublished-tag,
+[dir="rtl"] .lesson-plan-label {
+  background-position-x: calc(100% - 4px);
+}
+.grades-published-tag {
+  background-color: #E4F7D3;
+  border: solid 1px #6CCF49;
+  background-size: 18px;
+  background-position-y: 1px;
+  background-image: url('/bundle/react-common/images/svg/visibility-on-dark.svg?6a0cfa7424d54685');
+}
+.grades-unpublished-tag {
+  background-color: #F1F4F4;
+  border: solid 1px #A8B1B2;
+  background-size: 16px;
+  background-position-y: 2px;
+  background-image: url('/bundle/react-common/images/svg/visibility-off-dark.svg?6a0cfa7424d54685');
+}
+
+.lesson-plan-label {
+  background-color: transparent;
+  background-image: url('/sites/all/themes/schoology_theme/images/lesson-plan-blue.svg?6a0cfa7424d54685');
+  background-position-y: center;
+  background-size: 20px;
+  border: 0;
+  color: #1162EE;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding-inline-start: 28px;
+}
+
+.lesson-plan-count { margin-inline-end: 4px; }
+
+.lesson-plan-hidden { display: none; }
+
+/* Hackathon: Ui Refresh; remove left sidebar from all materials (PE-58675) */
+.ui-refresh-hide-left-sidebar #sidebar-left { display: none; }
+.ui-refresh-hide-left-sidebar #main-content-wrapper { margin-inline-start: 0; }
+
+/* Hackathon: Ui Refresh; add top nav to all materials (PE-58675) */
+.ui-refresh-material-top-nav #wrapper { min-width: unset; max-width: unset; }
+.ui-refresh-material-top-nav #container { padding: 0; }
+.ui-refresh-material-top-nav #main-content-wrapper { padding: 0; background: none; border: none; }
+.ui-refresh-material-top-nav #content-wrapper { max-width: 1240px; min-width: 940px; margin: 0 auto; background: #fff; padding: 0 25px; border: 1px solid #bdbdbd; border-top: none; box-sizing: unset; position: relative; }
+.ui-refresh-material-top-nav #content-wrapper .fullscreen-option { inset-inline-end: 2.5rem; }
+.ui-refresh-material-top-nav #content-wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; line-height:0; }
+.ui-refresh-material-top-nav #center-top { padding: 90px 25px 15px; max-width: 1240px; min-width: 940px; margin: 0 auto; background: #fff; border: 1px solid #bdbdbd }
+.ui-refresh-material-top-nav #center-top .content-top-upper { position: absolute; inset-inline-start: 0; top: 0; width: 100%; padding-top: 0; }
+.ui-refresh-material-top-nav.s_grade_item_assignment .with-tabs #center-top { padding: 90px 25px 15px; max-width: 1240px; min-width: 940px; margin: 0 auto; background: #fff; border: 1px solid #bdbdbd }
+.ui-refresh-hack-my-padding { padding-top: 2rem; }
+
+/* Hackathon: Ui Refresh; add top nav to assessments (PE-58675) */
+.ui-refresh-material-top-nav #center-top h2.page-title { border: none; }
+.ui-refresh-material-top-nav-assessments.design-system-view #center-top { display: block !important; padding-top: 0; }
+.ui-refresh-material-top-nav-assessments.design-system-view #center-top .content-top-upper { display: block !important; padding-top: 0; }
+.ui-refresh-material-top-nav-assessments.design-system-view #center-top h2.page-title { display: none; }
+.ui-refresh-material-top-nav-assessments.design-system-view .content-top { display: none; }
+
+/* Hackathon: Ui Refresh; add top nav to folders (PE-58675) */
+.ui-refresh-material-top-nav-folder.has-folder-player #center-top h2.page-title { display: none; }
+.ui-refresh-material-top-nav-folder.has-folder-player #center-top .content-top { display: none; }
+.ui-refresh-material-top-nav-folder.has-folder-player #center-top .content-top-upper { background: none; border: none; margin: 0; padding: 0; }
+.ui-refresh-material-top-nav-folder.has-folder-player #center-top .course-title { display: none; }
+
+/* Hackathon: UI Refresh; add top nav to test-quiz (PE-58675) */
+.ui-refresh-material-top-nav-test-quiz #tabs-wrapper ul { padding-inline-start: 12rem; }
+.ui-refresh-material-top-nav-test-quiz #center-top .page-title { margin-inline-start: 12rem; }
+.ui-refresh-material-top-nav-test-quiz #center-top .info-container { margin-inline-end: 12rem; }
+.ui-refresh-material-top-nav-test-quiz #center-inner { padding-top: 8rem; }
+
+.move-item-error-popup .popups-body-inner-has-buttons { background-color: #fcc; border: 1px solid #dd7777; font-size: 12px; }

@@ -1,0 +1,34 @@
+:root {
+    --sgy-icon-scorm: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/scorm.svg");
+}
+
+/* SCORM icon */
+[data-theme="modern"] .course-package-icon,
+[data-theme="modern"] .inline-icon.scorm-icon,
+[data-theme="modern"] .inline-icon.scorm-add-icon,
+[data-theme="modern"] .inline-icon.mini.course-package-icon,
+[data-theme="modern"] #folder-contents-table .item-icon.course-package-icon,
+[data-theme="modern"] #folder-contents-table .course-materials-simple .item-icon.course-package-icon,
+[data-theme="modern"] #folder-contents-table .planner-right-cell .item-icon.course-package-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .item-icon.course-package-icon,
+[data-theme="modern"] #s-grade-item-manager .item-icon.item-scorm,
+[data-theme="modern"] #s-scorm-import-props-left .scorm-title-wrapper .clickable .text {
+    background-image: var(--sgy-icon-scorm);
+    background-position-y: center;
+}
+
+[data-theme="modern"] .action-links .action-edit-package-props a {
+    background-image: var(--sgy-icon-scorm);
+    background-position-y: center;
+    background-size: 16px;
+}
+
+[data-theme="modern"] .materials-filter-wrapper .action-links .action-view-scorm a {
+    background-image: var(--sgy-icon-scorm);
+    background-position-x: 24px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .materials-filter-wrapper .action-links .action-view-scorm a {
+    background-position-x: calc(100% - 24px);
+}

@@ -1,0 +1,18 @@
+:root {
+    --sgy-icon-package: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/package.svg");
+}
+
+/* PACKAGE icon */
+[data-theme="modern"] .course-content-action-links .action-links .action-import-package a,
+[data-theme="modern"] #course-materials-action-links-inline .action-import-package a,
+[data-theme="modern"] #toolbar-add-list #collection-add-package a {
+    background-image: var(--sgy-icon-package);
+    background-position-x: 12px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .course-content-action-links .action-links .action-import-package a,
+[dir="rtl"][data-theme="modern"] #course-materials-action-links-inline .action-import-package a,
+[dir="rtl"][data-theme="modern"] #toolbar-add-list #collection-add-package a {
+    background-position-x: calc(100% - 12px);
+}

@@ -1,0 +1,27 @@
+:root {
+    --sgy-icon-web-content: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/web-content.svg");
+}
+
+/* WEB CONTENT icon */
+[data-theme="modern"] .web-content-icon,
+[data-theme="modern"] .inline-icon.web-icon,
+[data-theme="modern"] .inline-icon.web-add-icon,
+[data-theme="modern"] .inline-icon.mini.web-content-icon,
+[data-theme="modern"] #folder-contents-table .item-icon.web-content-icon,
+[data-theme="modern"] #folder-contents-table .course-materials-simple .item-icon.web-content-icon,
+[data-theme="modern"] #folder-contents-table .planner-right-cell .item-icon.web-content-icon,
+[data-theme="modern"] #resource-types .web-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .item-icon.web-content-icon {
+    background-image: var(--sgy-icon-web-content);
+    background-position-y: center;
+}
+
+[data-theme="modern"] .materials-filter-wrapper .action-links .action-view-web a {
+    background-image: var(--sgy-icon-web-content);
+    background-position-x: 24px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .materials-filter-wrapper .action-links .action-view-web a {
+    background-position-x: calc(100% - 24px);
+}

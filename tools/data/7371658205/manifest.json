@@ -1,0 +1,1763 @@
+{
+  "id": "7371658205",
+  "title": "Adv US History 8: Section 5-07",
+  "source": "archived",
+  "scrapedAt": "2026-05-22T05:49:52.811Z",
+  "downloaded": 119,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "link",
+      "title": "Eduphoria Login",
+      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7573971362",
+      "localPath": "Eduphoria Login.url"
+    },
+    {
+      "type": "folder",
+      "title": "Re-test: All Units",
+      "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=852598537",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Warm-Up Quiz",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=864237023",
+          "children": [
+            {
+              "type": "link",
+              "title": "Warm_up Quiz",
+              "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7554242303",
+              "localPath": "Re-test_ All Units/Warm-Up Quiz/Warm_up Quiz.url"
+            }
+          ],
+          "localPath": "Re-test_ All Units/Warm-Up Quiz"
+        }
+      ],
+      "localPath": "Re-test_ All Units"
+    },
+    {
+      "type": "folder",
+      "title": "1st Semester",
+      "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=880647063",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Colonial America",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=841237338",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=841237814",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "8/19 Jamestown DBQ",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=841239809",
+                  "children": [
+                    {
+                      "type": "assignment",
+                      "title": "Jamestown DBQ",
+                      "href": "https://roundrockisd.schoology.com/assignment/7423234913",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "1st Semester/Colonial America/Daily Work/8_19 Jamestown DBQ/Jamestown DBQ.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Colonial America/Daily Work/8_19 Jamestown DBQ"
+                },
+                {
+                  "type": "folder",
+                  "title": "U.S. History Google Map",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=845512276",
+                  "children": [
+                    {
+                      "type": "assignment",
+                      "title": "Colonial America Map",
+                      "href": "https://roundrockisd.schoology.com/assignment/7439999279",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "1st Semester/Colonial America/Daily Work/U.S. History Google Map/Colonial America Map.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Colonial America/Daily Work/U.S. History Google Map"
+                },
+                {
+                  "type": "folder",
+                  "title": "8/26 Vocabulary",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=847329083",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "2024 Vocabulary Daily Assignment",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7448518840",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Colonial America/Daily Work/8_26 Vocabulary/2024 Vocabulary Daily Assignment.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Quizizz Study Link",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7456624470",
+                      "localPath": "1st Semester/Colonial America/Daily Work/8_26 Vocabulary/Quizizz Study Link.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Colonial America/Daily Work/8_26 Vocabulary"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/3 Colonial America Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=849948534",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "2024 Colonial America Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7462971499",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Colonial America/Daily Work/9_3 Colonial America Review/2024 Colonial America Review.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Colonial America/Daily Work/9_3 Colonial America Review"
+                }
+              ],
+              "localPath": "1st Semester/Colonial America/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Google Slides",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=841802401",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Age of Exploration",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7422640515",
+                  "localPath": "1st Semester/Colonial America/Google Slides/Age of Exploration.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Jamestown Story",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7422642081",
+                  "localPath": "1st Semester/Colonial America/Google Slides/Jamestown Story.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Original 13 Colonies",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7422644151",
+                  "localPath": "1st Semester/Colonial America/Google Slides/Original 13 Colonies.url"
+                }
+              ],
+              "localPath": "1st Semester/Colonial America/Google Slides"
+            },
+            {
+              "type": "folder",
+              "title": "Colonial America Study Links",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=850055558",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Colonial America UNIT Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7463646591",
+                  "localPath": "1st Semester/Colonial America/Colonial America Study Links/Colonial America UNIT Review.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Colonial VOCABULARY/TOOLKIT  Study Link",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7463649796",
+                  "localPath": "1st Semester/Colonial America/Colonial America Study Links/Colonial VOCABULARY_TOOLKIT  Study Link.url"
+                }
+              ],
+              "localPath": "1st Semester/Colonial America/Colonial America Study Links"
+            }
+          ],
+          "localPath": "1st Semester/Colonial America"
+        },
+        {
+          "type": "folder",
+          "title": "American Revolution",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=853230340",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=853230408",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "9/9 French & Indian War",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=853231764",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "French and Indian War",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7481833004",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_9 French & Indian War/French and Indian War.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_9 French & Indian War"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/10 Causes of the Revolution 1",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=853937024",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Causes of the Revolution part 1",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7485530575",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_10 Causes of the Revolution 1/Causes of the Revolution part 1.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_10 Causes of the Revolution 1"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/11 Causes of the AMerican Revolution 2",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=854327891",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Causes of the Revolution Part 2",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7488197057",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_11 Causes of the AMerican Revolution 2/Causes of the Revolution Part 2.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_11 Causes of the AMerican Revolution 2"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/12 Act-it-Out Instructions",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=854625116",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Act-it-Out Rubric",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7490696146",
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_12 Act-it-Out Instructions/Act-it-Out Rubric.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Act-it-Out Criteria",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7490701327",
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_12 Act-it-Out Instructions/Act-it-Out Criteria.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Event Summaries",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7490703758",
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_12 Act-it-Out Instructions/Event Summaries.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_12 Act-it-Out Instructions"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/23 American Revolution 1",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=857402087",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "American Revolution Part 1",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7510624773",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_23 American Revolution 1/American Revolution Part 1.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_23 American Revolution 1"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/26 American Revolution 2 & 3",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=857907446",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "American Revolution Part 2",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7513464190",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_26 American Revolution 2 & 3/American Revolution Part 2.html"
+                    },
+                    {
+                      "type": "common_assessment",
+                      "title": "American Revolution Part 3",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7516296460",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_26 American Revolution 2 & 3/American Revolution Part 3.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_26 American Revolution 2 & 3"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/27 Declaration Rephrase",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=858714421",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Declaration Rephrase",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7519657877",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_27 Declaration Rephrase/Declaration Rephrase.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_27 Declaration Rephrase"
+                },
+                {
+                  "type": "folder",
+                  "title": "9/30 American Revolution Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=859180020",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "American Revolution Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7522527333",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_30 American Revolution Review/American Revolution Review.html"
+                    },
+                    {
+                      "type": "folder",
+                      "title": "Escape Room",
+                      "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=859494080",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": "Escape Room Google Form",
+                          "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7523977502",
+                          "localPath": "1st Semester/American Revolution/Daily Work/9_30 American Revolution Review/Escape Room/Escape Room Google Form.url"
+                        },
+                        {
+                          "type": "page",
+                          "title": "Escape Room Questions",
+                          "href": "https://roundrockisd.schoology.com/page/7523978925",
+                          "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><iframe src=\"https://docs.google.com/presentation/d/1kwrPwSFbCTwUPVg-pTHakZTfDGLz9EMWByFMHRiIJ6Y/preview?ouid=111587960812223242683\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p></div>",
+                          "images": [],
+                          "localPath": "1st Semester/American Revolution/Daily Work/9_30 American Revolution Review/Escape Room/Escape Room Questions.html"
+                        }
+                      ],
+                      "localPath": "1st Semester/American Revolution/Daily Work/9_30 American Revolution Review/Escape Room"
+                    }
+                  ],
+                  "localPath": "1st Semester/American Revolution/Daily Work/9_30 American Revolution Review"
+                }
+              ],
+              "localPath": "1st Semester/American Revolution/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Google Slides",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=853230513",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "French & Indian War",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7481825474",
+                  "localPath": "1st Semester/American Revolution/Google Slides/French & Indian War.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Road to Revolution",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7481826140",
+                  "localPath": "1st Semester/American Revolution/Google Slides/Road to Revolution.url"
+                },
+                {
+                  "type": "link",
+                  "title": "American Revolution",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7481827203",
+                  "localPath": "1st Semester/American Revolution/Google Slides/American Revolution.url"
+                }
+              ],
+              "localPath": "1st Semester/American Revolution/Google Slides"
+            },
+            {
+              "type": "folder",
+              "title": "Revolution Review LinkS",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=856724179",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Vocabulary/STAAR Toolkit Review Link",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7506008714",
+                  "localPath": "1st Semester/American Revolution/Revolution Review LinkS/Vocabulary_STAAR Toolkit Review Link.url"
+                },
+                {
+                  "type": "link",
+                  "title": "UNIT 2 Review: American Revolution",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7518724718",
+                  "localPath": "1st Semester/American Revolution/Revolution Review LinkS/UNIT 2 Review_ American Revolution.url"
+                }
+              ],
+              "localPath": "1st Semester/American Revolution/Revolution Review LinkS"
+            }
+          ],
+          "localPath": "1st Semester/American Revolution"
+        },
+        {
+          "type": "folder",
+          "title": "Constitution",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=861264413",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=861264421",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "10/15 Constitution Check 1",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=862991359",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Constitution Check part 1",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7546404159",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Constitution/Daily Work/10_15 Constitution Check 1/Constitution Check part 1.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "AOC/NW Ordinance",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7547234919",
+                      "localPath": "1st Semester/Constitution/Daily Work/10_15 Constitution Check 1/AOC_NW Ordinance.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Constitution/Daily Work/10_15 Constitution Check 1"
+                },
+                {
+                  "type": "folder",
+                  "title": "10/17 Founding Docs",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=863422009",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Founding Documents 2024",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7551008659",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Constitution/Daily Work/10_17 Founding Docs/Founding Documents 2024.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Federalist/Anti-Federalist Game",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7551820228",
+                      "localPath": "1st Semester/Constitution/Daily Work/10_17 Founding Docs/Federalist_Anti-Federalist Game.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Constitution/Daily Work/10_17 Founding Docs"
+                },
+                {
+                  "type": "folder",
+                  "title": "10/25 Constitution Check 2",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=865732962",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Constitution Check 2",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7564109811",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Constitution/Daily Work/10_25 Constitution Check 2/Constitution Check 2.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Constitution Vocab/Toolkit Quizizz",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7564447844",
+                      "localPath": "1st Semester/Constitution/Daily Work/10_25 Constitution Check 2/Constitution Vocab_Toolkit Quizizz.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Bill of Rights Game: My Law Firm",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7564748843",
+                      "localPath": "1st Semester/Constitution/Daily Work/10_25 Constitution Check 2/Bill of Rights Game_ My Law Firm.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Constitution/Daily Work/10_25 Constitution Check 2"
+                },
+                {
+                  "type": "folder",
+                  "title": "10/28 Principles of Government",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=866176655",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Seven Principles of Government Assignment",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7566961509",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Constitution/Daily Work/10_28 Principles of Government/Seven Principles of Government Assignment.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Constitution/Daily Work/10_28 Principles of Government"
+                },
+                {
+                  "type": "folder",
+                  "title": "10/29 Constitution Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=866653635",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Adopting a Constitution Test Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7569438404",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Constitution/Daily Work/10_29 Constitution Review/Adopting a Constitution Test Review.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Constitution/Daily Work/10_29 Constitution Review"
+                },
+                {
+                  "type": "folder",
+                  "title": "10/30 Warm-Up",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=866943340",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Loose Ends Warm-Up",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7571542911",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Constitution/Daily Work/10_30 Warm-Up/Loose Ends Warm-Up.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Constitution/Daily Work/10_30 Warm-Up"
+                }
+              ],
+              "localPath": "1st Semester/Constitution/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Constitution Review Folder",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=864430676",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Constitution Test Review Quizizz",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7569023115",
+                  "localPath": "1st Semester/Constitution/Constitution Review Folder/Constitution Test Review Quizizz.url"
+                }
+              ],
+              "localPath": "1st Semester/Constitution/Constitution Review Folder"
+            }
+          ],
+          "localPath": "1st Semester/Constitution"
+        },
+        {
+          "type": "folder",
+          "title": "Early Republic",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=868194750",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=870608368",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "11/4 Washington Fakebook Link",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=868376049",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Washington's Fakebook Page",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7579158256",
+                      "localPath": "1st Semester/Early Republic/Daily Work/11_4 Washington Fakebook Link/Washington's Fakebook Page.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/11_4 Washington Fakebook Link"
+                },
+                {
+                  "type": "folder",
+                  "title": "11/6 Hamilton's Financial Plan",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=868584581",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Hamilton's Financial Plan",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7581928548",
+                      "localPath": "1st Semester/Early Republic/Daily Work/11_6 Hamilton's Financial Plan/Hamilton's Financial Plan.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/11_6 Hamilton's Financial Plan"
+                },
+                {
+                  "type": "folder",
+                  "title": "11/11 Washington/Adams DBQ",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=869452365",
+                  "children": [
+                    {
+                      "type": "assignment",
+                      "title": "Washington/Adams DBQ",
+                      "href": "https://roundrockisd.schoology.com/assignment/7588117780",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "1st Semester/Early Republic/Daily Work/11_11 Washington_Adams DBQ/Washington_Adams DBQ.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Additional DBQ Resource",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7588125471",
+                      "localPath": "1st Semester/Early Republic/Daily Work/11_11 Washington_Adams DBQ/Additional DBQ Resource.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/11_11 Washington_Adams DBQ"
+                },
+                {
+                  "type": "folder",
+                  "title": "John Adams Notes",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=869820110",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "John Adams Story Notes",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7589917897",
+                      "localPath": "1st Semester/Early Republic/Daily Work/John Adams Notes/John Adams Story Notes.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/John Adams Notes"
+                },
+                {
+                  "type": "folder",
+                  "title": "11/15 Judicial Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=870607959",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Judicial Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7595879756",
+                      "localPath": "1st Semester/Early Republic/Daily Work/11_15 Judicial Review/Judicial Review.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/11_15 Judicial Review"
+                },
+                {
+                  "type": "folder",
+                  "title": "11/21 War of 1812 Escape Room",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=872001141",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "War of 1812 Escape Room",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7605594723",
+                      "localPath": "1st Semester/Early Republic/Daily Work/11_21 War of 1812 Escape Room/War of 1812 Escape Room.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/11_21 War of 1812 Escape Room"
+                },
+                {
+                  "type": "folder",
+                  "title": "12/2 Political Parties",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=873029228",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Federalist vs. Democratic-Republicans",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7612788318",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Early Republic/Daily Work/12_2 Political Parties/Federalist vs. Democratic-Republicans.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/12_2 Political Parties"
+                },
+                {
+                  "type": "folder",
+                  "title": "12/4 Early Republic Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=874039369",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Early Republic Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7618666183",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Early Republic/Daily Work/12_4 Early Republic Review/Early Republic Review.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Daily Work/12_4 Early Republic Review"
+                }
+              ],
+              "localPath": "1st Semester/Early Republic/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Review Folder",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=873126355",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Vocab/Toolkit Gimkit",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7613224879",
+                  "localPath": "1st Semester/Early Republic/Review Folder/Vocab_Toolkit Gimkit.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Early Republic Vocab/Toolkit Quizizz",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7614716512",
+                  "localPath": "1st Semester/Early Republic/Review Folder/Early Republic Vocab_Toolkit Quizizz.url"
+                },
+                {
+                  "type": "folder",
+                  "title": "Early Republic Unit Quizizz Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=873628601",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Early Republic Quizizz Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7615758993",
+                      "localPath": "1st Semester/Early Republic/Review Folder/Early Republic Unit Quizizz Review/Early Republic Quizizz Review.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Early Republic Unit Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7620922796",
+                      "localPath": "1st Semester/Early Republic/Review Folder/Early Republic Unit Quizizz Review/Early Republic Unit Review.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Early Republic/Review Folder/Early Republic Unit Quizizz Review"
+                }
+              ],
+              "localPath": "1st Semester/Early Republic/Review Folder"
+            }
+          ],
+          "localPath": "1st Semester/Early Republic"
+        },
+        {
+          "type": "folder",
+          "title": "Andrew Jackson",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=875165682",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=875165683",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "12/10 Exit Ticket",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=875165685",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "12/10 Exit Ticket",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7626734210",
+                      "localPath": "1st Semester/Andrew Jackson/Daily Work/12_10 Exit Ticket/12_10 Exit Ticket.url"
+                    }
+                  ],
+                  "localPath": "1st Semester/Andrew Jackson/Daily Work/12_10 Exit Ticket"
+                },
+                {
+                  "type": "folder",
+                  "title": "12/11 Andrew Jackson Check",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=875383740",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Andrew Jackson Textbook",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7628460890",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Andrew Jackson/Daily Work/12_11 Andrew Jackson Check/Andrew Jackson Textbook.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Andrew Jackson/Daily Work/12_11 Andrew Jackson Check"
+                },
+                {
+                  "type": "folder",
+                  "title": "12/12 A Soldier Recalls the Trail of Tears",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=875583718",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "A Soldier Recalls the Trail of Tears",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7630198121",
+                      "commonAssessmentDetails": {
+                        "score": null,
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "1st Semester/Andrew Jackson/Daily Work/12_12 A Soldier Recalls the Trail of Tears/A Soldier Recalls the Trail of Tears.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Andrew Jackson/Daily Work/12_12 A Soldier Recalls the Trail of Tears"
+                },
+                {
+                  "type": "folder",
+                  "title": "12/13 Andrew Jackson Desktop Project",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=875337605",
+                  "children": [
+                    {
+                      "type": "page",
+                      "title": "Andrew Jackson Desktop Project Directions",
+                      "href": "https://roundrockisd.schoology.com/page/7631679265",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:16px;font-family:Caveat, cursive;color:#1c4587;background-color:transparent;vertical-align:baseline;\">The student will create a desktop scene that could belong to Andrew Jackson. It must include the following items:</span></p>\n<ol style=\"margin-top:0;margin-bottom:0;\">\n<li style=\"list-style-type:decimal;font-size:22pt;font-family:Caveat, cursive;color:#1c4587;background-color:transparent;font-weight:bold;vertical-align:baseline;white-space:pre;\" dir=\"ltr\">\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:16px;background-color:transparent;font-weight:400;vertical-align:baseline;\">Name Plate / Business Card (some way to identify the desk as belonging to Andrew Jackson)</span></p>\n</li>\n<li style=\"list-style-type:decimal;font-size:22pt;font-family:Caveat, cursive;color:#1c4587;background-color:transparent;font-weight:bold;vertical-align:baseline;white-space:pre;\" dir=\"ltr\">\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:16px;background-color:transparent;font-weight:400;vertical-align:baseline;\">5 separate journal entries (5 sentences for each entry)</span></p>\n</li>\n<li style=\"list-style-type:decimal;font-size:22pt;font-family:Caveat, cursive;color:#1c4587;background-color:transparent;font-weight:bold;vertical-align:baseline;white-space:pre;\" dir=\"ltr\">\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:16px;\"><span style=\"background-color:transparent;font-weight:400;vertical-align:baseline;\">Picture of someone relating to Andrew Jackson’s presidency - </span><span style=\"background-color:transparent;vertical-align:baseline;\">must include a short description explaining the importance of the item.&nbsp;</span></span></p>\n</li>\n<li style=\"list-style-type:decimal;font-size:22pt;font-family:Caveat, cursive;color:#1c4587;background-color:transparent;font-weight:bold;vertical-align:baseline;white-space:pre;\" dir=\"ltr\">\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:16px;background-color:transparent;font-weight:400;vertical-align:baseline;\">To-Do List with 5 items&nbsp;</span></p>\n</li>\n<li style=\"list-style-type:decimal;font-size:22pt;font-family:Caveat, cursive;color:#1c4587;background-color:transparent;font-weight:bold;vertical-align:baseline;white-space:pre;\" dir=\"ltr\">\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:16px;\"><span style=\"background-color:transparent;font-weight:400;vertical-align:baseline;\">1 meaningful object or memento from childhood to his Presidency- </span><span style=\"background-color:transparent;vertical-align:baseline;\">must include a short description explaining the importance of the item (NO PICTURE OF RACHEL).&nbsp;</span></span></p>\n</li>\n<li style=\"list-style-type:decimal;font-size:22pt;font-family:Caveat, cursive;color:#1c4587;background-color:transparent;font-weight:bold;vertical-align:baseline;white-space:pre;\" dir=\"ltr\">\n<p style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:16px;background-color:transparent;font-weight:400;vertical-align:baseline;\">A note to Jackson from someone else (10 sentences)</span></p>\n</li>\n</ol></div>",
+                      "images": [],
+                      "localPath": "1st Semester/Andrew Jackson/Daily Work/12_13 Andrew Jackson Desktop Project/Andrew Jackson Desktop Project Directions.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Summary of Events from Jackson's Presidency",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7631687216",
+                      "localPath": "1st Semester/Andrew Jackson/Daily Work/12_13 Andrew Jackson Desktop Project/Summary of Events from Jackson's Presidency.url"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "Andrew Jackson Desktop Project",
+                      "href": "https://roundrockisd.schoology.com/assignment/7632036895",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "1st Semester/Andrew Jackson/Daily Work/12_13 Andrew Jackson Desktop Project/Andrew Jackson Desktop Project.html"
+                    }
+                  ],
+                  "localPath": "1st Semester/Andrew Jackson/Daily Work/12_13 Andrew Jackson Desktop Project"
+                }
+              ],
+              "localPath": "1st Semester/Andrew Jackson/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Jackson Review Link",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=875581683",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Jackson Quizizz Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7630165954",
+                  "localPath": "1st Semester/Andrew Jackson/Jackson Review Link/Jackson Quizizz Review.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Jackson Gimkit",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7637168857",
+                  "localPath": "1st Semester/Andrew Jackson/Jackson Review Link/Jackson Gimkit.url"
+                }
+              ],
+              "localPath": "1st Semester/Andrew Jackson/Jackson Review Link"
+            }
+          ],
+          "localPath": "1st Semester/Andrew Jackson"
+        }
+      ],
+      "localPath": "1st Semester"
+    },
+    {
+      "type": "folder",
+      "title": "2nd Semester",
+      "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=903315875",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Westward Expansion",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=880647717",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=880647925",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "1/8 Textbook Check",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=880648190",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Westward Expansion Reading Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7658445610",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Westward Expansion/Daily Work/1_8 Textbook Check/Westward Expansion Reading Questions.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Westward Expansion/Daily Work/1_8 Textbook Check"
+                },
+                {
+                  "type": "folder",
+                  "title": "1/13 Westward Expansion Map",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=882014402",
+                  "children": [
+                    {
+                      "type": "assignment",
+                      "title": "Westward Expansion Map",
+                      "href": "https://roundrockisd.schoology.com/assignment/7666103589",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "2nd Semester/Westward Expansion/Daily Work/1_13 Westward Expansion Map/Westward Expansion Map.html"
+                    },
+                    {
+                      "type": "page",
+                      "title": "Land Acquisition Map",
+                      "href": "https://roundrockisd.schoology.com/page/7675031142",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><span><img src=\"https://lh7-rt.googleusercontent.com/slidesz/AGV_vUct6tpu1abww7NJ8pVO04NznjcPpPxFnZ0a9d2yobdEq9ql9MiDK-Xpk07EZGWIyxw35B0D8CPmXxc6yFzsig-XPpMqMqVUsfUQcbtTcvyIxg2W0PbFI1ua6WNe5Lrrx88cq6KUhg=s2048?key=5WM-HHFCDKng8smC__eMHcJ6\" alt=\"AGV_vUct6tpu1abww7NJ8pVO04NznjcPpPxFnZ0a9d2yobdEq9ql9MiDK-Xpk07EZGWIyxw35B0D8CPmXxc6yFzsig-XPpMqMqVUsfUQcbtTcvyIxg2W0PbFI1ua6WNe5Lrrx88cq6KUhg=s2048?key=5WM-HHFCDKng8smC__eMHcJ6\"></span></p></div>",
+                      "images": [
+                        "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUct6tpu1abww7NJ8pVO04NznjcPpPxFnZ0a9d2yobdEq9ql9MiDK-Xpk07EZGWIyxw35B0D8CPmXxc6yFzsig-XPpMqMqVUsfUQcbtTcvyIxg2W0PbFI1ua6WNe5Lrrx88cq6KUhg=s2048?key=5WM-HHFCDKng8smC__eMHcJ6"
+                      ],
+                      "localPath": "2nd Semester/Westward Expansion/Daily Work/1_13 Westward Expansion Map/Land Acquisition Map.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Land Acquisition Descriptions",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7683168654",
+                      "localPath": "2nd Semester/Westward Expansion/Daily Work/1_13 Westward Expansion Map/Land Acquisition Descriptions.url"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Westward Expansion/Daily Work/1_13 Westward Expansion Map"
+                },
+                {
+                  "type": "folder",
+                  "title": "Oregon Trail Video Game",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=883012797",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Oregon Trail Video Game",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7671657689",
+                      "localPath": "2nd Semester/Westward Expansion/Daily Work/Oregon Trail Video Game/Oregon Trail Video Game.url"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Westward Expansion/Daily Work/Oregon Trail Video Game"
+                },
+                {
+                  "type": "folder",
+                  "title": "1/22 Westward Expansion Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=884688125",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Westward Expansion Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7683166001",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Westward Expansion/Daily Work/1_22 Westward Expansion Review/Westward Expansion Review.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Westward Expansion/Daily Work/1_22 Westward Expansion Review"
+                }
+              ],
+              "localPath": "2nd Semester/Westward Expansion/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Review Links",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=883249976",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Westward Vocab/Toolkit Quizizz",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7673361393",
+                  "localPath": "2nd Semester/Westward Expansion/Review Links/Westward Vocab_Toolkit Quizizz.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Westward Vocab/Toolkit Gimkit",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7673457263",
+                  "localPath": "2nd Semester/Westward Expansion/Review Links/Westward Vocab_Toolkit Gimkit.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Westward Expansion Unit Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7683177012",
+                  "localPath": "2nd Semester/Westward Expansion/Review Links/Westward Expansion Unit Review.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Westward Unit Review Gimkit",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7683180085",
+                  "localPath": "2nd Semester/Westward Expansion/Review Links/Westward Unit Review Gimkit.url"
+                }
+              ],
+              "localPath": "2nd Semester/Westward Expansion/Review Links"
+            }
+          ],
+          "localPath": "2nd Semester/Westward Expansion"
+        },
+        {
+          "type": "folder",
+          "title": "Industrialization & Reform",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=887842592",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=887842594",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "2/5 Industrialization Check",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=888585996",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Inventions: Exit Ticket 1",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7707926151",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_5 Industrialization Check/Inventions_ Exit Ticket 1.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_5 Industrialization Check"
+                },
+                {
+                  "type": "folder",
+                  "title": "2/10 The Reform Movements",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=889085321",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Primary Resource Reformers",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7711693301",
+                      "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_10 The Reform Movements/Primary Resource Reformers.url"
+                    },
+                    {
+                      "type": "folder",
+                      "title": "2nd Assignment for 2/10",
+                      "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=889299418",
+                      "children": [
+                        {
+                          "type": "common_assessment",
+                          "title": "Reformers: Exit Ticket 2",
+                          "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7713098900",
+                          "commonAssessmentDetails": {
+                            "score": "100/100",
+                            "screenshotPath": null,
+                            "renderedHtmlPath": null,
+                            "viaBrowser": true
+                          },
+                          "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_10 The Reform Movements/2nd Assignment for 2_10/Reformers_ Exit Ticket 2.html"
+                        }
+                      ],
+                      "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_10 The Reform Movements/2nd Assignment for 2_10"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_10 The Reform Movements"
+                },
+                {
+                  "type": "folder",
+                  "title": "2/13 Warm-Up",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=890444856",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Industrialization: Economic Factors Warm-Up",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7720857742",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_13 Warm-Up/Industrialization_ Economic Factors Warm-Up.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Industrialization & Reform/Daily Work/2_13 Warm-Up"
+                }
+              ],
+              "localPath": "2nd Semester/Industrialization & Reform/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Urban Game Slides (Build Your Own City)",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=888227462",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Urban Game Google SLides",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7705109620",
+                  "localPath": "2nd Semester/Industrialization & Reform/Urban Game Slides (Build Your Own City)/Urban Game Google SLides.url"
+                }
+              ],
+              "localPath": "2nd Semester/Industrialization & Reform/Urban Game Slides (Build Your Own City)"
+            },
+            {
+              "type": "folder",
+              "title": "Industrialization & Reform Review Folder",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=890022376",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "Industrialization & Reform  Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7718285839",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "2nd Semester/Industrialization & Reform/Industrialization & Reform Review Folder/Industrialization & Reform  Review.html"
+                },
+                {
+                  "type": "link",
+                  "title": "Gimkit Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7719082255",
+                  "localPath": "2nd Semester/Industrialization & Reform/Industrialization & Reform Review Folder/Gimkit Review.url"
+                }
+              ],
+              "localPath": "2nd Semester/Industrialization & Reform/Industrialization & Reform Review Folder"
+            }
+          ],
+          "localPath": "2nd Semester/Industrialization & Reform"
+        },
+        {
+          "type": "folder",
+          "title": "Sectionalism",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=891418724",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=891418726",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "2/20 Exit Ticket 1",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=891418727",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Sectionalism Part 1",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7726945716",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Sectionalism/Daily Work/2_20 Exit Ticket 1/Sectionalism Part 1.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Sectionalism/Daily Work/2_20 Exit Ticket 1"
+                },
+                {
+                  "type": "folder",
+                  "title": "2/24 Sectionalism Exit  Ticket 2",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=892332523",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Sectionalism Part  2",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7732622322",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Sectionalism/Daily Work/2_24 Sectionalism Exit  Ticket 2/Sectionalism Part  2.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Sectionalism/Daily Work/2_24 Sectionalism Exit  Ticket 2"
+                },
+                {
+                  "type": "folder",
+                  "title": "A slave Revolt: Nat Turner",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=893088197",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Nat Turner Reading Questions",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7737706164",
+                      "commonAssessmentDetails": {
+                        "score": null,
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Sectionalism/Daily Work/A slave Revolt_ Nat Turner/Nat Turner Reading Questions.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Sectionalism/Daily Work/A slave Revolt_ Nat Turner"
+                }
+              ],
+              "localPath": "2nd Semester/Sectionalism/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Google Slides",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=891715870",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Sectionalism Google Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7729087209",
+                  "localPath": "2nd Semester/Sectionalism/Google Slides/Sectionalism Google Slides.url"
+                }
+              ],
+              "localPath": "2nd Semester/Sectionalism/Google Slides"
+            },
+            {
+              "type": "folder",
+              "title": "Review Folder",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=892845818",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Quizizz: Sectionalism Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7735688111",
+                  "localPath": "2nd Semester/Sectionalism/Review Folder/Quizizz_ Sectionalism Review.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Gimkit: Sectionalism Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7735688119",
+                  "localPath": "2nd Semester/Sectionalism/Review Folder/Gimkit_ Sectionalism Review.url"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "Sectionalism Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7735829334",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "2nd Semester/Sectionalism/Review Folder/Sectionalism Review.html"
+                }
+              ],
+              "localPath": "2nd Semester/Sectionalism/Review Folder"
+            }
+          ],
+          "localPath": "2nd Semester/Sectionalism"
+        },
+        {
+          "type": "folder",
+          "title": "Civil War",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=894274656",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Daily Work",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=894274657",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "3/4 Exit Ticket 1",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=894274658",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Civil War Part 1",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7745490920",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Civil War/Daily Work/3_4 Exit Ticket 1/Civil War Part 1.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Civil War/Daily Work/3_4 Exit Ticket 1"
+                },
+                {
+                  "type": "folder",
+                  "title": "3/6 Civil War Exit Ticket 2",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=894531459",
+                  "children": [
+                    {
+                      "type": "common_assessment",
+                      "title": "Civil War Part 2",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7747761644",
+                      "commonAssessmentDetails": {
+                        "score": "100/100",
+                        "screenshotPath": null,
+                        "renderedHtmlPath": null,
+                        "viaBrowser": true
+                      },
+                      "localPath": "2nd Semester/Civil War/Daily Work/3_6 Civil War Exit Ticket 2/Civil War Part 2.html"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Civil War/Daily Work/3_6 Civil War Exit Ticket 2"
+                },
+                {
+                  "type": "folder",
+                  "title": "3/10 Google Maps Assignment",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=895305587",
+                  "children": [
+                    {
+                      "type": "assignment",
+                      "title": "Civil War #GoogleMyMaps",
+                      "href": "https://roundrockisd.schoology.com/assignment/7753051582",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": true,
+                        "usesLtiGoogleSubmission": true
+                      },
+                      "localPath": "2nd Semester/Civil War/Daily Work/3_10 Google Maps Assignment/Civil War #GoogleMyMaps.html"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Battle Descriptions",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7753056568",
+                      "localPath": "2nd Semester/Civil War/Daily Work/3_10 Google Maps Assignment/Battle Descriptions.url"
+                    }
+                  ],
+                  "localPath": "2nd Semester/Civil War/Daily Work/3_10 Google Maps Assignment"
+                }
+              ],
+              "localPath": "2nd Semester/Civil War/Daily Work"
+            },
+            {
+              "type": "folder",
+              "title": "Google Slides",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=894345605",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Civil War Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7746018473",
+                  "localPath": "2nd Semester/Civil War/Google Slides/Civil War Slides.url"
+                }
+              ],
+              "localPath": "2nd Semester/Civil War/Google Slides"
+            },
+            {
+              "type": "folder",
+              "title": "Civil War Review",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=894586816",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "STAAR Toolkit",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7747809627",
+                  "localPath": "2nd Semester/Civil War/Civil War Review/STAAR Toolkit.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Civil War/Toolkit Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7755266315",
+                  "localPath": "2nd Semester/Civil War/Civil War Review/Civil War_Toolkit Review.url"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "2025 Civil War Review",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7755275312",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "2nd Semester/Civil War/Civil War Review/2025 Civil War Review.html"
+                },
+                {
+                  "type": "link",
+                  "title": "Civil War Quizizz",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7757864402",
+                  "localPath": "2nd Semester/Civil War/Civil War Review/Civil War Quizizz.url"
+                }
+              ],
+              "localPath": "2nd Semester/Civil War/Civil War Review"
+            }
+          ],
+          "localPath": "2nd Semester/Civil War"
+        },
+        {
+          "type": "folder",
+          "title": "Reconstruction",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=899491135",
+          "children": [],
+          "localPath": "2nd Semester/Reconstruction"
+        },
+        {
+          "type": "folder",
+          "title": "STAAR Review",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=899491185",
+          "children": [
+            {
+              "type": "folder",
+              "title": "STAAR Quizizz Reviews",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=899507377",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "STAAR Review 1",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866754",
+                  "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review 1.url"
+                },
+                {
+                  "type": "link",
+                  "title": "STAAR Review 2",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866758",
+                  "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review 2.url"
+                },
+                {
+                  "type": "link",
+                  "title": "STAAR Review 3 (Reconstruction)",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866763",
+                  "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review 3 (Reconstruction).url"
+                },
+                {
+                  "type": "link",
+                  "title": "STAAR Review 4",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866766",
+                  "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review 4.url"
+                },
+                {
+                  "type": "link",
+                  "title": "STAAR Review 5",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866769",
+                  "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review 5.url"
+                },
+                {
+                  "type": "folder",
+                  "title": "STAAR Review Various Topics",
+                  "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=899507378",
+                  "children": [
+                    {
+                      "type": "link",
+                      "title": "Constitution STAAR Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866771",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/Constitution STAAR Review.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Federalist vs. Anti-Federalist",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866773",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/Federalist vs. Anti-Federalist.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "U.S. History Image Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866774",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/U.S. History Image Review.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "STAAR Review (Early Republic)",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866776",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/STAAR Review (Early Republic).url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "STAAR Toolkit Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866777",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/STAAR Toolkit Review.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "US History Eras Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866779",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/US History Eras Review.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Mega STAAR Review",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7780866781",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/Mega STAAR Review.url"
+                    },
+                    {
+                      "type": "link",
+                      "title": "Bill of Rights/7 Principles",
+                      "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7783074279",
+                      "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics/Bill of Rights_7 Principles.url"
+                    }
+                  ],
+                  "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/STAAR Review Various Topics"
+                },
+                {
+                  "type": "link",
+                  "title": "Historical Figures",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7802205175",
+                  "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews/Historical Figures.url"
+                }
+              ],
+              "localPath": "2nd Semester/STAAR Review/STAAR Quizizz Reviews"
+            },
+            {
+              "type": "folder",
+              "title": "U.S History Review Packet",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=900285363",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "U.S History Review Packet",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7785211859",
+                  "localPath": "2nd Semester/STAAR Review/U.S History Review Packet/U.S History Review Packet.url"
+                }
+              ],
+              "localPath": "2nd Semester/STAAR Review/U.S History Review Packet"
+            },
+            {
+              "type": "folder",
+              "title": "History Eras Videos",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=900643514",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "History Eras Videos",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7787993413",
+                  "localPath": "2nd Semester/STAAR Review/History Eras Videos/History Eras Videos.url"
+                }
+              ],
+              "localPath": "2nd Semester/STAAR Review/History Eras Videos"
+            },
+            {
+              "type": "folder",
+              "title": "STAAR Warm-Ups",
+              "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=900827372",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "STAAR Review Warm-Up 1",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7789431051",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "2nd Semester/STAAR Review/STAAR Warm-Ups/STAAR Review Warm-Up 1.html"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "STAAR Review Warm-Up 2",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7791613808",
+                  "commonAssessmentDetails": {
+                    "score": "100/100",
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "2nd Semester/STAAR Review/STAAR Warm-Ups/STAAR Review Warm-Up 2.html"
+                },
+                {
+                  "type": "common_assessment",
+                  "title": "STAAR Review Warm-Up 3",
+                  "href": "https://roundrockisd.schoology.com/course/7371658206/assessments/7794158788",
+                  "commonAssessmentDetails": {
+                    "score": null,
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "2nd Semester/STAAR Review/STAAR Warm-Ups/STAAR Review Warm-Up 3.html"
+                }
+              ],
+              "localPath": "2nd Semester/STAAR Review/STAAR Warm-Ups"
+            }
+          ],
+          "localPath": "2nd Semester/STAAR Review"
+        }
+      ],
+      "localPath": "2nd Semester"
+    },
+    {
+      "type": "folder",
+      "title": "After STAAR",
+      "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=903321306",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Historical Yearbook",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=903734910",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Historical Yearbook",
+              "href": "https://roundrockisd.schoology.com/assignment/7808933841",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "After STAAR/Historical Yearbook/Historical Yearbook.html"
+            }
+          ],
+          "localPath": "After STAAR/Historical Yearbook"
+        },
+        {
+          "type": "folder",
+          "title": "Green Screen Project",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=906243498",
+          "children": [
+            {
+              "type": "link",
+              "title": "Green Screen Directions",
+              "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7826300210",
+              "localPath": "After STAAR/Green Screen Project/Green Screen Directions.url"
+            },
+            {
+              "type": "link",
+              "title": "1800's Slang",
+              "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7826300220",
+              "localPath": "After STAAR/Green Screen Project/1800's Slang.url"
+            }
+          ],
+          "localPath": "After STAAR/Green Screen Project"
+        },
+        {
+          "type": "folder",
+          "title": "End of the Year Podcast",
+          "href": "https://roundrockisd.schoology.com/course/7371658205/materials?f=907631151",
+          "children": [
+            {
+              "type": "link",
+              "title": "Podcast Directions",
+              "href": "https://roundrockisd.schoology.com/course/7371658206/materials/link/view/7836492098",
+              "localPath": "After STAAR/End of the Year Podcast/Podcast Directions.url"
+            },
+            {
+              "type": "assignment",
+              "title": "Podcast Planner",
+              "href": "https://roundrockisd.schoology.com/assignment/7836493480",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "After STAAR/End of the Year Podcast/Podcast Planner.html"
+            }
+          ],
+          "localPath": "After STAAR/End of the Year Podcast"
+        }
+      ],
+      "localPath": "After STAAR"
+    }
+  ]
+}

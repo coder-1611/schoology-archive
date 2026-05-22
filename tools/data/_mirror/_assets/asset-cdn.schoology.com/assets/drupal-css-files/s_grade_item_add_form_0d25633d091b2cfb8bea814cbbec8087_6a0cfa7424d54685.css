@@ -1,0 +1,124 @@
+#s-grade-item-add-combined-form #addl-courses .addl-course { display: none; clear: both; position: relative; }
+#s-grade-item-add-combined-form #s-grade-item-add-form-right { margin: 0; }
+#s-grade-item-add-combined-form #edit-is-final-wrapper { margin-top: -30px; position: absolute; }
+#s-grade-item-add-combined-form #addl-courses { clear: none; padding: 0; margin-bottom: 12px; }
+#s-grade-item-add-combined-form #edit-max-points { width: 80px; }
+#s-grade-item-add-combined-form .addl-course { border: 1px solid #ddd; border-width: 1px 0; margin-bottom: -1px; padding: 5px 0 10px; }
+#s-grade-item-add-combined-form .addl-course-title { color: #9a9fa8; margin: 5px 0 15px; }
+#s-grade-item-add-combined-form .submit-span-wrapper { /* rtl-processor:ignore */ float: right; }
+#s-grade-item-add-combined-form .advanced-options-wrapper { background: #fff; border: 1px solid #333; border-width: 1px 1px 2px; margin: 0; padding: 10px; position: absolute; z-index: 10; zoom:1; text-align: start; inset-inline-end: 0; width: 230px; }
+#s-grade-item-add-combined-form .advanced-options { margin: 0 10px 0; margin-inline-start: 0; text-align: end; position: relative; /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] #s-grade-item-add-combined-form .advanced-options { float: left; }
+#smart-box #s-grade-item-add-combined-form { padding-bottom: 30px; }
+.toggle-advanced-options { color: #333; margin: 1px 0 0 0; padding: 5px 20px 5px; padding-inline-start: 8px; display: inline-block; font-weight: normal; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat right -576px; }
+.toggle-advanced-options:hover { text-decoration: none; }
+.toggle-advanced-options.active { background-color: #333; color: #fff; background-position: right -594px; }
+#s-grade-item-add-combined-form .copy-settings { display: none; }
+#s-grade-item-add-combined-form .addl-course-first .copy-settings { display: block; position: absolute; inset-inline-end: 0; bottom: 20px; font-weight: normal; }
+.option-not-found { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/alert-icon.png__q_6a0cfa7424d54685") no-repeat 5px 0; display: inline-block; height: 15px; width: 15px; padding: 0 5px; margin-bottom: -3px; }
+.addl-grading-category label::after {
+  content: "*";
+  color: #4753da;
+}
+#s-grade-item-add-combined-form .s-grade-item-addl-course-submission-disabled-msg {
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* Availablity */
+#s-grade-item-add-form .availability-section div[id$="-datepicker-popup-0-wrapper"] { width: 100px; margin-inline-end: 10px; }
+#s-grade-item-add-form .availability-section input[id$="-datepicker-popup-0"] { width: 88px; }
+#s-grade-item-add-form .availability-section .container-inline-date .time-input .form-item { width: 80px; }
+#s-grade-item-add-form .availability-section .container-inline-date .time-input input { width: 68px; }
+#s-grade-item-add-form .availability-section select { width: 162px; }
+#s-grade-item-add-form .availability-section .container-inline-date label { width: 95px; }
+#s-grade-item-add-form #edit-availability-start-wrapper, #s-grade-item-add-form #edit-availability-end-wrapper { padding-inline-start: 25px; margin-inline-end: 0; }
+
+/* Password */
+#s-grade-item-add-form .password-section select { width: 162px; }
+#s-grade-item-add-form .password-section .password-value-wrapper { margin-inline-start: 120px; padding-bottom: 10px; }
+#s-grade-item-add-form .password-section .password-value-wrapper .form-item { margin-bottom: 5px; }
+#s-grade-item-add-form .password-section .password-value-wrapper input { width: 150px; }
+#s-grade-item-add-form .password-section .password-value-wrapper span { font-size: 11px; }
+#s-grade-item-add-form .password-section .password-value-wrapper span .required { color: #4753da; }
+
+/* Due Date Warning */
+#s-grade-item-add-form .due-date-warning-wrapper { margin-inline-start: 120px; display: flex; align-items: flex-start; }
+#s-grade-item-add-form .due-date-warning-wrapper .due-date-warning-text { margin-inline-start: 1rem; line-height: 1.357; }
+#s-grade-item-add-form .due-date-warning-wrapper .due-date-warning-icon { width: 2rem; height: 2rem;}
+
+/* Collected-Only Material Option */
+#s-grade-item-add-form .collected-wrapper > label { margin-top: -2px; }
+#s-grade-item-add-form .collected-wrapper .form-item { display: flex; }
+#s-grade-item-add-form .collected-wrapper .form-item > label.option { margin-inline-start: 0; }
+
+/* Automatically Publish Grades */
+#s-grade-item-add-form .publish-grades-wrapper .form-item { padding: 0 20px; }
+
+/* Submission Options */
+.submission-options-wrapper {
+  margin: 10px 0px;
+}
+
+.submission-options-wrapper .form-checkboxes {
+  display: flex;
+  padding-top: 10px;
+  white-space: nowrap;
+}
+
+div.submission-options-wrapper > div.form-item > div.form-checkboxes > div.form-item > label {
+  margin-inline-start: 0;
+  cursor: pointer;
+}
+
+.submission-options-wrapper .form-checkboxes .form-item {
+  padding: 5px 10px;
+  border: 1px solid #00427C;
+  margin-inline-end: 7px;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+}
+
+.submission-options-wrapper .form-checkboxes .form-item:hover {
+  background: #BAD7FF;
+}
+
+.submission-options-wrapper .form-checkboxes .form-item:focus-within {
+  outline: 2px solid #327cbb;
+  outline-offset: 2px;
+}
+
+/* Hide the checkbox to align with design */
+.submission-options-wrapper .form-checkboxes .form-item input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.submission-options-wrapper .form-checkboxes .form-item .submission-option-event-icon {
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 15px;
+}
+
+.submission-options-wrapper .description {
+  margin-inline-start: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.submission-options-wrapper #submission-option-required {
+  background: #F1F4F4;
+  border: 1px solid #C4C9CA;
+  border-radius: 3px;
+  padding: 1px 2px;
+  margin-inline-start: 3px;
+}
+
+/* text unselectable */
+.submission-options-wrapper .form-checkbox-title {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

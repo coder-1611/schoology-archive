@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="160" viewBox="0 0 320 160">
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#D4F3FF" points="0 160 320 160 320 0 0 0"/>
+    <g stroke="#C0EDFF" stroke-width="2" transform="translate(4 4)">
+      <path stroke-linejoin="round" d="M267.0597,21.6077 C262.7597,23.7407 261.0027,28.9567 263.1367,33.2557 C265.2707,37.5557 270.4857,39.3117 274.7857,37.1787 L267.0597,21.6077 Z"/>
+      <polygon stroke-linejoin="round" points="214.417 46.431 200.681 45.178 204.953 58.292"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="124.589 19.324 129.145 22.576 125.893 27.133 130.516 30.787 127.263 35.337 131.85 38.778"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="204.021 94.73 204.632 90.254 209.108 90.865 209.981 86.189 214.453 86.803 215.187 82.233"/>
+      <path stroke-linejoin="round" d="M150.047,71.3958 C150.252,74.5098 152.942,76.8688 156.056,76.6648 C159.17,76.4608 161.529,73.7708 161.325,70.6558 L150.047,71.3958 Z"/>
+      <polygon stroke-linecap="round" stroke-linejoin="round" points="298.64 129.171 303.952 129.171 306.608 133.771 303.952 138.37 298.64 138.37 295.985 133.771"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points=".012 12.222 3.824 10.056 5.989 13.867 10.108 11.787 12.269 15.597 16.225 13.472"/>
+      <polygon stroke-linejoin="round" points="221.932 .836 217.692 9.776 223.968 19.632 228.209 10.692"/>
+      <path stroke-linejoin="round" d="M174.5567,148.2723 C178.5647,145.5673 179.6207,140.1263 176.9157,136.1193 C174.2117,132.1113 168.7707,131.0553 164.7627,133.7593 L174.5567,148.2723 Z"/>
+      <polygon stroke-linejoin="round" points="27.026 136.818 18.713 130.215 12.11 138.529 20.423 145.131"/>
+      <polygon stroke-linecap="round" stroke-linejoin="round" points="78.233 103.053 76.806 108.377 71.483 109.803 67.587 105.906 69.013 100.584 74.336 99.157"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="38.047 94.242 37.276 89.189 42.328 88.418 41.778 83.066 46.827 82.299 46.16 77.106"/>
+      <path d="M15.1573,65.1351 C16.9303,63.4061 16.9663,60.5661 15.2363,58.7921 C13.5073,57.0191 10.6673,56.9831 8.8933,58.7131 C7.1203,60.4421 7.0843,63.2821 8.8143,65.0561 C10.5443,66.8291 13.3843,66.8651 15.1573,65.1351 Z"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="95.044 62.099 97.912 59.699 100.313 62.566 103.451 60.191 105.847 63.057 108.841 60.669"/>
+      <polygon stroke-linejoin="round" points="99.097 142.743 105.098 136.357 96.861 133.363"/>
+      <polygon stroke-linejoin="round" points="83.009 23.981 93.835 18.96 95.614 4.98 84.788 10.001"/>
+      <polygon stroke-linejoin="round" points="137.743 92.088 126.278 93.37 127.56 104.835 139.025 103.553"/>
+      <polygon stroke-linejoin="round" points="49.665 26.865 40.392 28.569 42.095 37.842 51.369 36.138"/>
+      <polygon stroke-linejoin="round" points="300.412 56.837 291.139 58.541 292.843 67.814 302.116 66.11"/>
+      <polygon stroke-linejoin="round" points="257.575 108.136 248.057 106.398 240.342 114.824 249.859 116.562"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="33.79 79.248 34.757 75.636 38.37 76.603 39.572 72.855 43.181 73.825 44.259 70.148"/>
+      <polygon stroke-linecap="round" stroke-linejoin="round" points="159.215 13.719 165.348 17.26 165.348 24.342 159.215 27.883 153.082 24.342 153.082 17.26"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="210.17 101.111 211.226 93.376 218.961 94.431 220.468 86.353 228.196 87.414 229.464 79.517"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+.container-recurrence-rule {
+    clear: both;
+}
+
+.container-recurrence-rule #edit-repeat-wrapper {
+    /* rtl-processor:ignore */
+    float: left;
+}
+
+[dir="rtl"] .container-recurrence-rule #edit-repeat-wrapper { float: right; }
+
+
+.container-recurrence-rule #edit-repeat-until-wrapper label {
+    width: 48px !important;
+    margin: 5px 16px;
+}
+
+#smart-box-tab-content-2 #job-queue-message {
+    padding-inline-start: 95px;
+}
+
+#job-queue-message {
+    display: inline-block;
+    padding-inline-start: 120px;
+}
+
+#s-event-add-form .form-radios .form-item {
+    display: inline-block;
+}
+#s-event-add-form .form-radios .form-item label {
+    width: 400px;
+    padding-inline-start: 180px;
+}

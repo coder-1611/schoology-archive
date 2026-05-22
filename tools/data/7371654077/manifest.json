@@ -1,0 +1,110 @@
+{
+  "id": "7371654077",
+  "title": "Geometry: Section 2-01",
+  "source": "archived",
+  "scrapedAt": "2026-05-22T06:28:28.212Z",
+  "downloaded": 9,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "folder",
+      "title": "1st Nine Weeks- DONE!",
+      "href": "https://roundrockisd.schoology.com/course/7371654077/materials?f=865353588",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Unit 1 Conditional Probability and Independent Events 8/15-8/30",
+          "href": "https://roundrockisd.schoology.com/course/7371654077/materials?f=849979003",
+          "children": [
+            {
+              "type": "link",
+              "title": "8/19/24 Venn Diagram and Set Notation Practice",
+              "href": "https://drive.google.com/file/d/1Bp4PTlD5F3I-8IvZR2jTbnF4s24V2p13/view?usp=drive_link",
+              "localPath": "1st Nine Weeks- DONE!/Unit 1 Conditional Probability and Independent Events 8_15-8_30/8_19_24 Venn Diagram and Set Notation Practice.url"
+            },
+            {
+              "type": "link",
+              "title": "Unit 1 Review KEY",
+              "href": "https://drive.google.com/file/d/1J7Kf-uWEZATeM_1PuWGv2EXUmat5sCqu/view?usp=sharing",
+              "localPath": "1st Nine Weeks- DONE!/Unit 1 Conditional Probability and Independent Events 8_15-8_30/Unit 1 Review KEY.url"
+            }
+          ],
+          "localPath": "1st Nine Weeks- DONE!/Unit 1 Conditional Probability and Independent Events 8_15-8_30"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 2 Geometric Figures and Basic Reasoning 9/3 -",
+          "href": "https://roundrockisd.schoology.com/course/7371654077/materials?f=849979286",
+          "children": [
+            {
+              "type": "link",
+              "title": "Basic Geometry Vocabulary 8.30.24",
+              "href": "https://drive.google.com/file/d/1OUdRYJgAhkgBZfsRqghxbnYWONnS98iv/view?usp=sharing",
+              "localPath": "1st Nine Weeks- DONE!/Unit 2 Geometric Figures and Basic Reasoning 9_3 -/Basic Geometry Vocabulary 8.30.24.url"
+            },
+            {
+              "type": "link",
+              "title": "CL Geometry Glossary",
+              "href": "https://drive.google.com/file/d/12TLBwdHaqAwaN_0robrVkzxjOLxgxT3K/view?usp=sharing",
+              "localPath": "1st Nine Weeks- DONE!/Unit 2 Geometric Figures and Basic Reasoning 9_3 -/CL Geometry Glossary.url"
+            },
+            {
+              "type": "link",
+              "title": "9.12.24 Logic Laws Practice",
+              "href": "https://roundrockisd.schoology.com/course/7371654074/materials/link/view/7490982205",
+              "localPath": "1st Nine Weeks- DONE!/Unit 2 Geometric Figures and Basic Reasoning 9_3 -/9.12.24 Logic Laws Practice.url"
+            }
+          ],
+          "localPath": "1st Nine Weeks- DONE!/Unit 2 Geometric Figures and Basic Reasoning 9_3 -"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 3 Distance, Midpoint, and Angle Measurements",
+          "href": "https://roundrockisd.schoology.com/course/7371654077/materials?f=856263890",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "U3 D10 A Walk in the Park SB p.61",
+              "href": "https://roundrockisd.schoology.com/course/7371654074/assessments/7502475915",
+              "commonAssessmentDetails": {
+                "score": null,
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "1st Nine Weeks- DONE!/Unit 3 Distance, Midpoint, and Angle Measurements/U3 D10 A Walk in the Park SB p.61.html"
+            }
+          ],
+          "localPath": "1st Nine Weeks- DONE!/Unit 3 Distance, Midpoint, and Angle Measurements"
+        }
+      ],
+      "localPath": "1st Nine Weeks- DONE!"
+    },
+    {
+      "type": "folder",
+      "title": "2nd Nine Weeks",
+      "href": "https://roundrockisd.schoology.com/course/7371654077/materials?f=865392754",
+      "children": [
+        {
+          "type": "link",
+          "title": "12.10.24 HW: Triangle Midsegment Math Lib GF",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSff5GEANqRtE2jzKtMyqCpDSEhI2gPR1lRqFzvgEKC1NfIkeQ/viewform",
+          "localPath": "2nd Nine Weeks/12.10.24 HW_ Triangle Midsegment Math Lib GF.url"
+        }
+      ],
+      "localPath": "2nd Nine Weeks"
+    },
+    {
+      "type": "link",
+      "title": "STAAR Geometry Reference Materials",
+      "href": "https://drive.google.com/file/d/1TnC4lJkaOsJfAWmeKfi6qKf_eZL8cVbu/view?usp=sharing",
+      "localPath": "STAAR Geometry Reference Materials.url"
+    },
+    {
+      "type": "link",
+      "title": "Link to Eduphoria",
+      "href": "https://roundrock.schoolobjects.com/student?org=ROU-1D09515E-692",
+      "localPath": "Link to Eduphoria.url"
+    }
+  ]
+}

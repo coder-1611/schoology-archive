@@ -1,0 +1,980 @@
+/* Edit Questions */
+#edit-title-wrapper label { display: block; }
+#s-assessment-components-list-form { padding: 10px 0; position: relative; }
+#s-assessment-components-list-form .submit-span-wrapper { margin-top: 10px; }
+#s-assessment-components-list-form .warning { width: 540px; padding-inline-start: 28px; }
+.total-qs-pts { /* rtl-processor:ignore */ float: right; margin-bottom: -15px; position: relative; top: 7px; }
+[dir="rtl"] .total-qs-pts { float: left; }
+#s-assessment-components-list { width: 100%; }
+.component-add-button-wrapper { border-bottom: 1px dashed #cedbe8; width: 640px; }
+#s-assessment-components-list-form .component-add-button-wrapper { /* rtl-processor:ignore */ float: left; border: 0 none; width: auto; margin-inline-end: 4px; }
+[dir="rtl"] #s-assessment-components-list-form .component-add-button-wrapper { float: right; }
+#s-assessment-components-list-form .component-add-button { margin: 0 4px 0; margin-inline-start: 0; }
+#s-assessment-components-list-form .link-btn { float: none; }
+#s-assessment-components-list-header { text-align: start; }
+.component-add-button-wrapper:hover { border-color: #577aa8; }
+.component-add-button { margin: -13px 0; /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .component-add-button { float: left; }
+.component-add-button-wrapper .item-list { position: absolute; border: 1px solid #555555; border-width: 1px 1px 2px; background: #fff; inset-inline-end: 0px; padding: 5px 0; display: none; z-index: 10; margin-top: 13px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+#s-assessment-components-list-form .component-add-button-wrapper .item-list { inset-inline-start: 0; inset-inline-end: auto; margin-top: 0; }
+#s-assessment-components-list-form #s-assessment-components-list-header .action-links-wrapper { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #s-assessment-components-list-form #s-assessment-components-list-header .action-links-wrapper { float: right; }
+
+
+.component-add-button-wrapper .item-list .special-components-start { border-top: 1px solid #aaa; margin-top: 5px; padding-top: 5px; }
+.tabledrag-changed { display: none; }
+#s-assessment-components-list tr.drag td { border: none; background: #E3FFD8; }
+#s-assessment-components-list .draggable a.tabledrag-handle { position: absolute; margin: 15px 0 0 0; }
+.component-action-btns { display: inline; margin-inline-start: 10px; }
+.component-action-edit { margin-inline-end: 10px; }
+.action-links .component-action-edit { margin-inline-end: 0; }
+.component-summary .action-links { inset-inline-end: 0; }
+.component-summary .random-qset-questions-list .action-links { inset-inline-end: auto; }
+.component-action-btns a { font-weight: normal; }
+#s-assessment-question-edit-form #edit-points-wrapper { border: 1px solid #eaeaea; border-width: 1px 0 1px 0; padding: 18px 20px 20px; margin-top: 18px; }
+#s-assessment-question-edit-form #timed-warning, #s-assessment-question-edit-form #edit-time-limit-wrapper { display: none; }
+.components .empty { color: #9a9fa8; padding-top: 30px; text-align: center; }
+.components td, .components th { border-bottom: 1px solid #ddd; }
+.components th { padding-bottom: 10px; }
+.components .component-summary td { border-bottom: 0 none; }
+.component-summary-wrapper { width: 100%; padding: 5px 0px; }
+.component-summary-wrapper.disabled { background-color: #f2f2f2; }
+.component-summary-wrapper.disabled .infotip { margin: 0 12px 0; margin-inline-start: -30px; /* rtl-processor:ignore */ float: left; height: 14px; }
+[dir="rtl"] .component-summary-wrapper.disabled .infotip { float: right; }
+.component-summary-wrapper .s-rte { max-width: 490px; }
+.component-summary-top { height: 10px; }
+.component-summary-bottom { height: 10px; }
+.component-summary { line-height: 1.5; }
+.component-action-to-top { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/right-nav-icons.png__q_6a0cfa7424d54685") 2px -246px; height: 20px; width: 20px; display: block; }
+.component-action-to-top:hover { background-position: 2px -266px; text-decoration: none; }
+.component-action-to-bottom { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/right-nav-icons.png__q_6a0cfa7424d54685") 2px -286px; height: 20px; width: 20px; display: block; margin-bottom: 5px; }
+.component-action-to-bottom:hover { background-position: 2px -305px; text-decoration: none; }
+.component-main-cell { padding-inline-start: 20px; }
+.component-main-cell .inline-icon.random-qset-expander { /* rtl-processor:ignore */ float: left; margin-inline-start: -14px; margin-top: 1px; margin-inline-end: 0; }
+[dir="rtl"] .component-main-cell .inline-icon.random-qset-expander { float: right; }
+.component-main-cell .random-qset-questions-list { margin: 15px 0 -15px; margin-inline-start: 5px; max-height: 650px; overflow: auto; border-top: 1px solid #ddd; width: 490px; }
+.component-main-cell .random-qset-questions-list .item-list { padding-bottom: 60px; }
+.component-main-cell .random-qset-questions-list .random-qset-questions-list-row { border-top: 1px solid #ddd; padding: 15px 0; }
+.component-main-cell .random-qset-questions-list ul .random-qset-questions-list-row:first-child { border-top: 0 none; }
+.component-main-cell .random-qset-questions-list .random-qset-questions-list-row .child-component { padding-inline-end: 40px; }
+.component-main-cell .random-qset-questions-list .random-qset-questions-list-row .child-component .action-links-wrapper { margin-inline-end: -40px; }
+.component-main-cell .random-qset-questions-list .pending { margin: 15px 0; }
+
+.warning { padding: 15px; text-align: center; }
+
+.component-move-actions-cell, .s-assessment-components-list-delta-cell { vertical-align: top;}
+.component-move-actions-cell .item-list { width: 23px; text-align: center; }
+.component-number { width: 50px; font-size: 14px; font-weight: bold; text-align: end; vertical-align: top; padding-inline-end: 10px; text-align: center; white-space: nowrap; }
+.component-main-cell { width: 500px; }
+.popups-library .collection-question-bank .collection-item-toolbar, .popups-library .collection-question-bank .component-main-cell { width: 375px; }
+.component-main-cell img { max-width: 100%; }
+.component-main-cell td img { max-width: 575px; }
+.component-main-cell .s-rte img { max-width: 575px; } /* Setting a static pixel value since IE8/9 have issues with setting max-width on images inside a table cell */
+.component-main-cell .s-rte iframe, .component-main-cell .s-rte object, .component-main-cell .s-rte embed { max-width: 100%; }
+.popups-library .component-main-cell .s-rte img { max-width: 375px; }
+.popups-library .component-main-cell .s-rte iframe, .popups-library .component-main-cell .s-rte object, .popups-library .component-main-cell .s-rte embed { max-width: 100%; }
+.component-actions { display: none; position: absolute; inset-inline-end: 276px; }
+.component-actions li { display: block; /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .component-actions li { float: left; }
+.component-move-actions { position: relative; top: 15px; }
+.component-title { font-size: 12px; margin: 0 5px 10px; padding-top: 2px; }
+.component-attributes { margin: 5px; color: #9a9fa8; }
+.component-attributes .component-type { font-weight: bold; }
+.s-assessment-components-list-delta { display: none; }
+
+.component-add-link { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/right-nav-icons.png__q_6a0cfa7424d54685") no-repeat 8px -210px; padding: 5px 5px 5px; padding-inline-start: 30px; font-weight: normal; display: block; color: #333; }
+.component-add-link:hover { background-color: #333; color: #89D4FA; text-decoration: none; }
+.tooltip { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/clue-tip.png__q_6a0cfa7424d54685") no-repeat left center; width: 15px; height: 16px; margin: 0 0 -3px; margin-inline-start: 5px; display: inline-block; cursor:help; }
+.assessment-results-nav { font-weight: bold; font-size: 14px; padding: 0px 0 10px; padding-inline-start: 10px; }
+.assessment-results-nav .active { color: #333; }
+.assessment-results-nav .assessment-results-nav-toggle { display: inline-block;}
+.assessment-results-nav .assessment-results-nav-toggle .select2-container { max-width: 300px; }
+.assessment-results-nav .assessment-results-nav-toggle .select2-container .select2-choice { margin-top: -3px; }
+
+/* Assessment Settings */
+#s-assessment-settings-form { padding: 15px 0; }
+#s-assessment-settings-form label { /* rtl-processor:ignore */ float: left; width: 112px; padding-inline-end: 18px; margin: 5px 5px 0; margin-inline-start: 0; }
+[dir="rtl"] #s-assessment-settings-form label { float: right; }
+#s-assessment-settings-form #edit-hide-points-wrapper label { margin-inline-start: 135px; float: none; }
+#s-assessment-settings-form .form-item { margin-bottom: 10px; }
+#s-assessment-settings-form .s-tme-wrapper.s-tme-with-attachments #edit-instructions-wrapper { margin-bottom: 0; }
+#s-assessment-settings-form #edit-paging-wrapper, #s-assessment-settings-form #edit-review-wrapper, #s-assessment-settings-form #edit-resumable-wrapper { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #s-assessment-settings-form #edit-paging-wrapper, [dir="rtl"] #s-assessment-settings-form #edit-review-wrapper, [dir="rtl"] #s-assessment-settings-form #edit-resumable-wrapper { float: right; }
+#s-assessment-settings-form .has-inline-tip #edit-paging-wrapper { float: none; width: auto; }
+#s-assessment-settings-form .time-limit-row { height: 39px; width: 100%; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #s-assessment-settings-form .time-limit-row { float: right; }
+#s-assessment-settings-form .time-limit-row.has-inline-tip { width: auto; float: none;}
+#s-assessment-settings-form .infotip { margin: 3px 0 0 0; position: absolute; inset-inline-start: 111px; height: 14px; }
+#edit-availability-start-datepicker-popup-0, #edit-availability-end-datepicker-popup-0 { width: 100px; }
+#edit-availability-start-wrapper .form-item, #edit-availability-end-wrapper .form-item { /* rtl-processor:ignore */ float: left; margin: 0 5px 0; margin-inline-start: 0;}
+[dir="rtl"] #edit-availability-start-wrapper .form-item, [dir="rtl"] #edit-availability-end-wrapper .form-item { float: right; }
+#s-assessment-settings-form .description { inset-inline-end: 0; }
+#s-assessment-settings-form #tinymce-loader { margin: 0 -6px -193px; padding: 0 5px; height: 191px; position: relative; z-index: 1; }
+#s-assessment-settings-form #tinymce-loader span { margin: 0 -5px; }
+#s-assessment-settings-form .tinymceToggleContainer { inset-inline-end: -5px; }
+#s-assessment-settings-form .form-item .description { display: none; text-align: center; font-size: 11px; color: #fff; position: absolute; width: 250px; background: #444; padding: 5px; z-index: 15; margin-top: -25px; }
+#s-assessment-settings-form #edit-instructions { width: 100%; max-height: 400px; min-height: 150px; margin: 0 -6px; }
+#s-assessment-settings-form .s-tme-wrapper { padding: 0 6px 0 6px; }
+#s-assessment-settings-form #edit-instructions-wrapper label { margin-inline-start: -141px; display: none; }
+#s-assessment-settings-form #edit-instructions-wrapper .description { position: static; margin: 0 0 0; margin-inline-start: 180px; width: 510px; padding: 10px; }
+#s-assessment-settings-form #attachments.s-tme-attachments { padding-inline-start: 1px; }
+#s-assessment-settings-form #edit-instructions_parent { margin: 0 -6px; }
+#s-assessment-settings-form .defaultSkin table.mceLayout { width: 100% !important; }
+#s-assessment-settings-form div[id$="-datepicker-popup-0-wrapper"] { width: auto; }
+#s-assessment-settings-form .container-inline-date .description { display: none; }
+#edit-availability-end-wrapper, #edit-availability-start-wrapper { display: none; height: 24px; }
+#s-assessment-settings-form #edit-student-view { display: inline-block; display: -webkit-box;}
+#edit-subjective-wrapper, #edit-timed-wrapper, #edit-points-wrapper, #edit-randomize-wrapper, #edit-partial-credit-wrapper, #edit-allow-richtext-answer-wrapper { padding-inline-start: 20px; }
+#s-assessment-question-edit-form table td .handle { margin-top: -2px; }
+#edit-availability-end-wrapper label, #edit-availability-start-wrapper label { margin-inline-end: 10px; width: 125px; }
+#edit-has-time-limit-wrapper, #edit-time-limit-wrapper, #edit-attempts-wrapper, #edit-attempts-scoring-wrapper { /* rtl-processor:ignore */ float: left; margin-bottom: 0 !important; }
+[dir="rtl"] #edit-has-time-limit-wrapper, [dir="rtl"] #edit-time-limit-wrapper, [dir="rtl"] #edit-attempts-wrapper, [dir="rtl"] #edit-attempts-scoring-wrapper { float: right; }
+#edit-time-limit-wrapper label, #edit-attempts-scoring-wrapper label { width: auto; margin-inline-end: 5px; }
+#edit-attempts-scoring-wrapper label { float: none; display: inline-block; padding-inline-end: 0; }
+#edit-time-limit-wrapper, #edit-attempts-scoring-wrapper { margin-inline-start: 15px; }
+.time-limit-outer, .attempts-outer { height: 39px; width: 100%; }
+#s-assessment-settings-form .submit-span-wrapper { margin: 10px 0 0; margin-inline-start: 135px; }
+#edit-attempts { width: 95px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #edit-attempts { float: right; }
+#edit-attempts-scoring-wrapper { white-space: nowrap; }
+#edit-attempts-scoring-wrapper .form-select { max-width: 200px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; word-wrap: normal; }
+#edit-attempts-scoring-wrapper .description { white-space: normal; }
+#edit-paging-wrapper, #edit-review-wrapper, #edit-resumable-wrapper { width: 100%; }
+
+/* Printing options */
+#s-assessment-printing-settings { margin-bottom: 20px; }
+#s-assessment-printing-settings h2 { font-size: 15px; margin-top: 30px; }
+#s-assessment-printing-settings hr { margin-top: 5px; margin-bottom: 20px; background-color: #c7c7c7; border: 0; height: 1px; }
+#s-assessment-printing-settings input { width: 38px; }
+#s-assessment-printing-settings .printing-essay-outer div { display: inline; }
+
+
+/* hide instructions label for smaller browsers */
+@media screen and (min-width: 1150px) {
+    #s-assessment-settings-form .s-tme-wrapper { padding-inline-start: 141px; }
+    #s-assessment-settings-form #edit-instructions-wrapper label { display: block; }
+    #s-assessment-settings-form #attachments.s-tme-attachments { padding-inline-start: 136px; }
+}
+
+/* Timer */
+#assessment-fill-status { font-weight: bold; text-align: end; margin: 10px 0 2px; font-size: 12px; position: absolute; inset-inline-end: 11px; top: 0; }
+#assessment-progress-bar { border: 1px solid #9DD684; height: 7px; width: 225px; /* rtl-processor:ignore */ float: right; position: absolute; inset-inline-end: 11px; top: 30px; }
+[dir="rtl"] #assessment-progress-bar { float: left; }
+#assessment-progress-bar div { background-color: #E3FFD8; border-inline-end: 1px solid #9DD684; height: 7px; }
+#assessment-question-timer { width: 158px; margin-inline-start: 614px; text-align: center; position: fixed; padding: 5px; background: #444; color: #fff; bottom: 0; border: 1px solid #000; background: #444; z-index: 10000; }
+#assessment-question-timer .time-left { color: #89D4FA; padding-bottom: 5px; }
+#assessment-question-timer .time { font-size: 24px; font-weight: bold; }
+#assessment-question-timer .seconds-left { color: #999; font-size: 14px; margin-top: 2px; }
+div.advanced-options-wrapper{ display: none; }
+#assessment-question-timer .timer-progress-bar { border: 1px solid #999; height: 5px; margin-top: 10px; }
+#assessment-question-timer .timer-progress-bar .progress { background-color: #999; height: 100%; width: 100%; /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] #assessment-question-timer .timer-progress-bar .progress { float: left; }
+#assessment-question-timer.error { color: #FB5757; }
+.time-left-past, .error-past .time { color: #fff; }
+#assessment-question-timer.error-past { background: #d24444; }
+#assessment-question-timer.warning { color: #89D4FA; }
+.view-own-submissions { /* rtl-processor:ignore */ float: right;  }
+[dir="rtl"] .view-own-submissions { float: left; }
+.time-left-past, .error-past .time-left { display: none; }
+.error-past .time-left-past { display: block; padding-bottom: 5px; }
+#timer-submit-wrapper { display: none; padding-top: 15px; }
+#assessment-question-timer.error-past .timer-progress-bar { border-color: #D24444; }
+#s-assessment-question-fill-form #assessment-question-timer .submit-span-wrapper { margin: 0; }
+#s-assessment-question-fill-form .question-fitb .attachments { float: none; width: 100%; font-size: 12px; padding: 10px 0; border-bottom: 1px solid #eaeaea; margin-bottom: 10px; }
+#s-assessment-question-fill-form .attachments { /* rtl-processor:ignore */ float: left; width: 100%; font-size: 12px; padding: 10px 0; border-bottom: 1px solid #eaeaea; margin-bottom: 10px; }
+[dir="rtl"] #s-assessment-question-fill-form .attachments { float: right; }
+
+/* Edit questions */
+#s-assessment-question-edit-form { padding: 10px; width: 800px; margin: 0 auto; }
+#s-assessment-question-edit-form.assessment-edit-question-form-page-break { width: auto }
+#s-assessment-question-edit-form #tinymce-loader { width: 100%; height: 230px; margin-bottom: 10px; }
+#s-assessment-question-edit-form .s-tme-wrapper.s-tme-with-attachments #tinymce-loader { margin-bottom: 0; }
+#s-assessment-question-edit-form .form-item { margin-bottom: 10px; }
+#s-assessment-question-edit-form #edit-time-limit-wrapper { /* rtl-processor:ignore */ float: left; margin: 0 10px 0; margin-inline-start: 45px; }
+[dir="rtl"] #s-assessment-question-edit-form #edit-time-limit-wrapper { float: right; }
+#s-assessment-question-edit-form #edit-title { margin: 0 -6px; width: 100%; }
+#s-assessment-question-edit-form fieldset { display: none; }
+#s-assessment-question-edit-form .question-tracking-header { padding: 5px; font-weight: bold; }
+#s-assessment-question-edit-form .instructions { color: #9a9fa8; font-size: 12px; padding-bottom: 10px; }
+#s-assessment-question-edit-form label { padding-bottom: 3px; }
+#s-assessment-question-edit-form .s-common-adv-options-label label { padding-bottom: 3px; margin-top: 6px; }
+.alignment-inline-wrapper label { width: auto; padding-inline-end: 10px; }
+.alignment-container { padding-inline-start: 160px; }
+#s-assessment-question-edit-form #edit-title-wrapper { padding: 0 6px; }
+#s-assessment-question-edit-form #edit-title-wrapper .mceEditor, .s-tme-addonm-popup .tme-container .mceEditor { display: block; margin: 0 -6px; }
+.s_grade_item_assessment .s-tme-addonm-popup #s-tme-addon-editor_tbl { margin: 0; }
+.s-tme-addonm-popup .tinymceToggleContainer { inset-inline-end: 0; }
+.s-rich-text-editor #edit-title-wrapper { position: absolute; inset-inline-start: -9999px; }
+.s-rich-text-editor.sAssessmentBasicQuestion-processed #edit-title-wrapper { position: static; inset-inline-start: auto; }
+#s-assessment-question-edit-form textarea { font-size: 12px; min-height: 0; }
+#s-assessment-question-edit-form #edit-title { min-height: 201px; border-color: #c7c7c7; visibility: hidden; }
+.submit-buttons { clear: both; }
+#timed-warning { padding: 5px; text-align: start; margin-inline-start: 45px; font-size: 12px; }
+.advanced-options-wrapper { display: none; }
+#edit-num-choices-wrapper { display: inline; }
+#edit-num-choices { padding: 3px; height: 24px; }
+.add-choices { padding: 5px 0 20px; padding-inline-start: 35px; position: relative; font-weight: bold; margin: 0 0 15px; border-bottom: 1px solid #ddd; }
+.add-choices .submit-span-wrapper { margin-inline-end: 4px; }
+.add-choices .form-submit { padding: 3px 8px; }
+#edit-points-wrapper .description { display: inline-block; padding-inline-start: 5px; width: 76%; vertical-align: middle; }
+#edit-points-wrapper label { margin-inline-end: 5px; }
+.popups-box .ahah-progress-throbber { /* rtl-processor:ignore */ float: right; margin: 10px 80px 0; margin-inline-start: 0; }
+[dir="rtl"] .popups-box .ahah-progress-throbber { float: left; }
+.popups-body #tinymce-latex-insert-form .description{ display: block; }
+.component-import { /* rtl-processor:ignore */ float: right; margin: 7px 0 0; margin-inline-start: 4px; position: relative; }
+[dir="rtl"] .component-import { float: left; }
+#s-assessment-question-edit-form .s-rte.disabled { border: 1px solid #c7c7c7; background: #f7f7f7; padding: 10px; }
+#s-assessment-question-edit-form .s-rte.disabled.locked-title-view { height: 157px; margin: 10px 0; }
+#s-assessment-question-edit-form #multiple-choice-wrapper .s-rte.disabled, #s-assessment-question-edit-form #ordering-choice-wrapper .s-rte.disabled, #s-assessment-question-edit-form #matching-rows .s-rte.disabled { float: none; padding: 5px 6px; }
+#s-assessment-question-edit-form .adv-option-group .adv-option-btn { margin-top: -10px; }
+#s-assessment-question-edit-form .alignment-inline-wrapper {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+#s-assessment-question-edit-form .alignment-inline-wrapper label {
+    margin-inline-start: 0;
+    margin-top: 0;
+}
+#s-assessment-question-edit-form .alignment-inline-wrapper > label {
+    line-height: 33px;
+}
+#s-assessment-question-edit-form.sAssessmentComponentEssay-processed .district_mastery_gradebook_scale {
+    display: none;
+}
+
+/* Student */
+#s-assessment-question-fill-form { line-height: 1.5em; padding: 11px; }
+#s-assessment-question-fill-form .posted-time { padding-bottom: 10px; border-bottom: 1px solid #eaeaea; }
+.s-hide-left-nav #s-assessment-question-fill-form { position: relative; width: 800px; margin: 0 auto; }
+#s-assessment-question-fill-form h3 { font-size: 14px; margin-bottom: 5px; }
+#assessment-status { padding: 10px 0; border-bottom: 1px solid #eaeaea; color: #677583; }
+.attempt-limit-reached .messages-close-btn { display: none; }
+.question-wrapper { padding: 30px 0; border-bottom: 1px solid #eaeaea; }
+.question-wrapper span, .question-wrapper p, .question-wrapper div, .question-wrapper b, .question-wrapper i, .question-wrapper strong, .question-wrapper em, .question-wrapper li, .question-wrapper h1, .question-wrapper h2, .question-wrapper h3, .question-wrapper h4, .question-wrapper h5, .question-wrapper h6, .question-wrapper dt, .question-wrapper dd { white-space: normal !important; }
+.question-wrapper .inline-icon.video-icon, .question-review .inline-icon.video-icon { /* rtl-processor:ignore */ float: left; margin: -8px 4px -3px; margin-inline-start: -20px; }
+[dir="rtl"] .question-wrapper .inline-icon.video-icon, [dir="rtl"] .question-review .inline-icon.video-icon { float: right; }
+.question-question { margin-bottom: 10px; overflow: hidden; }
+.word-bank-wrapper { padding: 15px 0 10px; padding-inline-start: 15px; margin-bottom: 15px; }
+.word-bank-instructions .instructions { margin: 5px 0 -10px; font-size: 12px !important; }
+.word-bank-header { font-weight: bold; margin-bottom: 5px; }
+.word-bank-choice { margin: 0 5px 5px; margin-inline-start: 0; background: #e9f0f6; padding: 3px 5px; display: inline-block; }
+.word-bank-choice:hover { cursor: pointer; }
+.instructions { font-size: 12px; color: #EC9638; padding: 5px; }
+#s-assessment-component-ordering-fill-table { width: 100%; }
+#s-assessment-question-fill-form .matching-answers img { max-width: 100%; }
+#s-assessment-question-fill-form .matching-answers td img { max-width: 300px; }
+.matching-question p:first-child { margin-top: 0; }
+.matching-question { max-width: 300px; word-wrap: normal; overflow: hidden; }
+.matching-answer { padding: 0 5px 0; padding-inline-start: 20px; width: 325px; min-height: 21px; margin-bottom: 10px; }
+.matching-answer p:first-child { margin-top: 0; }
+.answer-letter { /* rtl-processor:ignore */ float: left; margin-inline-start: -20px; }
+[dir="rtl"] .answer-letter { float: right; }
+.matching-answers .form-text { width: 25px; text-align: center; border-color:#333; border-width:0 0 1px; padding: 2px 2px 0; font-size: 14px; color: #2E66A3; }
+.matching-answers .form-text:focus { background: #E3FFD8; color: #499528; }
+.matching-highlight .matching-answer { background: #E3FFD8; }
+.matching-answers .col1-width { width: 35px; text-align: end; padding-inline-end: 5px; }
+.matching-answers .col2-width { width: 35px; padding-inline-end: 5px; }
+.matching-answers .col3-width {  padding-inline-end: 5px; }
+.matching-answers .col-matching-lines .canvas { position: relative; width: 80px; }
+.matching-answers .col4-width {  padding-inline-start: 15px; }
+.matching-answers td { vertical-align: top; }
+.matching-answers th { text-align: start; padding-bottom: 10px; }
+.matching-answers .form-item { margin-bottom: 10px; }
+.question-number { font-weight: bold; font-size: 14px; }
+.question-points { color: #677583; font-size: 12px; }
+#s-assessment-component-ordering-fill-table th { text-align: start; padding-bottom: 10px; }
+.question-title { margin-top: 10px; }
+.form-radios-table .form-radio-option, .form-checkboxes-table .form-checkbox-option { padding-inline-end: 10px; width: 40px; overflow: visible; }
+.form-radios-table td, .form-checkboxes-table td { vertical-align: top; word-wrap: normal; overflow: hidden; }
+.form-radios-table p:first-child, .form-checkboxes-table p:first-child { margin-top: 0; }
+.multiple-choices, .ordering-wrapper, .radios-wrapper { margin-inline-start: 15px; }
+.multiple-choices .form-radios { margin: 0; }
+.multiple-choices input { margin-inline-end: 5px; }
+.ordering-wrapper table { width: 85%; }
+.ordering-wrapper table td { padding: 5px 0 5px; padding-inline-start: 20px; }
+.ordering-wrapper table .choice-prefix { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .ordering-wrapper table .choice-prefix { float: right; }
+.ordering-wrapper table .choice-text { /* rtl-processor:ignore */ float: left; width: 610px; padding-inline-start: 10px; }
+[dir="rtl"] .ordering-wrapper table .choice-text { float: right; }
+.component-preview .ordering-wrapper table .choice-text { width: auto; }
+.ordering-wrapper table .choice-text p:first-child { margin-top: 0; }
+#assessment-instructions .instruction-header, #assessment-instructions { display: none; }
+#assessment-instructions.first-step, #assessment-instructions.first-step .instruction-header { display: block; }
+#assessment-attachment-wrapper .attachments { padding-top: 15px; }
+#assessment-instructions { padding: 10px 0; border-bottom: 1px solid #eaeaea; }
+.question-wrapper .warning { display: none !important; }
+.question-wrapper .warning#assessment-question-timer { display: block !important; }
+.ordering-fill input { display: none; }
+.ordering-fill .drag-handle { margin-top: -2px; margin-inline-start: -20px; }
+table.s-assessment-ordering tr.ui-sortable-helper { width: 100% !important; }
+.weight-col {display: none; }
+.essay-wrapper textarea { height: 125px; line-height: 1.4; width: 600px; }
+.essay-wrapper .richtext-content { padding: 5px; border: 1px solid #c7c7c7; height: 125px; width: 600px; overflow: auto; }
+.essay-wrapper .richtext-content p:first-child { margin-top: 0; }
+.essay-wrapper .richtext-content:hover { cursor: pointer; }
+.essay-wrapper .record-answer-btn { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a0cfa7424d54685") no-repeat 0 -370px; padding: 5px 5px 5px; padding-inline-start: 20px; white-space: nowrap; display: inline-block; font-weight: normal; }
+.essay-wrapper .record-answer-btn.disabled { color: #9A9FA8; }
+.essay-wrapper .record-answer-btn.disabled:hover { text-decoration: none; cursor: default; }
+.essay-wrapper .progressContainer { width: 580px; }
+.essay-review .progressContainer { margin: 0 0 5px; padding: 15px 5px 10px; padding-inline-start: 25px; min-height: 20px; border: 1px solid #cedbe8; background: #f2f5f9; font-size: 12px; text-align: start; }
+.question-essay .essay-wrapper { padding-top: 10px; }
+.essay-question-characters.limit-exceeded { color: #a30000; }
+.s-device-is-app.s-assessment-component-essay .tipsy-inner { max-width: 170px; }
+
+/* Review Answers */
+#s-assessment-question-fill-form { font-size: 12px; }
+#s-assessment-question-fill-form .submit-span-wrapper { margin-inline-end: 5px; }
+.review-answers h4 { font-size: 14px; color: #333; border: none; margin: 0 0 10px; padding: 0; }
+.review-page { border-top: 1px solid #c7c7c7; margin-top: -1px; }
+.review-page li, .review-page td { padding: 3px 0; }
+#s-assessment-question-fill-form .review-page .submit-span-wrapper { /* rtl-processor:ignore */ float: right; margin-top: 10px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/gray-btn-bg.gif__q_6a0cfa7424d54685") repeat-x 0 1px; border-color: #999 #999 #888; }
+[dir="rtl"] #s-assessment-question-fill-form .review-page .submit-span-wrapper { float: left; }
+#s-assessment-question-fill-form .review-page .submit-span-wrapper input { color: #444; font-size: 12px; }
+#s-assessment-question-fill-form .review-page .submit-span-wrapper:active { background: #eee; }
+.question-review { padding-bottom: 30px; border-bottom: 1px solid #eaeaea; }
+.question-review img { max-width: 100%; }
+.question-true_false .item-list span.option-span, .multiple-choice-review span.option-span { padding: 3px 5px 3px; padding-inline-start: 25px; display: inline-block; }
+.question-true_false .selected span.option-span, .multiple-choice-review .selected span.option-span, .ordering-review .selected span.option-span { color: #577aa8; background: #e9f0f6 url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/blue-check.png__q_6a0cfa7424d54685") no-repeat 2px 4px; }
+.question-true_false span.question-content, .multiple-choice-review span.question-content, .ordering-review span.question-content { background: none; padding-inline-start: 0;}
+.question-review .component-title { margin: 0 0 10px; padding-top: 5px; }
+#s-assessment-edit-submission-form .question-fitb .component-title { display: block; }
+#s-assessment-view-submission-form .question-fitb .component-title { display: block; }
+.question-fitb .question-title { display: none; }
+.question-fitb .answer .selected { color: #577aa8; text-decoration: underline; padding: 1px 5px; background: #e9f0f6; }
+.question-fitb .answer { margin-top: 5px; }
+.question-matching .col-2, .matching-review .col-2 { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow.svg__q_6a0cfa7424d54685") no-repeat 8px 5px; width: 30px; padding-inline-end: 3px; }
+.question-matching .col-3, .matching-review .col-3 { color: #577aa8; padding: 3px 5px 3px; padding-inline-start: 30px; background: #e9f0f6;}
+.question-matching .no-answer .col-2, .question-matching .no-answer .col-3 { background: none; }
+.question-matching .option-span {background:none !important;}
+.question-multiple_choice .option-span{margin-inline-end: 5px;}
+.ordering-review, .matching-review { border-collapse: separate; margin: 5px 0 0; margin-inline-start: 15px; }
+.correction-wrapper { margin: 5px 0 0; margin-inline-start: 20px; font-weight: bold; color: #577aa8; }
+.correction-wrapper .answer { display: inline; margin-inline-start: 7px; font-weight: normal; color: #333; }
+.correct-correction { font-weight: normal; color: #499528; background: #E3FFD8; padding: 3px 5px; margin-inline-start: 10px }
+#s-assessment-question-fill-form .question-review { padding: 30px 0; }
+#s-assessment-question-fill-form .submit-span-wrapper { margin-top: 10px; }
+#s-assessment-question-fill-form .hidden { display: none; }
+
+/* For printed submission review, do not hid FITB question titles */
+#s-assessment-edit-submission-form.printed .question-review.question-fitb .question-view .component-title { display: inline; }
+
+/* Students stats */
+.student-name { font-size: 12px; margin-top: 7px; }
+.student-name .infotip { background: none; padding: 0; text-overflow: ellipsis; overflow: hidden; max-width: 220px; white-space: nowrap; display: inline-block; }
+[dir="rtl"] .student-name .infotip { background: none; }
+.student-name a:hover b { color: #5387B6; }
+.student-info .picture a { height: 32px; }
+.student-info .picture { width: 35px; }
+.clear-override, .clear-exception { display: none; }
+.exception-tooltip {background-color: #556370;}
+.input-score { display: none; font-weight: bold; }
+.override .clear-override, .has-exception .clear-exception { display: block; font-weight: normal; }
+td.override { background: #fff; }
+.score-grade { font-weight: bold; cursor: pointer; }
+.score-grade.not-editable { cursor: default; }
+.score-grade-score span { font-size: 18px; color: #5387B6; cursor: pointer; }
+.not-editable .score-grade-score span { cursor: default; color: #333; }
+.override:not(.has-exception) .score-grade-score span { color: #EC9638; }
+.score-grade:hover .score-grade-score.not-editable span { color: #333; }
+.score-grade-grade, .header-score-grade div, .cell-answer-stats .correct { color: #5AB135; }
+.clear-override, .clear-exception { color: #EC9638; cursor: pointer; font-size: 10px;}
+.clear-override:hover, .clear-exception:hover { text-decoration: underline; }
+#s-assessment-view-student-stats-form { padding: 0 10px; }
+#s-assessment-view-student-stats-form .submit-span-wrapper { margin-top: 10px; }
+#s-assessment-view-student-stats-form .student-info { width: 275px; height: 32px; padding: 8px 0 8px; padding-inline-start: 20px; }
+tr.pending-review, tr.submission-requires-review { background-color: #f2f5f9; }
+tr.pending-review td:first-child, tr.submission-requires-review td:first-child { background: #f2f5f9 url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/unread_icon.png__q_6a0cfa7424d54685") no-repeat 3px center; }
+[dir="rtl"] tr.pending-review td:first-child, [dir="rtl"] tr.submission-requires-review td:first-child { background-position: calc(100% - 3px);}
+td .student-info { /* rtl-processor:ignore */ float: left; height: auto; }
+[dir="rtl"] td .student-info { float: right; }
+td .student-info .school-uid { padding-bottom: 5px; }
+#s-assessment-view-student-stats-form .student-name a { font-weight: normal; }
+.header-name { text-align: start; }
+#s-assessment-view-student-stats-form td { border-bottom: 1px solid #eaeaea; text-align: center; width: 17%; }
+#s-assessment-view-student-stats-form th { border-bottom: 1px solid #c7c7c7; }
+#s-assessment-view-student-stats-form td.cell-name { text-align: start; width: 32%; }
+#s-assessment-view-student-stats-form table { width: 100%; }
+.cell-submissions, .cell-score  { text-align: center; }
+.cell-submissions .flagged { color: #9a9fa8; }
+.cell-submissions .infotip { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/time_error.gif__q_6a0cfa7424d54685") no-repeat 2px 0; }
+.cell-score .pending { color: #9a9fa8; }
+#s-assessment-view-student-stats-form .cell-score .infotip { background: none; padding: 0; display: block; cursor: default; }
+#s-assessment-view-student-stats-form .grade-exception, .grade-score-wrapper .grade-exception {margin-inline-end: 4px; margin-bottom: -1px; width: 14px;}
+.header-submissions, .header-submission-num { padding: 0 5px; }
+.cell-latest-attempt { width: 150px; text-align: center; padding: 0 10px; color: #9a9fa8; }
+.header-score-grade { width: 125px; }
+.cell-edit { width: 128px; text-align: end; }
+.cell-edit a { font-weight: normal; }
+.input-score .form-item { display: inline; }
+.input-score input { color: #EC9638; font-size: 18px; padding: 3px 5px; text-align: center; width: 40px; margin-bottom: 6px; }
+#s-assessment-view-single-student-stats-form td { border: 1px solid #cedbe8; border-width: 1px 0; padding: 10px 0; }
+#s-assessment-view-single-student-stats-form td .empty { color: #9a9fa8; }
+#s-assessment-view-single-student-stats-form .past-time-limit-amount, #s-assessment-view-single-student-stats-student-form .past-time-limit-amount { display: block; }
+#s-assessment-view-single-student-stats-form table a, #s-assessment-view-single-student-stats-student-form table a { font-weight: normal; text-transform: capitalize; }
+#s-assessment-view-single-student-stats-form .submit-span-wrapper { margin-top: 10px; }
+.s-assessment-no-submission .infotip { color: #9a9fa8; }
+.grade-score-wrapper { font-weight: bold; padding-top: 3px; height: 42px; }
+.grade-score-wrapper .score-grade-score { /* rtl-processor:ignore */ float: left; margin: -1px 15px 2px; margin-inline-start: 0; }
+[dir="rtl"] .grade-score-wrapper .score-grade-score { float: right; }
+.grade-score-wrapper .input-score { /* rtl-processor:ignore */ float: left; margin-inline-end: 15px; }
+[dir="rtl"] .grade-score-wrapper .input-score { float: right; }
+.grade-score-wrapper .score-grade-grade { /* rtl-processor:ignore */ float: left; margin: 4px 15px 0; margin-inline-start: 0; }
+[dir="rtl"] .grade-score-wrapper .score-grade-grade { float: right; }
+.grade-score-wrapper .grade-score-title { /* rtl-processor:ignore */ float: left; width: 120px; padding-top: 5px; text-align: end; line-height: 16px; display: none; }
+[dir="rtl"] .grade-score-wrapper .grade-score-title { float: right; }
+.grade-score-wrapper .clear-override,  .grade-score-wrapper .clear-exception { /* rtl-processor:ignore */ float: left; margin-top: 5px; margin-inline-end: 20px; }
+[dir="rtl"] .grade-score-wrapper .clear-override, [dir="rtl"] .grade-score-wrapper .clear-exception { float: right; }
+.grade-score-wrapper .grade-score { /* rtl-processor:ignore */ float: left; width: 250px; }
+[dir="rtl"] .grade-score-wrapper .grade-score { float: right; }
+#wrapper .grade-score-wrapper .grade-score .infotip { /* rtl-processor:ignore */ float: left; cursor: default; overflow: hidden; }
+[dir="rtl"] #wrapper .grade-score-wrapper .grade-score .infotip { float: right; }
+.grade-score-wrapper .form-item, .grade-score-wrapper .form-item input { margin: 0; }
+.grade-score-wrapper .grade-score-pending { /* rtl-processor:ignore */ float: left; width: 150px; padding-top: 6px; color: #5AB135; font-weight: normal; }
+[dir="rtl"] .grade-score-wrapper .grade-score-pending { float: right; }
+#s-assessment-view-single-student-stats-form table { text-align: center; width: 100%; }
+.header-score { width: 125px; }
+#s-assessment-view-single-student-stats-form .student-name { font-size: 14px; margin-top: 7px; padding-inline-start: 45px; }
+#s-assessment-view-single-student-stats-form .student-info { width: auto; /* rtl-processor:ignore */ float: left; padding: 0 25px 0; padding-inline-start: 0; border-inline-end: 1px solid #eaeaea; margin-inline-end: 25px; }
+[dir="rtl"] #s-assessment-view-single-student-stats-form .student-info { float: right; }
+#s-assessment-view-single-student-stats-form .grade-score-wrapper { /* rtl-processor:ignore */ float: left; padding-inline-start: 20px; }
+[dir="rtl"] #s-assessment-view-single-student-stats-form .grade-score-wrapper { float: right; }
+.single_view_header { height: 35px; padding: 0; margin-bottom: 20px; }
+.single_view_header .student-info a { font-weight: bold; }
+.no-data { text-align: center; padding: 25px 0; border-top: 1px solid #ddd; color: #9a9fa8; width: 100%; }
+.return { /* rtl-processor:ignore */ float: right; margin-top: -30px; text-align: center; width: 175px; }
+[dir="rtl"] .return { float: left; }
+.past-time-limit-amount { color: #de3535; font-size: 12px; }
+.assessment-submission-action-links .action-links { inset-inline-end: 0; text-align: start; }
+.assessment-submission-action-links .action-unsubmit { position: relative; }
+.assessment-submission-action-links .action-unsubmit a { padding-inline-end: 35px; }
+.assessment-submission-action-links .action-unsubmit .infotip { display: block; margin: 0 !important; width: auto; height: auto; }
+.assessment-submission-action-links .action-unsubmit.disabled .infotip { padding: 5px 25px 5px; padding-inline-start: 37px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat 9px -397px; }
+.action-links .action-view a { background-position: 9px -36px; }
+[dir="rtl"] .action-links .action-view a { background-position-x: calc(100% - 9px); }
+.action-links .action-unsubmit a { background-position: 9px -397px; }
+[dir="rtl"] .action-links .action-unsubmit a { background-position-x: calc(100% - 9px); }
+.action-links .action-view a:hover { background-position: 9px -55px; }
+[dir="rtl"] .action-links .action-view a:hover { background-position-x: calc(100% - 9px); }
+.action-links .action-unsubmit a:hover { background-position: 9px -417px; }
+[dir="rtl"] .action-links .action-unsubmit a:hover { background-position-x: calc(100% - 9px); }
+.action-links .action-export a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685"); background-position: 13px -116px;  }
+.feedback-content { background: #ffd; border: 1px solid #F0C020; padding: 5px 10px; display: inline-block; margin-top: 10px; }
+.feedback-content.correct-feedback { background: #e3ffd8; border-color: #9cd683; }
+.sub-score .infotip { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_comment.png__q_6a0cfa7424d54685") no-repeat 3px 3px; }
+.sub-score { font-weight: bold; }
+.submission-requires-review .sub-score { color: #9a9fa8; font-weight: normal; }
+
+/* submission view */
+#s-assessment-view-submission-form, #s-assessment-edit-submission-form, #s-assessment-view-question-responses-form { padding: 10px; font-size: 12px; line-height: 1.5; width: 760px; }
+#s-assessment-edit-submission-form .grade-score, #s-assessment-view-question-responses-form .grade-score { /* rtl-processor:ignore */ float: left; width: 100px; text-align: center; margin-inline-end: 10px; }
+[dir="rtl"] #s-assessment-edit-submission-form .grade-score, [dir="rtl"] #s-assessment-view-question-responses-form .grade-score { float: right; }
+#s-assessment-edit-submission-form .grade-score .infotip, #s-assessment-view-question-responses-form .grade-score .infotip { display: block; }
+#s-assessment-edit-submission-form .question-view, #s-assessment-view-question-responses-form .question-view { margin-inline-start: 110px; }
+#s-assessment-edit-submission-form .question-review { padding-top: 15px; }
+#s-assessment-edit-submission-form .selected.correct .question-content, #s-assessment-edit-submission-form .incorrect .question-content, #s-assessment-edit-submission-form .correct .question-content, #s-assessment-edit-submission-form .selected .feedback-content, #s-assessment-edit-submission-form .selected .feedback-content span { background: none; }
+#s-assessment-edit-submission-form .selected.correct .feedback-content, #s-assessment-edit-submission-form .selected.incorrect .feedback-content, #s-assessment-edit-submission-form .selected .feedback-content span { color: #333; }
+#s-assessment-edit-submission-form .selected .feedback-content span { display: inline; padding: 0; }
+#s-assessment-edit-submission-form .selected.correct .feedback-content, #s-assessment-edit-submission-form .selected.incorrect .feedback-content { display: inline-block; vertical-align: top; margin-top: 0; padding: 5px 10px; }
+#s-assessment-edit-submission-form .selected.correct .feedback-content.correct-feedback { background: #e3ffd8; border-color: #9cd683; }
+#s-assessment-edit-submission-form .selected.incorrect .feedback-content.incorrect-feedback { background: #ffd; border-color: #f0c020; }
+#s-assessment-view-question-responses-form .selected.correct span.option-span, #s-assessment-edit-submission-form .selected.correct span.option-span { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: 2px solid #308600 }
+#s-assessment-view-question-responses-form .selected.correct span.option-span.legacy-matching, #s-assessment-edit-submission-form .selected.correct span.option-span.legacy-matching { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: none }
+#s-assessment-view-question-responses-form .ordering-review .selected.correct span.option-span { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: 2px solid #308600 }
+
+#s-assessment-view-question-responses-form .ordering-review .selected span.option-span { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/xShape.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; }
+#s-assessment-view-question-responses-form .selected span.option-span, #s-assessment-edit-submission-form .selected span.option-span { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/xShape.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: 2px solid #DE3034 }
+[dir="rtl"] #s-assessment-edit-submission-form .selected span.option-span { background-position-x: calc(100% - 5px); }
+#s-assessment-edit-submission-form .selected span.option-span.legacy-true-false-question, #s-assessment-edit-submission-form .selected span.option-span.legacy-multiple-choice-question { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/xShape.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: 2px solid #DE3034 }
+[dir="rtl"] #s-assessment-edit-submission-form .selected span.option-span.legacy-multiple-choice-question { background-position-x: calc(100% - 5px); }
+#s-assessment-edit-submission-form .selected.correct span.option-span.legacy-true-false-question, #s-assessment-edit-submission-form .selected.correct span.option-span.legacy-multiple-choice-question { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: 2px solid #308600 }
+[dir="rtl"] #s-assessment-edit-submission-form .selected.correct span.option-span.legacy-true-false-question, [dir="rtl"] #s-assessment-edit-submission-form .selected.correct span.option-span.legacy-multiple-choice-question { background-position-x: calc(100% - 5px); }
+
+#s-assessment-edit-submission-form .selected span.option-span.legacy-matching, #s-assessment-view-question-responses-form .selected span.option-span.legacy-matching { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: none}
+#s-assessment-edit-submission-form .correct span.option-span, #s-assessment-view-question-responses-form .correct span.option-span, #s-assessment-view-question-responses-form .ordering-review .correct span.option-span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; }
+[dir="rtl"] #s-assessment-edit-submission-form .correct span.option-span { background-position-x: calc(100% - 5px); }
+#s-assessment-view-question-responses-form .question-fitb span.correct, #s-assessment-edit-submission-form .question-fitb span.correct { padding-inline-start: 25px; color: #000000; text-decoration: underline; background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 2px;}
+
+#s-assessment-view-question-responses-form .question-fitb span.selected, #s-assessment-edit-submission-form .question-fitb span.selected { display: inline-block; padding-inline-start: 25px; color: #000000; background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/xShape.svg__q_6a0cfa7424d54685") no-repeat 5px 2px; border: 2px solid #DE3034}
+#s-assessment-edit-submission-form .matching-review .selected, #s-assessment-view-question-responses-form .matching-review .selected { color: #000000; background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/xShape.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; border: 2px solid #DE3034}
+
+#s-assessment-view-question-responses-form .question-fitb span.selected.correct, #s-assessment-edit-submission-form .question-fitb span.selected.correct { display: inline-block; padding-inline-start: 25px; background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 2px; color: #000000; border: 2px solid #308600}
+#s-assessment-edit-submission-form .matching-review .selected.correct,  #s-assessment-view-question-responses-form .matching-review .selected.correct { background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 5px 4px; color: #000000; border: 2px solid #308600}
+#s-assessment-edit-submission-form .matching-review .correct, #s-assessment-edit-submission-form .matching-review .correct *, #s-assessment-view-question-responses-form .matching-review .correct, #s-assessment-view-question-responses-form .matching-review .correct * { color: #000000 !important; }
+#s-assessment-view-question-responses-form .matching-review .col-4, #s-assessment-edit-submission-form .matching-review .col-4 { padding-inline-start: 33px; color: #000000; background: #FFFFFF url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/checkMark.svg__q_6a0cfa7424d54685") no-repeat 8px 4px;}
+#s-assessment-edit-submission-form .question-fitb .question-view .attachments, #s-assessment-view-question-responses-form .question-fitb .question-summary .attachments { float: none; width: 100%; }
+#s-assessment-edit-submission-form .question-view .attachments, #s-assessment-view-question-responses-form .question-summary .attachments { /* rtl-processor:ignore */ float: left; width: 100%; }
+[dir="rtl"] #s-assessment-edit-submission-form .question-view .attachments, [dir="rtl"] #s-assessment-view-question-responses-form .question-summary .attachments { float: right; }
+#s-assessment-edit-submission-form .question-view img, #s-assessment-view-question-responses-form .question-summary img { max-width: 100%; }
+#s-assessment-view-question-responses-form .question-summary .attachments { margin-top: 10px; }
+#s-assessment-edit-submission-form .student-name { display: inline; font-size: 14px; /* rtl-processor:ignore */ float: left; margin-top: 5px; }
+[dir="rtl"] #s-assessment-edit-submission-form .student-name { float: right; }
+#s-assessment-edit-submission-form .submission { font-size: 13px; font-weight: bold; /* rtl-processor:ignore */ float: left; margin-top: 5px; color: #327cbb; }
+[dir="rtl"] #s-assessment-edit-submission-form .submission { float: right; }
+#s-assessment-edit-submission-form .arrow-right { /* rtl-processor:ignore */ float: left; margin: 7px 8px 0; margin-inline-start: 4px; }
+[dir="rtl"] #s-assessment-edit-submission-form .arrow-right { float: right; }
+#s-assessment-edit-submission-form .student-name a { font-weight: bold; }
+#s-assessment-edit-submission-form .submit-span-wrapper { margin-top: 10px; }
+.submission-info th { text-align: end; padding-inline-end: 10px; }
+.submission-info { margin-bottom: 10px; height: 35px; }
+.student-info-wrapper { position: relative; /* rtl-processor:ignore */ float: left; margin-inline-start: 20px; }
+[dir="rtl"] .student-info-wrapper { float: right; }
+#view-student-info-btn { /* rtl-processor:ignore */ float: left; padding: 0; height: 22px; width: 26px; margin: 3px 0 0; }
+[dir="rtl"] #view-student-info-btn { float: right; }
+#view-student-info-btn span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a0cfa7424d54685") no-repeat 5px -1329px; height: 22px; width: 26px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #view-student-info-btn span { float: right; }
+#student-info-table-wrapper { position: absolute; padding: 10px 15px; border: 1px solid #333; background: #fff; inset-inline-end: 0; top: 26px; white-space: nowrap; font-size: 12px; }
+#s-assessment-view-single-student-stats-student-form table { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #s-assessment-view-single-student-stats-student-form table { float: right; }
+#s-assessment-view-single-student-stats-student-form .no-data { /* rtl-processor:ignore */ float: left; width: 100%; }
+[dir="rtl"] #s-assessment-view-single-student-stats-student-form .no-data { float: right; }
+#s-assessment-view-single-student-stats-student-form .grade-score-wrapper { margin: 0; }
+#s-assessment-view-submission-form .assessment-subjective-label { /* rtl-processor:ignore */ float: left; width: 100px; margin-inline-end: 10px; padding-top: 2px; text-align: center; font-size: 12px; color: #9a9fa8; }
+[dir="rtl"] #s-assessment-view-submission-form .assessment-subjective-label { float: right; }
+#s-assessment-view-submission-form .essay-review, #s-assessment-edit-submission-form .essay-review { overflow: hidden; margin-top: 10px; padding-inline-start: 10px; border-inline-start: 2px solid #ddd; }
+#s-assessment-view-submission-form .question-review.question-essay .infotip { display: none; }
+#s-assessment-view-submission-form .question-review.question-essay .attachments-file-name .infotip { display: inline; }
+#s-assessment-edit-submission-form .assessment-subjective-label { color: #9a9fa8; margin-inline-start: 3px; }
+#s-assessment-view-submission-form .student-name { display: inline; font-size: 13px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #s-assessment-view-submission-form .student-name { float: right; }
+#s-assessment-view-submission-form .submission { font-size: 13px; font-weight: bold; /* rtl-processor:ignore */ float: left; margin-top: 5px; color: #327cbb; }
+[dir="rtl"] #s-assessment-view-submission-form .submission { float: right; }
+#s-assessment-view-submission-form .arrow-right { /* rtl-processor:ignore */ float: left; margin: 9px 8px 0; margin-inline-start: 4px; }
+[dir="rtl"] #s-assessment-view-submission-form .arrow-right { float: right; }
+#s-assessment-view-submission-form .essay-review .inline-icon, #s-assessment-edit-submission-form .essay-review .inline-icon { vertical-align: middle; margin-bottom: 0; }
+#s-assessment-view-submission-form .essay-review .recording-preview, #s-assessment-edit-submission-form .essay-review .recording-preview, .question-review .recording-preview { font-weight: normal; }
+#s-assessment-view-submission-form .essay-review .progressContainer, #s-assessment-edit-submission-form .essay-review .progressContainer, .essay-review .progressContainer { margin: 10px 0; }
+.question-comment-toggle { margin-inline-start: 110px; padding-top: 10px; }
+.question-comment-toggle span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_comment.png__q_6a0cfa7424d54685") no-repeat left 3px; padding-inline-start: 19px; font-size: 12px; font-weight: normal; display: inline-block; }
+[dir="rtl"] .question-comment-toggle span { background-position-x: right; }
+.question-comment-toggle span:hover { text-decoration: none; }
+.question-comment-wrapper, #s-assessment-view-submission-form .question-comment { margin-inline-start: 110px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/speach-top.gif__q_6a0cfa7424d54685") no-repeat 15px 10px; padding-top: 15px; }
+.question-comment-wrapper { display: none; }
+.question-comment-wrapper.with-prefill { display:block; }
+.question-comment-wrapper.with-prefill .form-item{ display:none; }
+.question-comment-wrapper .form-item, .question-comment-wrapper .question-comment-content { background: #E3EDF7; padding: 10px 10px 8px; border-bottom: 1px solid #cedbe8; width: 428px; }
+.question-comment-wrapper .question-comment-content { padding: 6px 8px; font-size: 12px; cursor: pointer; }
+#s-assessment-view-submission-form .question-comment p { background: #E3EDF7; padding: 5px 8px; border-bottom: 1px solid #cedbe8; width: 428px; }
+.submission-score .pending { color: #9a9fa8; font-size: 12px; }
+.question-comment-wrapper textarea { width: 415px; }
+.question-view .empty { display: block; border-inline-start: 2px solid #ddd; padding-inline-start: 10px; margin-top: 10px; color: #9a9fa8; font-size: 12px; }
+.review-page .no-answer-provided, .user-submissions .no-answer-provided { border-inline-start: 0 none; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/error_404.png__q_6a0cfa7424d54685") no-repeat 0 0; padding: 0 0 0; padding-inline-start: 25px; }
+#assessment-stats-btn { cursor: pointer; font-size: 12px; font-weight: bold; color: #327cbb; /* rtl-processor:ignore */ float: right; margin: -22px 10px 0; margin-inline-start: 0; }
+[dir="rtl"] #assessment-stats-btn { float: left; }
+
+/* Question stats */
+#s-assessment-view-question-stats-table { width: 100%; margin: 10px; }
+#s-assessment-view-question-stats-table th { text-align: start; border-bottom: 1px solid #c7c7c7; }
+#s-assessment-view-question-stats-table td { border-bottom: 1px solid #eaeaea; padding: 10px 0; vertical-align: top; line-height: 1.5; }
+#s-assessment-view-question-stats-table td a, #s-assessment-view-question-stats-table td .clickable { font-weight: normal; }
+#s-assessment-view-question-stats-table .cell-question-summary { width: 460px; padding-inline-end: 20px; }
+#s-assessment-view-question-stats-table .cell-view-responses { text-align: center; }
+.cell-point-stats { width: 105px; padding-inline-end: 10px; }
+.cell-answer-stats { width: 150px; }
+.component-attributes .point-stats { color: #5AB135; margin-top: 3px; }
+.header-question { padding: 5px; }
+.distribution-by-answer .title { font-weight: bold; }
+.distribution-by-answer li { padding: 5px 0; }
+.matching-full-stats { margin-inline-start: 10px; }
+.choice { font-weight: bold; }
+.answer-distribution { padding: 5px 0; }
+.ordering-review td { padding: 3px 10px 8px; padding-inline-start: 0; }
+.ordering-review .col-2 { padding-inline-start: 10px; }
+.ordering-review td span.option-span { padding: 3px 5px 3px; padding-inline-start: 25px; }
+span.option-span p:first-child {display:inline;}
+
+.assessment-stats-content-wrapper { /* rtl-processor:ignore */ float: left; width: 100%; }
+
+[dir="rtl"] .assessment-stats-content-wrapper { float: right; }
+
+.assessment-stats { line-height: 1.5; padding: 10px 0; overflow: hidden; }
+.question-stats-wrapper { /* rtl-processor:ignore */ float: left; width: 300px; }
+[dir="rtl"] .question-stats-wrapper { float: right; }
+.question-stats-wrapper table { width: 300px; }
+#question-score-stats { /* rtl-processor:ignore */ float: left; width: 455px; }
+[dir="rtl"] #question-score-stats { float: right; }
+#question-score-stats th { vertical-align: top; text-align: end; padding-inline-end: 10px; }
+#question-question-stats2 { margin: 5px 0 10px; margin-inline-start: 20px; display: none; }
+.stats-value-cell { width: 50px; text-align: end; padding-inline-end: 10px; font-weight: bold; }
+#question-assessment-stats { font-weight: bold; }
+/* Score bar */
+.score-bar { width: 275px; }
+.score-bar .score-bar-inner { background: #e9f0f6; height: 11px; margin-top: 3px; border: 1px solid #cedbe8; display: block; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .score-bar .score-bar-inner { float: right; }
+.score-number { padding-inline-start: 5px; color: #9a9fa8; }
+.question-score-stats-average .score-bar-inner { background-color: #E3FFD8; border-color: #9DD684; }
+.question-score-stats-average .score-number { color: #499528; font-weight: bold; }
+
+/* View question */
+#s-assessment-view-question-responses-form .student-info { margin-inline-start: 5px; padding: 5px 10px 10px; height: 45px; }
+#s-assessment-view-question-responses-form .student-name { /* rtl-processor:ignore */ float: left; max-width: 650px}
+[dir="rtl"] #s-assessment-view-question-responses-form .student-name { float: right; }
+#s-assessment-view-question-responses-form .no-data { border: none; padding-top: 0; width: 760px;}
+#s-assessment-view-question-responses-form .picture { width: 35px; height: 35px; }
+#s-assessment-view-question-responses-form .user-submissions { border-bottom: 1px solid #eaeaea; width: 760px; margin-top: 10px; }
+#s-assessment-view-question-responses-form .submission-num { font-weight: bold; margin-bottom: 10px; }
+#s-assessment-view-question-responses-form .component-attributes { font-size: 12px; }
+#s-assessment-view-question-responses-form .question-summary { padding-bottom: 10px; border-bottom: 1px solid #c7c7c7; }
+#s-assessment-view-question-responses-form .user-submission { margin-inline-start: 50px; }
+#s-assessment-view-question-responses-form .submit-span-wrapper { margin-top: 10px; }
+.zero-submissions-wrapper { padding: 15px 0; border-bottom: 1px solid #eaeaea; }
+.s-assessment-zero-submissions-popup .popups-body-inner-has-buttons { max-height: 200px; overflow-y: auto; padding: 0; width: 398px; }
+.s-assessment-zero-submissions-popup .popups-buttons-inner span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/gray-btn-bg.gif__q_6a0cfa7424d54685") repeat-x 0 1px !important; border-color: #999 #999 #888 !important; }
+.s-assessment-zero-submissions-popup #popup_cancel { color: #333; }
+.zero-sub-student-row { height: 32px; text-align: start; padding: 7px 10px; border-bottom: 1px solid #eaeaea; }
+.zero-sub-student-row .picture a, .zero-sub-student-row .picture { height: 32px; width: 35px; }
+.user-submission { margin-bottom: 20px; }
+.student-id { color: #9a9fa8; font-size: 11px; }
+.review-page .question-elapsed { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .review-page .question-elapsed { float: left; }
+
+/* makes assignment header width full width */
+div.asn-title-container.admin { width: 710px; }
+
+/* Delete submission */
+#s-assessment-delete-submission-form{ text-align: center; }
+
+/* tinymce output style */
+.question-wrapper ol { list-style: decimal outside; margin: .5em 2em; }
+.question-wrapper ul { list-style: disc outside; margin: .5em 2em; }
+.question-wrapper table { border-collapse: separate; }
+.question-wrapper p { margin: 1em 0; }
+.question-wrapper a { font-weight: normal; }
+.question-wrapper strong a { font-weight: bold; }
+.question-wrapper blockquote { margin: 1em 40px; }
+.question-wrapper li { padding: 2px 0; }
+#s-assessment-question-fill-form img, #s-assessment-question-fill-form object, #s-assessment-question-fill-form embed { max-width: 730px; }
+
+/* popups */
+div#tme-pullin-wrapper{ display: none; }
+.ahah-processed + .ahah-progress { inset-inline-end: 0; top: 0; }
+#s-assessment-question-delete-form { padding: 10px; }
+.popups-box #s-assessment-question-edit-form { padding: 15px; position: static; max-height: 275px; overflow-y: auto; }
+
+/* tinymce */
+#s-assessment-question-edit-form #edit-title-wrapper { margin: 0 0 10px; }
+#s-assessment-question-edit-form .s-tme-wrapper.s-tme-with-attachments #edit-title-wrapper { margin-bottom: 0; }
+#s-assessment-question-edit-form .defaultSkin table.mceLayout tr.mceLast td { border: none; }
+#s-assessment-question-edit-form #attachments.s-tme-attachments { padding: 0 1px 10px 1px; }
+#s-assessment-question-edit-form .tinymceToggleContainer { inset-inline-end: 0; }
+.sAssessmentBasicQuestion-processed #edit-title { position: static !important; inset-inline-start: auto !important; }
+.question-wrapper .defaultSkin table.mceLayout { border-top: 1px solid #C7C7C7; border-bottom: 1px solid #C7C7C7; }
+#s-assessment-question-edit-form .attachments .clearfix { border-bottom: 1px solid #eee; }
+
+/* warning */
+.assessment-warning { color: #EC9638; padding: 4px 0 0; padding-inline-start: 5px; display: inline-block; margin-top: 13px; }
+
+/* import */
+#s-assessment-question-import-form { padding: 20px; }
+#s-assessment-question-import-form .form-radios { margin-top: 5px; }
+#s-assessment-question-import-form #examview-note { margin-top: 25px; color: #9A9FA8; font-size: 11px; }
+#s-assessment-question-import-form #max-question-note { margin-top: 15px; color: #9A9FA8; font-size: 11px; }
+#s-assessment-question-import-form #examview-note span { font-weight: bold; }
+
+#s-assessment-question-edit-form .wysiwyg-editor-tinymce {  display: none; }
+#s-assessment-edit-submission-form #student-info-table-wrapper{ display: none; }
+#s-assessment-view-submission-form #student-info-table-wrapper{ display: none; }
+
+#assessment-stats-wrapper{ display: none; }
+#s-assessment-view-question-stats-table .cell-answer-stats .item-list{ display: none; }
+#s-assessment-view-question-responses-form #zero-sub-list{ display: none; }
+
+.s-hide-left-nav .info-container { display: none; }
+
+/* take test */
+.s-hide-left-nav #s-assessment-question-fill-form #assessment-instructions { padding-top: 5px; }
+#instructions-toggle { margin-top: 5px; display: inline-block; }
+.question-true_false .form-radios { margin-bottom: 10px; }
+
+/* switcher */
+.enrollment-selector-list { border-top: 1px solid #c7c7c7; }
+.enrollment-selector-list a { display: block; padding: 10px 0; }
+.enrollment-selector-list a:hover { text-decoration: none; background: #f9f9f9; }
+.enrollment-selector-list li { border-bottom: 1px solid #eaeaea; min-height: 45px; }
+.enrollment-selector-list .username-dropdown { display: table-cell; height: 45px; vertical-align: middle; padding-inline-start: 5px; font-size: 13px; }
+#assessment-enrollment-switcher { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/ajax-loader.gif__q_6a0cfa7424d54685") no-repeat 0 50%; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #assessment-enrollment-switcher { float: right; }
+#assessment-submission-switcher { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #assessment-submission-switcher { float: right; }
+.username-block a { margin: 6px 0 0; display: inline-block; font-size: 13px; }
+.username-block .picture { width: 35px; }
+#enrollment-selector-sa { display: none; }
+#enrollment-selector-sa-button { margin: 0; width: auto !important; height: auto; background: #fff; border: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+#enrollment-selector-sa-button .ui-selectmenu-status { height: 32px; white-space: nowrap; padding-inline-start: 0; }
+#enrollment-selector-sa-button .ui-selectmenu-icon { margin-top: -12px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a0cfa7424d54685") no-repeat 1px 6px; }
+#enrollment-selector-sa-button .username-span { font-size: 13px; }
+#assessment-enrollment-switcher .ui-selectmenu.ui-state-active .ui-selectmenu-icon { background-position: -5px -580px; }
+#enrollment-selector-sa-menu .ui-selectmenu-item-selected a { background-image: none; }
+[dir="rtl"] .ui-selectmenu-menu li a, [dir="rtl"] .ui-selectmenu-status { display: inline-block; width: auto; }
+#enrollment-selector-sa-menu .username-dropdown span, #enrollment-selector-sa-button .username-dropdown span { display: inline-block; text-overflow: ellipsis; overflow: hidden; max-width: 200px; white-space: nowrap;}
+#enrollment-selector-sa-menu .username-dropdown span.submission-count, #enrollment-selector-sa-button .username-dropdown span.submission-count { display: inline-block; max-width: 30px; white-space: nowrap;}
+#enrollment-selector-sa-menu .picture, #enrollment-selector-sa-button .picture { width: 35px; }
+#enrollment-selector-sa-menu .ui-selectmenu-item-selected .username-dropdown { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat right -242px; }
+[dir="rtl"] #enrollment-selector-sa-menu .ui-selectmenu-item-selected .username-dropdown { background-position-x: -8px; }
+#enrollment-selector-sa-menu li a { min-height: 32px; padding-inline-end: 5px; }
+#enrollment-selector-sa-menu { width: auto !important; max-width: 500px; margin-inline-start: -6px; z-index: 100; }
+#enrollment-selector-sa-menu .username-dropdown { margin-top: 8px; font-size: 12px; padding-inline-start: 45px; padding-inline-end: 40px; white-space: nowrap; }
+#assessment-enrollment-switcher .ui-state-active .username-dropdown { color: #333 !important; }
+#enrollment-selector-sa-menu .username-dropdown-all { font-size: 12px; padding: 9px 5px 5px; color: #333; font-weight: normal; }
+#enrollment-selector-sa-menu a:hover .username-dropdown-all { color: #fff; text-decoration: none; }
+#enrollment-selector-sa-menu .ui-selectmenu-item-selected .username-dropdown-all { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat right -235px; font-weight: bold; }
+#enrollment-selector-sa-menu .ui-selectmenu-item-selected.ui-state-hover .username-dropdown-all { background-position: right -255px !important; }
+#enrollment-selector-sa-button .username-dropdown-all { padding-top: 5px; }
+#enrollment-selector-sa-wrapper .ui-state-active .ui-selectmenu-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat -5px -580px !important; }
+#enrollment-selector-sa-menu .ui-selectmenu-item-selected:hover .username-dropdown, #enrollment-selector-sa-menu .ui-selectmenu-item-selected:hover .username-dropdown-all { background-position: right -262px; }
+[dir="rtl"] #enrollment-selector-sa-menu .ui-selectmenu-item-selected:hover .username-dropdown { background-position-x: -8px; }
+#enrollment-selector-sa-button .username-dropdown { /* rtl-processor:ignore */ float: left; margin-top: 4px; color: #327cbb; }
+[dir="rtl"] #enrollment-selector-sa-button .username-dropdown { float: right; }
+.submission-selector-list { border-top: 1px solid #c7c7c7; }
+.submission-selector-list a { display: block; padding: 10px 0; }
+.submission-selector-list a:hover { text-decoration: none; background: #f9f9f9; }
+.submission-selector-list li { border-bottom: 1px solid #eaeaea; min-height: 45px; }
+.submission-selector-list .username-dropdown { display: table-cell; height: 45px; vertical-align: middle; padding-inline-start: 5px; font-size: 13px; }
+#assessment-enrollment-switcher { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/ajax-loader.gif__q_6a0cfa7424d54685") no-repeat 0 50%; margin-top: -2px; }
+.username-block a { margin: 6px 0 0; display: inline-block; font-size: 13px; }
+.username-block .picture { width: 35px; }
+#submission-selector-sa { display: none; }
+#submission-selector-sa-button { margin: -3px 0 0; width: auto !important; height: auto; background: #fff; border: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+#submission-selector-sa-button .ui-selectmenu-status { height: 32px; white-space: nowrap; padding-inline-start: 0; }
+#submission-selector-sa-button .ui-selectmenu-icon { margin-top: -12px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a0cfa7424d54685") no-repeat 1px 6px; }
+#submission-selector-sa-button.ui-selectmenu.ui-state-active { color: #444; }
+#assessment-enrollment-switcher .ui-selectmenu.ui-state-active .ui-selectmenu-icon { background-position: -5px -580px; }
+#submission-selector-sa-menu .ui-selectmenu-item-selected a { background-image: none; }
+#submission-selector-sa-menu .username-span { padding-inline-end: 30px; }
+#submission-selector-sa-menu .picture, #submission-selector-sa-button .picture { width: 35px; }
+#submission-selector-sa-menu .ui-selectmenu-item-selected .username-span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat right -242px; }
+#submission-selector-sa-menu li a { white-space: nowrap; padding-top: 5px; padding-bottom: 5px; }
+#submission-selector-sa-menu { width: auto !important; max-width: 500px; margin-inline-start: -3px; z-index: 100; }
+#submission-selector-sa-menu .username-dropdown { margin-top: 8px; font-size: 12px; padding-inline-start: 45px; }
+#assessment-enrollment-switcher .ui-state-active .username-dropdown { color: #333 !important; }
+#submission-selector-sa-menu .username-dropdown-all { font-size: 12px; padding: 9px 5px 5px; color: #333; font-weight: normal; }
+#submission-selector-sa-menu a:hover .username-dropdown-all { color: #fff; text-decoration: none; }
+#submission-selector-sa-menu .ui-selectmenu-item-selected .username-dropdown-all { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat right -235px; font-weight: bold; }
+#submission-selector-sa-menu .ui-selectmenu-item-selected.ui-state-hover .username-dropdown-all { background-position: right -255px !important; }
+#submission-selector-sa-button .username-dropdown-all { padding-top: 5px; }
+#submission-selector-sa-wrapper .ui-state-active .ui-selectmenu-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat -5px -580px !important; }
+#submission-selector-sa-menu .ui-selectmenu-item-selected:hover .username-span, #submission-selector-sa-menu .ui-selectmenu-item-selected:hover .username-dropdown-all { background-position: right -262px; }
+#submission-selector-sa-button .username-dropdown { /* rtl-processor:ignore */ float: left; margin-top: 4px; color: #327cbb; }
+[dir="rtl"] #submission-selector-sa-button .username-dropdown { float: right; }
+#submission-selector-sa-menu .arrow-right, #submission-selector-sa-menu .submission { display: inline-block; margin-inline-end: 5px; font-size: 13px; }
+
+.assessment-preview-warning { padding: 10px 15px; text-align: center; background: #eef3f8; border: 1px solid #cedbe8; margin: 10px 0 0; }
+#submission-selector-sa-button .username-dropdown:hover { text-decoration: underline; }
+.s_assessment-component-multiple-choice-table .col2-width { width: 100px; }
+
+/* Import Questions from Question Banks */
+.component-main-cell .component-preview .essay-wrapper textarea { width: 335px; }
+.component-main-cell .component-preview .matching-answer { display: inline; padding: 3px 5px; }
+.component-main-cell .component-preview .answer-letter { float: none; margin: 0; }
+.component-main-cell .toggle-component-preview { cursor: pointer; }
+
+/* Import Questions from Question Bank - Popup Specific */
+.popups-large #collection-view-contents .component-preview .essay-wrapper textarea { width: 335px; }
+.popups-large .component-preview .user-blank-wrapper input[type=text] { width: 245px; }
+
+/* Add Questions to Bank Popup */
+.popups-add-questions-to-bank .component-title { margin-top: 10px; }
+.popups-add-questions-to-bank table { width: 100%; }
+.popups-add-questions-to-bank.select-bank table { width: auto; }
+.popups-add-questions-to-bank td { vertical-align: top; }
+.popups-add-questions-to-bank.select-questions td { border-top: 1px solid #ddd; }
+.popups-add-questions-to-bank.select-questions td td { border-top: 0 none; }
+.popups-add-questions-to-bank .small { font-weight: bold; margin-bottom: 10px; }
+.popups-add-questions-to-bank.select-questions .question-checkbox { vertical-align: top; padding-top: 11px; width: 16px; }
+.popups-add-questions-to-bank.select-questions .question-summary { padding-bottom: 10px; }
+.popups-add-questions-to-bank.select-bank { overflow: visible; }
+.popups-add-questions-to-bank.select-bank td { padding-inline-end: 20px; }
+.popups-add-questions-to-bank.select-bank .new-bank-name-wrapper { margin-top: 20px; }
+.popups-add-questions-to-bank .action-links-wrapper, [dir="rtl"] .popups-add-questions-to-bank .action-links-wrapper { float: none; }
+.popups-add-questions-to-bank .question-bank-row .action-links-wrapper { max-width: 190px; }
+.popups-add-questions-to-bank .question-bank-row td:first-child, .popups-add-questions-to-bank .new-bank-collection-row td:first-child { padding-top: 5px; font-weight: bold; }
+.popups-add-questions-to-bank select { width: 225px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.popups-add-questions-to-bank.select-bank { width: 400px; }
+.popups-add-questions-to-bank.select-bank .submit-buttons { width: 398px; }
+#select-question-bank .action-links-unfold span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#edit-select-all-components-wrapper .form-checkbox-title { margin-inline-start: 5px; }
+
+/* Question Previews */
+.component-title.toggle-component-preview { cursor: pointer; color: #327CBB; }
+.component-title.toggle-component-preview:hover { text-decoration: underline; }
+.component-preview { font-size: 12px; }
+.component-preview img { max-width: 100%; }
+.component-preview td img { max-width: 485px; }
+.component-preview .matching-answers img { max-width: 300px; }
+.component-preview .form-item { width: auto; }
+.component-preview .form-radios, .component-preview .multiple-choices, .component-preview .ordering-wrapper { margin-inline-start: 0; }
+.multiple-choices table, .ordering-wrapper table, .matching-answers table { border-top: 0 none; }
+.multiple-choices tbody tr:last-child td, .ordering-wrapper tbody tr:last-child td { border-bottom: 0 none; }
+.matching-answers td, .matching-answers th { border: 0 none; }
+.multiple-choices .form-radio-option { width: 4em; }
+.component-preview .essay-wrapper textarea { width: auto; }
+.component-preview { padding: 10px 15px; border: 1px dashed #DDD; background: #F9F9F9; margin: 10px 0; }
+.component-preview td, .component-preview input[type=text], .component-preview textarea { background: #F9F9F9; }
+.component-tags { margin-inline-start: 5px; }
+.checked-elsewhere-message { margin-inline-start: 5px; font-size: 12px; color: #EC9638; display: none; }
+.checked-elsewhere .checked-elsewhere-message { display: block; }
+.component-preview.hidden { display: none; }
+.component-preview .drag-handle { display: inline-block; }
+
+.inline-tip-row-wrapper { width: 100%; /* rtl-processor:ignore */ float: left; }
+
+[dir="rtl"] .inline-tip-row-wrapper { float: right; }
+
+.has-inline-tip { display: table; width: auto; }
+.has-inline-tip .form-item { width: auto; }
+.has-inline-tip .form-item, .has-inline-tip .inline-tip-wrapper { display: table-cell; vertical-align: middle; padding-bottom: 10px; }
+.has-inline-tip .inline-tip { padding-inline-start: 10px; color: #9a9fa8; font-size: 11px; }
+
+/* Temp Alignment Styles */
+#s-assessment-question-edit-form .s-common-adv-options-label { width: auto; margin-inline-end: 5px; margin-top: -2px; }
+#s-assessment-question-edit-form .alignment-container {
+    display: inline-block;
+    padding-inline-start: 0;
+    padding-top: 0;
+}
+#s-assessment-question-edit-form .alignment-inline-wrapper .alignment-item-container {
+    padding-inline-start: 0;
+}
+
+/* Export User Analytics */
+.popups-large.export-user-data form { padding: 15px 20px; }
+.export-user-data .export-heading { display: block; font-weight: bold; padding-bottom: 10px; border-bottom: 1px solid #ddd; margin-bottom: 10px; }
+.export-user-data #edit-grading-group-select { width: 100%; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; word-wrap: normal; }
+.export-user-data .form-checkboxes.s-js-students-checkboxes { border: 1px solid #ddd; max-height: 200px; overflow: auto; padding-top: 0; }
+.export-user-data .form-checkboxes.s-js-students-checkboxes .form-item { border-top: 1px solid #ddd; }
+.export-user-data .form-checkboxes.s-js-students-checkboxes .form-item:first-child { border-top: 0 none; }
+.export-user-data .form-checkboxes.s-js-students-checkboxes .option { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; padding: 10px; }
+.export-user-data .export-select-multi { border: 1px solid #ddd; margin-bottom: -1px; margin-top: 10px; overflow: hidden; }
+.export-user-data #edit-students-selectall-wrapper { margin-bottom: 0; }
+.export-user-data .export-select-multi .option { /* rtl-processor:ignore */ float: left; padding: 10px; }
+[dir="rtl"] .export-user-data .export-select-multi .option { float: right; }
+.export-user-data .export-select-multi { padding: 10px 10px;}
+.export-user-data .export-select-multi .active { color: #333; cursor: default; text-decoration: none; }
+.export-user-data .export-select-multi .form-checkbox-title, .export-user-data .s-js-students-checkboxes .form-checkbox-title { margin-inline-start: 4px; }
+.export-user-data .form-item .form-checkboxes { border: 0 none; padding-top: 10px; }
+
+.export-content-title { font-size: 13px; }
+
+/* Auto-Save Styles */
+.autosave_indicator { /* rtl-processor:ignore */ float: right; margin-top: 17px; }
+[dir="rtl"] .autosave_indicator { float: left; }
+.autosave_indicator img { margin-top: -10px; }
+#assessment-first-step-info .submit-span-wrapper { margin: 4px 4px 0; margin-inline-start: 0; }
+.assessment-restart-notice { margin: 1em 0; }
+
+/* Submission Summary */
+.export-submission-summary { margin: 10px 0 5px; border-top: 1px solid #ddd; padding-top: 10px; }
+.export-submission-summary #edit-export-submission-summary-wrapper { margin-bottom: 0; }
+.s-submission-summary-options { padding-inline-start: 15px; margin-top: 5px; }
+.s-submission-summary-options #edit-export-options-wrapper .form-select { width: 255px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; }
+
+/* Expired Popup */
+.expired-test .popups-body-inner-has-buttons { padding: 17px 10px; }
+
+/* Locked Resources */
+#s-assessment-settings-form .locked-field { margin-bottom: 10px; padding-inline-start: 135px; }
+#s-assessment-settings-form .locked-field-label { font-weight: bold; /* rtl-processor:ignore */ float: left; width: 130px; margin-inline-start: -135px; }
+[dir="rtl"] #s-assessment-settings-form .locked-field-label { float: right; }
+
+/* Edit Random Questions Popup */
+#s-assessment-component-random-edit-form {  }
+#s-assessment-component-random-edit-form .bank-collection { border-top: 1px solid #ccc; }
+#s-assessment-component-random-edit-form .bank-collection:first-of-type { border-top: 0 none; }
+#s-assessment-component-random-edit-form .bank-title { font-weight: bold; margin: 10px 0 20px; }
+#s-assessment-component-random-edit-form .form-item-wrapper { padding-inline-start: 300px; margin-bottom: 10px; }
+#s-assessment-component-random-edit-form .form-item-wrapper .form-item { display: inline-block; margin-bottom: 0; vertical-align: middle; }
+#s-assessment-component-random-edit-form .form-item label { /* rtl-processor:ignore */ float: left; width: 290px; margin: 5px 0 0; margin-inline-start: -300px; font-weight: normal; }
+[dir="rtl"] #s-assessment-component-random-edit-form .form-item label { float: right; }
+#s-assessment-component-random-edit-form .form-item .form-text { width: 40px; }
+#s-assessment-component-random-edit-form .form-field-append { font-size: 12px; color: #9a9fa8; }
+
+
+/* Import from Question Bank Selection */
+.popups-from-qbank .popups-body { padding-bottom: 0; }
+.question-bank-import-type { padding: 25px 0; font-size: 16px; width: 298px; text-align: center; display: block; /* rtl-processor:ignore */ float: left; border-inline-end: 1px solid #becddd; height: 20px; }
+[dir="rtl"] .question-bank-import-type { float: right; }
+.question-bank-import-type:hover { text-decoration: none; }
+.question-bank-import-type.action-random-questions { border-inline-end: 0 none; width: 298px; }
+.question-bank-import-type .inline-icon { margin: -7px 10px -12px; margin-inline-start: 0; }
+
+/* Enter test ID form for printed tests*/
+.assessment-find-printed-test { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .assessment-find-printed-test { float: left; }
+.assessment-find-printed-test .form-item{ /* rtl-processor:ignore */ float: left; position: relative; padding-inline-end: 5px; }
+[dir="rtl"] .assessment-find-printed-test .form-item { float: right; }
+.assessment-find-printed-test .form-item label{ font-weight: normal; }
+.assessment-find-printed-test .form-text{ padding: 4px; font-weight: normal; font-family: var(--sgy-font-default); outline: none;}
+.assessment-find-printed-test .submit-span-wrapper { /* rtl-processor:ignore */ float: right; position: relative; border: none; }
+[dir="rtl"] .assessment-find-printed-test .submit-span-wrapper { float: left; }
+.assessment-find-printed-test .submit-span-wrapper .form-submit { font-size: 12px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); color: #444; outline: none; border-color: #999 #999 #888; border-width: 1px; border-style: solid; background: #F4F5F5;}
+.sub-score .score .printed-test-text { font-weight: normal; color:#9a9fa8; }
+.submission-info .printed-test-header-label { /* rtl-processor:ignore */ float: right; padding-top: 9px; color: #9a9fa8; }
+[dir="rtl"] .submission-info .printed-test-header-label { float: left; }
+
+/* Show Rubric Button */
+.assessment-component-view-rubric { width: 100px; height: 17px; cursor: pointer; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a0cfa7424d54685") no-repeat 0px -924px; }
+.assessment-component-view-rubric .clickable { /* rtl-processor:ignore */ float: right; font-weight: normal; color: #4479B3; }
+[dir="rtl"] .assessment-component-view-rubric .clickable { float: left; }
+
+.s-assessment-question-fill-form .active-loader:not(.question-wrapper) div { height: 300px; }
+.s-assessment-question-fill-form .active-loader .loading-image img { top: 50%; }
+
+
+/* LockDown Browser "first-step" */
+.s-assessment-ldb-assessment-first-step-notice-wrapper { background-color: #FCFCFB; margin-top: 20px; }
+.s-assessment-ldb-assessment-first-step-notice-wrapper p { text-align: center; color: #44505D; }
+#s-assessment-ldb-action-wrapper, #s-assessment-ldb-action-button-wrapper, #s-assessment-ldb-download-wrapper { width: 90%; margin: 0 auto; }
+#s-assessment-ldb-action-wrapper, #s-assessment-ldb-download-wrapper { padding: 20px 0px; }
+#s-assessment-ldb-action-button-wrapper, #s-assessment-ldb-download-button-wrapper { padding-top: 15px; text-align: center; }
+#s-assessment-ldb-action-wrapper { border-bottom: 1px solid #EAEBED; }
+#s-assessment-ldb-download-button-wrapper a {
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 10px 20px;
+    box-shadow: 0 1px 2px 0 #0677ba, 0 -1px 2px 0 #0677ba;
+    font-size: 13px;
+    color: #0677ba;
+    border-radius: 2px;
+    text-decoration: none;
+}
+#s-assessment-ldb-download-button-wrapper a:hover {
+    color: #0677ba;
+    box-shadow: 0 1px 2px 0 #43c5f9, 0 -1px 2px 0 #43c5f9;
+    cursor: pointer;
+}
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper, #s-assessment-ldb-action-button-wrapper .submit-span-wrapper:hover, #s-assessment-ldb-action-button-wrapper .submit-span-wrapper:active { background: none; border: none; }
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit],
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit]:hover,
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit]:active {
+    background-color: #0677ba;
+    padding: 8px 20px 25px 20px;
+    text-align: center;
+    vertical-align: middle !important;
+    box-shadow: 0 1px 2px 0 #0677ba, 0 -1px 2px 0 #0677ba;
+    font-size: 13px;
+    border-radius: 2px;
+    color: #fff;
+}
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit]:hover {
+    box-shadow: 0 1px 2px 0 #43c5f9, 0 -1px 2px 0 #43c5f9;
+}
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit]:active { background-color: #477EBA; }
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit]:focus { outline:0; }
+#s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit].disabled, #s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit]:hover.disabled, #s-assessment-ldb-action-button-wrapper .submit-span-wrapper input[type=submit]:active.disabled { background-color: #EAEBED !important; color: #C1C7CB !important; box-shadow: 0px 1px 2px 0px #C1C7CB, 0px -1px 2px 0px #C1C7CB; }
+.s-assessment-ldb-chromebook-instructions-wrapper { padding: 20px 0px; }
+
+/** border-top-radius & border-bottom-radius are not valid css attributes **/
+.tipsy-inner {
+    /*border-top-radius(2px);
+    border-bottom-radius(2px);*/
+    background: #556370;
+    color: white;
+    max-width: 275px;
+}
+
+.tipsy-arrow {
+    background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/tipsy-graphite.gif__q_6a0cfa7424d54685");
+}
+
+[dir="rtl"] #enrollment-selector-sa-menu li a { display: block; }

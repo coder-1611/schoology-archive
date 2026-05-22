@@ -1,0 +1,15 @@
+/* reminders block */
+.reminders-wrapper { margin: 5px 0 15px; position: relative; }
+.reminders-wrapper a, .reminders-wrapper .clickable { font-weight: normal; }
+.reminder a, .reminder .clickable { display: inline-block; padding: 3px 0; }
+.reminder-list-count { /* rtl-processor:ignore */ float: left; padding: 1px 0; width: 20px; font-size: 11px; text-align: center; margin-inline-start: -45px; background: #4aa4e7; color: #fff; font-weight: bold; margin-top: -1px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+[dir="rtl"] .reminder-list-count { float: right; }
+.reminder-list-item { padding: 10px 0 10px; padding-inline-start: 45px; min-height: 20px; }
+.reminder-list-item .assessment-icon, .reminder-list-item .grade-item-icon, .reminder-list-item .discussion-icon, .reminder-list-item .lti-gradable-assignment-icon { margin-inline-start: -20px; margin-top: -7px; }
+.reminders-list-items .infotip { padding: 0; background: none; cursor: pointer; display: block; }
+.reminders-content .form-item { border-bottom: 1px solid #eaeaea; padding-bottom: 2px; }
+.ui-selectmenu-menu.reminder-selector { width: 270px !important; }
+#reminder-outside-loader { position: absolute; top: 3px; inset-inline-end: 0; }
+.reminder-selector-single-item { display: block; padding: 3px 0 8px; border-bottom: 1px solid #eaeaea; margin-bottom: 5px; color: #9a9fa8; }
+.reminders-wrapper .reminders-cluetip {  }
+#right-column .reminders-wrapper .reminders-cluetip h3 { border: none; display: inline; color: #9a9fa8; }

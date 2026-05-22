@@ -1,0 +1,201 @@
+:root {
+  --sgy-icon-folder-black: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-black.svg");
+  --sgy-icon-folder-blue: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-blue.svg");
+  --sgy-icon-folder-gray: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-gray.svg");
+  --sgy-icon-folder-green: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-green.svg");
+  --sgy-icon-folder-orange: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-orange.svg");
+  --sgy-icon-folder-pink: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-pink.svg");
+  --sgy-icon-folder-purple: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-purple.svg");
+  --sgy-icon-folder-red: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-red.svg");
+  --sgy-icon-folder-yellow: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-yellow.svg");
+}
+
+/* DEFAULT folder icon */
+[data-theme="modern"] .calendar-preview .folder-icon,
+[data-theme="modern"] .template-title .folder-icon,
+[data-theme="modern"] .transfer-icon.folder-icon,
+[data-theme="modern"] #resource-types .folder-icon,
+[data-theme="modern"] #s-course-materials-library-save-all-form .form-radio-title {
+  background-image: var(--sgy-icon-folder-blue);
+  background-position-y: center;
+}
+
+[data-theme="modern"] .course-content-action-links .action-links .action-create-folder a,
+[data-theme="modern"] #course-materials-action-links-inline .action-create-folder a,
+[data-theme="modern"] #toolbar-add-list #collection-add-folder a {
+  background-image: var(--sgy-icon-folder-blue);
+  background-position-x: 12px;
+  background-position-y: center;
+  background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .course-content-action-links .action-links .action-create-folder a,
+[dir="rtl"][data-theme="modern"] #course-materials-action-links-inline .action-create-folder a,
+[dir="rtl"][data-theme="modern"] #toolbar-add-list #collection-add-folder a {
+  background-position-x: calc(100% - 12px);
+}
+/* end DEFAULT folder icon */
+
+/* BLACK folder icon */
+[data-theme="modern"] .folder-icon.folder-color-black,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-black,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-black,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-black,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-black,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-black,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-black {
+  background-image: var(--sgy-icon-folder-black);
+  background-position-y: center;
+}
+/* end BLACK folder icon */
+
+/* BLUE folder icon */
+[data-theme="modern"] .folder-icon.folder-color-blue,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-blue,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-blue,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-blue,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-blue,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-blue,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-blue {
+  background-image: var(--sgy-icon-folder-blue);
+  background-position-y: center;
+}
+/* end BLUE folder icon */
+
+/* GRAY folder icon */
+[data-theme="modern"] .folder-icon.folder-color-gray,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-gray,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-gray,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-gray,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-gray,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-gray,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-gray {
+  background-image: var(--sgy-icon-folder-gray);
+  background-position-y: center;
+}
+/* end GRAY folder icon */
+
+/* GREEN folder icon */
+[data-theme="modern"] .folder-icon.folder-color-green,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-green,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-green,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-green,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-green,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-green,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-green {
+  background-image: var(--sgy-icon-folder-green);
+  background-position-y: center;
+}
+/* end GREEN folder icon */
+
+/* ORANGE folder icon */
+[data-theme="modern"] .folder-icon.folder-color-orange,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-orange,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-orange,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-orange,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-orange,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-orange,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-orange {
+  background-image: var(--sgy-icon-folder-orange);
+  background-position-y: center;
+}
+/* end ORANGE folder icon */
+
+/* PINK folder icon */
+[data-theme="modern"] .folder-icon.folder-color-pink,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-pink,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-pink,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-pink,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-pink,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-pink,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-pink {
+  background-image: var(--sgy-icon-folder-pink);
+  background-position-y: center;
+}
+/* end PINK folder icon */
+
+/* PURPLE folder icon */
+[data-theme="modern"] .folder-icon.folder-color-purple,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-purple,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-purple,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-purple,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-purple,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-purple,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-purple {
+  background-image: var(--sgy-icon-folder-purple);
+  background-position-y: center;
+}
+/* end PURPLE folder icon */
+
+/* RED folder icon */
+[data-theme="modern"] .folder-icon.folder-color-red,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-red,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-red,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-red,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-red,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-red,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-red {
+  background-image: var(--sgy-icon-folder-red);
+  background-position-y: center;
+}
+/* end RED folder icon */
+
+/* YELLOW folder icon */
+[data-theme="modern"] .folder-icon.folder-color-yellow,
+[data-theme="modern"] .inline-icon.folder-icon.folder-color-yellow,
+[data-theme="modern"] .inline-icon.mini.folder-icon.folder-color-yellow,
+[data-theme="modern"] .s-js-color-preview .folder-icon.folder-color-yellow,
+[data-theme="modern"] #folder-contents-table .folder-icon.folder-color-yellow,
+[data-theme="modern"] #sidebar-left #left-nav #menu-s-main .menu a .inline-icon.folder-icon.folder-color-yellow,
+[data-theme="modern"] #s-course-materials-folder-completion-form .folder-icon.folder-color-yellow {
+  background-image: var(--sgy-icon-folder-yellow);
+  background-position-y: center;
+}
+/* end YELLOW folder icon */
+
+/* Add Folder Color Selector */
+[data-theme="modern"] .s-js-color-select {
+  border: none;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-blue {
+  background-color: #669EFF;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-black {
+  background-color: #677274;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-gray {
+  background-color: #A8B1B2;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-green {
+  background-color: #6CCF49;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-orange {
+  background-color: #F88F3A;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-pink {
+  background-color: #F39BB1;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-purple {
+  background-color: #B585E2;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-red {
+  background-color: #F5746B;
+}
+[data-theme="modern"] .s-js-color-select.s-js-color-yellow {
+  background-color: #F9CE33;
+}
+/* end Add Folder Color Selector */
+
+[data-theme="modern"] .folder-icon {
+  height: 32px;
+  width: 32px;
+}
+[data-theme="modern"] .fc-event.folder-icon {
+  height: unset;
+  width: unset;
+}
+
+[data-theme="modern"] .s-js-color-preview .inline-icon.folder-icon {
+  background-position-x: center;
+  height: 32px;
+  width: 32px;
+}

@@ -1,0 +1,188 @@
+.sEventFcalendarFilterMenuContainer { font-size: 18px; }
+.sEventFcalendarFilterMenuContainer .clickable { position: relative; overflow: hidden; }
+.sEventFcalendarFilterMenuContainer .clickable:hover { text-decoration: none; }
+.sEventFcalendarFilterMenuContainer .fcalendar-filter-dropdown-arrow {position: absolute; clip: rect(0, 15px, 5px, 0); top: 8px; padding-inline-start: 8px;}
+#fcalendar { width: 100%; margin: 0 auto; }
+.s-event-fcalendar-filter-menu { position: absolute; z-index: 10; display: inline-block; }
+.s-event-fcalendar-not-available-note { color: #677583; text-align: start; padding: 5px 0 10px 0; border-bottom: 1px solid #eaeaea; }
+.calendar-popup-preview .template-wrapper .s-event-fcalendar-borderless-row th, .calendar-popup-preview .template-wrapper .s-event-fcalendar-borderless-row td { border-bottom: none; }
+.fcalendar-filter-menu-wrapper { background-color: #FFFFFF; border: 1px solid #c2c2c2; margin-inline-start: 10px; max-height: 400px; overflow-y: auto; width: 265px; font-size: 12px; }
+.menuopt-wrapper { padding: 10px 40px 10px; padding-inline-start: 30px; border: 1px solid #ddd; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrows-gray.gif__q_6a0cfa7424d54685") no-repeat 101.5% -6px; }
+[dir="rtl"] .menuopt-wrapper { background-position: left -29px; }
+.color-codes-box { position: absolute; z-index: 10; background-color: #FFF; border: 1px solid #c2c2c2; width: 104px; padding: 10px 5px 5px; padding-inline-start: 10px; margin-top: -18px;}
+.color-codes-box .flag { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/tip-arrow-white.png__q_6a0cfa7424d54685") 0 -1px; margin: 8px 0 0; margin-inline-start: -20px; width: 10px; height: 18px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .color-codes-box .flag { float: right; background-position-x: 10px;}
+.color-codes-box .swatches { width: 19px; height: 19px; /* rtl-processor:ignore */ float: left; margin: 0 5px 5px; margin-inline-start: 0; cursor: pointer; border: 1px solid #ddd; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
+[dir="rtl"] .color-codes-box .swatches { float: right; }
+.fcalendar-filter-menu-wrapper span { cursor: pointer; display: inline-block; }
+.fcalendar-filter-menu-wrapper .checkbox { width: 14px; height: 14px; border: 1px solid #ccc; vertical-align: middle; /* rtl-processor:ignore */ float: left; margin-inline-start: -20px; margin-inline-end: 4px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
+[dir="rtl"] .fcalendar-filter-menu-wrapper .checkbox { float: right; }
+.fcalendar-filter-menu-wrapper .checkbox.filter-selected { border: 1px solid #c2c2c2; background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/check-icons.png__q_6a0cfa7424d54685"); background-repeat: no-repeat; background-position: 2px 4px; }
+.fcalendar-filter-menu-wrapper .color-1 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-2 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-3 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-4 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-5 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-6 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-7 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-8 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-9 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-10 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-11 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-12 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-13 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-14 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-15 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-16 .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-default-personal .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-default-school .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-default-groups .checkbox.filter-selected, .fcalendar-filter-menu-wrapper .color-default-courses .checkbox.filter-selected { background-position: 2px -19px; }
+.fcalendar-filter-menu-wrapper .color-default-personal .checkbox.filter-selected { border: 1px solid #98bedf; background-color: #d6e7f4; }
+.fcalendar-filter-menu-wrapper .color-default-school .checkbox.filter-selected { border: 1px solid #d5b7cc; background-color: #e7e0e5; }
+.fcalendar-filter-menu-wrapper .color-default-groups .checkbox.filter-selected { border: 1px solid #98c684; background-color: #d7e8cf; }
+.fcalendar-filter-menu-wrapper .color-default-courses .checkbox.filter-selected { border: 1px solid #e7c18f; background-color: #f9e9d4; }
+.fcalendar-filter-menu-wrapper .color-1 .checkbox.filter-selected { border: 1px solid #cd586d; background-color: #cd586d; }
+.fcalendar-filter-menu-wrapper .color-2 .checkbox.filter-selected { border: 1px solid #c7a758; background-color: #c7a758; }
+.fcalendar-filter-menu-wrapper .color-3 .checkbox.filter-selected { border: 1px solid #5493ab; background-color: #5493ab; }
+.fcalendar-filter-menu-wrapper .color-4 .checkbox.filter-selected { border: 1px solid #cf759d; background-color: #cf759d; }
+.fcalendar-filter-menu-wrapper .color-5 .checkbox.filter-selected { border: 1px solid #cd6978; background-color: #cd6978; }
+.fcalendar-filter-menu-wrapper .color-6 .checkbox.filter-selected { border: 1px solid #a8a55d; background-color: #a8a55d; }
+.fcalendar-filter-menu-wrapper .color-7 .checkbox.filter-selected { border: 1px solid #6583a0; background-color: #6583a0; }
+.fcalendar-filter-menu-wrapper .color-8 .checkbox.filter-selected { border: 1px solid #cd6a92; background-color: #cd6a92; }
+.fcalendar-filter-menu-wrapper .color-9 .checkbox.filter-selected { border: 1px solid #d27554; background-color: #d27554; }
+.fcalendar-filter-menu-wrapper .color-10 .checkbox.filter-selected { border: 1px solid #7aa666; background-color: #7aa666; }
+.fcalendar-filter-menu-wrapper .color-11 .checkbox.filter-selected { border: 1px solid #8579af; background-color: #8579af; }
+.fcalendar-filter-menu-wrapper .color-12 .checkbox.filter-selected { border: 1px solid #a28574; background-color: #a28574; }
+.fcalendar-filter-menu-wrapper .color-13 .checkbox.filter-selected { border: 1px solid #c58d58; background-color: #c58d58; }
+.fcalendar-filter-menu-wrapper .color-14 .checkbox.filter-selected { border: 1px solid #6ba67e; background-color: #6ba67e; }
+.fcalendar-filter-menu-wrapper .color-15 .checkbox.filter-selected { border: 1px solid #a26d9d; background-color: #a26d9d; }
+.fcalendar-filter-menu-wrapper .color-16 .checkbox.filter-selected { border: 1px solid #919191; background-color: #919191; }
+.fcalendar-filter-menu-wrapper .realm-title { padding-inline-start: 25px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; vertical-align: middle; display: block; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_realm.png__q_6a0cfa7424d54685") no-repeat 0 0; line-height: 18px; margin-inline-start: 5px; }
+.fcalendar-filter-menu-wrapper .realm-course .realm-title { background-position: 0 0; }
+.fcalendar-filter-menu-wrapper .realm-group .realm-title { background-position: 0 -60px; }
+.fcalendar-filter-menu-wrapper .realm-user .realm-title { background-position: 0 -180px; }
+.fcalendar-filter-menu-wrapper .realm-school .realm-title { background-position: 0 -210px; }
+.fcalendar-filter-menu-wrapper .selected-color { width: 15px; height: 15px; cursor: pointer; border: 1px solid #ccc; vertical-align: middle; margin-top: -18px;/* rtl-processor:ignore */ float: right; margin-inline-end: -30px; margin-inline-start: 13px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
+[dir="rtl"] .fcalendar-filter-menu-wrapper .selected-color { float: left; }
+[dir="rtl"] .menuopt-wrapper .realm-title { background-position-x: right; text-align: -webkit-right; padding-inline-start: 2.5em; }
+.fcalendar-filter-menu-wrapper .realm-subtitle { display: none; }
+.fcalendar-filter-menu-wrapper.use-subtitles .has-subtitle.menuopt-wrapper { padding: 10px 40px 1px; padding-inline-start: 30px; display: flex; align-items: center; justify-content: space-between;}
+.fcalendar-filter-menu-wrapper.use-subtitles .has-subtitle .realm-title-wrapper { padding-inline-start: 25px; white-space: nowrap; overflow: hidden; word-wrap: normal; vertical-align: middle; display: block; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_realm.png__q_6a0cfa7424d54685") no-repeat 0 0; line-height: normal; height: 27px; margin-inline-start: 25px; }
+.fcalendar-filter-menu-wrapper.use-subtitles .has-subtitle .realm-title { padding-inline-start: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; vertical-align: middle; display: block; background: none; line-height: normal; height:auto; margin-inline-start: 0; }
+.fcalendar-filter-menu-wrapper.use-subtitles .has-subtitle .realm-subtitle { display: block; color: #989898; font-size: 11px; margin-top: -1px;}
+[dir="rtl"] .fcalendar-filter-menu-wrapper.use-subtitles .has-subtitle .realm-title-wrapper {background-position-x: right; text-align: -webkit-right; padding-inline-start: 2.5em; }
+.color-codes-box .color-selected { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/check-icons.png__q_6a0cfa7424d54685"); background-repeat: no-repeat; background-position: 5px 6px; }
+.color-default-personal, .color-default-personal.selected-color, .color-codes-box .color-default-personal.swatches, .fc-content .fc-event-skin.color-default-personal { background-color: #d6e7f4; border-color: #98bedf; }
+.color-default-school, .color-default-school.selected-color, .color-codes-box .color-default-school.swatches, .fc-content .fc-event-skin.color-default-school { background-color: #e7e0e5; border-color: #d5b7cc; }
+.color-default-groups, .color-default-groups.selected-color, .color-codes-box .color-default-groups.swatches, .fc-content .fc-event-skin.color-default-groups { background-color: #d7e8cf; border-color: #98c684; }
+.color-default-courses, .color-default-courses.selected-color, .color-codes-box .color-default-courses.swatches, .fc-content .fc-event-skin.color-default-courses { background-color: #f9e9d4; border-color: #e7c18f; }
+.color-1, .color-1.selected-color, .color-codes-box .color-1.swatches, .fc-content .fc-event-skin.color-1 { background-color: #e6b5c9; border-color: #cd586d; }
+.color-2, .color-2.selected-color, .color-codes-box .color-2.swatches, .fc-content .fc-event-skin.color-2 { background-color: #f9f1cf; border-color: #c7a758; }
+.color-3, .color-3.selected-color, .color-codes-box .color-3.swatches, .fc-content .fc-event-skin.color-3 { background-color: #daf0f9; border-color: #5493ab; }
+.color-4, .color-4.selected-color, .color-codes-box .color-4.swatches, .fc-content .fc-event-skin.color-4 { background-color: #f9ddea; border-color: #cf759d; }
+.color-5, .color-5.selected-color, .color-codes-box .color-5.swatches, .fc-content .fc-event-skin.color-5 { background-color: #fbd7d8; border-color: #cd6978; }
+.color-6, .color-6.selected-color, .color-codes-box .color-6.swatches, .fc-content .fc-event-skin.color-6 { background-color: #f1f2d1; border-color: #a8a55d; }
+.color-7, .color-7.selected-color, .color-codes-box .color-7.swatches, .fc-content .fc-event-skin.color-7 { background-color: #e0e8f5; border-color: #6583a0; }
+.color-8, .color-8.selected-color, .color-codes-box .color-8.swatches, .fc-content .fc-event-skin.color-8 { background-color: #fbd7e4; border-color: #cd6a92; }
+.color-9, .color-9.selected-color, .color-codes-box .color-9.swatches, .fc-content .fc-event-skin.color-9 { background-color: #fcddd3; border-color: #d27554; }
+.color-10, .color-10.selected-color, .color-codes-box .color-10.swatches, .fc-content .fc-event-skin.color-10 { background-color: #e7f2d5; border-color: #7aa666; }
+.color-11, .color-11.selected-color, .color-codes-box .color-11.swatches, .fc-content .fc-event-skin.color-11 { background-color: #e6e0ee; border-color: #8579af; }
+.color-12, .color-12.selected-color, .color-codes-box .color-12.swatches, .fc-content .fc-event-skin.color-12 { background-color: #f0e5db; border-color: #a28574; }
+.color-13, .color-13.selected-color, .color-codes-box .color-13.swatches, .fc-content .fc-event-skin.color-13 { background-color: #fce8d1; border-color: #c58d58; }
+.color-14, .color-14.selected-color, .color-codes-box .color-14.swatches, .fc-content .fc-event-skin.color-14 { background-color: #e1f1e7; border-color: #6ba67e; }
+.color-15, .color-15.selected-color, .color-codes-box .color-15.swatches, .fc-content .fc-event-skin.color-15 { background-color: #f0dfed; border-color: #a26d9d; }
+.color-16, .color-16.selected-color, .color-codes-box .color-16.swatches, .fc-content .fc-event-skin.color-16 { background-color: #e9e9ea; border-color: #919191; }
+body .fc-grid .color-default-personal .fc-event-time, body .fc-event-vert .color-default-personal .fc-event-time { color: #98bedf; }
+body .fc-grid .color-default-school .fc-event-time, body .fc-event-vert .color-default-school .fc-event-time { color: #d5b7cc; }
+body .fc-grid .color-default-groups .fc-event-time, body .fc-event-vert .color-default-groups .fc-event-time { color: #98c684; }
+body .fc-grid .color-default-courses .fc-event-time, body .fc-event-vert .color-default-courses .fc-event-time { color: #e7c18f; }
+body .fc-grid .color-1 .fc-event-time, body .fc-event-vert .color-1 .fc-event-time { color: #cd586d; }
+body .fc-grid .color-2 .fc-event-time, body .fc-event-vert .color-2 .fc-event-time { color: #c7a758; }
+body .fc-grid .color-3 .fc-event-time, body .fc-event-vert .color-3 .fc-event-time { color: #5493ab; }
+body .fc-grid .color-4 .fc-event-time, body .fc-event-vert .color-4 .fc-event-time { color: #cf759d; }
+body .fc-grid .color-5 .fc-event-time, body .fc-event-vert .color-5 .fc-event-time { color: #cd6978; }
+body .fc-grid .color-6 .fc-event-time, body .fc-event-vert .color-6 .fc-event-time { color: #a8a55d; }
+body .fc-grid .color-7 .fc-event-time, body .fc-event-vert .color-7 .fc-event-time { color: #6583a0; }
+body .fc-grid .color-8 .fc-event-time, body .fc-event-vert .color-8 .fc-event-time { color: #cd6a92; }
+body .fc-grid .color-9 .fc-event-time, body .fc-event-vert .color-9 .fc-event-time { color: #d27554; }
+body .fc-grid .color-10 .fc-event-time, body .fc-event-vert .color-10 .fc-event-time { color: #7aa666; }
+body .fc-grid .color-11 .fc-event-time, body .fc-event-vert .color-11 .fc-event-time { color: #8579af; }
+body .fc-grid .color-12 .fc-event-time, body .fc-event-vert .color-12 .fc-event-time { color: #a28574; }
+body .fc-grid .color-13 .fc-event-time, body .fc-event-vert .color-13 .fc-event-time { color: #c58d58; }
+body .fc-grid .color-14 .fc-event-time, body .fc-event-vert .color-14 .fc-event-time { color: #6ba67e; }
+body .fc-grid .color-15 .fc-event-time, body .fc-event-vert .color-15 .fc-event-time { color: #a26d9d; }
+body .fc-grid .color-16 .fc-event-time, body .fc-event-vert .color-16 .fc-event-time { color: #919191; }
+.recurrence { color: #9a9fa8; }
+
+:root {
+    --light-color-1: #C2E2FF; --light-border-color-1: #8FCBFF;
+    --light-color-2: #E6D4ED; --light-border-color-2: #D1B0DE;
+    --light-color-3: #F6CBDA; --light-border-color-3: #EEA0BB;
+    --light-color-4: #FAC6C6; --light-border-color-4: #F79797;
+    --light-color-5: #FCD8C4; --light-border-color-5: #FAB894;
+    --light-color-6: #FCE79E; --light-border-color-6: #FBDC6F;
+    --light-color-7: #D1F2C5; --light-border-color-7: #B7EAA4;
+    --light-color-8: #C7F9F4; --light-border-color-8: #99F5EA;
+    --light-color-9: #C2F1FF; --light-border-color-9: #8FE5FF;
+    --light-color-10: #DFE2E2; --light-border-color-10: #C4C9CA;
+}
+body .fc-grid .color-light-1 .fc-event-time, body .fc-event-vert .color-light-1 .fc-event-time { color: var(--light-color-1); }
+body .fc-grid .color-light-2 .fc-event-time, body .fc-event-vert .color-light-2 .fc-event-time { color: var(--light-color-2); }
+body .fc-grid .color-light-3 .fc-event-time, body .fc-event-vert .color-light-3 .fc-event-time { color: var(--light-color-3); }
+body .fc-grid .color-light-4 .fc-event-time, body .fc-event-vert .color-light-4 .fc-event-time { color: var(--light-color-4); }
+body .fc-grid .color-light-5 .fc-event-time, body .fc-event-vert .color-light-5 .fc-event-time { color: var(--light-color-5); }
+body .fc-grid .color-light-6 .fc-event-time, body .fc-event-vert .color-light-6 .fc-event-time { color: var(--light-color-6); }
+body .fc-grid .color-light-7 .fc-event-time, body .fc-event-vert .color-light-7 .fc-event-time { color: var(--light-color-7); }
+body .fc-grid .color-light-8 .fc-event-time, body .fc-event-vert .color-light-8 .fc-event-time { color: var(--light-color-8); }
+body .fc-grid .color-light-9 .fc-event-time, body .fc-event-vert .color-light-9 .fc-event-time { color: var(--light-color-9); }
+body .fc-grid .color-light-10 .fc-event-time, body .fc-event-vert .color-light-10 .fc-event-time { color: var(--light-color-10); }
+.color-light-1, .color-light-1.selected-color, .color-codes-box .color-light-1.swatches, .fc-content .fc-event-skin.color-light-1 { background-color: var(--light-color-1); border-color: var(--light-border-color-1); }
+.color-light-2, .color-light-2.selected-color, .color-codes-box .color-light-2.swatches, .fc-content .fc-event-skin.color-light-2 { background-color: var(--light-color-2); border-color: var(--light-border-color-2); }
+.color-light-3, .color-light-3.selected-color, .color-codes-box .color-light-3.swatches, .fc-content .fc-event-skin.color-light-3 { background-color: var(--light-color-3); border-color: var(--light-border-color-3); }
+.color-light-4, .color-light-4.selected-color, .color-codes-box .color-light-4.swatches, .fc-content .fc-event-skin.color-light-4 { background-color: var(--light-color-4); border-color: var(--light-border-color-4); }
+.color-light-5, .color-light-5.selected-color, .color-codes-box .color-light-5.swatches, .fc-content .fc-event-skin.color-light-5 { background-color: var(--light-color-5); border-color: var(--light-border-color-5); }
+.color-light-6, .color-light-6.selected-color, .color-codes-box .color-light-6.swatches, .fc-content .fc-event-skin.color-light-6 { background-color: var(--light-color-6); border-color: var(--light-border-color-6); }
+.color-light-7, .color-light-7.selected-color, .color-codes-box .color-light-7.swatches, .fc-content .fc-event-skin.color-light-7 { background-color: var(--light-color-7); border-color: var(--light-border-color-7); }
+.color-light-8, .color-light-8.selected-color, .color-codes-box .color-light-8.swatches, .fc-content .fc-event-skin.color-light-8 { background-color: var(--light-color-8); border-color: var(--light-border-color-8); }
+.color-light-9, .color-light-9.selected-color, .color-codes-box .color-light-9.swatches, .fc-content .fc-event-skin.color-light-9 { background-color: var(--light-color-9); border-color: var(--light-border-color-9); }
+.color-light-10, .color-light-10.selected-color, .color-codes-box .color-light-10.swatches, .fc-content .fc-event-skin.color-light-10 { background-color: var(--light-color-10); border-color: var(--light-border-color-10); }
+.fcalendar-filter-menu-wrapper .color-light-1 .checkbox.filter-selected { border: 1px solid var(--light-border-color-1); background-color: var(--light-color-1); }
+.fcalendar-filter-menu-wrapper .color-light-2 .checkbox.filter-selected { border: 1px solid var(--light-border-color-2); background-color: var(--light-color-2); }
+.fcalendar-filter-menu-wrapper .color-light-3 .checkbox.filter-selected { border: 1px solid var(--light-border-color-3); background-color: var(--light-color-3); }
+.fcalendar-filter-menu-wrapper .color-light-4 .checkbox.filter-selected { border: 1px solid var(--light-border-color-4); background-color: var(--light-color-4); }
+.fcalendar-filter-menu-wrapper .color-light-5 .checkbox.filter-selected { border: 1px solid var(--light-border-color-5); background-color: var(--light-color-5); }
+.fcalendar-filter-menu-wrapper .color-light-6 .checkbox.filter-selected { border: 1px solid var(--light-border-color-6); background-color: var(--light-color-6); }
+.fcalendar-filter-menu-wrapper .color-light-7 .checkbox.filter-selected { border: 1px solid var(--light-border-color-7); background-color: var(--light-color-7); }
+.fcalendar-filter-menu-wrapper .color-light-8 .checkbox.filter-selected { border: 1px solid var(--light-border-color-8); background-color: var(--light-color-8); }
+.fcalendar-filter-menu-wrapper .color-light-9 .checkbox.filter-selected { border: 1px solid var(--light-border-color-9); background-color: var(--light-color-9); }
+.fcalendar-filter-menu-wrapper .color-light-10 .checkbox.filter-selected { border: 1px solid var(--light-border-color-10); background-color: var(--light-color-10); }
+
+:root {
+    --dark-color-1: #00427C;
+    --dark-color-2: #603073;
+    --dark-color-3: #8B1941;
+    --dark-color-4: #970C0C;
+    --dark-color-5: #9C3B07;
+    --dark-color-6: #685203;
+    --dark-color-7: #2A5F16;
+    --dark-color-8: #09584F;
+    --dark-color-9: #005A75;
+    --dark-color-10: #4D5557;
+}
+body .fc-grid .color-dark-1 .fc-event-time, body .fc-event-vert .color-dark-1 .fc-event-time { color: var(--dark-color-1); }
+body .fc-grid .color-dark-2 .fc-event-time, body .fc-event-vert .color-dark-2 .fc-event-time { color: var(--dark-color-2); }
+body .fc-grid .color-dark-3 .fc-event-time, body .fc-event-vert .color-dark-3 .fc-event-time { color: var(--dark-color-3); }
+body .fc-grid .color-dark-4 .fc-event-time, body .fc-event-vert .color-dark-4 .fc-event-time { color: var(--dark-color-4); }
+body .fc-grid .color-dark-5 .fc-event-time, body .fc-event-vert .color-dark-5 .fc-event-time { color: var(--dark-color-5); }
+body .fc-grid .color-dark-6 .fc-event-time, body .fc-event-vert .color-dark-6 .fc-event-time { color: var(--dark-color-6); }
+body .fc-grid .color-dark-7 .fc-event-time, body .fc-event-vert .color-dark-7 .fc-event-time { color: var(--dark-color-7); }
+body .fc-grid .color-dark-8 .fc-event-time, body .fc-event-vert .color-dark-8 .fc-event-time { color: var(--dark-color-8); }
+body .fc-grid .color-dark-9 .fc-event-time, body .fc-event-vert .color-dark-9 .fc-event-time { color: var(--dark-color-9); }
+body .fc-grid .color-dark-10 .fc-event-time, body .fc-event-vert .color-dark-10 .fc-event-time { color: var(--dark-color-10); }
+.color-dark-1, .color-dark-1.selected-color, .color-codes-box .color-dark-1.swatches, .fc-content .fc-event-skin.color-dark-1 { background-color: var(--dark-color-1); border-color: var(--dark-color-1); }
+.color-dark-2, .color-dark-2.selected-color, .color-codes-box .color-dark-2.swatches, .fc-content .fc-event-skin.color-dark-2 { background-color: var(--dark-color-2); border-color: var(--dark-color-2); }
+.color-dark-3, .color-dark-3.selected-color, .color-codes-box .color-dark-3.swatches, .fc-content .fc-event-skin.color-dark-3 { background-color: var(--dark-color-3); border-color: var(--dark-color-3); }
+.color-dark-4, .color-dark-4.selected-color, .color-codes-box .color-dark-4.swatches, .fc-content .fc-event-skin.color-dark-4 { background-color: var(--dark-color-4); border-color: var(--dark-color-4); }
+.color-dark-5, .color-dark-5.selected-color, .color-codes-box .color-dark-5.swatches, .fc-content .fc-event-skin.color-dark-5 { background-color: var(--dark-color-5); border-color: var(--dark-color-5); }
+.color-dark-6, .color-dark-6.selected-color, .color-codes-box .color-dark-6.swatches, .fc-content .fc-event-skin.color-dark-6 { background-color: var(--dark-color-6); border-color: var(--dark-color-6); }
+.color-dark-7, .color-dark-7.selected-color, .color-codes-box .color-dark-7.swatches, .fc-content .fc-event-skin.color-dark-7 { background-color: var(--dark-color-7); border-color: var(--dark-color-7); }
+.color-dark-8, .color-dark-8.selected-color, .color-codes-box .color-dark-8.swatches, .fc-content .fc-event-skin.color-dark-8 { background-color: var(--dark-color-8); border-color: var(--dark-color-8); }
+.color-dark-9, .color-dark-9.selected-color, .color-codes-box .color-dark-9.swatches, .fc-content .fc-event-skin.color-dark-9 { background-color: var(--dark-color-9); border-color: var(--dark-color-9); }
+.color-dark-10, .color-dark-10.selected-color, .color-codes-box .color-dark-10.swatches, .fc-content .fc-event-skin.color-dark-10 { background-color: var(--dark-color-10); border-color: var(--dark-color-10); }
+.fcalendar-filter-menu-wrapper .color-dark-1 .checkbox.filter-selected { border: 1px solid var(--dark-color-1); background-color: var(--dark-color-1); }
+.fcalendar-filter-menu-wrapper .color-dark-2 .checkbox.filter-selected { border: 1px solid var(--dark-color-2); background-color: var(--dark-color-2); }
+.fcalendar-filter-menu-wrapper .color-dark-3 .checkbox.filter-selected { border: 1px solid var(--dark-color-3); background-color: var(--dark-color-3); }
+.fcalendar-filter-menu-wrapper .color-dark-4 .checkbox.filter-selected { border: 1px solid var(--dark-color-4); background-color: var(--dark-color-4); }
+.fcalendar-filter-menu-wrapper .color-dark-5 .checkbox.filter-selected { border: 1px solid var(--dark-color-5); background-color: var(--dark-color-5); }
+.fcalendar-filter-menu-wrapper .color-dark-6 .checkbox.filter-selected { border: 1px solid var(--dark-color-6); background-color: var(--dark-color-6); }
+.fcalendar-filter-menu-wrapper .color-dark-7 .checkbox.filter-selected { border: 1px solid var(--dark-color-7); background-color: var(--dark-color-7); }
+.fcalendar-filter-menu-wrapper .color-dark-8 .checkbox.filter-selected { border: 1px solid var(--dark-color-8); background-color: var(--dark-color-8); }
+.fcalendar-filter-menu-wrapper .color-dark-9 .checkbox.filter-selected { border: 1px solid var(--dark-color-9); background-color: var(--dark-color-9); }
+.fcalendar-filter-menu-wrapper .color-dark-10 .checkbox.filter-selected { border: 1px solid var(--dark-color-10); background-color: var(--dark-color-10); }
+
+.color-codes-box [class*='color-dark-'].color-selected { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/check-icons.png__q_6a0cfa7424d54685"); background-repeat: no-repeat; background-position: 5px -17px; }
+[class*='color-dark-'] .fc-event-inner.fc-event-skin .fc-event-title { color: #FFFFFF; }
+.calendar-popup-inactive { pointer-events: none; opacity: 0.8; }
+[dir="rtl"] .event-icon[class*="day-"] { float: unset; }

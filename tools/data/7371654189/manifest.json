@@ -1,0 +1,58 @@
+{
+  "id": "7371654189",
+  "title": "Advisory 8: Section 13-06",
+  "source": "archived",
+  "scrapedAt": "2026-05-22T05:49:53.538Z",
+  "downloaded": 8,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "link",
+      "title": "8/13",
+      "href": "https://docs.google.com/presentation/d/1SmuqaZnmuLIotKTBjwh0QAuAUSSztfb5dqvFCE-9Qcc/edit?usp=sharing",
+      "localPath": "8_13.url"
+    },
+    {
+      "type": "link",
+      "title": "8/14",
+      "href": "https://docs.google.com/presentation/d/1XcdJRaw8ExmHQF2fLTkEX4SWJXuWvXbgvhBFXjtOfk0/edit?usp=sharing",
+      "localPath": "8_14.url"
+    },
+    {
+      "type": "link",
+      "title": "8/15",
+      "href": "https://docs.google.com/presentation/d/1HaHZl7Tzs8mJ8PkWaD9fR3EBmavbY0YfWUKFfK4b3F0/edit?usp=sharing",
+      "localPath": "8_15.url"
+    },
+    {
+      "type": "link",
+      "title": "8/16",
+      "href": "https://docs.google.com/presentation/d/1eLwsDcmlInBC82jdBN-4VhzG5ukQEnEI9FjV_A8X7IQ/edit?usp=sharing",
+      "localPath": "8_16.url"
+    },
+    {
+      "type": "link",
+      "title": "8/19",
+      "href": "https://docs.google.com/presentation/d/1G438by04O2h2kwv05oX511DOx-BHd56GvNPwa2V6tko/edit?usp=sharing",
+      "localPath": "8_19.url"
+    },
+    {
+      "type": "link",
+      "title": "Career Fair Thank You Form",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLScv1E9vfG5TIXQ-yNFvcjWNAVaZ9qo9_dq44-e4IJGO06Lgqw/viewform",
+      "localPath": "Career Fair Thank You Form.url"
+    },
+    {
+      "type": "link",
+      "title": "Career Fair Presenters",
+      "href": "https://docs.google.com/spreadsheets/d/1l1OCqBIhyLWCXGLGlP-UNV9p2a_AlHeleVb98YZBahc/edit?usp=sharing",
+      "localPath": "Career Fair Presenters.url"
+    },
+    {
+      "type": "link",
+      "title": "Teacher Appreciation Form",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdjL5_Fzdk6EfHxAl27ZEwBj2jShlSCPAmllrAX2L52vixsBQ/viewform",
+      "localPath": "Teacher Appreciation Form.url"
+    }
+  ]
+}

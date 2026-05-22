@@ -1,0 +1,906 @@
+.app-link-wrapper .app-link {
+    padding-inline-start: 31px;
+    display: block;
+    margin-top: 1px;
+    color: #666;
+    font-weight: normal;
+    font-size: 13px;
+}
+/* TODO move styles to selector above in PE-100590 SiteNavigationHeaderSelectionBll::isPdsEnabled */
+body.is-detail-layout .app-link-wrapper .app-link {
+    padding-top: 10px;
+    height: 40px;
+}
+/* TODO remove selector below in PE-100590 SiteNavigationHeaderSelectionBll::isPdsEnabled */
+body:not(.is-detail-layout) .app-link-wrapper .app-link {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.app-link-wrapper .app-link:hover { text-decoration: none; cursor: pointer; color: #333; }
+.app-link-wrapper .app-title { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; }
+.app-link-wrapper .active, .app-link-wrapper .active:hover {
+    color: #333;
+    font-weight: bold;
+}
+/* TODO remove selector below in PE-100590 SiteNavigationHeaderSelectionBll::isPdsEnabled */
+body:not(.is-detail-layout) .app-link-wrapper .active,
+body:not(.is-detail-layout) .app-link-wrapper .active:hover {
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-inline-end: none;
+    margin: -1px 0 -1px;
+    margin-inline-start: -1px;
+}
+
+#sidebar-left #menu-app-toggle a span { background-position: 5px -1075px; }
+#sidebar-left #menu-app-toggle a.active span, #sidebar-left #menu-app-toggle a:hover span, .app-center #sidebar-left #menu-app-toggle a span { background-position: 5px -1050px; }
+#sidebar-left #menu-app-toggle { border-top: 1px solid #eaeaea; margin-top: 4px; padding-top: 3px; }
+.app-canvas #sidebar-left .home-left-menu, .app-canvas #sidebar-left #left-nav #menu-s-main .active.group-profile-left-menu { background: none; border: none; margin: 0; font-weight: normal; }
+.app-canvas #sidebar-left #left-nav #menu-s-main .active.group-profile-left-menu { color: #666; }
+.app-canvas #sidebar-left #left-nav #menu-s-main .active.group-profile-left-menu span { background-position: 5px -1025px; }
+.app-canvas #sidebar-left #left-nav #menu-s-main .active.group-profile-left-menu:hover { color: #333; }
+.app-canvas #sidebar-left #left-nav #menu-s-main .active.group-profile-left-menu:hover span { background-position: 5px -1000px; }
+body.app-center #menu-s-apps .menu li a { background-color: white; font-weight: bold; border: 1px solid #c7c7c7; border-inline-end: none; margin: -1px 0 -1px; margin-inline-start: -1px; color: #333; }
+
+#menu-s-apps-list .app-link .app-logo { /* rtl-processor:ignore */ float: left; width: 26px; margin: -1px 0 -5px; margin-inline-start: -29px; line-height: 0; text-align: center; }
+
+[dir="rtl"] #menu-s-apps-list .app-link .app-logo { float: right; }
+
+#menu-s-apps-list .app-link .app-logo img { width: 20px; filter: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxmaWx0ZXIgaWQ9ImdyYXlzY2FsZSI+CiAgICA8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMC4zMzMzIDAuMzMzMyAwLjMzMzMgMCAwIDAuMzMzMyAwLjMzMzMgMC4zMzMzIDAgMCAwLjMzMzMgMC4zMzMzIDAuMzMzMyAwIDAgMCAwIDAgMSAwIi8+CiAgPC9maWx0ZXI+Cjwvc3ZnPg==#grayscale); filter: gray; -webkit-filter: grayscale(1); opacity: .8; }
+#menu-s-apps-list .app-link:hover .app-logo img, #menu-s-apps-list .app-link.active .app-logo img { filter: none; -webkit-filter: grayscale(0); opacity: 1; }
+
+.apps-list-wrapper h3 { padding-bottom: 5px; border-bottom: 1px solid #c7c7c7; }
+.apps-list-wrapper .app-left { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .apps-list-wrapper .app-left { float: right; }
+.apps-list-wrapper .app-right { padding: 0 120px 0; padding-inline-start: 65px; }
+.apps-list-wrapper li { min-height: 46px; padding: 15px 0; border-bottom: 1px solid #eaeaea; }
+.apps-list-wrapper .app-title a { font-size: 13px; }
+.apps-list-wrapper .app-description { padding-top: 5px; }
+
+.app-table { width: 100%; border-top: 1px solid #ddd; }
+.app-table th, th#app-thumbnail, th#app-title, th#app-status, th#app-status-created, th#app-installs, th#app-tools { text-align: start; border-bottom: 1px solid #eaeaea; padding: 8px 0; }
+.app-table td { border-bottom: 1px solid #eaeaea; padding: 10px 0; }
+.app-table .app-title a { display: inline-block; max-width: 300px; } /* Make the app name go to multiple lines at 300 pixels instead of extending out and squishing the other cells in the table */
+.app-table .app-status-created { color: #9a9fa8; white-space: nowrap; padding-inline-start: 5px; padding-inline-end: 5px; }
+.app-table .app-thumbnail { width: 70px; }
+.app-table .action-links .disabled .infotip { height: auto; width: auto; display: block; text-align: start; padding: 0; margin: 0; }
+.app-table .action-links .disabled .infotip span { background: none; }
+.app-table .app-logo { min-height: 46px; }
+.app-table .app-installs { text-align: start; }
+.app-table .app-tools .submit-btn.install-btn, .app-table .app-tools .link-btn.install-btn, .app-tools .infotip { margin-top: 0; margin-bottom: 0; }
+.app-table .app-tools { white-space: nowrap; word-wrap: normal; }
+.app-table .app-tools .action-links-wrapper { float: none; display: inline-block; }
+.app-table th.active img { margin-inline-start: 5px; }
+.app-status-1 { color: #5AB135; }
+.app-status-2 { color: #EC9638; }
+.app-status-3 { color: #EC9638; }
+.app-status-4 { color: #3B7DDE; }
+.app-canvas #main-content-wrapper { padding: 0; }
+.app-canvas #main, .app-canvas #content-wrapper { padding: 0; line-height: 0; }
+
+.app-installed, .app-install { margin-inline-end: -120px; /* rtl-processor:ignore */ float: right; }
+
+[dir="rtl"] .app-installed, [dir="rtl"] .app-install { float: left; }
+
+.apps-list-wrapper { padding: 10px 0; }
+.apps-list-wrapper li.last { border: none; }
+#s-app-add-general-information, #s-app-add-url-information, #s-app-add-graphics { padding: 25px 50px 15px; border-bottom: 1px solid #eaeaea; }
+#s-app-add-url-information .form-item .form-item { margin: 0; }
+#s-app-add-url-information .form-checkboxes .option { display: block; padding: 10px; }
+#s-app-add-url-information #edit-lti-settings-manual-domain-wrapper.hidden { display: none; }
+#s-app-edit-form #s-app-add-url-information .form-checkboxes label { margin: 0; }
+#s-app-edit-form #s-app-add-url-information .s-app-add-app-type-description,
+#s-app-edit-form .s-app-or,
+#s-app-edit-form .s-app-info-text { display: block; margin: 15px 0 15px; margin-inline-start: 170px; }
+#s-app-edit-form .s-app-or { text-transform: uppercase; }
+#s-app-edit-form .s-app-info-text { font-style: italic; }
+#s-app-edit-form .s-app-lti-advantage-extensions-config-options *[readonly] { background: #dcdcdc; }
+#s-app-edit-form label { /* rtl-processor:ignore */ float: left; width: 170px; margin-top: 5px; }
+[dir="rtl"] #s-app-edit-form label { float: right; }
+#s-app-edit-form label.option { float: none; width: auto; }
+#s-app-edit-form .form-text, #s-app-edit-form textarea { width: 300px; }
+#s-app-edit-form #edit-body-wrapper .resizable-textarea { margin-inline-start: 170px; }
+#s-app-edit-form #edit-body-wrapper textarea { height: 200px; }
+#s-app-edit-form #edit-body-wrapper .mceLayout tr.mceLast { display: table-row; }
+#s-app-edit-form .form-item { margin-bottom: 10px; }
+#s-app-edit-form .app-config-url-wrapper.hidden,
+#s-app-edit-form .legacy-app-nid-field-wrapper.hidden { display: none; }
+#s-app-edit-form span.infotip { padding-inline-end: 23px; background-position: 96% center; }
+[dir="rtl"] #s-app-edit-form span.infotip { background-position-x: calc(100% - 96%); }
+#s-app-edit-form #edit-lti-settings-oidc-oidc-login-init-url-wrapper span.infotip { padding-inline-end: 23px; background-position: 97% center; }
+[dir="rtl"] #s-app-edit-form #edit-lti-settings-oidc-oidc-login-init-url-wrapper span.infotip { padding-inline-end: 25px; background-position-x: calc(100% - 97%); }
+#s-app-edit-form #attachment-selector span.infotip { padding-inline-end: 0; }
+#s-app-edit-form .option span.infotip { padding-inline-end: 20px; background-position: 100% center; }
+[dir="rtl"] #s-app-edit-form .option span.infotip { background-position-x: 0%; }
+#s-app-edit-form .s-combo-item { overflow: hidden; margin-bottom: 10px; }
+#s-app-edit-form .s-combo-item .form-item { margin-bottom: 0; }
+#s-app-edit-form .s-combo-item .s-form-item { /* rtl-processor:ignore */ float: left; margin-inline-end: 10px; }
+[dir="rtl"] #s-app-edit-form .s-combo-item .s-form-item { float: right; }
+#s-app-edit-form .app-launch-type-wrapper { margin-top: 7px; }
+.image-upload-wrapper { padding-inline-start: 170px; margin-top: -10px; }
+#edit-saml-enable-wrapper { padding: 5px 0 10px; padding-inline-start: 170px; }
+.edit-logo-wrapper { padding: 15px 0 0; padding-inline-start: 170px; }
+#s-app-edit-form .edit-logo-wrapper label { margin-inline-start: -170px; }
+#s-app-edit-form #edit-remove-logo-wrapper { /* rtl-processor:ignore */ float: left; margin-top: -25px; }
+[dir="rtl"] #s-app-edit-form #edit-remove-logo-wrapper { float: right; }
+.recommended-checkbox-wrapper .form-item { /* rtl-processor:ignore */ float: left; margin: 0; border: 1px solid #c7c7c7; margin-inline-end: -1px; }
+[dir="rtl"] .recommended-checkbox-wrapper .form-item { float: right; }
+.grade-level-wrapper { overflow: visible; }
+.grade-level-wrapper .end-range-wrapper, .grade-level-wrapper .add-range { display: none; }
+#edit-grade-level-range-end-wrapper { display: inline-block; margin-inline-start: 5px; }
+
+#menu-s-apps { margin: 0 0 10px; }
+#content-left #menu-s-apps { margin-inline-end: -11px; }
+#content-left #menu-s-apps .app-link-wrapper:first-child { margin-top: -15px; }
+#s-app-install-form { max-height: 250px; overflow-y: auto; padding: 15px 20px 5px; }
+#s-app-install-form .warning { background: none; border: none; text-align: center; color: #9a9fa8; padding-top: 25px; }
+#s-app-install-form .option { display: block; padding: 5px 10px; }
+#s-app-install-form .form-item { margin: 0; }
+#s-app-install-form .form-checkboxes { padding-bottom: 10px; }
+#s-app-install-form.updated-placements-ui .realm-type-wrapper label { display: inline-block; padding: 0; margin: 0; }
+#s-app-install-form.updated-placements-ui .realm-type-wrapper .form-checkbox-title { padding-inline-start: 5px; }
+#s-app-install-form.updated-placements-ui .realm-type-wrapper.user-realm-icon .form-checkbox-title { padding-inline-start: 30px; }
+#s-app-install-form.updated-placements-ui .realm-type-wrapper.resources-app-icon .form-checkbox-title { padding-inline-start: 30px; }
+#s-app-install-form.updated-placements-ui .realm-wrapper.user-realm-icon,
+#s-app-install-form.updated-placements-ui .realm-wrapper.resources-app-icon { margin-inline-start: 10px; }
+#s-app-install-form label { display: block; padding-bottom: 5px; }
+#s-app-install-form.updated-placements-ui .realm-type-wrapper { margin-bottom: 10px; }
+#s-app-install-form .realm-wrapper { border-top: 1px solid #ddd; padding: 5px 0; }
+.admin-only-checkbox { padding-inline-start: 29px; display: none; }
+#publisher-apps .app-title { font-size: 14px; width: 40%; }
+#publisher-apps .app-logo img { max-width: 50px; max-height: 50px; margin-inline-end: 10px; }
+.s-apps-publisher-add.link-btn { margin: 10px 0 20px; padding: 7px 10px; }
+#content-wrapper .s-apps-publisher-add .app-icon { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') 0 -1050px; height: 20px; width: 20px; margin: -2px 5px 0; margin-inline-start: 0; }
+.developer-intro p { padding: 15px 0 0; font-size: 14px; color: #9a9fa8; }
+#publisher-apps .publisher-app-publish a { color: #5AB135; background-image: url('/sites/all/themes/schoology_theme/images/profile_prompt.png?6a0cfa7424d54685'); background-position: 13px 6px; }
+#publisher-apps .publisher-app-publish.action-unpublish a, #publisher-apps .publisher-app-unsbumit.action-unpublish a { color: #333; background-image: url('/sites/all/themes/schoology_theme/images/profile_prompt.png?6a0cfa7424d54685'); background-position: 13px -66px; }
+#publisher-apps .publisher-app-publish.action-unpublish a:hover, #publisher-apps .publisher-app-unsbumit.action-unpublish a:hover { color: #89D4FA; }
+body .install-btn.added { cursor: pointer; }
+.submit-btn.install-btn, .link-btn.install-btn, .s-app-install .infotip, .app-tools .infotip { font-size: 13px; margin: 4px 5px 4px; margin-inline-start: 0; }
+.s-app-install .infotip .link-btn.submit-btn, .s-app-install .infotip .link-btn.install-btn { margin-top: 0; margin-bottom: 0; }
+.s-app-install .infotip { margin-inline-end: 10px; }
+.submit-btn.install-btn, .link-btn.install-btn { background: #2e66a3; }
+.submit-btn.install-btn:hover, .link-btn.install-btn:hover { background: #1a4a75; }
+.submit-btn.install-btn:active { background: #1a4a75; }
+#s-app-edit-form .recommended-for-wrapper { height: 50px; overflow: hidden; }
+#s-app-edit-form .recommended-for-wrapper label { margin-top: 15px; }
+#s-app-edit-form .recommended-for-wrapper label.option { margin: 0; padding: 10px; display: block; }
+#s-app-edit-form .form-checkboxes { margin: 5px 0 0; margin-inline-start: 170px; border: 1px solid #c7c7c7; width: 610px; }
+#s-app-edit-form .category { width: 310px; }
+#s-app-edit-form .logo-label { font-weight: bold; /* rtl-processor:ignore */ float: left; width: 170px; }
+[dir="rtl"] #s-app-edit-form .logo-label { float: right; }
+#s-app-edit-form #attachment-links { padding-top: 10px; }
+#s-app-edit-form .s-app-add-instructions-body { margin-inline-start: 10px; }
+#s-app-other-screenshot-instructions { padding-top: 8px !important; }
+#s-app-edit-form #s-app-graphics-wrapper { border-bottom: 1px solid #eaeaea; }
+#s-app-edit-form .s-app-logo-wrapper { padding: 20px 50px; }
+#s-app-edit-form .s-app-logo-wrapper .form-item { display: inline; }
+#s-app-edit-form .s-app-instructions { color: #9a9fa8; padding: 5px 0 0; padding-inline-start: 170px; }
+#s-app-edit-form .s-app-screenshot .panel { display: inline; margin-inline-end: 10px; }
+#s-app-edit-form .s-app-screenshot, #s-app-edit-form .app-logo { padding-bottom: 10px; }
+#s-app-edit-form .clear-secret-btn { margin-top: -40px; margin-inline-start: 418px !important; height: 30px !important;}
+#s-app-edit-form .with-clear-button { width: 247px !important; }
+#s-app-edit-form .allowed-resources-config-type-msg-wrapper { padding: 5px 0 }
+.edit-apps-page .content-top-upper a { font-weight: normal; }
+#edit-agreement-wrapper { padding: 25px 0 10px; margin-bottom: 15px; text-align: center; color: #9a9fa8; }
+#edit-agreement-wrapper a { font-weight: normal; }
+#s-app-publisher-unpublish-form { padding: 10px 15px;  text-align: center; }
+#s-app-test-install-form .form-checkbox { /* rtl-processor:ignore */ float: left; margin-top: 15px; }
+[dir="rtl"] #s-app-test-install-form .form-checkbox { float: right; }
+#s-app-test-install-form .description { padding: 10px 0 15px; text-align: center; }
+#s-app-test-install-form .form-checkboxes { border-top: 1px solid #ddd; }
+#s-app-test-install-form .form-checkbox-title { padding-inline-start: 30px; min-height: 47px; display: block; }
+#s-app-test-install-form .app-logo { /* rtl-processor:ignore */ float: left; line-height: 0; margin-inline-end: 5px; }
+[dir="rtl"] #s-app-test-install-form .app-logo { float: right; }
+#s-app-test-install-form label { cursor: pointer; padding: 7px 0; border-bottom: 1px solid #eaeaea; display: block; }
+#s-app-test-install-form .app-title { display: block; padding: 15px 0; font-weight: bold; font-size: 14px; overflow: hidden; }
+#s-app-test-install-form .form-item { margin-bottom: 0; }
+
+#edit-scope-placeholder-wrapper .input-placeholder, #edit-title-placeholder-wrapper .input-placeholder { margin-top: 5px; display: inline-block; max-width: 300px; }
+
+.app-tools .action-links { inset-inline-end: 0; }
+.action-links .action-oauth a { background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685') no-repeat 13px -1307px; }
+
+#s-app-oauth-form { padding: 15px 20px; }
+#s-app-oauth-form h2:not(:first-child) { margin-top: 2rem; }
+#s-app-oauth-form .description { margin: 0.1rem 0 0.8rem 0; }
+#s-app-oauth-form label { display: block; padding-bottom: 5px; }
+#s-app-oauth-form .form-item { margin-bottom: 10px; }
+#s-app-oauth-form .form-text { width: 400px; }
+.app-oauth.popups-box .popups-body { padding: 0; }
+
+/* app store */
+.app-store .flexslider-container .slides { }
+#s-app-store-menu { padding: 10px 0; border-bottom: 1px solid #eaeaea; height: 27px; margin-bottom: 15px; }
+#s-app-store-menu .action-links-wrapper, #s-app-store-menu-left .action-links-unfold, #s-app-store-menu .filter-clear { /* rtl-processor:ignore */ float: left; position: relative; }
+[dir="rtl"] #s-app-store-menu .action-links-wrapper, [dir="rtl"] #s-app-store-menu-left .action-links-unfold, [dir="rtl"] #s-app-store-menu .filter-clear { float: right; }
+#s-app-store-menu .filter-clear a { padding: 5px 0; font-weight: normal; color: #666; margin-inline-end: 10px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] #s-app-store-menu .filter-clear a { float: right; }
+#s-app-store-menu .action-links-wrapper { margin-inline-end: 5px; }
+#s-app-store-menu .action-links-wrapper .action-links { top: 26px; inset-inline-start: 0; min-width: 120px; }
+#s-app-store-menu .action-links-wrapper-gearless .action-links-unfold span { font-weight: normal; }
+#s-app-store-menu .action-links-wrapper-gearless .action-links-unfold { color: #0677ba; }
+#s-app-store-menu .action-links-wrapper-gearless .action-links-unfold.active,
+#s-app-store-menu .action-links-wrapper-gearless .action-links-unfold:active { color: #333; font-weight: bold; }
+#s-app-store-menu .action-links-wrapper-gearless .action-links { min-width: 170px; }
+#s-app-store-menu .action-links-wrapper-gearless .action-links .active a { background-image: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685'); background-repeat: no-repeat; background-position: 95% -239px; }
+[dir="rtl"] #s-app-store-menu .action-links-wrapper-gearless .action-links .active a { background-position-x: 5%; }
+#s-app-store-menu .action-links-wrapper-gearless .action-links .active a:hover { background-position: 95% -259px; }
+[dir="rtl"] #s-app-store-menu .action-links-wrapper-gearless .action-links .active a:hover { background-position-x: 5%; }
+#s-app-store-menu .action-links a { padding-inline-start: 15px; padding-inline-end: 30px; background-image: none; }
+#s-app-store-menu .action-links a.active { background-image: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685'); background-position: 95% -239px; }
+#s-app-profile-description { margin: 0 20px 15px; margin-inline-start: 0; line-height: 1.4; padding-bottom: 25px; border-bottom: 1px solid #ddd; }
+#s-app-profile-other-screenshots-wrapper { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #ddd; }
+.app-profile-header { margin-bottom: 10px; }
+#s-app-profile-main-screenshot { margin-bottom: 15px; }
+.s-app-wrapper { height: 129px; overflow: hidden; border-bottom: 1px solid #ddd; padding-top: 18px; }
+.s-app-store-apps-wrapper { border-top: 1px solid #ddd; }
+.s-app-store-apps-wrapper.s-app-store-no-results .s-app-store-empty { padding-top: 20px; color: #9a9fa8; text-align: center; }
+.s-app-store-apps-wrapper img { max-width: 200px; }
+.s-app-store-apps-wrapper .s-app-screenshot { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .s-app-store-apps-wrapper .s-app-screenshot { float: right; }
+.apps-coming-soon { font-size: 16px; padding: 25px 0; color: #9a9fa8; text-align: center; }
+.s-app-meta-body { margin-inline-end: 15px; color: #666; }
+.s-app-lti-extension { word-wrap: break-word; min-width: 298px; display: inline-block; }
+.s-app-wrapper .app-logo { /* rtl-processor:ignore */ float: left; margin-inline-end: 15px; }
+[dir="rtl"] .s-app-wrapper .app-logo { float: right; }
+.s-app-wrapper .app-logo a { display: block; height: 90px; width: 90px; max-height: 90px; max-width: 90px; padding: 10px; border: 1px solid #ddd; }
+.s-app-wrapper .app-logo a:hover { border-color: #c7c7c7; }
+.s-app-wrapper .app-logo a img { width: 100%; height: auto; }
+.s-app-wrapper .s-app-title { font-size: 16px; display: block; }
+.s-app-wrapper .s-app-title.s-resource-app { padding-inline-start: 25px; }
+.s-app-wrapper .s-app-title.s-resource-app .inline-icon { /* rtl-processor:ignore */ float: left; margin-inline-start: -25px; }
+[dir="rtl"] .s-app-wrapper .s-app-title.s-resource-app .inline-icon { float: right; }
+.s-app-wrapper .s-app-developer a, .s-app-wrapper .s-app-developer { font-weight: normal; color: #9a9fa8; display: none; }
+.s-app-info { padding-bottom: 5px; margin-inline-start: 137px; }
+.s-app-description { padding: 5px 0; margin-inline-start: 137px; }
+.resource-app-label { margin-top: 15px; color: #666; }
+.resource-app-label .inline-icon { margin-bottom: -6px; }
+
+/* WCAG 2.4.7: show visible focus for Resource App tooltip trigger.
+ * The trigger is a focusable `.infotip.hide-qmark` wrapper; highlight the label
+ * inside so it stays visible even when the card container clips overflow. */
+.app-store .s-app-wrapper .infotip.hide-qmark:focus-visible .resource-app-label {
+  box-shadow: inset 0 0 0 2px #327cbb;
+  border-radius: 3px;
+  background-color: rgba(50, 124, 187, 0.12);
+}
+/* app profile */
+.s-app-top .app-logo-wrapper { /* rtl-processor:ignore */ float: left; padding: 5px; border: 1px solid #c7c7c7; background: #fff; height: 150px; width: 150px; position: absolute; top: 17px; inset-inline-start: 0; }
+[dir="rtl"] .s-app-top .app-logo-wrapper { float: right; }
+.s-app-top .app-logo-wrapper .app-type-resource-icon { position: absolute; inset-inline-end: 8px; top: 8px; }
+.s-app-top .app-logo { height: 150px; width: 150px; display: table-cell; vertical-align: middle; text-align: center; }
+.s-app-top .link-btn { /* rtl-processor:ignore */ float: left; margin-inline-end: 10px; }
+[dir="rtl"] .s-app-top .link-btn { float: right; }
+.s-app-install .infotip .link-btn { margin-inline-end: 0; }
+.s-app-top .app-rating, .s-app-top .empty { padding: 5px 0 15px; }
+.app-profile #center-top { min-height: 100px; background: url('/sites/all/themes/schoology_theme/images/tabs-bg.gif?6a0cfa7424d54685') repeat-y #F5F5F5; padding: 15px 20px; margin: 0 -20px; }
+.app-profile .page-title { margin-inline-start: 192px; padding-top: 18px; }
+.app-profile .content-top { padding-top: 10px; margin-inline-start: 192px; min-height: 30px; }
+.app-profile .left-side { /* rtl-processor:ignore */ float: left; width: 50%; padding: 15px 0; }
+[dir="rtl"] .app-profile .left-side { float: right; }
+.app-profile .right-side { /* rtl-processor:ignore */ float: left; width: 50%; padding: 15px 0; }
+[dir="rtl"] .app-profile .right-side { float: right; }
+.app-profile .right-side-inner { padding-inline-start: 20px; }
+.app-profile .profile-wrapper { background: url('/sites/all/themes/schoology_theme/images/border.gif?6a0cfa7424d54685') repeat-y 50% 0; }
+.app-profile #content-wrapper { padding-bottom: 0; }
+.app-profile .s-app-author { color: #666; font-size: 12px; font-weight: normal; white-space: nowrap; }
+.app-profile .s-app-author a { font-weight: normal; }
+.app-profile .app-actions .action-links-wrapper { /* rtl-processor:ignore */ float: left; margin: 4px 9px 4px; margin-inline-start: -6px; }
+[dir="rtl"] .app-profile .app-actions .action-links-wrapper { float: right; }
+.app-profile .app-actions .action-links-wrapper .action-links-unfold { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .app-profile .app-actions .action-links-wrapper .action-links-unfold { float: right; }
+.app-profile .app-actions .action-links { margin-top: 25px; }
+.app-actions .disabled .infotip { display: block; height: auto; width: auto; margin: 0 !important; }
+.app-actions .disabled .infotip span { background: none; }
+.right-side .flexslider-container, .right-side .s-app-other-apps { float: none; width: 100%; overflow: hidden; }
+.right-side .flexslider { margin: 0 -1px; }
+.right-side .s-app-other-apps { padding-top: 15px; border-top: 1px solid #eaeaea; margin-top: 15px; }
+.s-app-profile-meta { padding: 18px 0 15px; padding-inline-start: 192px; border-bottom: 1px solid #ddd; min-height: 32px; line-height: 1.4; }
+.s-app-profile-meta a { font-weight: normal; text-decoration: underline; }
+.s-app-profile-meta dt { display: inline;}
+.s-app-profile-meta dt::after { content: '\00a0'; }
+.s-app-profile-meta dd { display: inline; margin-inline-end: 15px;}
+.s-app-meta-title { font-weight: bold; }
+.s-app-user-count { color: #9a9fa8; }
+.app-store .content-top-wrapper { padding-top: 3px; }
+.app-store .page-title { /* rtl-processor:ignore */ float: left; padding-inline-start: 33px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') no-repeat 5px -1048px; }
+[dir="rtl"] .app-store .page-title { float: right; background-position-x: calc(100% - 5px); }
+.app-store #center-top { height: 24px; }
+.spacer-dot { font-size: 14px; font-weight: bold; display: inline-block; /* rtl-processor:ignore */ float: left; padding: 0 5px; }
+[dir="rtl"] .spacer-dot { float: right; }
+.app-nav-link { font-size: 14px; display: inline-block; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .app-nav-link { float: right; }
+.app-profile-header { margin-inline-end: 20px; }
+.app-rating { display: none; }
+#s-app-profile-reviews { margin-inline-end: 20px; display: none; }
+#s-app-profile-reviews .empty { text-align: center; padding: 15px 0 30px; border-top: 1px solid #eaeaea; }
+#s-app-profile-reviews .rate-btn { /* rtl-processor:ignore */ float: right; margin-top: -5px; }
+[dir="rtl"] #s-app-profile-reviews .rate-btn { float: left; }
+.s-app-other-apps .s-app-other-apps-list { overflow: hidden; margin: 0 -5px; }
+.s-app-other-apps .s-app-small { /* rtl-processor:ignore */ float: left; width: 33.333%; padding: 0 5px 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+[dir="rtl"] .s-app-other-apps .s-app-small { float: right; }
+.s-app-other-apps .s-app-small .app-logo a { display: block; width: 100%; padding-bottom: 100%; position: relative; border: 1px solid #ddd; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.s-app-store-apps-wrapper .app-logo .vertical-center { height: 90px; width: 90px; display: table-cell; vertical-align: middle; }
+.s-app-small .app-logo .vertical-center { position: absolute; inset-inline-start: 10px; inset-inline-end: 10px; top: 10px; bottom: 10px; height: auto; }
+.s-app-other-apps .s-app-small .app-logo a:hover { border-color: #c7c7c7; }
+.s-app-other-apps .s-app-small .app-logo img { width: 100%; height: auto; margin: auto; position: absolute; top: 0; bottom: 0; inset-inline-start: 0; inset-inline-end: 0; }
+.s-app-other-apps .s-app-small-name { max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding: 5px 0; display: block; }
+.s-app-others-title { padding-bottom: 10px; }
+#s-app-rate-add-form { padding: 15px 20px; }
+#s-app-rate-add-form .rate-star { margin: 0; }
+.s-app-store-link { font-weight: normal; position: absolute; inset-inline-end: 0; top: 15px; background: url('/sites/all/themes/schoology_theme/images/expandable.gif?6a0cfa7424d54685') no-repeat 4px -40px; padding-inline-start: 15px; color: #2e66a3; }
+[dir="rtl"] .s-app-store-link { background-position: calc(100% + 4px) -16px; }
+.beta-tag { color: #5AB135; font-size: 13px; text-transform: uppercase; }
+.app-rating-row { min-height: 46px; padding: 10px 0 10px; padding-inline-start: 60px; border-top: 1px solid #eaeaea; }
+.app-rating-row .created { color: #9a9fa8; padding-top: 5px; }
+.app-rating-row a { font-weight: normal; }
+.app-rating-row .picture { margin-inline-start: -60px; }
+.s-app-store-apps-wrapper .s-app-install { padding-top: 5px; margin-inline-start: 137px; }
+.s-app-controls .s-app-install { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .s-app-controls .s-app-install { float: right; }
+.s-app-install .infotip { /* rtl-processor:ignore */ float: left; padding: 0; }
+[dir="rtl"] .s-app-install .infotip { float: right; }
+.s-app-install .infotip.price-infotip { float: none; display: inline-block; padding: 6px 0 6px; padding-inline-start: 25px; white-space: nowrap; color: #5AB135; cursor: default !important; margin: 4px 5px 4px; margin-inline-start: 0; background: url('/sites/all/themes/schoology_theme/images/icon-paid.gif?6a0cfa7424d54685') no-repeat 5px 5px; }
+[dir="rtl"] .s-app-install .infotip.price-infotip { background-position-x: calc(100% - 5px); }
+.app-profile .s-app-install .infotip.price-infotip { position: absolute; inset-inline-start: 188px; margin-top: 34px; }
+.lti-advantage-extensions-label { /* rtl-processor:ignore */ float: left;  font-weight: bold; width: 120px; }
+[dir="rtl"] .lti-advantage-extensions-label { float: right; }
+
+/* slider */
+.flexslider-container { position: relative; /*overflow: hidden;*/ }
+.flexslider-container { position: relative; overflow: hidden; }
+.flexslider-container .slides li { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .flexslider-container .slides li { float: right; }
+.flexslider-container ol { list-style: none; display: none; }
+.flexslider-container:hover .flex-direction-nav .prev, .flexslider-container:hover .flex-direction-nav .next, .flexslider-max-wrapper:hover .flex-direction-nav .prev, .flexslider-max-wrapper:hover .flex-direction-nav .next { display: block; }
+.flex-direction-nav .prev, .flex-direction-nav .next { z-index: 10000; display: none; position: absolute; top: 50%; height: 60px; width: 60px; margin-top: -30px; text-indent: -9999px; border: none; opacity: .7; filter: alpha(opacity=70); background: url('/sites/all/themes/schoology_theme/images/carousel-sprite.png?6a0cfa7424d54685') no-repeat; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+.flexslider-max-wrapper .flex-direction-nav .prev { inset-inline-start: 150px;}
+.flexslider-max-wrapper .flex-direction-nav .next { inset-inline-end: 26%; margin-inline-end: -60px; background-position: 0 -70px; }
+.flexslider-left-opacity-screen, .flexslider-right-opacity-screen { background: #fff; opacity: .8; filter: alpha(opacity=80); zoom: 1; width: 26.3%; position: absolute; bottom: 0; top: 0; }
+.flex-direction-nav .prev { inset-inline-start: 0; }
+.flex-direction-nav .next { inset-inline-end: 0; background-position: 0 -70px; }
+.flex-direction-nav .prev:hover, .flex-direction-nav .next:hover { opacity: .9; filter: alpha(opacity=90); }
+.flex-direction-nav .prev:active, .flex-direction-nav .next:active { opacity: .95; filter: alpha(opacity=95); background: url('/sites/all/themes/schoology_theme/images/carousel-sprite.png?6a0cfa7424d54685') no-repeat; }
+.flex-direction-nav .next:active { background-position: 0 -70px; }
+.flexslider-max-wrapper .flex-direction-nav li .prev { inset-inline-start: 26%; margin-inline-start: -60px; }
+.flexslider-max-wrapper .flexslider-container { width: 48%; padding: 0 26%; overflow: hidden; }
+
+/* manage apps search */
+#s-app-manager-apps-div-search { padding: 25px 30px; margin: 10px 10px 10px 10px; display: inline-block; background-color: #EEF3F8; border: 1px solid #BECDDE; vertical-align: middle; }
+#s-app-manager-apps-div-search label { /* rtl-processor:ignore */ float: left; width: 170px; margin-top: 5px; }
+[dir="rtl"] #s-app-manager-apps-div-search label { float: right; }
+#s-app-manager-apps-div-search .instructions { padding-bottom: 15px; }
+
+/* manage apps */
+.manage-app-list li { border-bottom: 1px solid #eaeaea; padding: 15px 0; }
+.manage-app-list .no-apps { text-align: center; margin-top: 10px; }
+.manage-app-list .app-title { font-size: 14px; font-weight: bold; }
+.manage-app-list .app-logo { /* rtl-processor:ignore */ float: left; padding-inline-end: 10px; }
+[dir="rtl"] .manage-app-list .app-logo { float: right; }
+.manage-app-list .app-action-links { /* rtl-processor:ignore */ float: right; padding-top: 8px; }
+[dir="rtl"] .manage-app-list .app-action-links { float: left; }
+.manage-app-list .app-action-links .link-btn { /* rtl-processor:ignore */ float: right; margin-inline-start: 5px; }
+[dir="rtl"] .manage-app-list .app-action-links .link-btn { float: left; }
+.top-breadcrumb a { font-weight: normal; }
+#s-app-school-add a, #s-app-user-add .install-area { /* rtl-processor:ignore */ float: left; font-size: 14px; width: 170px; text-align: center; color: #327cbb; font-weight: bold; cursor: pointer; padding: 25px 0; height: 50px; }
+[dir="rtl"] #s-app-school-add a, [dir="rtl"] #s-app-user-add .install-area { float: right; }
+#s-app-school-add a span, #s-app-user-add .install-area span { display: block; height: 22px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') no-repeat 50% -50px; margin-bottom: 5px; }
+#s-app-school-add a span { background-position: 50% -550px; }
+#s-app-school-add a:hover, #s-app-user-add span:hover { background-color: #f7f7f7; text-decoration: none; }
+#s-app-user-add .install-area { border-inline-start: 1px solid #ddd; }
+.s-install-single-choice-wrapper #s-app-user-add .install-area { width: 100%; }
+.empty.app-message { border-top: 1px solid #eaeaea; padding-top: 30px; text-align: center; margin-top: 12px; font-size: 16px; }
+#s-app-realm-install-form .realm-wrapper { border-bottom: 1px solid #ddd; }
+#s-app-realm-install-form .realm-wrapper label { border: none; }
+#s-app-realm-install-form .roles-help { padding-bottom: 5px; }
+#s-app-realm-install-form .roles-section { padding-inline-start: 22px; font-size: 12px; color: #9a9fa8; }
+#s-app-realm-install-form .roles-section label { margin: 0; }
+#s-app-realm-install-form .roles-section:last-child { padding-bottom: 10px; }
+#s-app-realm-install-form label { border-bottom: 1px solid #ddd; padding-bottom: 5px; display: block; }
+#s-app-realm-install-form .form-checkboxes label { padding: 10px; border-bottom: 1px solid #eaeaea; display: block; }
+#s-app-realm-install-form .form-checkbox-title, #s-app-install-form .form-checkbox-title, #edit-allowed-realms-1-wrapper .form-checkbox-title, #edit-allowed-realms-2-wrapper .form-checkbox-title, #edit-allowed-realms-4-wrapper .form-checkbox-title, .recommended-checkbox-wrapper .form-checkbox-title, #edit-require-config-wrapper .form-checkbox-title, #edit-app-school-admin-only-wrapper .form-checkbox-title { display: inline-block; padding: 3px 0 3px; padding-inline-start: 30px; font-weight: bold; color: #327cbb; }
+.course-realm-icon .form-checkbox-title, #edit-allowed-realms-2-wrapper .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat 5px 3px; }
+[dir="rtl"] .course-realm-icon .form-checkbox-title, [dir="rtl"] #edit-allowed-realms-2-wrapper .form-checkbox-title { background-position-x: calc(100% - 5px); }
+.group-realm-icon .form-checkbox-title, #edit-allowed-realms-4-wrapper .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat 5px -57px; }
+[dir="rtl"] .group-realm-icon .form-checkbox-title, [dir="rtl"] #edit-allowed-realms-4-wrapper .form-checkbox-title { background-position-x: calc(100% - 5px); }
+.user-realm-icon .form-checkbox-title, #edit-allowed-realms-1-wrapper .form-checkbox-title,
+#edit-allowed-realms-1-wrapper .form-checkbox-title {
+    background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') no-repeat 5px -48px;
+}
+[dir="rtl"] .user-realm-icon .form-checkbox-title, [dir="rtl"] #edit-allowed-realms-1-wrapper .form-checkbox-title, [dir="rtl"] #edit-allowed-realms-1-wrapper .form-checkbox-title { background-position-x: calc(100% - 5px); }
+
+.admin-only-checkbox .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/admin-badge.svg?6a0cfa7424d54685') no-repeat no-repeat 5px 3px; display: inline-block; background-size: 16px 16px; font-weight: normal !important; }
+.admin-only-checkbox .form-radio-title { font-weight: normal !important; padding: 2px 0 2px; padding-inline-start: 30px; }
+.admin-only-checkbox #edit-realms-course-admin-only-0-wrapper .form-radio-title, .admin-only-checkbox #edit-realms-group-admin-only-0-wrapper .form-radio-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685') no-repeat 8px -110px; }
+[dir="rtl"] .admin-only-checkbox #edit-realms-course-admin-only-0-wrapper .form-radio-title, [dir="rtl"] .admin-only-checkbox #edit-realms-group-admin-only-0-wrapper .form-radio-title { background-position-x: calc(100% - 8px); }
+.admin-only-checkbox #edit-realms-course-admin-only-1-wrapper .form-radio-title, .admin-only-checkbox #edit-realms-group-admin-only-1-wrapper .form-radio-title { background: url('/sites/all/themes/schoology_theme/images/admin-badge.svg?6a0cfa7424d54685') no-repeat no-repeat 8px 3px; display: inline-block; background-size: 16px 16px; font-weight: normal; }
+[dir="rtl"] .admin-only-checkbox #edit-realms-course-admin-only-1-wrapper .form-radio-title, [dir="rtl"] .admin-only-checkbox #edit-realms-group-admin-only-1-wrapper .form-radio-title { background-position-x: calc(100% - 8px); }
+
+#edit-recommended-for-teachers-wrapper .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_roles.png?6a0cfa7424d54685') no-repeat 5px -95px; }
+[dir="rtl"] #edit-recommended-for-teachers-wrapper .form-checkbox-title { background-position-x: calc(100% - 5px); }
+#edit-recommended-for-admins-wrapper .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_roles.png?6a0cfa7424d54685') no-repeat 5px -64px; }
+[dir="rtl"] #edit-recommended-for-admins-wrapper .form-checkbox-title { background-position-x: calc(100% - 5px); }
+#edit-recommended-for-students-wrapper .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_roles.png?6a0cfa7424d54685') no-repeat 5px -31px; }
+[dir="rtl"] #edit-recommended-for-students-wrapper .form-checkbox-title { background-position-x: calc(100% - 5px); }
+#edit-require-config-wrapper .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') no-repeat 5px -448px; font-weight: normal; color: #333; }
+[dir="rtl"] #edit-require-config-wrapper .form-checkbox-title { background-position-x: calc(100% - 5px); }
+#edit-app-school-admin-only-wrapper .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_roles.png?6a0cfa7424d54685') no-repeat 5px -64px; color: #333; font-weight: normal; }
+[dir="rtl"] #edit-app-school-admin-only-wrapper .form-checkbox-title  { background-position-x: calc(100% - 5px); }
+#s-app-realm-install-form h3 { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') no-repeat 0 -1046px; padding: 5px 0 5px; padding-inline-start: 28px; }
+[dir="rtl"] #s-app-realm-install-form h3 { background-position-x: 100%; }
+#s-app-realm-install-form .form-checkboxes { border: 1px solid #ddd; border-width: 0 1px; }
+#s-app-edit-form .app-allowed-realms-wrapper .allowed-resources-msg-wrapper { padding: 5px 0; }
+.realm-wrapper.resources-app-icon .form-checkbox-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') no-repeat 5px -1148px; }
+[dir="rtl"] .realm-wrapper.resources-app-icon .form-checkbox-title { background-position-x: calc(100% - 5px); }
+
+/* become a developer */
+#s-app-developer-request-form { padding: 15px 0; }
+#s-app-developer-request-form .s-app-developer-explanation { display: block; margin-bottom: 15px; color: #9a9fa8; }
+#s-app-developer-request-form label { /* rtl-processor:ignore */ float: left; width: 100px; margin: 5px 5px 0; margin-inline-start: 0; }
+[dir="rtl"] #s-app-developer-request-form label { float: right; }
+#s-app-developer-request-form .form-item { margin-bottom: 10px; }
+#s-app-developer-request-form .form-text { width: 300px; }
+#s-app-developer-request-form textarea { width: 300px; }
+.s-app-developer-request-form-page #container { width: 600px; margin: 30px auto 50px; }
+.s-app-developer-request-form-page #main-content-wrapper { border-top: 1px solid #c7c7c7; min-height: 0; padding-bottom: 0 !important; }
+.app-store.anonymous #sidebar-left, .anonymous.app-profile #sidebar-left { display: none; }
+.app-store.anonymous #main-content-wrapper, .anonymous.app-profile #main-content-wrapper { margin: 0 auto; max-width: 980px; }
+
+/*#s-app-profile-other-screenshots{overflow: scroll; height: 190px; width: 622px;}
+#s-app-profile-other-screenshots img{display: inline-block; float: left;}*/
+
+/* ratings */
+.rate-star { display: inline-block; width: 16px; height: 16px; background: url('/sites/all/themes/schoology_theme/images/star_sprite.png?6a0cfa7424d54685') no-repeat 0 -24px; margin-inline-end: 2px; }
+.rate-star.active { background-position: 0 0; }
+.rate-star.noclick { cursor: default; }
+.rate-star.half { background-position: 0 -48px; }
+#s-app-rate-add-form { padding: 15px 20px; font-size: 11px; }
+#s-app-rate-add-form .rate-star { margin: 0; cursor: pointer; }
+#s-app-rate-add-form label { /* rtl-processor:ignore */ float: left; width: 70px; margin: 5px 5px 0; margin-inline-start: 0; }
+[dir="rtl"] #s-app-rate-add-form label { float: right; }
+.popups-box #s-app-rate-add-form .s-share-checkbox-form-wrapper label { width: auto; }
+#s-app-rate-add-form textarea { width: 340px; }
+#edit-rating-wrapper { padding-bottom: 5px; }
+#edit-rating-wrapper label { margin-top: 0; }
+.rate-more-link { display: block; margin-top: 8px; padding: 3px 0 3px; padding-inline-start: 20px; background: url('/sites/all/themes/schoology_theme/images/arrow-down.png?6a0cfa7424d54685') no-repeat 5px 50%; }
+
+.app-checkbox-wrapper { margin: 10px 0 10px; margin-inline-start: 170px; }
+.lti-ags-sub-option { margin-inline-start: 200px; }
+#s-app-edit-form .clickable:hover { text-decoration: none; }
+#s-app-edit-form .form-checkboxes-wrapper { max-height: 89px; overflow: auto; width: 310px; }
+#s-app-edit-form .cb-row { border-bottom: 1px solid #eaeaea; }
+#s-app-edit-form .cb-title { padding: 7px 0 7px; padding-inline-start: 10px; display: block; font-weight: normal; }
+#s-app-edit-form .cb-title.active { color: #333; font-weight: bold; background: #f9f9f9 url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') no-repeat 98% -236px; }
+[dir="rtl"] #s-app-edit-form .cb-title.active { background-position-x: 2%; }
+#s-app-edit-form #edit-payment-price { width: 60px; padding-inline-start: 18px; color: #5AB135; }
+#s-app-edit-form .dollars { position: absolute; margin: 5px 0 0; margin-inline-start: 177px; font-size: 14px; color: #9a9fa8; }
+.app-price-item .description { position: absolute; margin: -31px 0 0; margin-inline-start: 265px; }
+
+#edit-cookie-preload-enabled-wrapper { margin: 0 0 0; margin-inline-start: 170px; }
+.app-cookie-preload-wrapper { margin: 10px 0; }
+.app-cookie-preload-wrapper .description { margin-top: 10px; margin-inline-start: 170px; }
+
+/* share */
+.app-store #social-share-wrapper { position: relative; }
+.app-store #social-share-wrapper, .app-store .dev-request-btn { /* rtl-processor:ignore */ float: right; margin: -3px 0 0; margin-inline-start: 4px; }
+[dir="rtl"] .app-store #social-share-wrapper, [dir="rtl"] .app-store .dev-request-btn { float: left; }
+.app-store #social-share-wrapper .action-links { inset-inline-end: 0px; }
+.app-profile .s-app-controls #social-share-wrapper { margin: 4px 9px 4px; margin-inline-start: -6px; }
+
+/* Remove App Link */
+#menu-s-apps-list .app-uninstall { width: 16px; height: 16px; /* rtl-processor:ignore */ float: left; position: absolute; margin-inline-start: -15px; margin-top: 9px; display: none; cursor: pointer; }
+[dir="rtl"] #menu-s-apps-list .app-uninstall { float: right; }
+#menu-s-apps-list .app-link-wrapper:hover .app-uninstall { display: block; }
+#menu-s-apps-list .app-uninstall-btn { background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') no-repeat -6px -81px; display: block; overflow: hidden; height: 100%; width: 100%; text-indent: -9999px; opacity: .5; filter: alpha(opacity=50); }
+#menu-s-apps-list .app-uninstall-btn:hover { text-decoration: none; opacity: 1; filter: alpha(opacity=100); }
+
+/* TinyMCE Editor */
+#edit-body-wrapper .defaultSkin table.mceLayout { border: 1px solid #C7C7C7; }
+
+/* Cookie Warning */
+.cookie-warning { padding: 50px 20px; text-align: center; color: #9a9fa8; }
+
+/* Configure LTI or Standard App */
+.s-app-configuration-wrapper { width: 60%; margin-top:10px; }
+.s-app-configuration-wrapper .s-app-config-note-wrapper { /* rtl-processor:ignore */ float: right; width: 66%; margin-inline-end: -68%; }
+[dir="rtl"] .s-app-configuration-wrapper .s-app-config-note-wrapper { float: left; }
+.s-app-configuration-wrapper .s-app-config-note-wrapper p { margin-top: 10px; }
+.s-app-config-fields-wrapper {margin-inline-start: 20px;}
+.s-app-config-fields-wrapper .form-item { margin-bottom: 10px; padding-inline-start: 110px; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.s-app-config-fields-wrapper .form-item label { /* rtl-processor:ignore */ float: left; margin: 5px 0 0; margin-inline-start: -130px; }
+[dir="rtl"] .s-app-config-fields-wrapper .form-item label { float: right; }
+.s-app-config-fields-wrapper .form-item .form-text { width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+#s-app-lti-app-configure-form textarea {height:auto; width: 438px;}
+#s-app-lti-app-configure-form .submit-buttons, #s-app-standard-app-configure-form .submit-buttons { text-align: start; padding-inline-start: 130px; }
+#s-app-lti-app-configure-form .form-item input, #s-app-standard-app-configure-form .form-item input {width:450px;}
+.s-app-deployment-id input.form-text { background-color: white; border: none; }
+#s-app-lti-app-configure-form .s-app-title, #s-app-standard-app-configure-form .s-app-title { font-size: 25px; margin: 10px 0; }
+
+@media only screen and (max-width: 1100px) {
+    .s-app-configuration-wrapper .s-app-config-note-wrapper {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .s-app-configuration-wrapper .s-app-config-note-wrapper {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-inline-end: 0;
+        float: none;
+    }
+}
+
+/* Configuration Required */
+.s-app-config-required-wrapper { padding: 20px; }
+.s-app-config-required-wrapper .s-app-config-content { border: 1px solid #ccc; }
+.s-app-config-required-wrapper .s-app-config-content h2 { border-bottom: 1px solid #ccc; padding: 15px; }
+.s-app-config-required-wrapper .s-app-config-content .s-app-config-mesage-wrapper { padding: 15px; }
+.s-app-config-required-wrapper .s-app-config-content .s-app-config-mesage-wrapper .config-steps-instructions { margin-bottom: 15px; }
+.s-app-config-required-wrapper .s-app-config-content .s-app-config-mesage-wrapper .config-steps-header { margin-bottom: 5px; }
+.s-app-config-required-wrapper .s-app-config-content .s-app-config-mesage-wrapper .config-step { margin-bottom: 2px; }
+
+@media all and (min-width: 1120px) {
+    .s-app-store-apps-wrapper { background: url('/sites/all/themes/schoology_theme/images/border.gif?6a0cfa7424d54685') repeat-y 50% 0; }
+    .s-app-store-apps-wrapper.s-app-store-no-results { background: none; }
+    .s-app-wrapper { width: 48%; padding-inline-start: 2%; /* rtl-processor:ignore */ float: left; height: 169px; }
+[dir="rtl"] .s-app-wrapper { float: right; }
+    .s-app-wrapper.even { padding-inline-start: 0; padding-inline-end: 2%; }
+    .s-app-store-apps-wrapper .s-app-wrapper .app-logo a { height: 130px; width: 130px; max-height: 130px; max-width: 130px; }
+    .s-app-store-apps-wrapper .app-logo .vertical-center { height: 130px; width: 130px; }
+    .s-app-info, .s-app-description, .s-app-store-apps-wrapper .s-app-install { margin-inline-start: 177px; }
+}
+
+/* Full Screen App */
+.app-full-screen #container { width: 100%; margin: 0; padding: 0; }
+.app-full-screen #content-wrapper { padding-bottom: 0; }
+.app-full-screen #main-content-wrapper { margin: 0; }
+.app-full-screen #wrapper {width: 100%; max-width:none}
+.app-full-screen #sidebar-left,
+.app-full-screen #sub-nav,
+.app-full-screen #bottom-bar,
+.app-full-screen #center-top,
+.app-full-screen #header,
+.app-full-screen #footer,
+.app-full-screen #site-navigation-footer,
+.app-full-screen #navigation-header-banners {
+    display: none;
+}
+
+/* School Apps building dropdown */
+#s-app-school-apps-building-dd-wrapper h2,
+
+#s-app-school-apps-building-dd-wrapper .school-apps-selected-building { display: inline-block; }
+#s-app-school-apps-building-dd-wrapper .school-apps-selected-building { position: relative; }
+#s-app-school-apps-building-dd-wrapper .school-apps-selected-building span.building-title { font-size: 18px; padding-inline-end: 20px; }
+#s-app-school-apps-building-dd-wrapper .school-apps-selected-building span.building-title.clickable { background: url('/sites/all/themes/schoology_theme/images/expandable.gif?6a0cfa7424d54685') no-repeat right 8px; }
+[dir="rtl"] #s-app-school-apps-building-dd-wrapper .school-apps-selected-building span.building-title.clickable { background-position-x: left; }
+#s-app-school-apps-building-dd-wrapper .school-apps-selected-building span.building-title.clickable:hover { text-decoration: none; }
+#s-app-school-apps-building-dd-wrapper .school-apps-building-dd { position: absolute; top: 22px; inset-inline-start: 0px; z-index: 99999; background-color: #FFFFFF; border: 1px solid #c2c2c2; max-height: 400px; overflow-y: auto; width: 265px; font-size: 12px; }
+#s-app-school-apps-building-dd-wrapper .school-apps-building-dd li { padding: 10px 5px 10px 5px; cursor: pointer; }
+#s-app-school-apps-building-dd-wrapper .school-apps-building-dd li span.building-option-title { padding-inline-start: 25px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; vertical-align: middle; display: block; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat 0 -210px; }
+[dir="rtl"] #s-app-school-apps-building-dd-wrapper .school-apps-building-dd li span.building-option-title { background-position-x: 100%; }
+
+.app-status-install-wrapper .app-status-not-install { font-size: 12px;}
+.app-status-install-wrapper .app-status-not-install { color: #c33; }
+.app-status-install-wrapper .app-status-realm-install, .app-status-install-wrapper .app-status-custom-install { color: #9A9FA8; }
+.app-status-install-wrapper .app-status-realm-install.s-js-school-apps-statues, .app-status-install-wrapper .app-status-custom-install.s-js-school-apps-statues { cursor: pointer; }
+
+/* School Apps install status popoups */
+.popups-box.s-app-install-status-popup { width: 350px; }
+.popups-box.s-app-install-status-popup .popups-body-inner-has-buttons { width: 348px; }
+.popups-box.s-app-install-status-popup .popups-buttons-inner { width: 348px; }
+.s-app-install-status-popup .item-list { max-height: 350px; overflow-y: auto; }
+.s-app-install-status-popup li { clear: both; border-bottom: 1px solid #ddd; min-height: 25px; }
+.s-app-install-status-popup .popups-buttons span:first-child { background: url('/sites/all/themes/schoology_theme/images/gray-btn-bg.gif?6a0cfa7424d54685') repeat-x 0 1px; margin: 0; border-color: #999 #999 #888; }
+.s-app-install-status-popup .popups-buttons span:first-child input { color: #333; }
+.popups-box.s-app-install-status-popup.has-custom-for { width: 550px; }
+.popups-box.s-app-install-status-popup.has-custom-for .popups-body-inner-has-buttons { width: 548px; }
+.popups-box.s-app-install-status-popup.has-custom-for .popups-buttons-inner { width: 548px; }
+.s-app-install-status-popup.has-custom-for .item-list { max-height: 550px; overflow-y: auto; }
+
+.s-app-install-status-popup ul li { padding: 8px 0 8px; padding-inline-start: 14px; display: block; margin-top: 1px; color: #666; font-weight: normal; font-size: 13px; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-role { padding: 8px 0 8px; padding-inline-start: 14px; display: block; margin-top: 1px; color: #666; font-weight: normal; font-size: 13px; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-role span.install-area-icon { display: inline-block; width: 28px; height: 22px; margin-top: -1px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .s-app-install-status-popup ul li.s-app-school-apps-status-item-role span.install-area-icon { float: right; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-role span.install-area-icon { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685'); background-repeat: no-repeat; background-position: 0px -50px; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-role span.install-title { display: inline-block; margin-inline-start: 5px; /* rtl-processor:ignore */ float: left; color: #333; font-size: 14px; margin-top: -2px; }
+[dir="rtl"] .s-app-install-status-popup ul li.s-app-school-apps-status-item-role span.install-title { float: right; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-building { padding: 13px 0 13px; padding-inline-start: 19px; display: block; margin-top: 1px; color: #666; font-weight: normal; font-size: 13px; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-building span.install-area-icon { display: inline-block; width: 28px; height: 22px; margin-top: -1px; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .s-app-install-status-popup ul li.s-app-school-apps-status-item-building span.install-area-icon { float: right; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-building span.install-area-icon { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685'); background-repeat: no-repeat; background-position: 0px -550px; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-building span.install-title { display: inline-block; margin-inline-start: 5px; /* rtl-processor:ignore */ float: left; color: #327cbb; font-size: 16px; margin-top: -5px; width: 350px; }
+[dir="rtl"] .s-app-install-status-popup ul li.s-app-school-apps-status-item-building span.install-title { float: right; }
+.s-app-install-status-popup ul li.s-app-school-apps-status-item-building span.install-subtitle { display: inline-block; margin-inline-start: 5px; /* rtl-processor:ignore */ float: left; color: #9A9FA8; font-size: 12px; margin-top: 3px; width: 470px; overflow: hidden; white-space: nowrap; }
+[dir="rtl"] .s-app-install-status-popup ul li.s-app-school-apps-status-item-building span.install-subtitle { float: right; }
+
+/* Allowed Realms */
+.app-allowed-realms-wrapper .realm-wrapper label,
+.app-allowed-realms-wrapper .app-placement-wrapper .app-faux-realm-placement {
+    border-top: 1px solid #c7c7c7;
+}
+.app-allowed-realms-wrapper .form-checkboxes .form-item:first-child label,
+.app-allowed-realms-wrapper #edit-allowed-realms-1-9-wrapper label {
+    border-top: none;
+}
+#s-app-add-url-information .form-checkboxes .realm-wrapper .option,
+#s-app-edit-form .app-allowed-realms-wrapper .app-faux-realm-placement {
+    border-bottom: none;
+}
+#s-app-add-url-information .form-checkboxes #edit-allowed-realms-2-wrapper label {
+    border-bottom: 1px solid #eaeaea;
+}
+/* Allowed Placements */
+.app-allowed-realms-wrapper .app-placement-wrapper .form-checkbox-title {
+    display: inline-block;
+    padding: 3px 0 3px;
+    padding-inline-start: 12px;
+    font-weight: bold; color: #327cbb;
+}
+#s-app-edit-form .app-allowed-realms-wrapper label.app-faux-realm-placement {
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+}
+.app-allowed-realms-wrapper .app-placement {
+    padding-inline-start: 54px !important;
+}
+#s-app-add-url-information .form-checkboxes .last-sub-placement-wrapper .option {
+    border-bottom: none;
+}
+
+/** Standard App **/
+#s-app-edit-form.s-app-type-1-allowed-realms .app-allowed-realms-wrapper .form-checkboxes .lti-placement-only { display: none; }
+/** Resource App **/
+#s-app-edit-form.s-app-type-2-allowed-realms .app-allowed-realms-wrapper .form-checkboxes { border: 0 none !important; }
+#s-app-edit-form.s-app-type-2-allowed-realms .app-allowed-realms-wrapper .form-checkboxes .form-item { display: none; }
+
+#s-app-edit-form .app-allowed-realms-wrapper .form-checkboxes .form-item.hidden-checkbox-option { display: none; }
+
+/* Concurrent session 'broken' iframe styling */
+div#schoology-app-div {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABIAQMAAABvIyEEAAAABlBMVEUAAABTU1OoaSf/AAAAAXRSTlMAQObYZgAAAENJREFUeF7tzbEJACEQRNGBLeAasBCza2lLEGx0CxFGG9hBMDDxRy/72O9FMnIFapGylsu1fgoBdkXfUHLrQgdfrlJN1BdYBjQQm3UAAAAASUVORK5CYII=) no-repeat #eee;
+
+    /**
+     * Ideally this would be "calc(50% + 20px) calc(50% - 15px)" to account for the image offset, but our minifier causes
+     * the rule to become "calc(50%+20px) calc(50%-15px)". The space is required to render properly.
+     *
+     * See SGY-26220.
+     */
+    background-position: 52% 46%;
+}
+
+/* Modal popup that appears when current session is overwritten by another one */
+.popups-box.multisession_popup {
+    height: 163px;
+    background: none;
+    background-color: #cbcbcb;
+}
+.popups-box.multisession_popup .popups-body-inner-has-buttons{
+    text-align: start;
+    padding: 23px 38px;
+    width: 410px;
+}
+
+.popups-box.multisession_popup .popups-buttons-inner {
+    width: 486px;
+}
+
+/* Placements Override Urls */
+#s-app-edit-form.s-app-type-3-allowed-realms .app-allowed-realms-wrapper .form-checkboxes {
+    max-width: 718px;
+    width: 87%;
+    line-height: 16px;
+}
+
+@media only screen and (max-width: 1205px) {
+    #s-app-edit-form.s-app-type-3-allowed-realms .app-allowed-realms-wrapper .form-checkboxes {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #s-app-edit-form.s-app-type-3-allowed-realms .app-allowed-realms-wrapper .form-checkboxes {
+        width: 82%;
+    }
+}
+
+.app-placement-wrapper label {
+    height: 16px;
+}
+
+.app-allowed-realms-wrapper .app-placement {
+    padding: 10px 0px 10px !important;
+    padding-inline-start: 40px !important;
+    line-height: 16px;
+}
+
+.app-allowed-realms-wrapper .app-faux-realm-placement {
+    padding: 10px 0px 10px !important;
+    padding-inline-start: 10px !important;
+    line-height: 16px;
+}
+
+.placement-option-left {
+    /* rtl-processor:ignore */
+    float: left;
+    width: 350px;
+    margin: -3px 0px 0px 0px;
+}
+
+[dir="rtl"] .placement-option-left { float: right; }
+
+.app-faux-realm-placement .placement-option-left {
+    width: 240px;
+}
+
+.placement-option-left .form-checkbox-title {
+    padding-inline-start: 10px !important;
+}
+
+.app-faux-realm-placement .placement-option-left .form-checkbox-title {
+    background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat 5px -300px;
+    padding-inline-start: 30px !important;
+}
+
+.placement-option-right .overwrite-btn {
+    font: 11px var(--sgy-font-default);
+    color: #327CBB;
+    cursor: pointer;
+    margin-inline-end: 10px;
+    text-align: end;
+}
+
+.placement-option-right .overwrite-btn:hover {
+    text-decoration: underline;
+}
+
+.placement-option-right .overwrite-field-wrapper {
+    width: 100%;
+}
+
+.placement-option-right .overwrite-field-wrapper .input-wrapper {
+    margin: -3px 32px -2px;
+    margin-inline-start: 220px;
+}
+.app-faux-realm-placement .placement-option-right .overwrite-field-wrapper .input-wrapper {
+    margin-inline-start: 250px;
+}
+
+.placement-option-right .overwrite-field-wrapper .input-wrapper input {
+    border: 1px solid #c7c7c7 !important;
+    width: 100%;
+    min-width: 250px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.placement-option-right .overwrite-exit-btn {
+    background: url('/sites/all/themes/schoology_theme/images/x.png?6a0cfa7424d54685') no-repeat;
+    /* rtl-processor:ignore */
+    float: right;
+    margin: 1px 10px 0 10px;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+}
+
+[dir="rtl"] .placement-option-right .overwrite-exit-btn { float: left; }
+
+
+.placement-option-right .overwrite-exit-btn:hover {
+    background: url('/sites/all/themes/schoology_theme/images/x_hover.png?6a0cfa7424d54685') no-repeat;
+}
+
+/* hide external tool placement override */
+#edit-allowed-realms-course-1-wrapper .placement-option-right,
+#edit-allowed-realms-course-7-wrapper .placement-option-right {
+    display: none;
+}
+
+/* App Installation Popup - 4 possible steps */
+
+.popups-box #s-app-install-agreement-form,
+.popups-box #s-app-install-agreement-form .submit-buttons,
+.popups-box #s-app-install-authorize-lti-extensions-form,
+.popups-box .s-app-services-submit-buttons,
+.popups-box #s-app-school-add, .popups-box #s-app-user-add,
+.popups-box #s-app-install-form,
+.popups-box #s-app-install-form .submit-buttons {
+    display: none;
+}
+
+.popups-box.step-agreeinstall #s-app-install-agreement-form,
+.popups-box.step-agreeinstall #s-app-install-agreement-form .submit-buttons,
+.popups-box.step-authorizelti #s-app-install-authorize-lti-extensions-form,
+.popups-box.step-authorizelti .s-app-services-submit-buttons,
+.popups-box.step-1 #s-app-install-form,
+.popups-box.step-1 #s-app-install-form .submit-buttons {
+    display: block;
+}
+
+.admin-app-install.step-1 #s-app-install-form,
+.admin-app-install.step-1 #s-app-install-form .submit-buttons {
+    display: none;
+}
+
+.admin-app-install.step-1 #s-app-school-add, .admin-app-install.step-1 #s-app-user-add,
+.admin-app-install.step-2 #s-app-install-form,
+.admin-app-install.step-2 #s-app-install-form .submit-buttons {
+    display: block;
+}
+
+.popups-box.step-agreeinstall,
+.popups-box.step-authorizelti {
+    width: 574px;
+}
+
+.popups-box.step-agreeinstall .submit-buttons,
+.popups-box.step-authorizelti .submit-buttons {
+    width: 572px;
+}
+
+.admin-app-install.step-1 {
+    width: 350px;
+}
+
+.popups-box.step-agreeinstall #s-app-install-agreement-form,
+.popups-box.step-authorizelti #s-app-install-authorize-lti-extensions-form {
+    padding: 14px;
+}
+
+.popups-box.step-agreeinstall #s-app-install-agreement-form .install-agreement {
+    display: block;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+.popups-box.step-authorizelti #s-app-install-authorize-lti-extensions-form label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.popups-box.step-authorizelti #s-app-install-authorize-lti-extensions-form .lti-extensions:first-of-type {
+    border-top: 1px solid #ddd;
+}
+
+.popups-box.step-authorizelti #s-app-install-authorize-lti-extensions-form .lti-extensions {
+    padding: 8px 8px 0px 8px;
+}
+
+.admin-app-install.step-1 .popups-body {
+    padding: 0;
+    height: 100px;
+}
+
+[dir="rtl"] .tipsy-ne .tipsy-arrow {
+    height: 10px;
+    inset-inline-start: 20px;
+}
+
+body .action-links span.infotip:hover { background-position: left; background-position-x: 12px; }
+[dir="rtl"] body .action-links span.infotip:hover { background-position: right; background-position-x: calc(100% - 12px); }
+
+/* Fix for cross-browser keyboard focus visibility on /apps page */
+/* Suppress global theme :focus outlines on mouse clicks (so only keyboard focus shows) */
+body.app-store a:focus:not(:focus-visible),
+body.app-store [role=menuitem]:focus:not(:focus-visible),
+body.app-store [role=button]:focus:not(:focus-visible),
+body.app-store [role=tab]:focus:not(:focus-visible),
+body.app-store button:focus:not(:focus-visible) {
+  outline: none !important;
+}
+/* Show focus outline for keyboard navigation */
+body.app-store a:focus-visible,
+body.app-store [role=menuitem]:focus-visible,
+body.app-store [role=button]:focus-visible,
+body.app-store [role=tab]:focus-visible,
+body.app-store button:focus-visible {
+  outline: 2px solid #327cbb !important;
+  outline-offset: -2px !important;
+}
+/* Ensure Resource App tooltip trigger has no outline (uses child box-shadow instead) */
+body.app-store .s-app-wrapper .infotip.hide-qmark:has(.resource-app-label):focus-visible {
+  outline: none !important;
+}

@@ -1,0 +1,962 @@
+.publish-btn { margin: 3px 5px 3px; margin-inline-start: 0; }
+.assignments-edit-actions a { /* rtl-processor:ignore */ float: right; margin: -3px 0 0; margin-inline-start: 4px; }
+[dir="rtl"] .assignments-edit-actions a { float: left; }
+.assignments-edit-actions .action-create-assignment.add span, .assignments-edit-actions .action-create-assessment.add span { height: 20px; width: 20px; margin: -1px 4px 0; margin-inline-start: -2px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a0cfa7424d54685") no-repeat 0 -25px; }
+.assignments-edit-actions .action-create-assessment.add span { background-position: 1px -50px; }
+#past-assignments-header { margin-top: 15px; font-size: 14px; }
+.assignment-edit-instructions { color: #9a9fa8; margin: 5px 45px; text-align: center; }
+.comment_picture .picture, .author-picture .picture { width: 32px; }
+.assignments-container h2 { font-size: 14px; }
+.title-hidden { display: none; }
+.see-all-assignments { font-weight: normal; }
+.assignments-hidden ul { display: none; }
+.no-assignments { font-size: 12px; color: #9a9fa8; text-align: center; padding-top: 35px; }
+/* old code */
+h3.course-title { font-size: 12px; font-weight: normal; }
+h3.asn-title { font-size: 14px; display: inline; }
+
+.due-date { font-weight: bold; }
+.availability {
+    margin: 10px 0;
+    color: #677583;
+}
+
+.comment-container { margin: 15px 0 0; width: 100%; }
+.s-comments-post-form { border-top: 1px solid #eaeaea; }
+.deleted-comment { color: #9a9fa8; }
+.deleted-comment a { font-weight: normal; }
+
+.comment-container #s_comments .comment { background: none; display: block; padding: 9px 0; width: auto; float: none; min-height: 32px; border-top: 1px solid #ddd; }
+.comment-container #s_comments .comment.first { border-color: #ddd; }
+.comment-container #s_comments .s_comments_level .s_comments_level .comment.first { border: none; }
+.s_grade_item_assignment #content-wrapper div#s_comments .s_comments_level .s_comments_level, .s_grade_item_assessment #content-wrapper div#s_comments .s_comments_level .s_comments_level { margin-inline-start: 42px; margin-inline-end: 30px; background: #f8f8f8; border: 1px solid #ddd; }
+.s_grade_item_assignment .comment #comment-reply-form-wrapper, .s_grade_item_assessment .comment #comment-reply-form-wrapper { margin-inline-start: 42px; margin-inline-end: 30px; }
+.s-comments-post-form form.post-comment-form { margin-inline-start: 0; border:none; padding: 8px 0;}
+
+.comment-container-header { padding-bottom: 5px; }
+.comment-container-header-label { font-size: 14px; display: inline-block; }
+.comment-container-header .csm-course-switcher { display: inline-block; vertical-align:top; margin-inline-start: 2px; }
+.comment-container-header .csm-course-switcher .select2-container { max-width: 300px; }
+.comment-container-header .csm-course-switcher .select2-choice { height: auto; line-height: normal; }
+
+.comment-container .smart-box-mid { padding: 0 5px; width: 433px; }
+
+.s-comments-post-form .form-item .form-textarea.required { width: 100%; margin: 0 -6px; }
+.s-comments-post-form #edit-comment-wrapper { padding: 0 6px 0; padding-inline-start: 46px; }
+
+.posted-time { color: #677583; }
+
+.filter { /* rtl-processor:ignore */ float: right;}
+
+[dir="rtl"] .filter { float: left; }
+
+.no-comments p {padding: 15px 0 15px; text-align: center; color: #677583; border-top: 1px solid #c7c7c7; }
+
+#main .smart-box-mid { padding-top: 0; }
+
+#s-generic-post-form #attachment-file { margin:5px 0 0; padding:5px 5px 0; width:411px; }
+
+.attachments-embed iframe, .attachments-embed object, .attachments-embed embed { max-width: 100%; }
+.attachments-embed { position: relative; }
+.attachments-embed:hover .delete-btn { display: block; position: absolute; top: 0; inset-inline-end: 0; }
+#s-generic-post-form #fsUploadProgress { padding: 0; }
+#s-generic-post-form .progressWrapper { margin: 0 1px; }
+
+#main .smart-box-top { margin-top: 15px; /* rtl-processor:ignore */ float: left; }
+
+[dir="rtl"] #main .smart-box-top { float: right; }
+
+
+#main .comment-container .smart-box-top { margin-top: 0; }
+
+.profile-videos object embed { margin-top: 5px; width: 180px; }
+
+h3 .filter { display: none; }
+
+.assignment-edit-instructions { color: #9a9fa8; font-size: 11px; line-height: 1.4; clear: both; margin: 5px 85px; }
+
+.assignments-container .action-buttons { /* rtl-processor:ignore */ float: right; }
+
+[dir="rtl"] .assignments-container .action-buttons { float: left; }
+
+.assignments-container .smart-box-container { display: none; }
+.assignments-container #s-grade-item-add-form { border-top: none; border-bottom: 1px dashed #cedbe8; padding-bottom: 15px; }
+#s-grade-item-add-form .addl-course-options label, #s-grade-item-copy-form .advanced-options-wrapper label, #s-discussion-copy-discussion-form .advanced-options-wrapper label { width: 110px; /* rtl-processor:ignore */ float: left; margin-top: 5px; }
+[dir="rtl"] #s-grade-item-add-form .addl-course-options label, [dir="rtl"] #s-grade-item-copy-form .advanced-options-wrapper label, [dir="rtl"] #s-discussion-copy-discussion-form .advanced-options-wrapper label { float: right; }
+
+#past-assignments-header { font-size: 14px; border-bottom: none; }
+
+p.comment-author-name { margin-inline-end: 4px; }
+
+#assessment-notify { line-height: 1.5; padding: 5px 10px; font-size: 11px; background: #eef3f8; border-bottom: 1px solid #becddd; }
+#s-grade-item-toggle-assessment-form { text-align: center; }
+#s_comments .s_comments_level .s_comments_level .comment {  margin-bottom: 2px; padding: 9px; }
+
+#main .s_comments_level #s-comment-reply-form { background: #e9f0f6; border-bottom: 1px solid #cedbe8;}
+#main .s_comments_level { border-top: none; }
+#content-wrapper div#s_comments .s_comments_level .s_comments_level .s_comments_level { margin-inline-start: 50px; }
+
+#s-comment-reply-form .comment { /* rtl-processor:ignore */ float: left; background: none; }
+
+[dir="rtl"] #s-comment-reply-form .comment { float: right; }
+
+#s-comment-reply-form .form-submit { padding: 2px 8px; font-size: 12px; }
+.reply-title { /* rtl-processor:ignore */ float: left; width: 100%; margin-top: 20px; }
+[dir="rtl"] .reply-title { float: right; }
+
+.comment #comment-reply-form-wrapper { margin: 5px 0 0; margin-inline-start: 30px; }
+.s_comments_level .s_comments_level .comment #comment-reply-form-wrapper { margin: 30px 0 0; margin-inline-start: 24px; width: auto; }
+.comment #comment-reply-form-wrapper #s-comment-reply-form { margin-top: 0; padding: 9px; margin-inline-start: 0; background: #f8f8f8; border: 1px solid #ddd; }
+.comment #comment-reply-form-wrapper #s-comment-reply-form #edit-reply-wrapper { margin-inline-start: 40px; }
+.s-comments-post-form table.mceLayout, .comment table.mceLayout { width: 100% !important; }
+.comment #comment-reply-form-wrapper #s-comment-reply-form .picture { width: auto; padding-inline-end: 5px; }
+.comment #comment-reply-form-wrapper #s-comment-reply-form .picture a { height: auto; }
+.comment #comment-reply-form-wrapper #s-comment-reply-form #edit-reply { width: 97.4%; }
+.comment #comment-reply-form-wrapper #s-comment-reply-form .submit-span-wrapper { margin-inline-start: 40px; }
+#container #s-comment-reply-form .messages { padding: 0; }
+#s_comments .comment.deleted { padding-bottom: 5px; min-height: 16px; }
+.s_comments .comment.deleted .comment-footer { margin: 0; }
+#content-wrapper div#s_comments .s_comments_level .s_comments_level { margin: 0 0 10px; margin-inline-start: 30px; }
+#comment-reply-form-wrapper { display: none; }
+.comment-reply a:link, .comment-reply a:visited { font-weight:normal; }
+.in-response-to { display: none; }
+.link .link-description { color: #9a9fa8; }
+.comment-contents { padding: 0 0 5px; padding-inline-start: 42px; }
+.comment-container .comment-footer { margin: 5px 0 0; }
+[dir="rtl"] .comment-container .comment-footer { display: flex; }
+#s-comments-post-comment-form #edit-comment.add-comment-resize { color: #333; }
+#right-column .download, #right-column .grade-assignment-link { /* rtl-processor:ignore */ float: right; font-weight: normal; }
+[dir="rtl"] #right-column .download, [dir="rtl"] #right-column .grade-assignment-link { float: left; }
+.profile-documents { padding: 10px 0; border-top: 1px solid #eaeaea; }
+.profile-documents li { padding: 3px 0; clear: both; }
+.profile-documents .link img { max-width: 90px; /* rtl-processor:ignore */ float: left; margin-inline-end: 10px; }
+[dir="rtl"] .profile-documents .link img { float: right; }
+.profile-documents .link .thumbnail-inner { /* rtl-processor:ignore */ float: left; width: 400px; }
+[dir="rtl"] .profile-documents .link .thumbnail-inner { float: right; }
+.profile-documents .video embed { margin: 5px 0 0; margin-inline-start: 19px; width: 455px !important; height: 265px; }
+.s_grade_item_assignment #tabs-wrapper { display: none; }
+body.s_grade_item_assignment .with-tabs #center-top { background: #fff; border-bottom: 1px solid #ddd; }
+.s_grade_item_assessment .comment-container { width: 67%; }
+.s_grade_item_assessment .comment-container #s_comments { padding-inline-end: 20px; }
+.s_grade_item_assessment .comment-container .s-comments-post-form { margin-inline-end: 20px; }
+#s-grade-item-add-attachment-form { height: 150px; overflow-y: auto; margin-top: 27px; }
+#s-grade-item-add-attachment-form #attachment-selector { border-bottom: 1px solid #becddd; background: #eef3f8; padding-top: 3px; height: 24px; }
+#s-grade-item-add-attachment-form #attachment-selector li a { /* rtl-processor:ignore */ float: left; padding: 5px 10px 4px; background: #eef3f8; border: none; border-bottom: 1px solid #becddd; margin: 0 0 0; margin-inline-start: 3px; height: 15px; color: #5387B6; font-weight: normal; line-height: inherit; -moz-border-radius: 3px 3px 0 0; -webkit-border-radius: 3px 3px 0 0; border-start-start-radius: 3px; border-start-end-radius: 3px; border-end-end-radius: 0; border-end-start-radius: 0; }
+[dir="rtl"] #s-grade-item-add-attachment-form #attachment-selector li a { float: right; }
+#s-grade-item-add-attachment-form #attachment-selector li.active a { background: #fff; border: 1px solid; border-color: #becddd #becddd #fff; font-weight: bold; padding: 4px 9px; color: #333; }
+#s-grade-item-add-attachment-form #attachment-file, #s-grade-item-add-attachment-form #attachment-link { border: none; position: static; }
+#s-grade-item-add-attachment-form #attachment-links { position: absolute; top: 38px; inset-inline-start: 11px; width: 548px; }
+#s-grade-item-add-attachment-form #attachments { padding: 10px; }
+.s_grade_item_assessment #tabs-wrapper li:first-child { display: none; }
+.profile-documents .inline-icon { /* rtl-processor:ignore */ float: left; margin-top: -1px; }
+[dir="rtl"] .profile-documents .inline-icon { float: right; }
+.profile-documents li { position: relative; }
+a.drop-item { display: inline-block; }
+.param-name { font-weight: bold; color: #333; /* rtl-processor:ignore */ float: left; width: 80px; margin-inline-start: -80px; }
+[dir="rtl"] .param-name { float: right; }
+.grade-title {
+    color: #44505D;
+    margin-inline-end: 10px;
+    /* rtl-processor:ignore */
+    float: left;
+}
+[dir="rtl"] .grade-title { float: right; }
+.grading-grade .s-grades-rubric-grading-launch-btn .grading-rubric-launch-icon { /* rtl-processor:ignore */ float: left; margin-top: -6px; border: none; width: auto; position: relative; }
+[dir="rtl"] .grading-grade .s-grades-rubric-grading-launch-btn .grading-rubric-launch-icon { float: right; }
+.grading-grade .s-grades-rubric-grading-launch-btn .grading-rubric-image {  position: absolute; inset-inline-start: 5px; top: -920px;}
+.assignment-param { color: #677583; padding: 3px 0 3px; padding-inline-start: 80px; }
+.param-none { font-style: italic; }
+.received-grade {
+    font-size: 14px;
+    font-weight: bold;
+    color: #44505C;
+}
+.score-grade-score { font-weight: normal; font-size: 11px; color: #9a9fa8; }
+[dir="rtl"] #s-assessment-view-student-stats-form .score-grade-grade, [dir="rtl"] #s-assessment-view-student-stats-form .score-grade-score { direction: ltr; }
+.statistics-assignment-link { font-weight: normal; }
+.grading-grade {
+    font-size: 14px;
+    padding: 3px 5px 0;
+    padding-inline-start: 0;
+    text-align: start;
+}
+.grading-grade .infotip { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_comment.png__q_6a0cfa7424d54685") no-repeat 50% 50%; margin-inline-start: 3px; }
+.dropbox .upload { /* rtl-processor:ignore */ float: right; font-weight: normal; }
+[dir="rtl"] .dropbox .upload { float: left; }
+.grading-grade-translated { color: #44505C; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .grading-grade-translated { float: right; }
+.grading-grade-translated span { font-size: 11px !important; }
+.grading-grade .s-grades-rubric-grading-launch-btn { display: inline; }
+.grading-grade .no-grade { color: #677583; }
+.grading-grade .max-points { font-size: 12px; color: #677583; }
+.grading-grade .exception { display: inline-block; height: 16px; width: 16px; margin-bottom: -2px; text-align: start; text-indent: -9999px; }
+.grading-grade .exception.incomplete { background: url("/mirror/_assets/asset-cdn.schoology.com/bundle/react-common/images/icons/incomplete.png__q_44d45766_6a0cfa7424d54685") no-repeat 50% 50%; }
+.grading-grade .exception.excused { background: url("/mirror/_assets/asset-cdn.schoology.com/bundle/react-common/images/icons/excused.png__q_44d45766_6a0cfa7424d54685") no-repeat 50% 50%; }
+.grading-grade .exception.missing { background: url("/mirror/_assets/asset-cdn.schoology.com/bundle/react-common/images/icons/missing.png__q_44d45766_6a0cfa7424d54685") no-repeat 50% 50%; }
+.grading-grade .exception.submitted,
+.grading-grade .exception.absent,
+.grading-grade .exception.late{
+    background-position: initial;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 14px;
+    width: 14px;
+}
+
+.grading-grade .exception.submitted {
+    background-image: url("/mirror/_assets/asset-cdn.schoology.com/bundle/react-common/images/svg/submitted.svg__q_6a0cfa7424d54685");
+}
+.grading-grade .exception.absent {
+    background-image: url("/mirror/_assets/asset-cdn.schoology.com/bundle/react-common/images/svg/absent.svg__q_6a0cfa7424d54685");
+}
+.grading-grade .exception.late {
+    background-image: url("/mirror/_assets/asset-cdn.schoology.com/bundle/react-common/images/svg/late.svg__q_6a0cfa7424d54685");
+}
+.assignment-details, .extra-details { padding: 0 0 10px; border-bottom: 1px solid #eaeaea; margin-bottom: 10px; }
+.assignment-details .due-date, .extra-details .due-date { display: inline; margin-inline-end: 5px; }
+.assignment-details .lock-date, .extra-details .lock-date { display: inline; padding-inline-start: 15px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/lock-gray-flat-11x11.png__q_6a0cfa7424d54685") no-repeat 0 2px; margin-inline-start: 5px; }
+[dir="rtl"] .assignment-details .lock-date, [dir="rtl"] .extra-details .lock-date { background-position-x: right; }
+.info-body { padding: 0 0 10px; font-size: 12px; line-height: 1.4; }
+.s_grade_item_assignment #main { /* rtl-processor:ignore */ float: left; min-height: 500px; width: 67%; }
+[dir="rtl"] .s_grade_item_assignment #main { float: right; }
+.s_grade_item_assignment #main-inner { padding: 15px 20px 0; padding-inline-start: 0; }
+
+/* popup */
+#s-course-delete-assignment-form { text-align: center; padding: 10px; }
+#s-course-delete-assignment-form p { margin: 0 0 5px; }
+#s-grade-item-advanced-options-form { font-size: 11px; background: #fff; padding: 10px; }
+#s-grade-item-advanced-options-form #edit-grade-stats-wrapper { margin-top: 5px; }
+#s-grade-item-copy-form .form-item { margin: 0; }
+#s-grade-item-copy-form .course-copy-warning { font-size: 10px; color: #EC9638; background: #e9f0f6; padding: 5px 10px; border-bottom: 1px solid #cedbe8; position: relative; }
+#s-grade-item-copy-form label { font-weight: bold; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; }
+#s-grade-item-copy-form .s-grade-item-addl-course-due { padding-bottom: 10px; }
+#s-grade-item-assignment-unpublish-form { text-align: center; padding: 10px; }
+#s-grade-item-assignment-unpublish-form p { margin: 0; }
+#copy-to-courses .s-grade-item-addl-course-due { height: 29px; }
+.due-disabled .container-inline-date .form-item .form-item { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .due-disabled .container-inline-date .form-item .form-item { float: right; }
+.due-disabled .container-inline-date .form-item { min-height: 0; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .due-disabled .container-inline-date .form-item { float: right; }
+
+.addl-no-rubric-copy span { margin-inline-start: -91px; margin-top: -33px; }
+#s-grade-item-copy-form .addl-course .form-item .option .form-checkbox .addl-no-rubric-copy { /* rtl-processor:ignore */ float: left; margin-inline-start: -21px; margin-top: 5px; }
+[dir="rtl"] #s-grade-item-copy-form .addl-course .form-item .option .form-checkbox .addl-no-rubric-copy { float: right; }
+#s-grade-item-copy-form .advanced-options-wrapper .addl-no-rubric-copy label { /* rtl-processor:ignore */ float: left; width: 110px; margin-top: -1px; }
+[dir="rtl"] #s-grade-item-copy-form .advanced-options-wrapper .addl-no-rubric-copy label { float: right; }
+#s-grade-item-copy-form .advanced-options-wrapper .addl-no-rubric-copy .form-checkboxes { /* rtl-processor:ignore */ float: left; margin-top: -8px; width: 21px; }
+[dir="rtl"] #s-grade-item-copy-form .advanced-options-wrapper .addl-no-rubric-copy .form-checkboxes { float: right; }
+#s-grade-item-copy-form .addl-no-rubric-copy .form-checkbox { margin-inline-start: -20px; }
+#s-grade-item-copy-form .addl-course .description { width: 400px; }
+#s-grade-item-copy-form .addl-no-rubric-copy .addl-course .form-item .option { padding-inline-start: 10px; }
+
+/* Due Date Warning */
+#s-grade-item-copy-form .due-date-warning-wrapper { margin-inline-start: 110px; display: flex; align-items: flex-start; }
+#s-grade-item-copy-form .due-date-warning-wrapper .due-date-warning-text { margin-inline-start: 1rem; line-height: 1.357; }
+#s-grade-item-copy-form .due-date-warning-wrapper .due-date-warning-icon { width: 2rem; height: 2rem;}
+
+/* tab fixes */
+.with-tabs p.info-body { margin: 0; }
+
+/* course profile */
+.assignments-list h4 { border: none; padding: 0; font-size: 12px; }
+.assignment p a { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a0cfa7424d54685") no-repeat 5px -372px; padding: 2px 10px 2px; padding-inline-start: 25px; font-size: 12px; }
+a.assignment-title { font-size: 14px; }
+.grade-item-type-assessments a.assignment-title { background-position: 5px -1130px; }
+.assignments-list .item-subtitle { width: auto; padding: 3px 0 0; padding-inline-start: 47px; color: #9a9fa8; }
+.assignment p { width: 430px; }
+.assignment .topic-title { padding: 5px 0 0; padding-inline-start: 47px; }
+.assignment .topic-title a{ background: none; margin: 0px; padding: 0px;}
+.assignments-list .action-links-wrapper .action-links { float: none; position: absolute; }
+.assignments-list .action-links-wrapper .action-links-unfold { float: none; }
+.assignments-list .assessment-icon, .assignments-list .assignment-icon { margin: 0 10px 0; margin-inline-start: 5px; }
+.assignments-list li.list-item { padding: 15px 0; }
+.folder-visibility, .item-visibility { display: inline-block; white-space: nowrap; cursor: default; color: #9a9fa8; }
+.folder-visibility .hidden-icon, .item-visibility .hidden-icon { display: inline-block; height: 11px; width: 11px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/hidden-icon.png__q_6a0cfa7424d54685") no-repeat 0 0; margin-inline-end: 5px; margin-bottom: -1px; }
+.assignment .action-links-wrapper .action-links .infotip { padding: 5px 25px 5px; padding-inline-start: 37px; width: auto; height: auto; margin: 0; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a0cfa7424d54685") no-repeat 12px 0; display: block; }
+.assignment .action-links-wrapper .action-links .action-grade .infotip { background-position: 13px -312px; }
+.assignment .action-links-wrapper .action-links .action-add-to-folder .infotip { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_materials.png__q_6a0cfa7424d54685"); background-position: 13px -171px; }
+
+/* Options */
+.grade-item-action-links,
+.grade-item-action-links
+.action-links-wrapper,
+.content-top .info-text {
+    float: none;
+    display: inline-block;
+}
+.grade-item-action-links .action-links-unfold span {
+    height: 22px;
+    background-position: 0 -638px;
+}
+
+/* workaround for slight vertical misalingment */
+.content-top .info-text {
+    vertical-align: top;
+}
+.content-top-wrapper .info-container {
+    position: relative;
+    z-index: 2;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.content-top-wrapper .info-container .immersive-reader-button-container {
+    padding-inline-end: 5px;
+}
+.content-top-wrapper .info-container #ph-ai-chatbot-container {
+    padding-inline-end: 5px;
+}
+.content-top-wrapper .info-container #ph-ai-chatbot-container #ph-ai-chatbot-container-launch-btn {
+    max-height: 24px;
+}
+.content-top-wrapper .info-container .link-btn { padding: 0; height: 22px; width: 26px; float: none; margin-inline-end: 4px; display: inline-block; }
+.content-top-wrapper .info-container .link-btn span { height: 22px; width: 26px; position: relative; display: block; overflow: hidden; }
+.content-top-wrapper .info-container .link-btn .grade-info-icon { position: absolute; clip: rect(0, 30px, 1330px, 0); top: -1309px; inset-inline-start: 5px; }
+.content-top-wrapper .info-container .link-btn .icon-view-stats { position: absolute; clip: rect(0, 30px, 1350px, 0); top: -1329px; inset-inline-start: 5px; }
+.content-top-wrapper .info-container .link-btn .icon-edit-grades { position: absolute; clip: rect(0, 30px, 331px, 0); top: -312px; inset-inline-start: 5px; }
+.content-top-wrapper .info-container .link-btn.fullscreen span { display: inline-block; height: 24px; width: 26px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685") no-repeat 5px 4px; }
+.content-top-wrapper .info-container.not-admin .link-btn { /* rtl-processor:ignore */ float: right; margin: 0 0 0; margin-inline-start: 4px; }
+[dir="rtl"] .content-top-wrapper .info-container.not-admin .link-btn { float: left; }
+.content-top-wrapper .info-container.not-admin .link-btn { margin: 0 0 0; margin-inline-start: 4px; }
+.content-top-wrapper .info-container.not-admin .assignment-fullscreen-btn[data-assignment-lti-fullscreen="true"] {
+  margin-inline-end: 10px;
+}
+.content-top-wrapper .info-container .action-links { inset-inline-start: auto; inset-inline-end: 0; }
+.grading-info { display: none; background: #fff; border: 1px solid #333; padding: 10px; position: absolute; top: 23px; inset-inline-end: 0; width: 230px; z-index: 100; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+.s_grade_item_assignment .content-top { /* rtl-processor:ignore */ float: right; width: 33%; margin-top: -24px; }
+[dir="rtl"] .s_grade_item_assignment .content-top { float: left; }
+.sgy-immersive-reader-grade-item .content-top {
+    width: 55%;
+}
+.sgy-ph-ai-chatbot-grade-item .content-top {
+    width: 55%;
+}
+.sgy-immersive-reader-grade-item .sgy-ph-ai-chatbot-grade-item .content-top {
+    width: 55%;
+}
+.s_grade_item_assignment .content-top-wrapper { padding-inline-start: 21px; }
+.info-container.not-admin .grading-grade {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+/* assessment option */
+.s_grade_item_assessment .assessment-status-wrapper {
+    font-size: 13px;
+    float: none;
+    color: #44505D;
+    text-align: end;
+    display: inline-block;
+    vertical-align: top;
+}
+.s_grade_item_assessment .assessment-status-wrapper .disabled { color: #ff0000; }
+.s_grade_item_assessment .assessment-status-wrapper .infotip {
+    padding: 5px 30px 5px;
+    padding-inline-start: 5px;
+    display: inline-block;
+    background: none;
+    cursor: default;
+}
+.s_grade_item_assessment .assessment-status-wrapper.disabled {
+    color: #677583;
+}
+
+.s_grade_item_assessment .page-title { width: 675px; }
+.s_grade_item_assessment .content-top { /* rtl-processor:ignore */ float: left; width: 120px; }
+[dir="rtl"] .s_grade_item_assessment .content-top { float: right; }
+.s_grade_item_assessment .content-top-wrapper .info-container {
+    position: absolute;
+    inset-inline-end: 0;
+    text-align: end;
+    margin-top: -25px;
+}
+
+.s_grade_item_assessment .grading-info { inset-inline-end: 0; inset-inline-start: auto; }
+.s_grade_item_assessment .grade-item-action-links .action-links { inset-inline-end: 0; }
+.s_grade_item_assessment .grading-grade { display: none; }
+.s_grade_item_assessment .content-top-wrapper .info-container.not-admin { text-align: end; }
+.s_grade_item_assessment .not-admin .assessment-status-wrapper { width: auto; display: inline; float: none; }
+.action-links .action-export a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685"); background-position: 13px -116px;  }
+
+/* grade assignment */
+#s-grade-item-edit-grades-form { min-height: 100px; max-height: 350px; overflow-y: auto; margin-top: 22px; width: 100%; overflow-x: hidden; }
+#s-grade-item-edit-grades-form span.has-dropbox-icon {margin: 0; height: 14px; width: 12px; position: absolute; inset-inline-end: 18px; top: calc(50% - 6px); background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/drop-item.png__q_6a0cfa7424d54685") no-repeat;}
+#sEditGradeTable { width: 100%; }
+#sEditGradeTable th { text-align: start; }
+#s-grade-item-edit-grades-form .submit-buttons { width: calc(100% - 22px); }
+#s-grade-item-edit-grades-form thead { position: absolute; margin-top: -22px; background: #e9f0f6; border-bottom: 1px solid #cedbe8; width: calc(100% - 22px); }
+div.grade-assignment-popup .description { padding: 5px 10px 0; background: #e9f0f6; }
+div.grade-assignment-popup .description span { display: inline-block; }
+div.grade-assignment-popup { width: 645px; }
+div.grade-assignment-popup.accommodation-received { width: 800px; }
+div.grade-assignment-popup .messages.warning { background: none; border: none; position: absolute; margin: 0; top: 60px; color: #9a9fa8; }
+div.grade-assignment-popup table .messages.warning { position: static; font-size: 11px; color: #EC9638; background: #FFFFDD; padding: 5px 10px; }
+div.grade-assignment-popup .messages-close-btn { display: none !important; }
+#s-grade-item-edit-grades-form thead th { text-align: start; padding: 3px 10px; }
+.accommodation-received #s-grade-item-edit-grades-form thead th { text-align: center; }
+#s-grade-item-edit-grades-form td .form-item { margin-bottom: 0; }
+#s-grade-item-edit-grades-form .student-info { display: inline-block !important; }
+#s-grade-item-edit-grades-form .student-info a { font-size: 12px; }
+#s-grade-item-edit-grades-form td { border-bottom: 1px solid #cedbe8; }
+#s-grade-item-edit-grades-form tr.even { background: #f9f9f9; }
+#s-grade-item-edit-grades-form .form-text { width: 64px; text-align: center; padding: 5px 3px; }
+#s-grade-item-edit-grades-form td.edit-grade-grade {position: relative; padding-inline-start: 20px;}
+#s-grade-item-edit-grades-form .grade-exception-icon { position: absolute; inset-inline-start: 0; top: calc(50% - 5px); height: 14px; width: 14px; }
+#s-grade-item-edit-grades-form.has-rubric .grade-exception-icon {top: calc(50% - 7px);}
+#s-grade-item-edit-grades-form .form-text { width: 64px; text-align: center; padding: 5px 3px; }
+.edit-grade-student { width: 270px; padding: 5px 10px; }
+.edit-grade-grade { width: 100px; padding: 5px 10px; }
+.edit-grade-comment { width: 215px; padding: 10px; }
+.edit-grade-accommodation-received { text-align: center; width: 150px; padding: 10px; }
+#s-grade-item-edit-grades-form .edit-grade-comment label { font-size: 11px; margin-top: 3px; display: block; width: 100%; }
+.edit-grade-comment textarea { width: 195px; }
+.has-dropbox-icon.grade-pending-icon { opacity: 1; filter: alpha(opacity=100); }
+.edit-grade-grade span.has-dropbox-icon { margin: 7px 12px 0; margin-inline-start: 0; }
+#s-grade-item-edit-grades-form #edit-show-comments-wrapper { color:#999999; display:inline; font-size:10px; margin-inline-start: 10px; }
+.action-links .action-grade a { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a0cfa7424d54685") no-repeat 13px -312px; }
+#s-grade-item-edit-grades-form .student-stats a { margin-inline-start: 4px; }
+.student-stats span { display: none; }
+.student-name .infotip { background: none; padding: 0; }
+
+/**
+ *  SGY-19531 -- restoring icon for student stats
+ */
+.hierarchical-grading-report .student-stats a { position: relative; display: inline-block; height: 10px; width: 10px; }
+
+/* temporary css */
+.reply-title-help { clear: both; }
+.dropback, .dropbox { margin-bottom: 15px; }
+.right-nav a { font-weight: normal; }
+.right-nav li { margin: 5px 0; }
+.right-nav { margin-bottom: 15px; }
+
+/* attachments */
+.profile-documents .attachments-files-images li { padding: 0; clear: none; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .profile-documents .attachments-files-images li { float: right; }
+.profile-documents .delete-btn { display: none; opacity: .3; filter: alpha(opacity=30); }
+.profile-documents .delete-btn span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat -4px -81px; }
+.profile-documents .delete-btn:hover { background: none; opacity: 1; filter: alpha(opacity=100); }
+.profile-documents .delete-btn:hover span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat -4px -81px; }
+.profile-documents-file .delete-btn { margin-bottom: -4px; }
+.profile-documents .document:hover .delete-btn, .profile-documents .link:hover .delete-btn, .profile-documents .video:hover .delete-btn { display: inline-block; }
+.profile-documents .attachments-files-images .delete-btn { margin: 0; top: 1px; inset-inline-end: 4px; position: absolute; background: #fff; opacity: 1; filter: alpha(opacity=100); }
+.profile-documents .attachments-files-images .delete-btn span { opacity: .5; filter: alpha(opacity=50); }
+.profile-documents .attachments-files-images .delete-btn:hover span { opacity: 1; filter: alpha(opacity=100); }
+.profile-documents .link { min-height: 14px; }
+
+.s_grade_item_assessment #center-top { border: none; }
+
+/* CSM Multiple Due Dates */
+.assignment-details .assignment-details-row { padding-inline-start: 80px; margin-bottom: 10px; }
+.assignment-details .assignment-details-label { /* rtl-processor:ignore */ float: left; margin-inline-start: -80px; width: 75px; font-weight: bold; }
+[dir="rtl"] .assignment-details .assignment-details-label { float: right; }
+.assignment-details .assignment-details-row .item-list li { margin-bottom: 2px; }
+.assignment-details .assignment-details-section { font-size: 11px; }
+
+#s-grade-item-print-form .permutations-description { margin-inline-start: 255px; margin-top:-28px; /* rtl-processor:ignore */ float: left; width: 270px; color:#a7a7a7; }
+
+[dir="rtl"] #s-grade-item-print-form .permutations-description { float: right; }
+
+#s-grade-item-print-form .print-popup { padding: 20px 20px 24px 20px; }
+#s-grade-item-print-form .print-page-size { padding: 0px 0px 12px 0px; }
+#s-grade-item-print-form .form-radios { width: 180px; }
+#s-grade-item-print-form #edit-permutations { margin-inline-start: 10px; }
+#s-grade-item-print-form #edit-permutations-wrapper { padding-bottom: 12px; }
+#s-grade-item-print-form #edit-page-size-letter-wrapper { margin-top: -16px; margin-inline-start: 117px; width:160px; }
+#s-grade-item-print-form #edit-page-size-a4-wrapper { margin-top: -21px; margin-inline-start: 295px; width: 160px; }
+#s-grade-item-print-form #edit-layout-1-wrapper { margin-top: -16px; margin-inline-start: 117px; width:180px; }
+#s-grade-item-print-form #edit-layout-2-wrapper { margin-top: -21px; margin-inline-start: 295px; width: 200px; }
+#s-grade-item-print-form #edit-permutations-wrapper span.infotip { margin-inline-start: 522px; /* rtl-processor:ignore */ float: left; margin-top: -22px; height: 13px; }
+[dir="rtl"] #s-grade-item-print-form #edit-permutations-wrapper span.infotip { float: right; }
+#s-grade-item-print-form .edit-margin-info { padding-inline-start: 116px; padding-top: 16px; color: #a7a7a7; }
+#s-grade-item-print-form input[type=submit], #s-grade-item-print-form .cancel-btn { padding-inline-start: 30px; padding-inline-end: 30px; }
+
+.s_grade_item_common_assessment #container {
+    padding-inline-end: 20px;
+}
+.s_grade_item_common_assessment #main-content-wrapper {
+    background-color: #FAF9F7;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+}
+.s_grade_item_common_assessment #center-top {
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    padding-top: 0;
+}
+.has-folder-player.s_grade_item_common_assessment #center-top .content-top-upper, .has-materials-player.s_grade_item_common_assessment #center-top .content-top-upper {
+    margin: 0;
+    border: 0;
+}
+.has-folder-player.s_grade_item_common_assessment #center-top .content-top-upper, .has-materials-player.s_grade_item_common_assessment #center-top .content-top-upper,
+.s_grade_item_common_assessment #center-top .content-top-upper {
+    border-bottom: 1px solid #C9C3BD;
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+}
+.s_grade_item_common_assessment #center-top h2.page-title {
+    padding-top: 15px;
+    padding-inline-start: 20px;
+}
+.s_grade_item_common_assessment #center-top .content-top-wrapper .info-container {
+    inset-inline-end: 20px;
+}
+.s_grade_item_common_assessment.common-assessment-admin #csca-view-react-container {
+    background-color: #fff;
+    margin: 0 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+#edit-grading-category-id-wrapper label::after {
+    content: "*";
+    color: #4753da;
+}
+#sEditGradeTable .read-only-comment__comment {
+    padding: 10px 0; color: #000;
+}
+#sEditGradeTable .read-only-comment__status {
+    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a0cfa7424d54685") no-repeat 0 -82px;
+    padding-inline-start: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sEditGradeTable .read-only-comment__status--shared {
+    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_present.png__q_6a0cfa7424d54685") no-repeat 0 0;
+    padding-inline-start: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cancel-btn.view-gradebook-only-close-btn, .view-gradebook-only-close-btn:hover {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-bg-dark.gif__q_6a0cfa7424d54685") repeat-x #337DBC;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+
+.s-grade-item-addl-course-submission-disabled-msg {
+    margin-bottom: 15px;
+}
+
+.edit-grade-student .edit-grade-message { position: relative; top: -9px; margin-inline-start: 5px; }
+.edit-grade-student .student-info .student-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px; }
+
+.form-item label.option #edit-is-final.error { outline: 1px solid red; accent-color: #FEF3F3; }
+
+/* LTI Assignment CSM Header Adjustments */
+body.lti-gradable-csm .content-top {
+    width: 100%;
+    float: none;
+    margin-top: 0;
+}
+
+[dir="rtl"] body.lti-gradable-csm .content-top {
+    float: none;
+}
+
+body.lti-gradable-csm .s_grade_item_assignment .content-top {
+    margin-top: 0;
+}
+
+body.lti-gradable-csm .content-top-wrapper {
+    padding-inline-start: 0;
+}
+
+body.lti-gradable-csm .info-container {
+    justify-content: space-between;
+}
+
+.s_grade_item_assignment .grade-item-header-buttons {
+    display: flex;
+}
+
+/* LTI App-Graded Assignment Layout Adjustments */
+body.lti-app-graded .assignment-details,
+body.lti-app-graded .extra-details {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* Ensure LTI iframe container extends full width when no submission panel (app-graded only) */
+body.lti-app-graded #s-lti-launch-frame-wrapper,
+body.lti-app-graded #external-tool-iframe,
+body.lti-app-graded #main-inner .container,
+body.lti-app-graded #main {
+  width: 100%;
+}
+body.lti-app-graded #main {
+  float: none;
+}
+
+body.lti-app-graded #center-inner {
+  background: none;
+}
+
+.lti-assignment-iframe-container {
+  margin-top: 10px;
+  clear: both;
+  overflow: hidden;
+}
+
+/* Fix iframe positioning for app-graded assignments */
+body.lti-app-graded .lti-assignment-iframe-container {
+  clear: none;
+  margin-top: 0;
+}
+
+.lti-assignment-iframe-container iframe {
+  width: 100%;
+  height: 600px;
+  display: block;
+  border: 1px solid #ddd;
+}
+
+/* Assignment-specific fullscreen layout */
+.assignment-fullscreen-mode #sidebar-left, 
+.assignment-fullscreen-mode #right-column,
+.assignment-fullscreen-mode .content-top-upper, 
+.assignment-fullscreen-mode #footer, 
+.assignment-fullscreen-mode #header, 
+.assignment-fullscreen-mode #site-navigation-footer, 
+.assignment-fullscreen-mode #navigation-header-banners {
+  display: none;
+}
+
+body.s_grade_item_assignment.assignment-fullscreen-mode #wrapper,
+body.s_grade_item_assignment.assignment-fullscreen-mode #container, 
+body.s_grade_item_assignment.assignment-fullscreen-mode #main-content-wrapper { 
+  width: 100%;
+  max-width: 100%;
+}
+body.s_grade_item_assignment.assignment-fullscreen-mode #wrapper {
+  padding: 0;
+  margin: 0;
+}
+body.s_grade_item_assignment.assignment-fullscreen-mode #container, 
+body.s_grade_item_assignment.assignment-fullscreen-mode #main-content-wrapper { 
+  margin: 0; 
+  padding: 0; 
+  border: none;
+}
+.assignment-fullscreen-mode #main { 
+  width: 100%; 
+  float: none; 
+}
+
+.assignment-fullscreen-mode #main-inner { 
+  padding: 0; 
+}
+.assignment-fullscreen-mode #center-top { 
+  padding: 10px 15px; 
+  background: #333; 
+}
+
+/* Override any conflicting background rules for fullscreen mode */
+body.s_grade_item_assignment.assignment-fullscreen-mode #center-top,
+body.s_grade_item_assignment.assignment-fullscreen-mode .with-tabs #center-top {
+  background: #333;
+}
+
+/* Fullscreen text color styling - applies to all fullscreen contexts */
+.assignment-fullscreen-mode .page-title {
+  color: #fff;
+}
+
+.assignment-fullscreen-mode #center-top .content-top-below-title { color: #333; }
+.assignment-fullscreen-mode #content-wrapper { padding-bottom: 0; }
+
+/* Additional fullscreen rules for assignment view */
+.assignment-fullscreen-mode #taught-courses-switcher { display: none; }
+/* Make iframe full width and height in fullscreen mode (like app-graded assignments) */
+.assignment-fullscreen-mode #s-lti-launch-frame-wrapper {
+  width: 100%;
+  max-width: 100%;
+  float: none;
+  height: calc(100vh - 60px); /* Full viewport height minus banner */
+  min-height: 500px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.assignment-fullscreen-mode #external-tool-iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  float: none;
+  border: none;
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+}
+
+/* Ensure main container takes full width in fullscreen */
+.assignment-fullscreen-mode #main-inner .container {
+  width: 100%;
+}
+
+/* Force main content to take full width and height in fullscreen */
+.assignment-fullscreen-mode #main {
+  width: 100%;
+  height: calc(100vh - 60px); /* Full viewport height minus banner */
+  float: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+  min-height: 500px;
+}
+
+/* Override the theme's .has-right-col #main rule specifically */
+body.assignment-fullscreen-mode.has-right-col #main,
+.assignment-fullscreen-mode.has-right-col #main {
+  width: 100%;
+  float: none;
+}
+
+/* Hide right column in fullscreen mode for all assignment types */
+.assignment-fullscreen-mode.has-right-col #right-column,
+.assignment-fullscreen-mode.has-right-col .right-column,
+body.assignment-fullscreen-mode.has-right-col #right-column,
+body.assignment-fullscreen-mode.has-right-col .right-column {
+  display: none;
+}
+
+.assignment-fullscreen-mode #main-inner {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+  height: calc(100vh - 60px); /* Full viewport height minus banner */
+  min-height: 500px;
+  float: none;
+}
+
+/* Override theme's has-right-col padding rule for fullscreen mode */
+.assignment-fullscreen-mode.has-right-col #main-inner {
+  padding: 0;
+}
+
+/* Remove borders from main content elements in fullscreen */
+.assignment-fullscreen-mode #center-inner,
+.assignment-fullscreen-mode .container,
+.assignment-fullscreen-mode .content-wrapper,
+.assignment-fullscreen-mode .content-area {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Hide right column and assignment elements in fullscreen */
+.assignment-fullscreen-mode #right-column,
+.assignment-fullscreen-mode .right-column,
+.assignment-fullscreen-mode [id*="right-column"],
+.assignment-fullscreen-mode .assignment-details,
+.assignment-fullscreen-mode .info-container,
+.assignment-fullscreen-mode .grade-item-action-links,
+.assignment-fullscreen-mode .info-text,
+.assignment-fullscreen-mode .grading-info,
+.assignment-fullscreen-mode .due-date,
+.assignment-fullscreen-mode .posted-time,
+.assignment-fullscreen-mode .inline-rubric-wrapper,
+.assignment-fullscreen-mode .drop-items,
+.assignment-fullscreen-mode .profile-documents,
+.assignment-fullscreen-mode .comment-container,
+.assignment-fullscreen-mode .attachments-node,
+.assignment-fullscreen-mode .attachments,
+.assignment-fullscreen-mode #sgy-material-assign-ui,
+.assignment-fullscreen-mode .submission-panel,
+.assignment-fullscreen-mode #submission-panel {
+  display: none;
+}
+
+/* Ensure fullscreen button is visible in fullscreen mode */
+.assignment-fullscreen-mode .assignment-fullscreen-btn {
+  display: block;
+}
+
+/* Show assignment title in fullscreen banner */
+.assignment-fullscreen-mode #center-top .page-title {
+  color: #fff;
+  margin: 0;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Masquerade box styling for fullscreen mode - override old lti-full-screen system */
+body.assignment-fullscreen-mode .masquerade-box,
+body.lti-full-screen.assignment-fullscreen-mode .masquerade-box,
+.assignment-fullscreen-mode #center-top .masquerade-box,
+.lti-full-screen #center-top .masquerade-box {
+  color: #333;
+  background: #f2f2f2;
+  border: 1px solid #c7c7c7;
+}
+
+/* Position fullscreen button in fullscreen mode - match ETL positioning */
+.assignment-fullscreen-mode .assignment-fullscreen-btn {
+  position: absolute;
+  inset-inline-end: 0;
+  margin-top: -42px;
+  z-index: 9999;
+  display: block;
+}
+
+/* Position fullscreen button in center-top - make it visible */
+.assignment-fullscreen-mode #center-top {
+  position: relative;
+}
+
+body.s_grade_item_assignment.assignment-fullscreen-mode #center-top .assignment-fullscreen-btn {
+  position: absolute;
+  inset-inline-end: -14px;
+  top: 42px;
+  z-index: 9999;
+  display: block;
+  line-height: 0;
+  height: auto;
+  padding: 0;
+}
+
+/* Add extra padding for student view in fullscreen mode */
+body.s_grade_item_assignment.assignment-fullscreen-mode #center-top .info-container.not-admin .assignment-fullscreen-btn[data-assignment-lti-fullscreen="true"] {
+  inset-inline-end: -4px;
+}
+
+/* Override theme margin for with-tabs in fullscreen mode */
+body.s_grade_item_assignment.assignment-fullscreen-mode .with-tabs #center-top {
+  margin: 0;
+}
+
+/* Ensure the sprite icon is preserved in fullscreen mode */
+body.s_grade_item_assignment.assignment-fullscreen-mode .assignment-fullscreen-btn[data-assignment-lti-fullscreen="true"] span {
+  display: inline-block;
+  height: 24px;
+  width: 26px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685") no-repeat 5px 4px;
+  background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685");
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+}
+
+/* Position relative to iframe wrapper for fullscreen mode */
+.assignment-fullscreen-mode #s-lti-launch-frame-wrapper {
+  position: relative;
+}
+
+.assignment-fullscreen-mode #center-top .assignment-fullscreen-btn[data-assignment-lti-fullscreen="true"] {
+  position: absolute;
+  inset-inline-end: 25px;
+  top: 12px;
+  z-index: 9999;
+  display: block;
+}
+
+/* Position fullscreen button to the right of Immersive Reader button - only for student view */
+.content-top-wrapper .info-container.not-admin .assignment-fullscreen-btn[data-assignment-lti-fullscreen="true"] {
+  margin-inline-end: 10px;
+}
+
+/* Ensure fullscreen button is visible in fullscreen mode */
+.assignment-fullscreen-mode .assignment-fullscreen-btn {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Assignment fullscreen button styling */
+.assignment-fullscreen-btn {
+  display: inline-block;
+  margin-inline-end: 15px;
+  vertical-align: top;
+  position: static;
+  float: none;
+  clear: none;
+  line-height: 0;
+  height: auto;
+  padding: 0;
+}
+
+.assignment-fullscreen-btn span {
+  display: inline-block;
+  height: 24px;
+  width: 26px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685") no-repeat 5px 4px;
+  background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685");
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+  background-size: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Ensure the fullscreen button is positioned correctly within the info-container */
+.info-container .sgy-lti-fullscreen-btn[data-sgy-lti-fullscreen="true"] {
+  display: inline-block;
+  margin-inline-end: 15px;
+  vertical-align: top;
+  position: static;
+  float: none;
+}
+
+/* Use the same styling as existing fullscreen buttons */
+.assignment-fullscreen-btn[data-assignment-lti-fullscreen="true"] {
+  line-height: 0;
+  height: auto;
+  padding: 0;
+}
+
+.assignment-fullscreen-btn[data-assignment-lti-fullscreen="true"] span {
+  display: inline-block;
+  height: 24px;
+  width: 26px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685") no-repeat 5px 4px;
+  background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685");
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+  background-size: auto;
+  /* Override any browser default fullscreen icon */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* External tool fullscreen button positioning - same as external tool */
+.fullscreen-option { position: absolute; inset-inline-end: 0; margin-top: -42px; }
+
+/* Ensure assignment fullscreen button icon is preserved in all contexts */
+.content-top-wrapper .assignment-fullscreen-btn span,
+.info-container .assignment-fullscreen-btn span,
+.assignment-fullscreen-btn span {
+  display: inline-block;
+  height: 24px;
+  width: 26px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685") no-repeat 5px 4px;
+  background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons-sprite-tools.png__q_6a0cfa7424d54685");
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+  background-size: auto;
+  /* Override any browser default fullscreen icon */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Ensure wrapper fullscreen button is positioned correctly for Schoology grading choice */
+#s-lti-launch-frame-wrapper .fullscreen-option { 
+  position: absolute; 
+  inset-inline-end: 15px; 
+  margin-top: -35px; 
+  z-index: 9999;
+}

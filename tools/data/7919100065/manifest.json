@@ -1,0 +1,1994 @@
+{
+  "id": "7919100065",
+  "title": "Adv Computer Sci I: Section 3-03",
+  "source": "archived",
+  "scrapedAt": "2026-05-22T04:45:33.169Z",
+  "downloaded": 135,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "link",
+      "title": "Syllabus",
+      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7934453138",
+      "localPath": "Syllabus.url"
+    },
+    {
+      "type": "folder",
+      "title": "Days 31 - 41(11/12 - 12/17)",
+      "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=959273390",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 39 (12/11)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=964456516",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 6 Quiz",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8154649317",
+              "commonAssessmentDetails": {
+                "score": "18/19",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 39 (12_11)/Unit 6 Quiz.html"
+            }
+          ],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 39 (12_11)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 38 (12/9)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=964396328",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 6-2 (Hexadecimal and ASCII)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8133809519",
+              "commonAssessmentDetails": {
+                "score": "11/11",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 38 (12_9)/Formative 6-2 (Hexadecimal and ASCII).html"
+            }
+          ],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 38 (12_9)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 37 (12/5)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=963481942",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Project 5 presentation",
+              "href": "https://roundrockisd.schoology.com/assignment/8148437694",
+              "assignmentDetails": {
+                "score": "29/30",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Friday, December 5, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 37 (12_5)/Project 5 presentation.html"
+            },
+            {
+              "type": "assignment",
+              "title": "Adventure game Source Code",
+              "href": "https://roundrockisd.schoology.com/assignment/8131530962",
+              "assignmentDetails": {
+                "score": "15/15",
+                "description": "<p dir=\"ltr\">Turn in your source code here.</p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Friday, December 5, 2025 at 9:00 am"
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 37 (12_5)/Adventure game Source Code.html"
+            }
+          ],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 37 (12_5)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 36 (12/3)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=961321129",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 6-1 (Binary)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8133809480",
+              "commonAssessmentDetails": {
+                "score": "11.5/12",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 36 (12_3)/Formative 6-1 (Binary).html"
+            }
+          ],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 36 (12_3)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 32 (11/14)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=959298874",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 5 Test (Part 1: MCQ)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8123327013",
+              "commonAssessmentDetails": {
+                "score": "13/15",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 32 (11_14)/Unit 5 Test (Part 1_ MCQ).html"
+            },
+            {
+              "type": "assignment",
+              "title": "Unit 5 Test, part 2 (FRQ)",
+              "href": "https://roundrockisd.schoology.com/assignment/8129638105",
+              "assignmentDetails": {
+                "score": "17/17",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, November 18, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 32 (11_14)/Unit 5 Test, part 2 (FRQ).html"
+            }
+          ],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 32 (11_14)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 31 (11/12)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=959298247",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 5 Group Quiz",
+              "href": "https://roundrockisd.schoology.com/assignment/8119688922",
+              "assignmentDetails": {
+                "score": "21/21",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Wednesday, November 12, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 31 (11_12)/Unit 5 Group Quiz.html"
+            }
+          ],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 31 (11_12)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 35 (12/1)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=961320514",
+          "children": [],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 35 (12_1)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 41 (12/17)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=965920436",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Midterm",
+              "href": "https://roundrockisd.schoology.com/assignment/8163431004",
+              "assignmentDetails": {
+                "score": "54/55",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Wednesday, December 17, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 31 - 41(11_12 - 12_17)/Day 41 (12_17)/Midterm.html"
+            }
+          ],
+          "localPath": "Days 31 - 41(11_12 - 12_17)/Day 41 (12_17)"
+        }
+      ],
+      "localPath": "Days 31 - 41(11_12 - 12_17)"
+    },
+    {
+      "type": "folder",
+      "title": "Days 21 - 30 (10/10 - 11/10 )",
+      "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=946835328",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 30(11/10)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=956980425",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 5-2 (Returning Values)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8093070934",
+              "commonAssessmentDetails": {
+                "score": "15/15",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 30(11_10)/Formative 5-2 (Returning Values).html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 30(11_10)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 29(11/5)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=956980099",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 5-1 (Function Definitions)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8093070918",
+              "commonAssessmentDetails": {
+                "score": "18.3/19",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 29(11_5)/Formative 5-1 (Function Definitions).html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 29(11_5)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 28 (11/3)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=956978168",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 4 Test (1: MCQ)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8104720461",
+              "commonAssessmentDetails": {
+                "score": "16.33/20",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 28 (11_3)/Unit 4 Test (1_ MCQ).html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 28 (11_3)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 27 (10/30)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955114226",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 4 Group Quiz",
+              "href": "https://roundrockisd.schoology.com/assignment/8092451990",
+              "assignmentDetails": {
+                "score": "24/25",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Thursday, October 30, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 27 (10_30)/Unit 4 Group Quiz.html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 27 (10_30)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 26 (10/28)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955114013",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 4 Lab",
+              "href": "https://roundrockisd.schoology.com/assignment/8094235035",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\">Launch CodeHS, Search for <span style=\"background-color:#ff0000;font-size:18px;color:#003300;\"><strong>Unit 4: Python Labs(Rock, Paper, Scissors)</strong> </span>in your assignments. Follow the instructions in the assignment and given by Mr. Nguyen.</p>\n<p dir=\"ltr\">Read the document on the background of the game.</p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Thursday, October 30, 2025 at 9:00 am"
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 26 (10_28)/Unit 4 Lab.html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 26 (10_28)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 25 (10/24)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=953271789",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 4-5 (while Loops)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8048142148",
+              "commonAssessmentDetails": {
+                "score": "16/16",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 25 (10_24)/Formative 4-5 (while Loops).html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 25 (10_24)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 21 (10/10)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=946836003",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 3 Test",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8037170469",
+              "commonAssessmentDetails": {
+                "score": "14.5/17",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 21 (10_10)/Unit 3 Test.html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 21 (10_10)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 22 (10/15)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=950732639",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Create Proposition Logic Anchor Chart",
+              "href": "https://roundrockisd.schoology.com/assignment/8066707857",
+              "assignmentDetails": {
+                "score": "12/12",
+                "description": "<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1JtXfq_l2ogz1rIxSTfvXAlqlEtqcovbZ/edit?usp=sharing&amp;ouid=109058245956079667095&amp;rtpof=true&amp;sd=true\">Instructions</a></p>",
+                "googleLinks": [
+                  {
+                    "url": "https://docs.google.com/document/d/1JtXfq_l2ogz1rIxSTfvXAlqlEtqcovbZ/edit?usp=sharing&ouid=109058245956079667095&rtpof=true&sd=true",
+                    "kind": "Doc"
+                  }
+                ],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Wednesday, October 15, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 22 (10_15)/Create Proposition Logic Anchor Chart.html"
+            },
+            {
+              "type": "common_assessment",
+              "title": "Formative 4-1 (Conditions)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8048141532",
+              "commonAssessmentDetails": {
+                "score": "13/13",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 22 (10_15)/Formative 4-1 (Conditions).html"
+            },
+            {
+              "type": "assignment",
+              "title": "4.1 Investigation worksheet",
+              "href": "https://roundrockisd.schoology.com/assignment/8082867366",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<h2 style=\"line-height:1.3800000000000001;text-align:center;margin-top:18pt;margin-bottom:6pt;\" dir=\"ltr\"><span style=\"font-size:16pt;font-family:'Roboto Slab', serif;color:#000000;background-color:transparent;vertical-align:baseline;\">&nbsp;</span></h2>\n<ol style=\"margin-top:0;margin-bottom:0;\">\n<li style=\"list-style-type:decimal;font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;font-weight:bold;vertical-align:baseline;white-space:pre;\" dir=\"ltr\">\n<p style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;background-color:transparent;font-weight:400;vertical-align:baseline;\"><strong>Create a CodeHS python sandbox</strong></span><span style=\"font-size:11pt;background-color:transparent;font-weight:400;vertical-align:baseline;\"> file called </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;vertical-align:baseline;\">conditional_tests.py</span><span style=\"font-size:11pt;background-color:transparent;font-weight:400;vertical-align:baseline;\">. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:</span><span style=\"font-size:11pt;background-color:transparent;font-weight:400;vertical-align:baseline;\"><br></span><span style=\"font-size:11pt;background-color:transparent;font-weight:400;vertical-align:baseline;\"><br></span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\">car = 'subaru'</span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\"><br></span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\">print(\"Is car == 'subaru'? I predict True.\")</span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\"><br></span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\">print(car == 'subaru')</span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\"><br></span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\"><br></span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\">print(\"\\nIs car == 'audi'? I predict False.\")</span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\"><br></span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:400;vertical-align:baseline;\">print(car == 'audi')</span></p>\n</li>\n</ol>\n<p dir=\"ltr\"><strong><span><span>&nbsp;</span></span></strong></p>\n<ul style=\"margin-top:0;margin-bottom:0;\">\n<li style=\"list-style-type:disc;font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;white-space:pre;margin-left:36pt;\" dir=\"ltr\">\n<p style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\">Look closely at your results, and make sure you understand why each line evaluates to </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:bold;vertical-align:baseline;\">True</span><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\"> or </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:bold;vertical-align:baseline;\">False</span><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\">.</span></p>\n</li>\n<li style=\"list-style-type:disc;font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;white-space:pre;margin-left:36pt;\" dir=\"ltr\">\n<p style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\">Create at least 10 tests. Have at least 5 tests evaluate to </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:bold;vertical-align:baseline;\">True</span><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\"> and another 5 tests evaluate to </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:bold;vertical-align:baseline;\">False</span><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\">. Have at least one </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:bold;vertical-align:baseline;\">True</span><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\"> and one </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;background-color:transparent;font-weight:bold;vertical-align:baseline;\">False</span><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\"> result for each of the following:</span></p>\n</li>\n</ul>\n<ul style=\"margin-top:0;margin-bottom:0;\">\n<li style=\"list-style-type:circle;font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;white-space:pre;margin-left:72pt;\" dir=\"ltr\">\n<p style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\">Tests for equality and inequality with strings</span></p>\n</li>\n<li style=\"list-style-type:circle;font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;white-space:pre;margin-left:72pt;\" dir=\"ltr\">\n<p style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:0pt;\" dir=\"ltr\"><span style=\"font-size:11pt;background-color:transparent;vertical-align:baseline;\">Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to</span></p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong><span><span style=\"font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;\">Tests with the </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;font-weight:bold;vertical-align:baseline;\">and</span><span style=\"font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;\"> keyword, the </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;font-weight:bold;vertical-align:baseline;\">or</span><span style=\"font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;\"> keyword, and the </span><span style=\"font-size:11pt;font-family:'Roboto Mono', monospace;color:#000000;background-color:transparent;font-weight:bold;vertical-align:baseline;\">not</span><span style=\"font-size:11pt;font-family:Roboto, sans-serif;color:#000000;background-color:transparent;vertical-align:baseline;\"> keyword. Submit your CodeHS Sandbox here.</span></span></strong></p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Friday, October 17, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 22 (10_15)/4.1 Investigation worksheet.html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 22 (10_15)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 23 (10/17)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=953243668",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 4-2 (Selections)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8048141614",
+              "commonAssessmentDetails": {
+                "score": "14/14",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 23 (10_17)/Formative 4-2 (Selections).html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 23 (10_17)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 24 (10/22)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=953264549",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 4-4 (for Loops)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8048141961",
+              "commonAssessmentDetails": {
+                "score": "14/14",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 24 (10_22)/Formative 4-4 (for Loops).html"
+            }
+          ],
+          "localPath": "Days 21 - 30 (10_10 - 11_10 )/Day 24 (10_22)"
+        }
+      ],
+      "localPath": "Days 21 - 30 (10_10 - 11_10 )"
+    },
+    {
+      "type": "folder",
+      "title": "Days 11 - 20 (9/10 - 10/8)",
+      "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944709012",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 20 (10/8)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944769387",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 3-3 (Proposition Analysis)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8012417204",
+              "commonAssessmentDetails": {
+                "score": "9/11",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 20 (10_8)/Formative 3-3 (Proposition Analysis).html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 20 (10_8)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 19 (10/6)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944769314",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 3-2 (Truth Tables)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8012417159",
+              "commonAssessmentDetails": {
+                "score": "13/13",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 19 (10_6)/Formative 3-2 (Truth Tables).html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 19 (10_6)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 18 (10/2)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944769244",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 3-1 (Propositions)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8012417091",
+              "commonAssessmentDetails": {
+                "score": "13/14",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 18 (10_2)/Formative 3-1 (Propositions).html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 18 (10_2)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 17 (9/30)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944767645",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "ChatBot Presentation",
+              "href": "https://roundrockisd.schoology.com/assignment/8035100845",
+              "assignmentDetails": {
+                "score": "28/26",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, September 30, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 17 (9_30)/ChatBot Presentation.html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 17 (9_30)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 13 (9/16)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944721420",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Unit 2 Test (MCQ)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8023044318",
+              "commonAssessmentDetails": {
+                "score": "23.5/26",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 13 (9_16)/Unit 2 Test (MCQ).html"
+            },
+            {
+              "type": "link",
+              "title": "Intro to Unit 2 Project",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8030410992",
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 13 (9_16)/Intro to Unit 2 Project.url"
+            },
+            {
+              "type": "assignment",
+              "title": "Unit 2 FRQ",
+              "href": "https://roundrockisd.schoology.com/assignment/8039862883",
+              "assignmentDetails": {
+                "score": "25/26",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, September 16, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 13 (9_16)/Unit 2 FRQ.html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 13 (9_16)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 14 - 16 (9/18 & 9/24 & 9/26)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944722146",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "ChatBot Plan",
+              "href": "https://roundrockisd.schoology.com/assignment/8035208579",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 14 - 16 (9_18 & 9_24 & 9_26)/ChatBot Plan.html"
+            },
+            {
+              "type": "assignment",
+              "title": "ChatBot Source Code",
+              "href": "https://roundrockisd.schoology.com/assignment/8035269450",
+              "assignmentDetails": {
+                "score": "15/15",
+                "description": "<p dir=\"ltr\">Turn in your source code here.</p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Monday, September 29, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 14 - 16 (9_18 & 9_24 & 9_26)/ChatBot Source Code.html"
+            },
+            {
+              "type": "link",
+              "title": "Discrete math Poll",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8052826617",
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 14 - 16 (9_18 & 9_24 & 9_26)/Discrete math Poll.url"
+            },
+            {
+              "type": "link",
+              "title": "Discrete Math Presentation",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8052858299",
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 14 - 16 (9_18 & 9_24 & 9_26)/Discrete Math Presentation.url"
+            }
+          ],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 14 - 16 (9_18 & 9_24 & 9_26)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 12 (9/12)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944720932",
+          "children": [],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 12 (9_12)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 11 (9/10)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=944709208",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 2 Group Quiz",
+              "href": "https://roundrockisd.schoology.com/assignment/8026512245",
+              "assignmentDetails": {
+                "score": "16.25/17",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Wednesday, September 10, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 11 (9_10)/Unit 2 Group Quiz.html"
+            }
+          ],
+          "localPath": "Days 11 - 20 (9_10 - 10_8)/Day 11 (9_10)"
+        }
+      ],
+      "localPath": "Days 11 - 20 (9_10 - 10_8)"
+    },
+    {
+      "type": "folder",
+      "title": "Days 1 - 10 (8/12 - 9/8)",
+      "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=943301574",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 10 (9/8)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=938545101",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Unit 2 Lab",
+              "href": "https://roundrockisd.schoology.com/assignment/8003719451",
+              "assignmentDetails": {
+                "score": "105/100",
+                "description": "<p dir=\"ltr\">Launch CodeHS, Search for Unit 2: Python Labs in your assignments. Follow the instructions by clicking the link below</p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1XI_7LHPkArjGnZpGCXpR7W71X5aEvsy7NYkDSn9SHOE/edit?usp=sharing\">Unit 2 Lab Instructions</a></p>",
+                "googleLinks": [
+                  {
+                    "url": "https://docs.google.com/document/d/1XI_7LHPkArjGnZpGCXpR7W71X5aEvsy7NYkDSn9SHOE/edit?usp=sharing",
+                    "kind": "Doc"
+                  }
+                ],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, September 9, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 10 (9_8)/Unit 2 Lab.html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 10 (9_8)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 9 (9/4)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=938539603",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 2-3 (Libraries & Ranges)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/7965604526",
+              "commonAssessmentDetails": {
+                "score": "18/18",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 9 (9_4)/Formative 2-3 (Libraries & Ranges).html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 9 (9_4)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 8 (9/2)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=938537910",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 2-2 (Built-In Functions)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/7965604456",
+              "commonAssessmentDetails": {
+                "score": "18/18",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 8 (9_2)/Formative 2-2 (Built-In Functions).html"
+            },
+            {
+              "type": "assignment",
+              "title": "My First Program",
+              "href": "https://roundrockisd.schoology.com/assignment/8008279359",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\">Using a Sandbox in CodeHS, type in the program by going to link posted here:&nbsp;<a href=\"https://docs.google.com/document/d/196qmjWrXT6T8CQHEnYTW7Pu_xi2bKyuzlBx7aghfC5I/edit?usp=sharing\">First program to type in</a></p>\n<p dir=\"ltr\">After typing in the program, try to run it.</p>\n<p dir=\"ltr\">When you get it to run, share the sandbox to this assignment.</p>",
+                "googleLinks": [
+                  {
+                    "url": "https://docs.google.com/document/d/196qmjWrXT6T8CQHEnYTW7Pu_xi2bKyuzlBx7aghfC5I/edit?usp=sharing",
+                    "kind": "Doc"
+                  }
+                ],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, September 2, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 8 (9_2)/My First Program.html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 8 (9_2)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 7 (8/28)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=938536888",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 2-1 (Function Calls)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/7965604400",
+              "commonAssessmentDetails": {
+                "score": "13/13",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 7 (8_28)/Formative 2-1 (Function Calls).html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 7 (8_28)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 6 (8/26)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=932619276",
+          "children": [
+            {
+              "type": "link",
+              "title": "Python intro to Functions",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7980050699",
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 6 (8_26)/Python intro to Functions.url"
+            },
+            {
+              "type": "assignment",
+              "title": "Unit 1 Test",
+              "href": "https://roundrockisd.schoology.com/assignment/7980577499",
+              "assignmentDetails": {
+                "score": "32/34",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Tuesday, August 26, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 6 (8_26)/Unit 1 Test.html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 6 (8_26)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 (8/22)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=930789161",
+          "children": [
+            {
+              "type": "link",
+              "title": "Unit 1 Study Guide 2nd Period",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7970717540",
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 5 (8_22)/Unit 1 Study Guide 2nd Period.url"
+            },
+            {
+              "type": "link",
+              "title": "Unit 1 Study Guide 4th Period",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7970729018",
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 5 (8_22)/Unit 1 Study Guide 4th Period.url"
+            },
+            {
+              "type": "assignment",
+              "title": "Unit 1 Group Quiz",
+              "href": "https://roundrockisd.schoology.com/assignment/7979808454",
+              "assignmentDetails": {
+                "score": "11.5/12",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Friday, August 22, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 5 (8_22)/Unit 1 Group Quiz.html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 5 (8_22)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 (8/20)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=930785939",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "Formative 1-3 (Variables and Assignment)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/7961751427",
+              "commonAssessmentDetails": {
+                "score": "22/22",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 4 (8_20)/Formative 1-3 (Variables and Assignment).html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 4 (8_20)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 3 (8/18)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=930777635",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Formative 1-1 (Computer Architecture and Python Basics)",
+              "href": "https://roundrockisd.schoology.com/assignment/7961757484",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 3 (8_18)/Formative 1-1 (Computer Architecture and Python Basics).html"
+            },
+            {
+              "type": "common_assessment",
+              "title": "Formative 1-2 (Data Types and Operators)",
+              "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/7961750570",
+              "commonAssessmentDetails": {
+                "score": "20/20",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 3 (8_18)/Formative 1-2 (Data Types and Operators).html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 3 (8_18)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 (8/14)",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=929161824",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Unit 1A - Computer Architecture",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=929476208",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "CS Pre-assessment",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7949503238",
+                  "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)/Unit 1A - Computer Architecture/CS Pre-assessment.url"
+                },
+                {
+                  "type": "link",
+                  "title": "How Computers see the world",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7949503264",
+                  "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)/Unit 1A - Computer Architecture/How Computers see the world.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Computer Organization",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7949503277",
+                  "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)/Unit 1A - Computer Architecture/Computer Organization.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Digital Information",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7949503296",
+                  "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)/Unit 1A - Computer Architecture/Digital Information.url"
+                }
+              ],
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)/Unit 1A - Computer Architecture"
+            },
+            {
+              "type": "page",
+              "title": "Email Dos and Don'ts",
+              "href": "https://roundrockisd.schoology.com/page/7951414074",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">I check my email during any school day from 8 am to 4:30 pm. If an email is sent in the evening or over the weekend, I will respond during the next school day. If you need quick information, it's often better to ask one of your classmates before asking me.</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of appropriate emails:</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I am sick and will miss the next 2 classes. What work will I miss?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I will be absent next week for a family vacation next week during the test. When can I schedule a time to take it?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Will you be available for tutorials Wednesday morning?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• This assignment says it's due on Friday but accepting submissions until Sunday. Can I get some clarification on this?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of inappropriate emails:</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Can you update my grade in HAC? - If a grade is correct in Schoology but out-of-date in HAC, you can rest assured I will sync your grades in the next few days. At a minimum, I will sync grades on Tuesday mornings and after entering summative grades. There is no need to email me about this.</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• What is wrong with my answer on this formative assessment? - We have time for formatives built into class each day. You may ask me for help during class or tutorials.</span></p></div>",
+              "images": [],
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)/Email Dos and Don'ts.html"
+            },
+            {
+              "type": "assignment",
+              "title": "Properly E-mail your teacher",
+              "href": "https://roundrockisd.schoology.com/assignment/7954120916",
+              "assignmentDetails": {
+                "score": "100/100",
+                "description": "<p dir=\"ltr\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">I check my email during any school day from 8 am to 4:30 pm. If an email is sent in the evening or over the weekend, I will respond during the next school day. If you need quick information, it's often better to ask one of your classmates before asking me.</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of appropriate emails:</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I am sick and will miss the next 2 classes. What work will I miss?</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I will be absent next week for a family vacation next week during the test. When can I schedule a time to take it?</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Will you be available for tutorials Wednesday morning?</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• This assignment says it's due on Friday but accepting submissions until Sunday. Can I get some clarification on this?</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of inappropriate emails:</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Can you update my grade in HAC? - If a grade is correct in Schoology but out-of-date in HAC, you can rest assured I will sync your grades in the next few days. At a minimum, I will sync grades on Tuesday mornings and after entering summative grades. There is no need to email me about this.</span><br style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"margin:0px;padding:0px;color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• What is wrong with my answer on this formative assessment? - We have time for formatives built into class each day. You may ask me for help during class or tutorials.</span></p>\n<p dir=\"ltr\">&nbsp;___________________________________________________________________________________________________</p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">After following Mr. Nguyen's instructions on how to format an appropriate e-mail, you are to send an email to Mr. Nguyen with the following format:</span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">The email should have 3 paragraphs.</span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Subject: Adv CS1 &lt;Period #&gt;</span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Body of the email:</span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Dear/Hi Mr. Nguyen,</span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">First paragraph, answer this question -&gt; What I want to learn after completing this class. </span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Second paragraph:&nbsp;</span><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">3 items that you've seen that could be classified as a computer. The items cannot be a computer, laptop, phone, or gaming device.</span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Third paragraph: translate this binary number 11010 to a base 10 number.</span></p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Sincerely,</span></p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">&lt;Your Name&gt;</span></p>",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": false,
+                "metadata": "Due: Monday, August 18, 2025 at 11:59 pm"
+              },
+              "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)/Properly E-mail your teacher.html"
+            }
+          ],
+          "localPath": "Days 1 - 10 (8_12 - 9_8)/Day 2 (8_14)"
+        }
+      ],
+      "localPath": "Days 1 - 10 (8_12 - 9_8)"
+    },
+    {
+      "type": "folder",
+      "title": "General/Resources",
+      "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=925554285",
+      "children": [
+        {
+          "type": "link",
+          "title": "Academic Integrity",
+          "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7934585232",
+          "localPath": "General_Resources/Academic Integrity.url"
+        },
+        {
+          "type": "page",
+          "title": "Email Dos and Don'ts",
+          "href": "https://roundrockisd.schoology.com/page/7934585239",
+          "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">I check my email during any school day from 8 am to 4:30 pm. If an email is sent in the evening or over the weekend, I will respond during the next school day. If you need quick information, it's often better to ask one of your classmates before asking me.</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of appropriate emails:</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I am sick and will miss the next 2 classes. What work will I miss?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• I will be absent next week for a family vacation next week during the test. When can I schedule a time to take it?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Will you be available for tutorials Wednesday morning?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• This assignment says it's due on Friday but accepting submissions until Sunday. Can I get some clarification on this?</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">Examples of inappropriate emails:</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• Can you update my grade in HAC? - If a grade is correct in Schoology but out-of-date in HAC, you can rest assured I will sync your grades in the next few days. At a minimum, I will sync grades on Tuesday mornings and after entering summative grades. There is no need to email me about this.</span><br style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\"><span style=\"color:#202124;font-family:Roboto, Arial, sans-serif;font-size:16px;letter-spacing:.1px;\">• What is wrong with my answer on this formative assessment? - We have time for formatives built into class each day. You may ask me for help during class or tutorials.</span></p></div>",
+          "images": [],
+          "localPath": "General_Resources/Email Dos and Don'ts.html"
+        },
+        {
+          "type": "page",
+          "title": "Python Style",
+          "href": "https://roundrockisd.schoology.com/page/7934585248",
+          "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://peps.python.org/pep-0008/\">Official PEP 8 Documentation</a></p>\n<p dir=\"ltr\"><a href=\"https://realpython.com/python-pep8/\">PEP 8 (Real Python Guide)</a></p>\n<p dir=\"ltr\"><a href=\"https://learn.openwaterfoundation.org/owf-learn-python/lessons/python-style-guide/python-style-guide/\">PEP 8 (Open Water Foundation Guide)</a></p>\n<p dir=\"ltr\"><a href=\"https://google.github.io/styleguide/pyguide.html\">Google Python Style Guide</a></p>\n<ul dir=\"ltr\">\n<li><a href=\"https://docs.python-guide.org/writing/style/\">The Hitchhiker's Guide to Python Style Guide</a></li>\n<li><a href=\"https://www.cs.utexas.edu/~ans/classes/cs303e/PythonStyleGuide.html\">UT Python Style Guide</a></li>\n<li><a href=\"https://forns.lmu.build/classes/tutorials/python-style-guide.html\">LMU Python Style Guide</a></li>\n<li><a href=\"https://www.cs.cornell.edu/courses/cs1110/2022fa/materials/style/\">Cornell Python Style Guide</a></li>\n</ul></div>",
+          "images": [],
+          "localPath": "General_Resources/Python Style.html"
+        },
+        {
+          "type": "link",
+          "title": "Playback Press",
+          "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7974650834",
+          "localPath": "General_Resources/Playback Press.url"
+        },
+        {
+          "type": "link",
+          "title": "Python Shell",
+          "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8000297881",
+          "localPath": "General_Resources/Python Shell.url"
+        }
+      ],
+      "localPath": "General_Resources"
+    },
+    {
+      "type": "folder",
+      "title": "Units",
+      "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=933669031",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Unit 1: Computer Architecture & Expressions",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=927068761",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=927068768",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 1 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7939667593",
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Notes/Unit 1 Slides.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Intro to Python",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7964703650",
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Notes/Intro to Python.url"
+                }
+              ],
+              "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Unit 1A - Computer Architecture",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=925549740",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "CS Pre-assessment",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7935003862",
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Unit 1A - Computer Architecture/CS Pre-assessment.url"
+                },
+                {
+                  "type": "link",
+                  "title": "How Computers see the world",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7939633618",
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Unit 1A - Computer Architecture/How Computers see the world.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Computer Organization",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7939646192",
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Unit 1A - Computer Architecture/Computer Organization.url"
+                },
+                {
+                  "type": "link",
+                  "title": "Digital Information",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7939653025",
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Unit 1A - Computer Architecture/Digital Information.url"
+                }
+              ],
+              "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Unit 1A - Computer Architecture"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=927068781",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Data Types & Operators Practice",
+                  "href": "https://roundrockisd.schoology.com/assignment/7939667615",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Classwork/Data Types & Operators Practice.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Tracing Variables",
+                  "href": "https://roundrockisd.schoology.com/assignment/7939667640",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Classwork/Tracing Variables.html"
+                }
+              ],
+              "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Summative Review",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=927068858",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Unit 1 Study Guide",
+                  "href": "https://roundrockisd.schoology.com/assignment/7939667990",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": "https://roundrockisd.schoology.com/course/7919100065/materials?f=927068858",
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Summative Review/Unit 1 Study Guide.html"
+                }
+              ],
+              "localPath": "Units/Unit 1_ Computer Architecture & Expressions/Summative Review"
+            }
+          ],
+          "localPath": "Units/Unit 1_ Computer Architecture & Expressions"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 2: Calling Functions",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=933668598",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=933668605",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 2 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7965604185",
+                  "localPath": "Units/Unit 2_ Calling Functions/Notes/Unit 2 Slides.url"
+                }
+              ],
+              "localPath": "Units/Unit 2_ Calling Functions/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=933668608",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Investigation: Function Calls",
+                  "href": "https://roundrockisd.schoology.com/assignment/7965604198",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/Investigation_ Function Calls.html"
+                },
+                {
+                  "type": "document",
+                  "title": "_Warm-Up_ My First Program",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/7982806087",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3273224319/source/a3ec1afea46179791b7dcf037c498494.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/_Warm-Up_ My First Program.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Investigation: Function Calls (Answers)Investigation_ Function Calls (Answers) - Google Docs",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/7965604226",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3263968722/source/b346fe5bc7e4e916b86341dedadcd5e9.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/Investigation_ Function Calls (Answers)Investigation_ Function Calls (Answers) - Google Docs.pdf"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Investigation: My Second Program",
+                  "href": "https://roundrockisd.schoology.com/assignment/7965604258",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/Investigation_ My Second Program.html"
+                },
+                {
+                  "type": "document",
+                  "title": "my_second_program.py Investigation (Answers)my_second_program.py Investigation (Answers) - Google Docs",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/7965604301",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3263968755/source/0ae72cea34c711bad366b1d4be0d0c51.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/my_second_program.py Investigation (Answers)my_second_program.py Investigation (Answers) - Google Docs.pdf"
+                },
+                {
+                  "type": "page",
+                  "title": "f_to_c.py",
+                  "href": "https://roundrockisd.schoology.com/page/7965604323",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\"># There is more than one possible solution to this program. This is my solution.<br><br># Prompt the user to enter a temperature in Fahrenheit.<br>f = input('Enter a temperature in Fahrenheit: ')<br><br># Convert the user's input from Fahrenheit to Celsius.<br>f = float(f)<br>c = (f - 32) * 5 / 9<br><br># Display the temperature in Celsius.<br>print(f, 'degrees Fahrenheit is', c, 'degrees Celsius.')</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/f_to_c.py.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Python Range Practice",
+                  "href": "https://roundrockisd.schoology.com/assignment/7965604341",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/Python Range Practice.html"
+                },
+                {
+                  "type": "document",
+                  "title": "Range Practice (Answers)Python Range Practice (Answers) - Google Docs",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/7965604372",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3263968783/source/e0b01b828a38b8995dc0a231e76670cb.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 2_ Calling Functions/Classwork/Range Practice (Answers)Python Range Practice (Answers) - Google Docs.pdf"
+                }
+              ],
+              "localPath": "Units/Unit 2_ Calling Functions/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessments",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=933668623",
+              "children": [],
+              "localPath": "Units/Unit 2_ Calling Functions/Formative Assessments"
+            },
+            {
+              "type": "folder",
+              "title": "Summative Review",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=933668647",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Unit 2 Study Guide",
+                  "href": "https://roundrockisd.schoology.com/assignment/7965604578",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": "https://roundrockisd.schoology.com/course/7919100065/materials?f=933668647",
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 2_ Calling Functions/Summative Review/Unit 2 Study Guide.html"
+                },
+                {
+                  "type": "link",
+                  "title": "Unit 2 Study Guide (Answers)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7965604594",
+                  "localPath": "Units/Unit 2_ Calling Functions/Summative Review/Unit 2 Study Guide (Answers).url"
+                },
+                {
+                  "type": "link",
+                  "title": "Unit 2 Labs",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/7965604605",
+                  "localPath": "Units/Unit 2_ Calling Functions/Summative Review/Unit 2 Labs.url"
+                }
+              ],
+              "localPath": "Units/Unit 2_ Calling Functions/Summative Review"
+            }
+          ],
+          "localPath": "Units/Unit 2_ Calling Functions"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 3: Propositional Logic",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=942977797",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=942977798",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 3 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8012428545",
+                  "localPath": "Units/Unit 3_ Propositional Logic/Notes/Unit 3 Slides.url"
+                },
+                {
+                  "type": "document",
+                  "title": "Propositional Logic Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8012416980",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3288106652/source/4490e6f8bde2985046e55f7e8448c21a.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 3_ Propositional Logic/Notes/Propositional Logic Slides.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "Propositional Logic TextPropositional Logic",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8012417002",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3288106662/source/43edc8bb264b945ee5ac33a69c561940.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 3_ Propositional Logic/Notes/Propositional Logic TextPropositional Logic.pdf"
+                }
+              ],
+              "localPath": "Units/Unit 3_ Propositional Logic/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=942977800",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Propositions Worksheet",
+                  "href": "https://roundrockisd.schoology.com/assignment/8012417026",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 3_ Propositional Logic/Classwork/Propositions Worksheet.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "3-1: Propositions Worksheet",
+                  "href": "https://roundrockisd.schoology.com/assignment/8012417038",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 3_ Propositional Logic/Classwork/3-1_ Propositions Worksheet.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "3-2: Truth Tables Worksheet",
+                  "href": "https://roundrockisd.schoology.com/assignment/8012417060",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 3_ Propositional Logic/Classwork/3-2_ Truth Tables Worksheet.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "3-3: Logical Equivalence Flash Cards",
+                  "href": "https://roundrockisd.schoology.com/assignment/8012417075",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 3_ Propositional Logic/Classwork/3-3_ Logical Equivalence Flash Cards.html"
+                }
+              ],
+              "localPath": "Units/Unit 3_ Propositional Logic/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=942977805",
+              "children": [],
+              "localPath": "Units/Unit 3_ Propositional Logic/Formative Assessment"
+            }
+          ],
+          "localPath": "Units/Unit 3_ Propositional Logic"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 4: Flow Control",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375450",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375452",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 4 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8048141211",
+                  "localPath": "Units/Unit 4_ Flow Control/Notes/Unit 4 Slides.url"
+                },
+                {
+                  "type": "document",
+                  "title": "4-1 Conditional Tests",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141228",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756590/source/88b34e35f6cf6a61ccdc00beb8c8d0f2.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 4_ Flow Control/Notes/4-1 Conditional Tests.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "4-2 Selection Statements",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141246",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756602/source/708319d2a4944c90c39843261bfcc502.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 4_ Flow Control/Notes/4-2 Selection Statements.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "4-4 For Loops4-4 Reading",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141263",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756609/source/7ed6a098cbd54c335722a6b27169a1a9.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 4_ Flow Control/Notes/4-4 For Loops4-4 Reading.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "4-5 While Loops4-3a While Loops",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141286",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756616/source/6766f74e627da98949d53bdfcb866ca7.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 4_ Flow Control/Notes/4-5 While Loops4-3a While Loops.pdf"
+                }
+              ],
+              "localPath": "Units/Unit 4_ Flow Control/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375467",
+              "children": [
+                {
+                  "type": "folder",
+                  "title": "Investigations",
+                  "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375468",
+                  "children": [
+                    {
+                      "type": "document",
+                      "title": "4-1 Investigation (Conditional Tests)",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141309",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756635/source/199b4a652cc3ffcd097f84f2e0338592.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Investigations/4-1 Investigation (Conditional Tests).pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "4-2 Investigation (Selection Statements)",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141329",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756642/source/e1e533ebc1225187aee9683fa8e15007.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Investigations/4-2 Investigation (Selection Statements).pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "4-4 Investigation (for Loops)",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141348",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756647/source/fcc193809a37eb9272b06ca02ce54163.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Investigations/4-4 Investigation (for Loops).pdf"
+                    },
+                    {
+                      "type": "document",
+                      "title": "4-5 Investigation (while Loops)",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141359",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756651/source/09ab61dca59c0d1ee32abe58dd64d85f.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Investigations/4-5 Investigation (while Loops).pdf"
+                    }
+                  ],
+                  "localPath": "Units/Unit 4_ Flow Control/Classwork/Investigations"
+                },
+                {
+                  "type": "folder",
+                  "title": "Worksheets",
+                  "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375475",
+                  "children": [
+                    {
+                      "type": "assignment",
+                      "title": "4-2 Worksheet: Writing if Statements",
+                      "href": "https://roundrockisd.schoology.com/assignment/8048141374",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": false
+                      },
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Worksheets/4-2 Worksheet_ Writing if Statements.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "4-2 Answers4-2 Answers",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141396",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756660/source/ac36cb6840a57c5478714b02875386ed.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Worksheets/4-2 Answers4-2 Answers.pdf"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "4-4 Worksheet: Writing for Loops",
+                      "href": "https://roundrockisd.schoology.com/assignment/8048141415",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": false
+                      },
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Worksheets/4-4 Worksheet_ Writing for Loops.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "4-4 Answers4-4 Answers",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141429",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756674/source/234b8537f83c97e37f528455b46241d0.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Worksheets/4-4 Answers4-4 Answers.pdf"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "4-5 Worksheet: Writing while Loops",
+                      "href": "https://roundrockisd.schoology.com/assignment/8048141439",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": false
+                      },
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Worksheets/4-5 Worksheet_ Writing while Loops.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "4-5 AnswersRRHS3300330400_10222024_084808AM",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141450",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756683/source/c769ca5ce9bff364de5703c348f2b19d.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Worksheets/4-5 AnswersRRHS3300330400_10222024_084808AM.pdf"
+                    }
+                  ],
+                  "localPath": "Units/Unit 4_ Flow Control/Classwork/Worksheets"
+                },
+                {
+                  "type": "folder",
+                  "title": "Labs",
+                  "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375487",
+                  "children": [
+                    {
+                      "type": "page",
+                      "title": "guess-the-number.py",
+                      "href": "https://roundrockisd.schoology.com/page/8048141468",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\"># This is a guess the number game.<br>import random<br>secret_number = random.randint(1, 20)<br>print('I am thinking of a number between 1 and 20.')<br><br># Ask the player to guess 6 times.<br>for guesses_taken in range(1, 7):<br>\tprint('Take a guess.')<br>\tguess = int(input())<br><br>\tif guess &lt; secret_number:<br>\t\tprint('Your guess is too low.')<br>\telif guess &gt; secret_number:<br>\t\tprint('Your guess is too high.')<br>\telse:<br>\t\tbreak\t\t# This condition is the correct guess!<br><br>if guess == secret_number:<br>\tprint('Good job! You guessed my number in', guesses_taken, 'guesses!')<br>else:<br>\tprint('Nope. The number I was thinking of was', secret_number)</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Labs/guess-the-number.py.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "31-Guess-The-Number",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141480",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756692/source/7ff2c43a275d05dd4321e26d2e83f896.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Labs/31-Guess-The-Number.pdf"
+                    },
+                    {
+                      "type": "page",
+                      "title": "rock-paper-scissors.py (FIXME)",
+                      "href": "https://roundrockisd.schoology.com/page/8048141491",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">import #FIXME-01, #FIXME-02<br>print ('ROCK, PAPER, SCISSORS')<br># These variables keep track of the number of wins, losses, and ties<br>wins = losses = ties = 0<br><br>while True: # The main game loop<br>    print(wins, 'Wins,', losses, 'Losses,', ties, 'Ties')<br>    while True: # The player input loop<br>        print('Enter your move: (r)ock (p)aper (s)cissors or (q)uit')<br>        player_move = input()<br>        if #FIXME-03:<br>            sys.exit() # Quit the program<br>        if #FIXME-04 or #FIXME-05 or #FIXME-06:<br>            #FIXME-07 # Break out of the player input loop<br>        print('Type one of r, p, s, or q.')<br><br>    # Display what the player chose:<br>    if #FIXME-08:<br>        print('ROCK versus...')<br>    elif #FIXME-09:<br>        print('PAPER versus...')<br>    elif #FIXME-10:<br>        print('SCISSORS versus...')<br><br>    # Display what the computer chose:<br>    random_number = #FIXME-11(1, 3)<br>    if random_number == 1:<br>        computer_move = 'r'<br>        print('ROCK')<br>    elif random_number == 2:<br>        computer_move = 'p'<br>        print('PAPER')<br>    elif random_number == 3:<br>        #FIXME-12<br>        #FIXME-13<br><br>    # Display and record the win/loss/tie:<br>    if #FIXME-14:<br>        print('It is a tie!')<br>        ties += 1<br>    elif ((#FIXME-15) or<br>        (#FIXME-16) or<br>        (#FIXME-17)):<br>        print('You win!')<br>        #FIXME-18<br>    elif ((#FIXME-19) or<br>        (#FIXME-20) or<br>        (#FIXME-21)):<br>        print('You lose!')<br>        #FIXME-22</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Labs/rock-paper-scissors.py (FIXME).html"
+                    },
+                    {
+                      "type": "page",
+                      "title": "rock-paper-scissors.py (Sample Output)",
+                      "href": "https://roundrockisd.schoology.com/page/8048141501",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">ROCK, PAPER, SCISSORS<br>0 Wins, 0 Losses, 0 Ties<br>Enter your move: (r)ock (p)aper (s)cissors or (q)uit<br>r<br>ROCK versus...<br>ROCK<br>It is a tie!<br>0 Wins, 0 Losses, 1 Ties<br>Enter your move: (r)ock (p)aper (s)cissors or (q)uit<br>p<br>PAPER versus...<br>ROCK<br>You win!<br>1 Wins, 0 Losses, 1 Ties<br>Enter your move: (r)ock (p)aper (s)cissors or (q)uit<br>s<br>SCISSORS versus...<br>ROCK<br>You lose!<br>1 Wins, 1 Losses, 1 Ties<br>Enter your move: (r)ock (p)aper (s)cissors or (q)uit<br>Rock<br>Type one of r, p, s, or q.<br>Enter your move: (r)ock (p)aper (s)cissors or (q)uit<br>q</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Labs/rock-paper-scissors.py (Sample Output).html"
+                    },
+                    {
+                      "type": "page",
+                      "title": "rock-paper-scissors.py (Answers)",
+                      "href": "https://roundrockisd.schoology.com/page/8048141505",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">'''<br>1 &amp; 2. sys, random<br>3. player_move == 'q'<br>4 &amp; 5 &amp; 6. player_move == 'r', player_move == 'p', player_move == 's'<br>7. break<br>8. player_move == 'r'<br>9. player_move == 'p'<br>10. player_move == 's'<br>11. random.randint<br>12. computer_move = 's'<br>13. print('SCISSORS')<br>14. player_move == computer_move<br>15 &amp; 16 &amp; 17. player_move == 'r' and computer_move == 's', player_move == 'p' and computer_move == 'r', player_move == 's' and computer_move == 'p'<br>18. wins += 1<br>19 &amp; 20 &amp; 21. player_move == 'r' and computer_move == 'p', player_move == 'p' and computer_move == 's', player_move == 's' and computer_move == 'r'<br>22. losses += 1</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Labs/rock-paper-scissors.py (Answers).html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "59-Rock-Paper-Scissors59-Rock-Paper-Scissors",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8048141513",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3304756713/source/8aa3695b94def5f66b8f4ea0b3a0dffd.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 4_ Flow Control/Classwork/Labs/59-Rock-Paper-Scissors59-Rock-Paper-Scissors.pdf"
+                    }
+                  ],
+                  "localPath": "Units/Unit 4_ Flow Control/Classwork/Labs"
+                }
+              ],
+              "localPath": "Units/Unit 4_ Flow Control/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375496",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "Formative 4-3 (More Selection)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8048141787",
+                  "commonAssessmentDetails": {
+                    "score": null,
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Units/Unit 4_ Flow Control/Formative Assessment/Formative 4-3 (More Selection).html"
+                }
+              ],
+              "localPath": "Units/Unit 4_ Flow Control/Formative Assessment"
+            },
+            {
+              "type": "folder",
+              "title": "Summative Review",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=948375558",
+              "children": [
+                {
+                  "type": "page",
+                  "title": "Materials to Review",
+                  "href": "https://roundrockisd.schoology.com/page/8048142317",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">* /Notes/<br>\t* Supplemental Readings<br>* /Classwork/Investigations/<br>\t* 4-4 Investigation (for loops)<br>\t* 4-5 Investigaiton (while loops)<br>* /Labs/<br>\t* 31-Guess-The-Number (a little different, but some changes you can make to explore)<br>\t* 59-Rock-Paper-Scissors (modifications and exploration questions)<br>* /Summative Review/<br>\t* Last year's study guide</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 4_ Flow Control/Summative Review/Materials to Review.html"
+                }
+              ],
+              "localPath": "Units/Unit 4_ Flow Control/Summative Review"
+            }
+          ],
+          "localPath": "Units/Unit 4_ Flow Control"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 5: Functions",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955196993",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955196994",
+              "children": [
+                {
+                  "type": "link",
+                  "title": "Unit 5 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8093070890",
+                  "localPath": "Units/Unit 5_ Functions/Notes/Unit 5 Slides.url"
+                },
+                {
+                  "type": "document",
+                  "title": "Unit 5 Reading",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8093070894",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3323402673/source/900750b53c77384f36a958c4aa31e882.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 5_ Functions/Notes/Unit 5 Reading.pdf"
+                }
+              ],
+              "localPath": "Units/Unit 5_ Functions/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955196995",
+              "children": [
+                {
+                  "type": "common_assessment",
+                  "title": "Warm-Up: Functions Vocab Review",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/assessments/8093070898",
+                  "commonAssessmentDetails": {
+                    "score": null,
+                    "screenshotPath": null,
+                    "renderedHtmlPath": null,
+                    "viaBrowser": true
+                  },
+                  "localPath": "Units/Unit 5_ Functions/Classwork/Warm-Up_ Functions Vocab Review.html"
+                },
+                {
+                  "type": "document",
+                  "title": "5-1 Challenges5-1 Challenge (Function Definitions and Arguments) - Google Docs",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8093070909",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3323402677/source/8916eca609be583d0cc120d9d4901c2e.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 5_ Functions/Classwork/5-1 Challenges5-1 Challenge (Function Definitions and Arguments) - Google Docs.pdf"
+                },
+                {
+                  "type": "document",
+                  "title": "5-2 Investigation (Return Values)",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8093070910",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3323402678/source/01e47185b8be34d675f1475b56f6a060.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 5_ Functions/Classwork/5-2 Investigation (Return Values).pdf"
+                },
+                {
+                  "type": "folder",
+                  "title": "Bagels Lab",
+                  "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955196997",
+                  "children": [
+                    {
+                      "type": "page",
+                      "title": "bagels.py - Starter Code",
+                      "href": "https://roundrockisd.schoology.com/page/8093070911",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">import random<br><br>NUM_DIGITS = 3<br>MAX_GUESSES = 10<br><br><br>def main():<br>\tprint('''Bagels, a deductive logic game.<br>by Al Sweigart<br><br>I am thinking of a {}-digit number with no repeated digits.<br>Try to guess waht it is. Here are some clues:<br><br>When I say:  That means:<br>Pico         One digit is correct but in the wrong position.<br>Fermi        One digit is correct and in the right position.<br>Bagels       No digit is correct.<br><br>For example, if the secret number was 248 and your guess was 843, the<br>clues would be Fermi Pico.'''.format(NUM_DIGITS))<br><br>\twhile True: # Main game loop<br>\t\t# This stores the secret number the player needs to guess.<br>\t\tsecret_num = #FIXME-01 # How do you get your secret number?<br>\t\tprint('I have thought up a number.')<br>\t\tprint('You have', #FIXME-02, 'guesses to get it.')<br><br>\t\tnum_guesses = 1<br>\t\twhile #FIXME-03:<br>\t\t\tguess = ''<br>\t\t\t# Keep looping until they enter a valid guess:<br>\t\t\twhile len(guess) != NUM_DIGITS or not guess.isdecimal():<br>\t\t\t\tprint('Guess #', num_guesses, ':', sep='')<br>\t\t\t\tguess = input('&gt; ')<br><br>\t\t\tclues = #FIXME-04 # How do you get your clues?<br>\t\t\tprint(clues)<br>\t\t\t# One more guess has been taken<br>\t\t\t#FIXME-05<br><br>\t\t\tif #FIXME-06: # Why would you quit asking for guesses?<br>\t\t\t\tbreak<br>\t\t\tif #FIXME-07: # When would you run out of guesses?<br>\t\t\t\tprint('You ran out of guesses.')<br>\t\t\t\tprint('The answer was', #FIXME-08)<br><br>\t\t# Ask player if they want to play again.<br>\t\tprint('Do you want to play again? (yes or no)')<br>\t\tif not input('&gt; ').lower().startswith('y'):<br>\t\t\tprint('Thanks for playing!')<br>\t\t\t#FIXME-09<br><br><br>def get_#FIXME-10():<br>\t\"\"\"Returns a string made up of NUM_DIGITS unique random digits.\"\"\"<br>\tnumbers = list('0123456789') # Create a list for the secret number.<br>\trandom.shuffle(numbers) # Shuffle them into rnadom order.<br><br>\t# Get the first NUM_DIGITS digits in the list for the secret number:<br>\tsecret_num = ''<br>\tfor i in range(NUM_DIGITS):<br>\t\tsecret_num += str(numbers[i])<br>\t#FIXME-11 # What does this function need to do at the end?<br><br><br>def get_#FIXME-12(guess, secret_num):<br>\t\"\"\"Returns a string with the pico, fermi, bagels clues for a guess<br>\t\tand secret number pair.\"\"\"<br>\tif #FIXME-13:<br>\t\treturn 'You got it!'<br><br>\tclues = []<br><br>\tfor i in range(len(guess)):<br>\t\tif guess[i] == secret_num[i]:<br>\t\t\t# A correct digit is in the correct place.<br>\t\t\tclues.append('Fermi')<br>\t\telif guess[i] in secret_num:<br>\t\t\t# A correct digit is in the incorrect place.<br>\t\t\tclues.append('Pico')<br><br>\tif len(clues) == 0:<br>\t\t#FIXME-14<br>\telse:<br>\t\t# Sort the clues into alphabetical order so their original order<br>\t\t# doesn't give information away.<br>\t\tclues.sort()<br>\t\t# Make a single string from the list of string clues.<br>\t\tall_clues = ' '.join(clues)<br>\t\t# FIXME-15<br><br><br>if __name__ == '__main__':<br>\tmain()</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 5_ Functions/Classwork/Bagels Lab/bagels.py - Starter Code.html"
+                    },
+                    {
+                      "type": "page",
+                      "title": "bagels.py - Working Code",
+                      "href": "https://roundrockisd.schoology.com/page/8093070912",
+                      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">import random<br><br>NUM_DIGITS = 3<br>MAX_GUESSES = 10<br><br><br>def main():<br>\tprint('''Bagels, a deductive logic game.<br>by Al Sweigart<br><br>I am thinking of a {}-digit number with no repeated digits.<br>Try to guess waht it is. Here are some clues:<br><br>When I say:  That means:<br>Pico         One digit is correct but in the wrong position.<br>Fermi        One digit is correct and in the right position.<br>Bagels       No digit is correct.<br><br>For example, if the secret number was 248 and your guess was 843, the<br>clues would be Fermi Pico.'''.format(NUM_DIGITS))<br><br>\twhile True: # Main game loop<br>\t\t# This stores the secret number the player needs to guess.<br>\t\tsecret_num = get_secret_num()<br>\t\tprint('I have thought up a number.')<br>\t\tprint('You have {} guesses to get it.'.format(MAX_GUESSES))<br><br>\t\tnum_guesses = 1<br>\t\twhile num_guesses &lt;= MAX_GUESSES:<br>\t\t\tguess = ''<br>\t\t\t# Keep looping until they enter a valid guess:<br>\t\t\twhile len(guess) != NUM_DIGITS or not guess.isdecimal():<br>\t\t\t\tprint('Guess #{}: '.format(num_guesses))<br>\t\t\t\tguess = input('&gt; ')<br><br>\t\t\tclues = get_clues(guess, secret_num)<br>\t\t\tprint(clues)<br>\t\t\tnum_guesses += 1<br><br>\t\t\tif guess == secret_num:<br>\t\t\t\tbreak<br>\t\t\tif num_guesses &gt; MAX_GUESSES:<br>\t\t\t\tprint('YOu ran out of guesses.')<br>\t\t\t\tprint('The answer was {}.'.format(secret_num))<br><br>\t\t# Ask player if they want to play again.<br>\t\tprint('Do you want to play again? (yes or no)')<br>\t\tif not input('&gt; ').lower().startswith('y'):<br>\t\t\tprint('Thanks for playing!')<br>\t\t\tbreak<br><br><br>def get_secret_num():<br>\t\"\"\"Returns a string made up of NUM_DIGITS unique random digits.\"\"\"<br>\tnumbers = list('0123456789') # Create a list for the secret number.<br>\trandom.shuffle(numbers) # Shuffle them into rnadom order.<br><br>\t# Get the first NUM_DIGITS digits in the list for the secret number:<br>\tsecret_num = ''<br>\tfor i in range(NUM_DIGITS):<br>\t\tsecret_num += str(numbers[i])<br>\treturn secret_num<br><br><br>def get_clues(guess, secret_num):<br>\t\"\"\"Returns a string with the pico, fermi, bagels clues for a guess<br>\t\tand secret number pair.\"\"\"<br>\tif guess == secret_num:<br>\t\treturn 'You got it!'<br><br>\tclues = []<br><br>\tfor i in range(len(guess)):<br>\t\tif guess[i] == secret_num[i]:<br>\t\t\t# A correct digit is in the correct place.<br>\t\t\tclues.append('Fermi')<br>\t\telif guess[i] in secret_num:<br>\t\t\t# A correct digit is in the incorrect place.<br>\t\t\tclues.append('Pico')<br><br>\tif len(clues) == 0:<br>\t\treturn 'Bagels'<br>\telse:<br>\t\t# Sort the clues into alphabetical order so their original order<br>\t\t# doesn't give information away.<br>\t\tclues.sort()<br>\t\t# Make a single string from the list of string clues.<br>\t\treturn ' '.join(clues)<br><br><br>if __name__ == '__main__':<br>\tmain()</pre></div>",
+                      "images": [],
+                      "localPath": "Units/Unit 5_ Functions/Classwork/Bagels Lab/bagels.py - Working Code.html"
+                    },
+                    {
+                      "type": "assignment",
+                      "title": "Lab: Bagels",
+                      "href": "https://roundrockisd.schoology.com/assignment/8093070913",
+                      "assignmentDetails": {
+                        "score": null,
+                        "description": "",
+                        "googleLinks": [],
+                        "questions": [],
+                        "submissionsLink": null,
+                        "viaBrowser": false
+                      },
+                      "localPath": "Units/Unit 5_ Functions/Classwork/Bagels Lab/Lab_ Bagels.html"
+                    },
+                    {
+                      "type": "document",
+                      "title": "Lab: Bagels (Instructions)Bagels Lab",
+                      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8093070915",
+                      "downloadLink": "https://roundrockisd.schoology.com/attachment/3323402679/source/8396dfe92d4ec9caa01b32c62ad36898.pdf",
+                      "ext": "pdf",
+                      "localPath": "Units/Unit 5_ Functions/Classwork/Bagels Lab/Lab_ Bagels (Instructions)Bagels Lab.pdf"
+                    }
+                  ],
+                  "localPath": "Units/Unit 5_ Functions/Classwork/Bagels Lab"
+                }
+              ],
+              "localPath": "Units/Unit 5_ Functions/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955196998",
+              "children": [],
+              "localPath": "Units/Unit 5_ Functions/Formative Assessment"
+            },
+            {
+              "type": "folder",
+              "title": "Summative Review",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955197007",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Unit 5 Study Guide",
+                  "href": "https://roundrockisd.schoology.com/assignment/8093070973",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955197007",
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 5_ Functions/Summative Review/Unit 5 Study Guide.html"
+                },
+                {
+                  "type": "document",
+                  "title": "U5 Review Answer KeyRRHS3300235100_11072024_020353PM",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8093070976",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3323402711/source/94d3eb1b6e0907831c61ffd3f73559a0.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 5_ Functions/Summative Review/U5 Review Answer KeyRRHS3300235100_11072024_020353PM.pdf"
+                }
+              ],
+              "localPath": "Units/Unit 5_ Functions/Summative Review"
+            },
+            {
+              "type": "folder",
+              "title": "Labs",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=955197008",
+              "children": [
+                {
+                  "type": "page",
+                  "title": "Lab: Zigzag",
+                  "href": "https://roundrockisd.schoology.com/page/8093070982",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre>import time, sys<br>indent = 0<br>indentation_increasing = True<br><br>try:<br>  while True:<br>    print(' ' * indent, end='')<br>    print('********')<br>    time.sleep(0.1)<br>  <br>    if indentation_increasing:<br>      indent += 1<br>      if indent == 20:<br>        indentation_increasing = False<br>    else:<br>      indent -= 1<br>      if indent == 0:<br>        indentation_increasing = True<br>except KeyboardInterrupt:<br>  sys.exit()</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 5_ Functions/Labs/Lab_ Zigzag.html"
+                },
+                {
+                  "type": "document",
+                  "title": "Lab: CollatzLab_ Collatz",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8093070985",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3323402717/source/a8573f5b8285eea18719a726b6f8068d.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 5_ Functions/Labs/Lab_ CollatzLab_ Collatz.pdf"
+                },
+                {
+                  "type": "page",
+                  "title": "Collatz Code",
+                  "href": "https://roundrockisd.schoology.com/page/8093070987",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre>def collatz(number):<br>    if number % 2:<br>        next = number * 3 + 1<br>    else:<br>        next = number // 2<br>    print(next)<br>    return next<br><br>n = int(input())<br>while n != 1:<br>    n = collatz(n)</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 5_ Functions/Labs/Collatz Code.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Lab: Bagels",
+                  "href": "https://roundrockisd.schoology.com/assignment/8093070990",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 5_ Functions/Labs/Lab_ Bagels.html"
+                },
+                {
+                  "type": "page",
+                  "title": "Bagels (Working Code)",
+                  "href": "https://roundrockisd.schoology.com/page/8093070995",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre>import random<br><br>NUM_DIGITS = 3<br>MAX_GUESSES = 10<br><br><br>def main():<br>\tprint('''Bagels, a deductive logic game.<br>by Al Sweigart<br><br>I am thinking of a {}-digit number with no repeated digits.<br>Try to guess waht it is. Here are some clues:<br><br>When I say:  That means:<br>Pico         One digit is correct but in the wrong position.<br>Fermi        One digit is correct and in the right position.<br>Bagels       No digit is correct.<br><br>For example, if the secret number was 248 and your guess was 843, the<br>clues would be Fermi Pico.'''.format(NUM_DIGITS))<br><br>\twhile True: # Main game loop<br>\t\t# This stores the secret number the player needs to guess.<br>\t\tsecret_num = get_secret_num()<br>\t\tprint('I have thought up a number.')<br>\t\tprint('You have {} guesses to get it.'.format(MAX_GUESSES))<br><br>\t\tnum_guesses = 1<br>\t\twhile num_guesses &lt;= MAX_GUESSES:<br>\t\t\tguess = ''<br>\t\t\t# Keep looping until they enter a valid guess:<br>\t\t\twhile len(guess) != NUM_DIGITS or not guess.isdecimal():<br>\t\t\t\tprint('Guess #{}: '.format(num_guesses))<br>\t\t\t\tguess = input('&gt; ')<br><br>\t\t\tclues = get_clues(guess, secret_num)<br>\t\t\tprint(clues)<br>\t\t\tnum_guesses += 1<br><br>\t\t\tif guess == secret_num:<br>\t\t\t\tbreak<br>\t\t\tif num_guesses &gt; MAX_GUESSES:<br>\t\t\t\tprint('YOu ran out of guesses.')<br>\t\t\t\tprint('The answer was {}.'.format(secret_num))<br><br>\t\t# Ask player if they want to play again.<br>\t\tprint('Do you want to play again? (yes or no)')<br>\t\tif not input('&gt; ').lower().startswith('y'):<br>\t\t\tprint('Thanks for playing!')<br>\t\t\tbreak<br><br><br>def get_secret_num():<br>\t\"\"\"Returns a string made up of NUM_DIGITS unique random digits.\"\"\"<br>\tnumbers = list('0123456789') # Create a list for the secret number.<br>\trandom.shuffle(numbers) # Shuffle them into rnadom order.<br><br>\t# Get the first NUM_DIGITS digits in the list for the secret number:<br>\tsecret_num = ''<br>\tfor i in range(NUM_DIGITS):<br>\t\tsecret_num += str(numbers[i])<br>\treturn secret_num<br><br><br>def get_clues(guess, secret_num):<br>\t\"\"\"Returns a string with the pico, fermi, bagels clues for a guess<br>\t\tand secret number pair.\"\"\"<br>\tif guess == secret_num:<br>\t\treturn 'You got it!'<br><br>\tclues = []<br><br>\tfor i in range(len(guess)):<br>\t\tif guess[i] == secret_num[i]:<br>\t\t\t# A correct digit is in the correct place.<br>\t\t\tclues.append('Fermi')<br>\t\telif guess[i] in secret_num:<br>\t\t\t# A correct digit is in the incorrect place.<br>\t\t\tclues.append('Pico')<br><br>\tif len(clues) == 0:<br>\t\treturn 'Bagels'<br>\telse:<br>\t\t# Sort the clues into alphabetical order so their original order<br>\t\t# doesn't give information away.<br>\t\tclues.sort()<br>\t\t# Make a single string from the list of string clues.<br>\t\treturn ' '.join(clues)<br><br><br>if __name__ == '__main__':<br>\tmain()</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 5_ Functions/Labs/Bagels (Working Code).html"
+                }
+              ],
+              "localPath": "Units/Unit 5_ Functions/Labs"
+            }
+          ],
+          "localPath": "Units/Unit 5_ Functions"
+        },
+        {
+          "type": "folder",
+          "title": "Unit 6: Binary",
+          "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=961319153",
+          "children": [
+            {
+              "type": "folder",
+              "title": "Notes",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=961319155",
+              "children": [
+                {
+                  "type": "document",
+                  "title": "Binary Notes",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8133809377",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3340368287/source/df05dd2a6749ff56f3fb365eb7eaf3e6.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 6_ Binary/Notes/Binary Notes.pdf"
+                },
+                {
+                  "type": "page",
+                  "title": "Hexadecimal & ASCII",
+                  "href": "https://roundrockisd.schoology.com/page/8133809388",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><h2>Hexadecimal</h2>\n<ul>\n<li><strong>bit</strong> - binary digit</li>\n<li><strong>byte</strong> - 8 bits</li>\n<li><strong>nibble</strong> - 4 bits</li>\n</ul>\n<table class=\"s_table s_table_border\">\n<tbody>\n<tr>\n<td>0000</td>\n<td>0</td>\n<td>1000</td>\n<td>8</td>\n</tr>\n<tr>\n<td>0001</td>\n<td>1</td>\n<td>1001</td>\n<td>9</td>\n</tr>\n<tr>\n<td>0010</td>\n<td>2</td>\n<td>1010</td>\n<td>A</td>\n</tr>\n<tr>\n<td>0011</td>\n<td>3</td>\n<td>1011</td>\n<td>B</td>\n</tr>\n<tr>\n<td>0100</td>\n<td>4</td>\n<td>1100</td>\n<td>C</td>\n</tr>\n<tr>\n<td>0101</td>\n<td>5</td>\n<td>1101</td>\n<td>D</td>\n</tr>\n<tr>\n<td>0110</td>\n<td>6</td>\n<td>1110</td>\n<td>E</td>\n</tr>\n<tr>\n<td>0111</td>\n<td>7</td>\n<td>1111</td>\n<td>F</td>\n</tr>\n</tbody>\n</table>\n<h2>ASCII</h2>\n<p><a href=\"https://www.commfront.com/pages/ascii-chart\">ASCII-decimal-binary Chart</a></p>\n<h2>Useful Python Functions</h2>\n<ul>\n<li>\n<pre><strong>ord(c)</strong> - returns int ASCII value of character c</pre>\n</li>\n<li>\n<pre><strong>chr(i)</strong> - returns character at ASCII value i</pre>\n</li>\n<li>\n<pre><strong>bin(i)</strong> - returns str of int i in binary notation</pre>\n</li>\n<li>\n<pre><strong>hex(i)</strong> - returns str of int i in hexadecimal notation</pre>\n</li>\n<li>\n<pre><strong>int(s, b)</strong> - returns decimal int of string s in base b</pre>\n</li>\n</ul></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 6_ Binary/Notes/Hexadecimal & ASCII.html"
+                },
+                {
+                  "type": "link",
+                  "title": "Unit 6 Slides",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8133809393",
+                  "localPath": "Units/Unit 6_ Binary/Notes/Unit 6 Slides.url"
+                }
+              ],
+              "localPath": "Units/Unit 6_ Binary/Notes"
+            },
+            {
+              "type": "folder",
+              "title": "Classwork",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=961319158",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Binary Worksheet",
+                  "href": "https://roundrockisd.schoology.com/assignment/8133809402",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 6_ Binary/Classwork/Binary Worksheet.html"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Hexadecimal/ASCII Worksheet",
+                  "href": "https://roundrockisd.schoology.com/assignment/8133809418",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 6_ Binary/Classwork/Hexadecimal_ASCII Worksheet.html"
+                },
+                {
+                  "type": "document",
+                  "title": "Number Systems LabBinary Lab",
+                  "href": "https://roundrockisd.schoology.com/course/7919100060/materials/gp/8133809436",
+                  "downloadLink": "https://roundrockisd.schoology.com/attachment/3340368318/source/9a7103bda395754c8cf5eedd31618096.pdf",
+                  "ext": "pdf",
+                  "localPath": "Units/Unit 6_ Binary/Classwork/Number Systems LabBinary Lab.pdf"
+                },
+                {
+                  "type": "assignment",
+                  "title": "Number Systems Lab Worksheet",
+                  "href": "https://roundrockisd.schoology.com/assignment/8133809447",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": false
+                  },
+                  "localPath": "Units/Unit 6_ Binary/Classwork/Number Systems Lab Worksheet.html"
+                },
+                {
+                  "type": "page",
+                  "title": "Number Systems Lab Starter Code",
+                  "href": "https://roundrockisd.schoology.com/page/8133809463",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre>while True:<br>    response = input('Enter the starting number (e.g. 0) &gt; ')<br>    if response == '':<br>        response = '0' # Start at 0 by default.<br>        break<br>    if response.isdecimal():<br>        break<br>    print('Please enter a number greater than or equal to 0.')<br>start = int(response)<br><br>while True:<br>    response = input('Enter how many numbers to display (e.g. 1000) &gt;')<br>    if response == '':<br>        response = '1000' #Display 1000 numbers by default.<br>        break<br>    if response.isdecimal():<br>        break<br>    print('Please enter a number.')<br>amount = int(response)<br><br># FINISH ME</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 6_ Binary/Classwork/Number Systems Lab Starter Code.html"
+                },
+                {
+                  "type": "page",
+                  "title": "Number Systems Lab (Loop Code)",
+                  "href": "https://roundrockisd.schoology.com/page/8133809472",
+                  "content": "<div class=\"s-page-summary reset s-rte clearfix\"><pre dir=\"ltr\">for number in range(start, start + amount):<br>    hex_number = hex(number)[2:].upper()<br>    bin_number = bin(number)[2:]<br>    oct_number = oct(number)[2:]<br>    ascii_char = chr(number)<br><br>    print('DEC:', number,<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;'\\tHEX:', hex_number,<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;'\\tBIN:', bin_number,<br>        '\\tOCT:', oct_number,<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;'\\tCHR:', ascii_char<br>&nbsp; &nbsp;&nbsp;)</pre></div>",
+                  "images": [],
+                  "localPath": "Units/Unit 6_ Binary/Classwork/Number Systems Lab (Loop Code).html"
+                }
+              ],
+              "localPath": "Units/Unit 6_ Binary/Classwork"
+            },
+            {
+              "type": "folder",
+              "title": "Formative Assessment",
+              "href": "https://roundrockisd.schoology.com/course/7919100065/materials?f=961319163",
+              "children": [],
+              "localPath": "Units/Unit 6_ Binary/Formative Assessment"
+            }
+          ],
+          "localPath": "Units/Unit 6_ Binary"
+        }
+      ],
+      "localPath": "Units"
+    },
+    {
+      "type": "link",
+      "title": "Midterm 2025 Review Answers",
+      "href": "https://roundrockisd.schoology.com/course/7919100060/materials/link/view/8165616101",
+      "localPath": "Midterm 2025 Review Answers.url"
+    }
+  ]
+}

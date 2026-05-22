@@ -1,0 +1,450 @@
+#main #home-feed-container h2 {
+  display: block;
+}
+.s-enable-course-dashboard #main #home-feed-container h2 {
+  display: none;
+}
+div.upcoming-events {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+h2.page-title {
+  display: none;
+}
+ul.events-hidden {
+  display: none;
+  margin-top: 5px;
+}
+.right-col-reg .right-nav.user-notifications {
+  margin: 0 0 10px;
+}
+.right-col-reg #right-column .user-notifications h3 {
+  float: none;
+}
+.right-col-reg .right-nav.user-notifications ul.block {
+  padding-top: 5px;
+}
+.welcome-box-list li {
+  /* rtl-processor:ignore */
+  float: left;
+  width: 200px;
+  padding: 18px;
+  text-align: center;
+}
+[dir="rtl"] .welcome-box-list li { float: right; }
+.image-createcourse {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/welcome-imgs.png__q_6a0cfa7424d54685") 0 0;
+  width: 62px;
+  height: 44px;
+  margin: 0 auto;
+}
+.image-verified {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/welcome-imgs.png__q_6a0cfa7424d54685") -62px 0;
+  width: 41px;
+  height: 44px;
+  margin: 0 auto;
+}
+.image-startblog {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/welcome-imgs.png__q_6a0cfa7424d54685") 0 -45px;
+  width: 42px;
+  height: 44px;
+  margin: 0 auto;
+}
+.image-findpeople, .image-editprofile, .image-addusers {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/welcome-imgs.png__q_6a0cfa7424d54685") -58px -43px;
+  width: 42px;
+  height: 44px;
+  margin: 0 auto;
+}
+.welcome-message .welcome-box-list h3 {
+  border: none;
+  font-size: 16px;
+  color: #5387B6;
+  margin-top: 5px;
+}
+.welcome-box-list h4 {
+  border: none;
+  font-size: 12px;
+  font-weight: normal;
+  color: #333;
+}
+.welcome-box-list .green {
+  color: #9DD684;
+  background: none;
+  border: none;
+}
+.welcome-message h3 {
+  border: none;
+  font-weight: normal;
+  font-size: 16px;
+}
+input#edit-hide {
+  background: none;
+  /* rtl-processor:ignore */
+  float: right;
+  font-weight: normal;
+  font-size: 14px;
+  color: #5387b6;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+[dir="rtl"] input#edit-hide { float: left; }
+.disabled .image-createcourse {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/welcome-imgs-gray.gif__q_6a0cfa7424d54685") 0 0;
+  width: 62px;
+  height: 44px;
+  margin-inline-start: 82px;
+}
+.disabled .image-startblog {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/welcome-imgs-gray.gif__q_6a0cfa7424d54685") 0 -45px;
+  width: 42px;
+  height: 44px;
+  margin-inline-start: 81px;
+}
+.disabled .image-findpeople, .disabled .image-editprofile, .disabled .image-addusers {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/welcome-imgs-gray.gif__q_6a0cfa7424d54685") -58px -43px;
+  width: 42px;
+  height: 44px;
+  margin-inline-start: 79px;
+}
+.welcome-message .welcome-box-list .disabled h3, .welcome-message .welcome-box-list .disabled h4 {
+  color: #9a9fa8;
+}
+.my-courses-block {
+  margin-top: 10px;
+}
+.my-courses-block h4 {
+  margin-top: 10px;
+}
+.my-courses-block .section-name a, .my-courses-block p.section-name {
+  font-size: 12px;
+  font-weight: normal;
+}
+#child-selector {
+  width: 250px;
+  margin-bottom: 10px;
+}
+.child-selector-go {
+  display: none;
+  background: #577aa8 url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-bg.gif__q_6a0cfa7424d54685") repeat scroll -5px 24px;
+  border-color: #87A8CA #385F8D #333;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 8px 5px;
+  cursor: pointer;
+  overflow: visible;
+  height: 24px;
+}
+.user-notifications ul {
+  padding: 3px 0 15px;
+}
+.user-notifications a {
+  font-weight: normal;
+}
+#right-column .upcoming-events .h3-med {
+  margin: 0;
+}
+.right-col-reg div#main {
+  padding-top: 0;
+}
+.user-notifications {
+  margin-top: 15px;
+  clear: both;
+}
+.user-notifications li {
+  line-height: 16px;
+  padding-bottom: 5px;
+}
+.user-notifications li a {
+  background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_feed.png__q_6a0cfa7424d54685");
+  background-repeat: no-repeat;
+  padding: 1px 2px 2px;
+  padding-inline-start: 23px;
+}
+[dir="rtl"] .user-notifications li a {
+  background-position-x: calc(100% - 1px);
+}
+.user-notifications .course_invites a, .user-notifications .course_requests a {
+  background-position: 0 -40px;
+}
+[dir="rtl"] .user-notifications .course_invites a,
+[dir="rtl"] .user-notifications .course_requests a {
+  background-position-x: calc(100% - 1px);
+}
+#home-feed-container {
+  display: none;
+  width: 98%;
+  margin: 0 auto;
+}
+#home-feed-container #smart-box {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+#smart-box-more-wrapper span {
+  background: none;
+  padding: 0;
+}
+#smart-box-more-wrapper .action-links .personal-blog a {
+  background-position: 10px -245px;
+  margin: 0;
+}
+[dir="rtl"] #smart-box-more-wrapper .action-links .personal-blog a { background-position-x: calc(100% - 10px); }
+#home-feed-container h2 {
+  border-bottom: 1px solid #ddd;
+  padding: 0 0 4px;
+}
+#home-feed-container .s-edge-feed li:first-child {
+  border-top: none;
+}
+#home-feed-container .s-edge-feed .profile-picture .imagecache {
+  max-width: 100%;
+}
+.no-courses {
+  color: #9a9fa8;
+  padding: 5px 0;
+}
+.parent-btn {
+  margin-inline-start: 10px;
+}
+.warning.set-homepage-msg {
+  padding: 10px 15px 35px !important;
+  text-align: start !important;
+}
+.warning.set-homepage-msg h2 {
+  font-size: 13px;
+  padding: 0 0 2px;
+  padding-inline-start: 23px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a0cfa7424d54685") no-repeat 0 1px;
+}
+.warning.set-homepage-msg p {
+  margin: 0 0 0;
+  margin-inline-start: 23px;
+  padding: 10px 0;
+}
+.warning.set-homepage-msg p.dashed {
+  border-bottom: 1px dashed #F0C020;
+  padding-top: 5px;
+}
+.warning.set-homepage-msg table {
+  width: 100%;
+}
+.warning.set-homepage-msg .close-btn, .warning.set-homepage-msg .close-btn:hover {
+  height: 14px;
+  display: block;
+  line-height: 1.2;
+  top: auto;
+  bottom: 10px;
+  inset-inline-end: auto;
+  font-weight: bold;
+  font-size: 12px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/gray-btn-bg.gif__q_6a0cfa7424d54685") repeat-x 0 1px #fff;
+  padding: 3px 6px;
+  border: 1px solid;
+  border-color: #999 #999 #888;
+  color: #333;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.messages .verified-wrapper h3 {
+  padding-inline-start: 30px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icon-verify.png__q_6a0cfa7424d54685") no-repeat 0 0;
+}
+.messages .verified-wrapper p {
+  padding: 5px 0 5px;
+  padding-inline-start: 30px;
+}
+
+/* new release msg small
+#new-release-msg { background: #FFFFDD; border: 1px solid #F0C020; padding: 13px 20px 15px; margin: -15px 0 15px -21px; }
+#new-release-msg li { padding: 4px 0 4px 20px; }
+#new-release-msg ul { padding: 5px 7px; }
+#like-btn-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_feed.png__q_6a0cfa7424d54685") no-repeat -1px -73px; }
+#event-btn-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_calendar.png__q_6a0cfa7424d54685") no-repeat 0 -322px; }
+*/
+
+/* beta */
+#container #content-wrapper .beta-invite-closeable-wrapper .messages {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/find-resources.png__q_6a0cfa7424d54685") no-repeat 30px 25px #eef3f8;
+  padding: 20px 30px 25px;
+  padding-inline-start: 95px;
+  border-color: #becddd;
+  line-height: 1.4;
+  font-size: 13px;
+}
+.beta-invite-closeable-wrapper .beta {
+  font-size: 13px;
+  margin-inline-start: 5px;
+  color: #5AB135;
+}
+.beta-invite-closeable-wrapper p {
+  margin: 5px 0 15px;
+}
+.beta-invite-closeable-wrapper .messages .messages-close-btn, .beta-invite-closeable-wrapper .messages .messages-close-btn:hover {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/gray-btn-bg.gif__q_6a0cfa7424d54685") repeat-x 0 1px;
+  position: static;
+  border-color: #999 #999 #888;
+  border-style: solid;
+  border-width: 1px;
+  color: #444;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 3px 6px 4px;
+  font-size: 13px;
+  display: -moz-inline-box;
+  display: inline-block;
+  height: 17px;
+  vertical-align: top;
+  height: 18px;
+  white-space: nowrap;
+  margin-inline-start: 4px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.beta-invite-closeable-wrapper .submit-btn {
+  padding-top: 3px;
+  height: 18px;
+}
+
+/* new release large */
+#new-release-msg {
+  background: #FFFFDD;
+  border: 1px solid #F0C020;
+  padding: 13px 20px 15px;
+  margin: -1px -21px 15px -21px;
+  line-height: 1.4;
+  font-size: 13px;
+}
+#new-release-msg li {
+  padding: 4px 0 3px;
+}
+#new-release-msg ul {
+  padding: 0 0 10px;
+  padding-inline-start: 40px;
+}
+h3.new-release {
+  font-size: 14px;
+  padding: 5px 0 5px;
+  padding-inline-start: 40px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/new-release.png__q_6a0cfa7424d54685") no-repeat;
+}
+h3.new-release-android {
+  font-size: 14px;
+  padding: 5px 0 5px;
+  padding-inline-start: 40px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/android.png__q_6a0cfa7424d54685") no-repeat;
+}
+
+/* Reset styles */
+.s-home-course-dashboard h1 {
+  display: block;
+}
+
+/* Hide the center-top region, we are unable to do this through configuration */
+.s-home-course-dashboard #center-top {
+  display: none;
+}
+
+/* Set the background of the content to neutral-light. We don't want to use the full-gray-bg class in this case */
+
+/* because it affects other regions of the layout the we want to preserve */
+.s-home-course-dashboard #main-content-wrapper {
+  background: #faf9f7;
+  padding-inline-start: 30px; /* Increase the left padding */
+  border-inline-start-color: #e6e1dc; /* color-neutral-medium */
+}
+
+.sgy-tabbed-navigation {
+  display: block;
+  /* Double negation is a workaround for css compression, which removes spaces around " + " */
+  width: calc(100% - -5px);
+  max-width: 990px;
+  height: 25px;
+  list-style-type: none;
+  padding-top: 5px;
+  margin: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c1c7cb; /* color-graphite-light */
+}
+
+.sgy-tabbed-navigation li {
+  display: block;
+  /* rtl-processor:ignore */
+  float: left;
+  text-transform: uppercase;
+  padding: 0 30px 5px;
+  margin-top: 1px;
+}
+
+[dir="rtl"] .sgy-tabbed-navigation li { float: right; }
+
+
+.sgy-tabbed-navigation li.active {
+  border-bottom: 5px solid #556370; /* color-graphite-medium-dark */
+}
+
+.sgy-tabbed-navigation li.active a {
+  color: #44505d; /* color-graphite-dark */
+}
+
+.sgy-tabbed-navigation li a {
+  color: #556370; /*color-graphite-med-dark */
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.sgy-tabbed-navigation li a:hover, .sgy-tabbed-navigation li a:active {
+  color: #44505d; /* color-graphite-dark */
+}
+
+.sgy-tabbed-navigation::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Reset theme styles and apply them to the content well */
+.s-enable-course-dashboard.theme-2016-layout #main {
+  background: var(--sgy-background-color-default);
+  box-shadow: none !important;
+}
+
+/* Push the right-column down to make room for the tabbed navigation */
+.s-enable-course-dashboard #right-column {
+  margin-top: 47px;
+}
+
+/* Align center and right sidebar */
+.s-enable-course-dashboard.theme-2016-layout #right-column-inner {
+  padding-top: 20px;
+}
+
+/* Apply theme styles to the content well */
+.s-enable-course-dashboard.theme-2016-layout #home-feed-container {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  padding: 10px;
+}
+
+/*
+  Style for warning message to Basic Users to verify their account and/or select their school.
+  Based on #new-release-msg which mimics the Drupal warning banner
+ */
+#basic-user-warning {
+  background: #FFFFDD;
+  border: 1px solid #F0C020;
+  padding: 13px 20px 15px;
+  margin: auto;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.powerbuddy-chat-logs-button {
+  margin-block-start: 10px;
+}

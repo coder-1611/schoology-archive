@@ -1,0 +1,634 @@
+{
+  "id": "7919124202",
+  "title": "Adv Alg II: Section 12-07",
+  "source": "archived",
+  "scrapedAt": "2026-05-22T04:16:17.712Z",
+  "downloaded": 42,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "page",
+      "title": "General Information",
+      "href": "https://roundrockisd.schoology.com/page/7940289505",
+      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\">&nbsp;</p>\n<p><iframe src=\"https://docs.google.com/presentation/d/1ErZ6yaxfmfpC298tMb7rCKNpskAzQ28GfUxX4U-Xg6I/preview?ouid=114232169114544648762\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p></div>",
+      "images": [],
+      "localPath": "General Information.html"
+    },
+    {
+      "type": "page",
+      "title": "RRHS Info & Procedures",
+      "href": "https://roundrockisd.schoology.com/page/7941214467",
+      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/presentation/d/1C3iuJSF2oiFZYhK12QXBBy5C4g__EGrdmOhBY8Oq2bs/view?usp=sharing\">Slideshow</a></p></div>",
+      "images": [],
+      "localPath": "RRHS Info & Procedures.html"
+    },
+    {
+      "type": "page",
+      "title": "Seating Survey",
+      "href": "https://roundrockisd.schoology.com/page/7955975342",
+      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://forms.gle/ivqCRFD15RKCAw6d6\">Seating Survey</a></p></div>",
+      "images": [],
+      "localPath": "Seating Survey.html"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 1 - Functions & Transformations",
+      "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=927266391",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 1 - Domain & Range (8/14-15)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=927266394",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/7940295439",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><a href=\"https://drive.google.com/file/d/1Rqhe-DmODKIpu01lSjwnsqpn3IqAMPds/view?usp=sharing\">Notes (a)</a>&nbsp;- look at handwritten part only (the other part has been redone in Notes (b))</p>\n<p><a href=\"https://drive.google.com/file/d/19cRnyfe1VpkkUvpE6JYjSxga2Gcbb0_w/view?usp=drive_link\">Notes (b)</a></p>\n<p><a href=\"https://docs.google.com/document/d/1tadoJeNRjznb7_L7rPYrz8UYa6OXFnwHUJP2C_PYji8/view?usp=drive_link\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 1 - Domain & Range (8_14-15)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 1 - Functions & Transformations/Day 1 - Domain & Range (8_14-15)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 - Functions and their Graphs (8/18-19)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=935131627",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignments",
+              "href": "https://roundrockisd.schoology.com/page/7972900390",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><a href=\"https://docs.google.com/document/d/1z2vS72n5zwsCRLgHJ3h-4qnn8hw7TvbIKoOC1dDL19g/view?usp=drive_link\">Warm-Up</a>&nbsp;- (not for grade)</p>\n<p><a href=\"https://drive.google.com/file/d/1OnrqlWzPX46S0DnT7IJyso8QDDIbidxy/view?usp=sharing\">Flashcards Template</a>&nbsp;- use to study for quiz next class (be able to match graph to name of graph)</p>\n<p><a href=\"https://docs.google.com/document/d/1l2t7eb25YKLdrJGNZzza-mzIZjw7Mw3YFtCai_ldNJM/view?usp=sharing\">Homework</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 2 - Functions and their Graphs (8_18-19)/Notes & Assignments.html"
+            }
+          ],
+          "localPath": "Unit 1 - Functions & Transformations/Day 2 - Functions and their Graphs (8_18-19)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 3 - Transformations a,h,k (8/20-21)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=935825338",
+          "children": [
+            {
+              "type": "page",
+              "title": "Desmos Exploration",
+              "href": "https://roundrockisd.schoology.com/page/7976480368",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://student.amplify.com/join/#/X2Q2Z8\">LINK to Desmos Activity</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 3 - Transformations a,h,k (8_20-21)/Desmos Exploration.html"
+            },
+            {
+              "type": "page",
+              "title": "Paper that goes with Desmos Exploration",
+              "href": "https://roundrockisd.schoology.com/page/7976480386",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><a href=\"https://docs.google.com/document/d/1-5k99tiSLqcKpw6S_NFmpkVUA3HJa-fmJv0ATOXwN5I/view?usp=sharing\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 3 - Transformations a,h,k (8_20-21)/Paper that goes with Desmos Exploration.html"
+            },
+            {
+              "type": "page",
+              "title": "Assignment",
+              "href": "https://roundrockisd.schoology.com/page/7976480395",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1w3N6NmvdqRUd04fV42bwFd1A8KxTglO49Re8jQZ6SWw/view?usp=sharing\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 3 - Transformations a,h,k (8_20-21)/Assignment.html"
+            },
+            {
+              "type": "page",
+              "title": "Generic Transformation Equations Page (showing all types of functions)",
+              "href": "https://roundrockisd.schoology.com/page/7977349022",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1u-X_rtz6FZv_pNzLPHn3s7F_Hwn9Me2omvDDc4o3pVY/view?usp=sharing\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 3 - Transformations a,h,k (8_20-21)/Generic Transformation Equations Page (showing all types of functions).html"
+            }
+          ],
+          "localPath": "Unit 1 - Functions & Transformations/Day 3 - Transformations a,h,k (8_20-21)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 - Horizontal Dilations with \"b\" (8/22-23)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=937415230",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/7984576219",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1xuHj8DVCvd3NMv-vmfmtd_GswQJ-nnYex5e7Ypb_V5M/view?usp=sharing\">Notes</a>&nbsp;(blank)</p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1gqJm4h-8oWJ_kR9ZkkrXXxke2jPjF9mb/view?usp=sharing\">Notes</a> (filled in)</p>\n<p><a href=\"https://docs.google.com/document/d/15RXSO03ZpTS4kCQrk9MP0kHbNkovv5n9yzKq12IsKkA/view?usp=sharing\">Assignment</a></p>\n<p><a href=\"https://docs.google.com/document/d/17U7jYYBln37reAPsouLfsFal1V-Nimgd6JHip0uhK-8/view?usp=sharing\">Transformation Cheat Sheet</a></p>\n<p><a href=\"https://docs.google.com/document/d/1u-X_rtz6FZv_pNzLPHn3s7F_Hwn9Me2omvDDc4o3pVY/view?usp=sharing\">Generic Equation Cheat Sheet</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 4 - Horizontal Dilations with _b_ (8_22-23)/Notes & Assignment.html"
+            },
+            {
+              "type": "page",
+              "title": "Link to Desmos Sliders for practice",
+              "href": "https://roundrockisd.schoology.com/page/7984576221",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><a href=\"https://www.desmos.com/calculator/y4pbfuayfn\">DESMOS sliders to practice</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 4 - Horizontal Dilations with _b_ (8_22-23)/Link to Desmos Sliders for practice.html"
+            }
+          ],
+          "localPath": "Unit 1 - Functions & Transformations/Day 4 - Horizontal Dilations with _b_ (8_22-23)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 - Group Quiz & Test Review (8/26-27)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=939019249",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/7991297750",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/13OW0iIFjusACo5CSKj5YHQ8UpM28HsVr/edit?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1H1HdUCqpkir57iw0t6e40nWtxw1bjqWn/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 1 - Functions & Transformations/Day 5 - Group Quiz & Test Review (8_26-27)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 1 - Functions & Transformations/Day 5 - Group Quiz & Test Review (8_26-27)"
+        }
+      ],
+      "localPath": "Unit 1 - Functions & Transformations"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 2 - Absolute Value Functions",
+      "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=943514196",
+      "children": [
+        {
+          "type": "folder",
+          "title": "2-1 Absolute Value Parent Function, D/R in Set & Interval Notation (9/2-3)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=943514198",
+          "children": [
+            {
+              "type": "page",
+              "title": "Unit 1 Test & Group Quiz Feedback Form",
+              "href": "https://roundrockisd.schoology.com/page/8015912544",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p>Please take a moment to fill out the form linked below to give me honest feedback about the group quiz and test:</p>\n<p><a href=\"https://forms.gle/pmCyH4xuvXqseDPU7\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 2 - Absolute Value Functions/2-1 Absolute Value Parent Function, D_R in Set & Interval Notation (9_2-3)/Unit 1 Test & Group Quiz Feedback Form.html"
+            },
+            {
+              "type": "page",
+              "title": "Polygraph Activity LINK",
+              "href": "https://roundrockisd.schoology.com/page/8015912547",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://student.desmos.com/join/rxb8u7\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 2 - Absolute Value Functions/2-1 Absolute Value Parent Function, D_R in Set & Interval Notation (9_2-3)/Polygraph Activity LINK.html"
+            },
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8015912550",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1l5wB98gv34EEp3FRKKeDdBZ3MUSccJP3/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1mhL59sghiSaNa8mOwUC86dkfjDsF-25A/edit?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 2 - Absolute Value Functions/2-1 Absolute Value Parent Function, D_R in Set & Interval Notation (9_2-3)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 2 - Absolute Value Functions/2-1 Absolute Value Parent Function, D_R in Set & Interval Notation (9_2-3)"
+        },
+        {
+          "type": "folder",
+          "title": "2-2 Solving Absolute Value Equations (9/4-5)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=943514199",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8015912552",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1IfKqptmkYlBZ6WgHcFslivDI0kLLMri3/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1Vl6ASCkUr-3c6Hx8PyFLnHp6FqZZW_ZGMo3_g9N_R8c/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 2 - Absolute Value Functions/2-2 Solving Absolute Value Equations (9_4-5)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 2 - Absolute Value Functions/2-2 Solving Absolute Value Equations (9_4-5)"
+        },
+        {
+          "type": "folder",
+          "title": "2-3 Solving Absolute Value Inequalities (9/8-9)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=944816324",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8023360199",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1y7xA7Meiw5ebdQHh2E3ldjOlIr-_Tr9q/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://drive.google.com/file/d/1f1IxASYyFqtCrAm8sn5DPf9he-4NfRcZ/view?usp=sharing\">Assignment</a></p>\n<p><strong>&nbsp;</strong></p></div>",
+              "images": [],
+              "localPath": "Unit 2 - Absolute Value Functions/2-3 Solving Absolute Value Inequalities (9_8-9)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 2 - Absolute Value Functions/2-3 Solving Absolute Value Inequalities (9_8-9)"
+        },
+        {
+          "type": "folder",
+          "title": "2-4 Group Quiz & Review (9/10-11)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=945461761",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/8028029373",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1yU9yCwRd2-XbzmYoMyFjhmXs-GwCTsFTQsT3hg_6ke8/view?usp=sharing\">Review</a></p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/17bCK7ciaN60NNhf3ZYeCmk4RkU5_3O2T/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 2 - Absolute Value Functions/2-4 Group Quiz & Review (9_10-11)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 2 - Absolute Value Functions/2-4 Group Quiz & Review (9_10-11)"
+        }
+      ],
+      "localPath": "Unit 2 - Absolute Value Functions"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 3 - Systems of Equations",
+      "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=947225845",
+      "children": [
+        {
+          "type": "folder",
+          "title": "3-1 Solving Systems of Equations/Inequalities y Graphing (9/17-18)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=947225846",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8040529169",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><a href=\"https://drive.google.com/file/d/1ZCRncld1lDTmgY5xJDhDaFWy723tK6Pt/view?usp=sharing\">Notes from class</a></p>\n<p><a href=\"https://docs.google.com/document/d/1onKpzrrLADnMONd4fZqBnDFOi4gVcXN6/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/3-1 Solving Systems of Equations_Inequalities y Graphing (9_17-18)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/3-1 Solving Systems of Equations_Inequalities y Graphing (9_17-18)"
+        },
+        {
+          "type": "folder",
+          "title": "3-2 Substitution (9/19-24)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=947225848",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8040529174",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1jxOfmX8gRLWhJ077pWQONQhnTp_O5FNQ/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/12LcVc_MWBxCClNETL5rOCL9q0EtB-MMJ-PYD36zq9oA/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/3-2 Substitution (9_19-24)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/3-2 Substitution (9_19-24)"
+        },
+        {
+          "type": "folder",
+          "title": "3-3 Mixture Problems (9/25-26)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=948919725",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8052193239",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\">Hello All,</p>\n<p dir=\"ltr\">Well, my back has totally gone out, so I am probably out for the rest of the week. . .hoping to get an MRI soon.&nbsp; UGH!</p>\n<p dir=\"ltr\">Please lock in and get your lesson done and let's keep moving on!&nbsp; Please help teach each other when someone gets stuck.&nbsp; You can do this!</p>\n<p dir=\"ltr\">1.&nbsp; Please work through the notes. . .work through the examples linked here on your blank notes page and engage your brain so that you are really comprehending.&nbsp; <a href=\"https://drive.google.com/file/d/1ijlKUEfZfmhV1X-jWUAmgy1uenuXIiKk/view?usp=sharing\">LINK TO FILLED OUT NOTES</a>.</p>\n<p dir=\"ltr\">2.&nbsp; Please use your own paper (there is extra paper in the back) to do the <a href=\"https://drive.google.com/file/d/1B_5RU-QhMhSwt7GjOlQcWyHnmxTtgNmV/view?usp=sharing\">ASSIGNMENT</a>.&nbsp; Please number problems on your paper and make it NEAT so that someone else can read it when grading.</p>\n<p dir=\"ltr\">Thanks Y'all!&nbsp; Sorry I'm not there, but I trust you to do the right thing!</p>\n<p dir=\"ltr\">Hope to see you soon,</p>\n<p dir=\"ltr\">Bad Habetz :-)</p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/3-3 Mixture Problems (9_25-26)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/3-3 Mixture Problems (9_25-26)"
+        },
+        {
+          "type": "folder",
+          "title": "Review/Practice Day (9/29)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=950287795",
+          "children": [
+            {
+              "type": "page",
+              "title": "Extra Practice Assignment to Prepare for Quiz (will be for a grade)",
+              "href": "https://roundrockisd.schoology.com/page/8061219945",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/19Jr5i3oqx74wIXh0rjcpK394GaQ9ybimn1Ru7IJrqQQ/edit?usp=sharing\">LINK</a>&nbsp;- this will be graded next class.</p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/Review_Practice Day (9_29)/Extra Practice Assignment to Prepare for Quiz (will be for a grade).html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/Review_Practice Day (9_29)"
+        },
+        {
+          "type": "folder",
+          "title": "3-4 Quiz Day an Augmented Matrix Assignment (10/1)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=950663201",
+          "children": [
+            {
+              "type": "page",
+              "title": "Augmented Matrix Assignment - due next class",
+              "href": "https://roundrockisd.schoology.com/page/8064176064",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1TLYOUNuWOhXGCDm9baVb54uNJ0cE5AK-olSd9wQA12k/edit?usp=sharing\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/3-4 Quiz Day an Augmented Matrix Assignment (10_1)/Augmented Matrix Assignment - due next class.html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/3-4 Quiz Day an Augmented Matrix Assignment (10_1)"
+        },
+        {
+          "type": "folder",
+          "title": "3-5 Gaussian Elimination (10/2-3)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=950856104",
+          "children": [
+            {
+              "type": "page",
+              "title": "Lesson Notes, Video, and Practice",
+              "href": "https://roundrockisd.schoology.com/page/8065722050",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://youtu.be/2j5Ic2V7wq4?si=Jkof4YzG9Ln-OXme\">Video on Gaussian Elimination</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1SsWId6oyRto4E0JGJ-a1kF8EEiQBNXlC4vIqO7gMBsk/view?usp=sharing\">Notes Template</a>&nbsp;(goes along with video above)</p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1pRzEXNoS-lwc-86R64MvTvrLmzDd_Iiz/view?usp=sharing\">Filled out Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1yWrMUq8IBby87syQBISDewel78hLZJ5C/view?usp=sharing\">Practice problems</a> (may do on your own paper)</p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/3-5 Gaussian Elimination (10_2-3)/Lesson Notes, Video, and Practice.html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/3-5 Gaussian Elimination (10_2-3)"
+        },
+        {
+          "type": "folder",
+          "title": "3-6 Solving Systems of 3 Equations with Matrices (10/6-7)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=951886720",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8072257121",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1RaROxPXvCGNBnyk4fLy5XyUX5h1QsK4LocFPBCwZPNA/view?usp=sharing\">Notes</a>&nbsp;- these can be done with all calculator.&nbsp; If you are trying them at home, you can get a TI-84 emulator app on a phone or you can Google how to use Desmos for matrices.</p>\n<p><a href=\"https://docs.google.com/document/d/1ProX9aFN0XbSthhnwapSp5QjeFpwnrhx4UEC4x4lEXc/view?usp=sharing\">Assignment</a>&nbsp;- extra practice, but not required.</p>\n<p>Group Quiz next class! :-)</p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/3-6 Solving Systems of 3 Equations with Matrices (10_6-7)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/3-6 Solving Systems of 3 Equations with Matrices (10_6-7)"
+        },
+        {
+          "type": "folder",
+          "title": "3-7 Group Quiz & Review (10/8-9)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=951886776",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & Key",
+              "href": "https://roundrockisd.schoology.com/page/8072257632",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1bKHPBzdNrcnFVPmjvgji_XNa5oqu1q73bliQqu6EF6A/view?usp=sharing\">Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1qSiQx0WbU7l-TXL1H-F_MZ18OSO9NP5d/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 3 - Systems of Equations/3-7 Group Quiz & Review (10_8-9)/Review & Key.html"
+            }
+          ],
+          "localPath": "Unit 3 - Systems of Equations/3-7 Group Quiz & Review (10_8-9)"
+        }
+      ],
+      "localPath": "Unit 3 - Systems of Equations"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 4 - Quadratic Functions",
+      "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=953646478",
+      "children": [
+        {
+          "type": "folder",
+          "title": "4-1 Factoring Quadratics (10/15-16)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=953675450",
+          "children": [
+            {
+              "type": "page",
+              "title": "Activities, Notes, & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8083507951",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://www.softschools.com/math/games/mad_minute_math/multiplication/\">Mad Minute Multiplication</a></p>\n<p dir=\"ltr\"><a href=\"https://www.mathplayground.com/ASB_GrandPrixMultiplication.html\">Grand Prix Multiplication</a></p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1kGkEU_3vyM4SqsJnu9nnqVe5Zx0wVO4i/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1kFtllIn90-oMNV6QQ2fNowttoj1uycSI-muYsAUrCtg/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-1 Factoring Quadratics (10_15-16)/Activities, Notes, & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 4 - Quadratic Functions/4-1 Factoring Quadratics (10_15-16)"
+        },
+        {
+          "type": "folder",
+          "title": "4-2 Quadratic Attributes (10/17-21)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=954945740",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8091213510",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1hUDuI54maqVrQpPWeGsA8syghLuTz-38/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1XWpeeaws3pf5LJa92ORGPnPC8wBZ8jHq/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a>&nbsp;due Monday</p></div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-2 Quadratic Attributes (10_17-21)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 4 - Quadratic Functions/4-2 Quadratic Attributes (10_17-21)"
+        },
+        {
+          "type": "folder",
+          "title": "4-3 Factoring Quadratic Expressions (10/24-27)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=955632104",
+          "children": [
+            {
+              "type": "page",
+              "title": "Grand Prix Multiplication",
+              "href": "https://roundrockisd.schoology.com/page/8096361923",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://www.mathplayground.com/ASB_GrandPrixMultiplication.html\">https://www.mathplayground.com/ASB_GrandPrixMultiplication.html</a></p></div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-3 Factoring Quadratic Expressions (10_24-27)/Grand Prix Multiplication.html"
+            },
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8096361929",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1r8ITrQ-_GHvXQD4V1-gk2ARsFrhyxoJh/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://drive.google.com/file/d/1NZ5QHe5hE3nKieiBNNdjH_DmX_F_b4Y8/view?usp=sharing\">Assignment</a>&nbsp;</p>\n<p><a href=\"https://docs.google.com/document/d/1kk47cWk_8WhFZMuOq5cK946wu6ghnRVe6_bSFKqUoTw/view?usp=drive_link\">Advanced Factoring Extension Questions</a> (to grow your brain - NOT for a grade)</p></div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-3 Factoring Quadratic Expressions (10_24-27)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 4 - Quadratic Functions/4-3 Factoring Quadratic Expressions (10_24-27)"
+        },
+        {
+          "type": "folder",
+          "title": "4-4 Solving Quadratics by Factoring (10/31)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=953646484",
+          "children": [
+            {
+              "type": "page",
+              "title": "Class Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8083283134",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1MdqoeecRRVVrAO4DxPfHUdU4GPdc9m4j/view?usp=sharing\">&nbsp;Notes&nbsp;</a>- these explain the solving by factoring</p>\n<p dir=\"ltr\">Here is the <a href=\"https://drive.google.com/file/d/13WNBbwso5fcLLFOX7DcFWHTkn8LKYt-e/view?usp=sharing\">WarmUP</a>&nbsp;that we did today to practice (not for a grade).&nbsp; Answers are included as you are responsible for this material.</p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1ivL49qz5N2sC-Lx5sDJIEp7h7XdLoW9g/view?usp=sharing\">&nbsp;</a></p></div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-4 Solving Quadratics by Factoring (10_31)/Class Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 4 - Quadratic Functions/4-4 Solving Quadratics by Factoring (10_31)"
+        },
+        {
+          "type": "folder",
+          "title": "4-5 Quadratic Standard Form (SF) to Vertex Form (VF) and Vice Versa (10/28-29)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=953646486",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8083283141",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><strong>Here is a video link for changing standard form to vertex form</strong> if you need a bit more explanation:&nbsp; <a href=\"https://youtu.be/pwITxyUghV0?si=Q0Ku_1cxjojiBodf\">LINK</a></p>\n<p>&nbsp;See Links below. . .for notes and assignment if you were absent.</p>\n<div class=\"attachments\">\n<div class=\"attachments-link clearfix\"><span class=\"inline-icon link-icon \"><span class=\"visually-hidden\">Web Link</span></span><a class=\"ext \" target=\"_blank\" href=\"/link?a=3319297238&amp;path=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1Up-3RYbSybZymBlg9AoNWw6RQ--yP1l5%2Fview%3Fusp%3Dshare_link&amp;nid=8083283141\" alt=\"Notes\" title=\"Notes\">Notes</a> </div><div class=\"attachments-link clearfix\"><span class=\"inline-icon link-icon \"><span class=\"visually-hidden\">Web Link</span></span><a class=\"ext \" target=\"_blank\" href=\"/link?a=3319297239&amp;path=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1DmsFMDh2qnAvhz1hdt_bj800AJapFaH7%2Fview%3Fusp%3Dshare_link&amp;nid=8083283141\" alt=\"Assignment\" title=\"Assignment\">Assignment</a> </div>\n</div>\n</div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-5 Quadratic Standard Form (SF) to Vertex Form (VF) and Vice Versa (10_28-29)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 4 - Quadratic Functions/4-5 Quadratic Standard Form (SF) to Vertex Form (VF) and Vice Versa (10_28-29)"
+        },
+        {
+          "type": "folder",
+          "title": "4-6 Solving Quadratics by Completing the Square AND Quadratic Formula (11/3-4)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=958110963",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8111972419",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1AEiIL4cE--uuu_0bLuyiKvsMIHdLWSql/view?usp=share_link\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1fFLRnV9kM60IgOL-6XFzPriPjRKeB_0e2hrIIiqNNU4/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-6 Solving Quadratics by Completing the Square AND Quadratic Formula (11_3-4)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 4 - Quadratic Functions/4-6 Solving Quadratics by Completing the Square AND Quadratic Formula (11_3-4)"
+        },
+        {
+          "type": "folder",
+          "title": "4-7 Group Quiz & Review with KEY (11/5-6)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=958365917",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/8113793148",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/133JbNrlALkak-KvsHi_e1NCDOjJ-qHHpCun5vJPVCuk/view?usp=sharing\">Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1leCHa19WFKeS_AW5G8ucsRvtdyI2F19n/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 4 - Quadratic Functions/4-7 Group Quiz & Review with KEY (11_5-6)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 4 - Quadratic Functions/4-7 Group Quiz & Review with KEY (11_5-6)"
+        }
+      ],
+      "localPath": "Unit 4 - Quadratic Functions"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 5 - Quadratic & Linear Systems",
+      "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=959653084",
+      "children": [
+        {
+          "type": "folder",
+          "title": "5-1 Quadratic Inequalities (11/12-13)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=959653085",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignments",
+              "href": "https://roundrockisd.schoology.com/page/8121753985",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1QOnW_5cvwxVkBwCmnyezmCeuq_z7hUbq/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1ObIbMk5QLQ5y6i-jaBU5Wz3QV5zSxyJzVsoOqBBo_6U/view?usp=sharing\">Assignment</a>&nbsp;</p></div>",
+              "images": [],
+              "localPath": "Unit 5 - Quadratic & Linear Systems/5-1 Quadratic Inequalities (11_12-13)/Notes & Assignments.html"
+            }
+          ],
+          "localPath": "Unit 5 - Quadratic & Linear Systems/5-1 Quadratic Inequalities (11_12-13)"
+        },
+        {
+          "type": "folder",
+          "title": "5-2 Formulating Quadratic Equations from Roots & Quadratic Regression (11/14, 11/17)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=960909979",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8130427194",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1ScGorTvAg54ftP3ocTi2TW2PEHk1h_a5DNyXD9s48g4/view?usp=sharing\">Notes&nbsp;Template</a></p>\n<p dir=\"ltr\">Filled out <a href=\"https://drive.google.com/file/d/1Y0KHCWP_psZdZhFZ9E5KlyAiUYminZxT/view?usp=sharing\">NOTES</a></p>\n<p><a href=\"https://docs.google.com/document/d/15M1h7PAPpM_o1Jr_lLf6FfKaXhtaKmQ1/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a>&nbsp;- please do work <strong><span style=\"text-decoration:underline;\">on your own paper,</span></strong> if needed.</p></div>",
+              "images": [],
+              "localPath": "Unit 5 - Quadratic & Linear Systems/5-2 Formulating Quadratic Equations from Roots & Quadratic Regression (11_14, 11_17)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 5 - Quadratic & Linear Systems/5-2 Formulating Quadratic Equations from Roots & Quadratic Regression (11_14, 11_17)"
+        },
+        {
+          "type": "folder",
+          "title": "5-3 Quadratic & Linear Systems (11/18, 11/19)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=961767886",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8137517298",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1A89_Hh4Ev9E6gIhqq4qL5l0NvxmJ14K2/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1pmVB2RMjrnCpE7zuveRYEo1T-l95ZBIDDxZMCunXtWQ/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 5 - Quadratic & Linear Systems/5-3 Quadratic & Linear Systems (11_18, 11_19)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 5 - Quadratic & Linear Systems/5-3 Quadratic & Linear Systems (11_18, 11_19)"
+        },
+        {
+          "type": "folder",
+          "title": "5-4 Recap Day (12/1-2)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=963597079",
+          "children": [
+            {
+              "type": "page",
+              "title": "Practice Problem Links with Solutions (Optional)",
+              "href": "https://roundrockisd.schoology.com/page/8149376531",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><a href=\"https://docs.google.com/document/d/1V031lPSEjSlFl8eIWiLfRUsO1hctzv0NlgiGzDobFkE/view?usp=sharing\">Practice Problems from the WU</a></p></div>",
+              "images": [],
+              "localPath": "Unit 5 - Quadratic & Linear Systems/5-4 Recap Day (12_1-2)/Practice Problem Links with Solutions (Optional).html"
+            }
+          ],
+          "localPath": "Unit 5 - Quadratic & Linear Systems/5-4 Recap Day (12_1-2)"
+        },
+        {
+          "type": "folder",
+          "title": "5-5 Formulating Quadratic/Linear Systems (12/3-4)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=963597985",
+          "children": [
+            {
+              "type": "page",
+              "title": "Video Resources & Notes/Classwork",
+              "href": "https://roundrockisd.schoology.com/page/8149384451",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p style=\"margin:1em 0px;padding:0px;line-height:1.4;\" dir=\"ltr\"><a class=\"sExtlink-processed\" style=\"margin:0px;padding:0px;color:#1f5081;\" href=\"https://youtu.be/a_uJpI6LXr4\">YouTube Link for setting the viewing window on the calculator</a></p>\n<p style=\"margin:1em 0px;padding:0px;line-height:1.4;\"><a class=\"sExtlink-processed\" style=\"margin:0px;padding:0px;color:#1f5081;\" href=\"https://youtu.be/u26O2uJ1uNg\">YouTube Link for finding the intersection points on the calculator</a></p>\n<p style=\"margin:1em 0px;padding:0px;line-height:1.4;\"><a href=\"https://docs.google.com/document/d/1FRnQmHJgbJXT1sixHrydo_-wCf2Yo9qXPsVHIwZDd9M/view?usp=sharing\">Calculator Steps</a> paper for reference</p>\n<p style=\"margin:1em 0px;padding:0px;line-height:1.4;\"><a href=\"https://drive.google.com/file/d/1C_O-LNaB8hF_n-4Qf7faZRbfObDgZxRg/view?usp=sharing\">Notes</a></p>\n<p style=\"margin:1em 0px;padding:0px;line-height:1.4;\"><a href=\"https://docs.google.com/document/d/1V9Hu_woACh-XJ14WOHt2EIVUwiPxbYx1/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a>(use ti84calc.com for ti84 calculator)</p></div>",
+              "images": [],
+              "localPath": "Unit 5 - Quadratic & Linear Systems/5-5 Formulating Quadratic_Linear Systems (12_3-4)/Video Resources & Notes_Classwork.html"
+            },
+            {
+              "type": "page",
+              "title": "Winter Escape Room",
+              "href": "https://roundrockisd.schoology.com/page/8149384454",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p>Oh no!!!&nbsp; You won't be allowed to leave for Thanksgiving Break unless you crack the codes!&nbsp; &nbsp;Put your answers in the Google Answer Document below.&nbsp; Unlock all 4 locks and you are good to go on break!!!&nbsp; &nbsp;Happy Thanksgiving!&nbsp; Gobble-gobble!</p>\n<p><a href=\"https://forms.gle/iCTi1um2tRJe5KAz6\">Google Answer Document</a></p>\n<p><a href=\"https://docs.google.com/spreadsheets/d/19Xu_0J0Q8ZGMBniSATo_UyKJ8zKadDRirhA2m4bTFpo/copy?usp=sharing\">Color Locks</a></p>\n<p><a href=\"https://docs.google.com/document/d/1McG3zmSGHk5YfX7dxcvUJ5-RP0b5ioCAoNpvhqj750I/view?usp=sharing\">Open-Ended Lock</a></p>\n<p><a href=\"https://docs.google.com/document/d/1TKDCpGtbvTn-IM65hndT-ixptLYihrh7gaKxo71XKtU/view?usp=drive_link\">Alpha Lock</a></p>\n<p><a href=\"https://docs.google.com/document/d/1sR3TrHQjPwhb9NT_SUpRJTGkgvf8mkGQ1xVDOxlIfXE/view?usp=drive_link\">ABC Lock</a></p></div>",
+              "images": [],
+              "localPath": "Unit 5 - Quadratic & Linear Systems/5-5 Formulating Quadratic_Linear Systems (12_3-4)/Winter Escape Room.html"
+            }
+          ],
+          "localPath": "Unit 5 - Quadratic & Linear Systems/5-5 Formulating Quadratic_Linear Systems (12_3-4)"
+        },
+        {
+          "type": "folder",
+          "title": "5-6 Group Quiz & Review (12/5-8)",
+          "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=963598260",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review and KEY",
+              "href": "https://roundrockisd.schoology.com/page/8149386748",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1DHb_tW6jYuoogBNqMWJG9vNfDdV6P-21_apcUIhvTDM/edit?usp=sharing\">Test Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1YAmh7sCRl6gEKPiMWtVslzqL0c84khed/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 5 - Quadratic & Linear Systems/5-6 Group Quiz & Review (12_5-8)/Review and KEY.html"
+            }
+          ],
+          "localPath": "Unit 5 - Quadratic & Linear Systems/5-6 Group Quiz & Review (12_5-8)"
+        }
+      ],
+      "localPath": "Unit 5 - Quadratic & Linear Systems"
+    },
+    {
+      "type": "folder",
+      "title": "Midterm Project (due end of period 12/15 (A), 12/16 (B))",
+      "href": "https://roundrockisd.schoology.com/course/7919124202/materials?f=964936039",
+      "children": [
+        {
+          "type": "page",
+          "title": "Project Resources",
+          "href": "https://roundrockisd.schoology.com/page/8158691980",
+          "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><span style=\"color:#ff0000;\"><strong>DON'T FORGET TO <span style=\"text-decoration:underline;\">SIGN INTO</span> DESMOS WITH GOOGLE AND <span style=\"text-decoration:underline;\">SAVE</span> YOUR PROJECT PERIODICALLY!!!!</strong></span></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1wGyvtzFjqefWLymZeAWSMiy1LXIYqTv5/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Project Intro and Rubric</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1FfDSRuSW34NghMUfnGAMAxPBB_JAmeyAH5YexYuwOHg/view?usp=sharing\">Shark Example</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1XjQX8CbVyCjgFg74_BWdGY7CzuoqJ51yE51AYas6SD8/view?usp=sharing\">Examples and Videos to get you started</a></p>\n<p dir=\"ltr\"><a href=\"https://forms.gle/GV3j43Ytv7MS1dG66\">SUBMISSION LINK</a>&nbsp;- DUE 12/15 BY THE END OF CLASS</p>\n<p dir=\"ltr\">*To make a parabola at an angle, cut/paste this and enable all sliders:&nbsp;&nbsp;<span style=\"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:small;\">X*sin(a) + y*cos(a) = (x*cos(a) + y*sin(a) + h)^2 + k</span></p>\n<p dir=\"ltr\"><span style=\"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:small;\"></span></p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\"><span style=\"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:small;\"><a class=\"sExtlink-processed\" style=\"margin:0px;padding:0px;color:#1f5081;\" href=\"https://docs.google.com/spreadsheets/d/1j6OVafZ1bNAr5EphdGVXkSsxAopA9Mt2kS20seirGJY/view?usp=sharing\">Project LINKS</a></span></p></div>",
+          "images": [],
+          "localPath": "Midterm Project (due end of period 12_15 (A), 12_16 (B))/Project Resources.html"
+        }
+      ],
+      "localPath": "Midterm Project (due end of period 12_15 (A), 12_16 (B))"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+:root {
+    --sgy-icon-assignment: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/assignment.svg");
+    --sgy-icon-assignment-rtl: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/assignment-rtl.svg");
+}
+
+/* ASSIGNMENT / GRADE COLUMN icon */
+[data-theme="modern"] .assignment-icon,
+[data-theme="modern"] .grade-item-icon,
+[data-theme="modern"] .inline-icon.grade-item-icon,
+[data-theme="modern"] .inline-icon.mini.grade-item-icon,
+[data-theme="modern"] .recently-completed-event .mini-icon.grade-item-icon,
+[data-theme="modern"] .reminder-list-item .mini-icon.grade-item-icon,
+[data-theme="modern"] .upcoming-event .mini-icon.grade-item-icon,
+[data-theme="modern"] #edit-external-tool-grading-enabled-wrapper .form-checkbox-title,
+[data-theme="modern"] #edit-sco-grading-enabled-wrapper .form-checkbox-title,
+[data-theme="modern"] #edit-scorm-grading-enabled-wrapper .form-checkbox-title,
+[data-theme="modern"] #folder-contents-table .item-icon.assignment-icon,
+[data-theme="modern"] #folder-contents-table .course-materials-simple .item-icon.assignment-icon,
+[data-theme="modern"] #folder-contents-table .planner-right-cell .item-icon.assignment-icon,
+[data-theme="modern"] #right-column .dropbox-submit span,
+[data-theme="modern"] #resource-types .grade-item-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .item-icon.assignment-icon,
+[data-theme="modern"] #s-grade-item-manager .item-icon.item-assignment,
+[data-theme="modern"] #s-scorm-import-props-left .item-child-title .clickable .text {
+    background-image: var(--sgy-icon-assignment);
+    background-position-y: center;
+}
+[dir="rtl"][data-theme="modern"] .assignment-icon,
+[dir="rtl"][data-theme="modern"] .grade-item-icon,
+[dir="rtl"][data-theme="modern"] .upcoming-event .mini-icon.grade-item-icon,
+[dir="rtl"][data-theme="modern"] #folder-contents-table .item-icon.assignment-icon {
+    background-image: var(--sgy-icon-assignment-rtl);
+}
+
+[dir="rtl"][data-theme="modern"] #fcalendar .assignment-icon {
+    transform: none;
+}
+
+[data-theme="modern"] .course-content-action-links .action-links .action-create-assignment a,
+[data-theme="modern"] #course-materials-action-links-inline .action-create-assignment a,
+[data-theme="modern"] #toolbar-add-list #collection-add-assignment a {
+    background-image: var(--sgy-icon-assignment);
+    background-position-x: 12px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .course-content-action-links .action-links .action-create-assignment a,
+[dir="rtl"][data-theme="modern"] #course-materials-action-links-inline .action-create-assignment a,
+[dir="rtl"][data-theme="modern"] #toolbar-add-list #collection-add-assignment a {
+    background-image: var(--sgy-icon-assignment-rtl);
+    background-position-x: calc(100% - 12px);
+}
+
+[data-theme="modern"] .materials-filter-wrapper .action-links .action-view-assignments a {
+    background-image: var(--sgy-icon-assignment);
+    background-position-x: 24px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .materials-filter-wrapper .action-links .action-view-assignments a {
+    background-image: var(--sgy-icon-assignment-rtl);
+    background-position-x: calc(100% - 24px);
+}
+
+[data-theme="modern"] .smart-box .filter-item.add-assignment span {
+    background-image: var(--sgy-icon-assignment);
+    background-position-x: unset !important;
+    background-position-y: center !important;
+    background-size: 20px;
+}
+[dir="rtl"][data-theme="modern"] .smart-box .filter-item.add-assignment span {
+    background-image: var(--sgy-icon-assignment-rtl);
+    background-position-x: 100% !important;
+}
+
+[data-theme="modern"] #s-grade-item-manager .infotip.item-icon.item-assignment {
+    padding: unset;
+}

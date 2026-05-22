@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-05-22T03:48:57.430Z",
+  "domain": "https://roundrockisd.schoology.com",
+  "courses": [
+    {
+      "id": "7919124205",
+      "title": "Adv Alg II Spring: Section 11-06",
+      "source": "active",
+      "downloaded": 37,
+      "failed": 0
+    },
+    {
+      "id": "7919113211",
+      "title": "Adv Biology: Section 3-01",
+      "source": "active",
+      "downloaded": 133,
+      "failed": 0
+    },
+    {
+      "id": "7919100090",
+      "title": "Adv Computer Sci I: Section 4-04",
+      "source": "active",
+      "downloaded": 90,
+      "failed": 0
+    },
+    {
+      "id": "7919121756",
+      "title": "Adv Thea Arts I: Section 1-05",
+      "source": "active",
+      "downloaded": 10,
+      "failed": 0
+    },
+    {
+      "id": "7919128714",
+      "title": "Advanced English I: Section 5-02",
+      "source": "active",
+      "downloaded": 29,
+      "failed": 0
+    },
+    {
+      "id": "7919128397",
+      "title": "APHG-Spring: Section 6-08",
+      "source": "active",
+      "downloaded": 1,
+      "failed": 0
+    },
+    {
+      "id": "7919132652",
+      "title": "Inst Ensemble I: Section 3-07",
+      "source": "active",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "7919132661",
+      "title": "Symphonic Band I: Section 1-03",
+      "source": "active",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "7919124202",
+      "title": "Adv Alg II: Section 12-07",
+      "source": "archived",
+      "downloaded": 42,
+      "failed": 0
+    },
+    {
+      "id": "7919113183",
+      "title": "Adv Biology: Section 3-01",
+      "source": "archived",
+      "downloaded": 108,
+      "failed": 0
+    },
+    {
+      "id": "7919100065",
+      "title": "Adv Computer Sci I: Section 3-03",
+      "source": "archived",
+      "downloaded": 135,
+      "failed": 0
+    },
+    {
+      "id": "7919121755",
+      "title": "Adv Thea Arts I: Section 1-05",
+      "source": "archived",
+      "downloaded": 29,
+      "failed": 0
+    },
+    {
+      "id": "7919129162",
+      "title": "Advanced English I: Section 7-06",
+      "source": "archived",
+      "downloaded": 23,
+      "failed": 0
+    },
+    {
+      "id": "7919128380",
+      "title": "APHG-Fall: Section 2-02",
+      "source": "archived",
+      "downloaded": 146,
+      "failed": 0
+    },
+    {
+      "id": "7919089260",
+      "title": "Concert Band I: Section 4-04",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "7919084363",
+      "title": "Inst Ensemble I: Section 4-08",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "7371658163",
+      "title": "8th Grade Science: 5th Period",
+      "source": "archived",
+      "downloaded": 197,
+      "failed": 0
+    },
+    {
+      "id": "7371658205",
+      "title": "Adv US History 8: Section 5-07",
+      "source": "archived",
+      "downloaded": 119,
+      "failed": 0
+    },
+    {
+      "id": "7371654189",
+      "title": "Advisory 8: Section 13-06",
+      "source": "archived",
+      "downloaded": 8,
+      "failed": 0
+    },
+    {
+      "id": "7371655657",
+      "title": "Band: Intermediate MS1: Section 4-03",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "7726479532",
+      "title": "Becoming Shakespeare: Company",
+      "source": "archived",
+      "downloaded": 2,
+      "failed": 0
+    },
+    {
+      "id": "7371654084",
+      "title": "Geometry: Section 2-01",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "7371658150",
+      "title": "Lang Arts 8 Tag: Section 1-08",
+      "source": "archived",
+      "downloaded": 205,
+      "failed": 0
+    },
+    {
+      "id": "7371659521",
+      "title": "Spring Semester Gateway 2025: Section 3-04",
+      "source": "archived",
+      "downloaded": 47,
+      "failed": 0
+    },
+    {
+      "id": "7371655659",
+      "title": "Theatre Arts: MS 2: Section 2-02",
+      "source": "archived",
+      "downloaded": 75,
+      "failed": 0
+    },
+    {
+      "id": "7579776605",
+      "title": "Christmas Carol Callboard: Walsh Theatre",
+      "source": "archived",
+      "downloaded": 14,
+      "failed": 0
+    },
+    {
+      "id": "7371659507",
+      "title": "Fall Semester Gateway 2024: Section 3-04",
+      "source": "archived",
+      "downloaded": 50,
+      "failed": 0
+    },
+    {
+      "id": "7371654077",
+      "title": "Geometry: Section 2-01",
+      "source": "archived",
+      "downloaded": 9,
+      "failed": 0
+    },
+    {
+      "id": "6803591008",
+      "title": "Advisory: Section 3-05",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "6803590318",
+      "title": "Band: Intermediate MS1: Section 4-03",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "6803591353",
+      "title": "Language Arts 7 (TAG): Section 26-06",
+      "source": "archived",
+      "downloaded": 92,
+      "failed": 0
+    },
+    {
+      "id": "6803589879",
+      "title": "Math Accelerated II: 8th period",
+      "source": "archived",
+      "downloaded": 156,
+      "failed": 0
+    },
+    {
+      "id": "6803589888",
+      "title": "Science 7: Section 21-01",
+      "source": "archived",
+      "downloaded": 194,
+      "failed": 0
+    },
+    {
+      "id": "6803591038",
+      "title": "Sports Fit Ed: Section 7-07",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "6803589663",
+      "title": "Theatre Arts: MS 2: Section 2-02",
+      "source": "archived",
+      "downloaded": 14,
+      "failed": 0
+    },
+    {
+      "id": "6803590261",
+      "title": "Tx Hist & Geo: Section 24-04",
+      "source": "archived",
+      "downloaded": 179,
+      "failed": 0
+    },
+    {
+      "id": "6052027470",
+      "title": "Advisory: Section 3-04",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "6052027202",
+      "title": "Band: Beg Br MS1: Section 1-06",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "6052026601",
+      "title": "Language Arts 6: Section 33-03",
+      "source": "archived",
+      "downloaded": 242,
+      "failed": 0
+    },
+    {
+      "id": "6052025765",
+      "title": "Math Accelerated I: Section 12-02",
+      "source": "archived",
+      "downloaded": 345,
+      "failed": 0
+    },
+    {
+      "id": "6052026229",
+      "title": "Science: Section 31-01",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "6052026205",
+      "title": "Theatre Arts: MS 1: Section 18-08",
+      "source": "archived",
+      "downloaded": 10,
+      "failed": 0
+    },
+    {
+      "id": "6052027224",
+      "title": "Wellness Ed 6: Section 17-07",
+      "source": "archived",
+      "downloaded": 0,
+      "failed": 0
+    },
+    {
+      "id": "6052026620",
+      "title": "World Cultures : 5th Period",
+      "source": "archived",
+      "downloaded": 166,
+      "failed": 0
+    }
+  ]
+}

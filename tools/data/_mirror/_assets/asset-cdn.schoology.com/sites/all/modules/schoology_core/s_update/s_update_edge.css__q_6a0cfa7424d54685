@@ -1,0 +1,17 @@
+/* Update */
+.update-container { margin: 5px 0; /* rtl-processor:ignore */ float: left; width: 100%; }
+[dir="rtl"] .update-container { float: right; }
+.update .picture { color: #9a9fa8; text-align: center; text-transform: uppercase; font-size: 9px; font-weight: bold; margin-top: 7px; }
+.update-updates { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow.png") no-repeat 0 3px; padding-inline-start: 12px; }
+.update-hidden-container { margin-inline-start: 15px; display: none; }
+.update-hidden-container div { margin: 5px 0; }
+.feed-entry.merge-above { border: none; padding-top: 0; margin-top: -7px; }
+#feed-feed-entries .course-update-title { font-weight: normal; }
+.update-link { display: inline; }
+.ajax-academic-item { padding: 5px 10px 5px; padding-inline-start: 22px; background: #E3FFD8 url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_present.gif") no-repeat 6px 6px !important; }
+#s-grade-item-add-combined-form #addl-courses { border: none; max-height: none; overflow: hidden; margin: 0 -6px; }
+
+/* Edit Comment Popup Form */
+#s-comment-edit-comment-form { padding: 15px; }
+#s-comment-edit-comment-form .form-item { padding: 0 6px; }
+#s-comment-edit-comment-form .form-textarea { width: 100%; margin: 0 -6px; }

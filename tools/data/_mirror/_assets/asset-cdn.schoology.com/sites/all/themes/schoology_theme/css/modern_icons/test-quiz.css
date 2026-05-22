@@ -1,0 +1,51 @@
+:root {
+    --sgy-icon-test-quiz: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/test-quiz.svg");
+    --sgy-icon-test-quiz-rtl: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/test-quiz-rtl.svg");
+}
+
+[dir="rtl"] {
+    --sgy-icon-test-quiz: var(--sgy-icon-test-quiz-rtl);
+}
+
+[data-theme="modern"] .assessment-icon,
+[data-theme="modern"] .inline-icon.grade-item-icon.assessment-icon,
+[data-theme="modern"] .inline-icon.mini.assessment-icon,
+[data-theme="modern"] .recently-completed-event .mini-icon.assessment-icon,
+[data-theme="modern"] .reminder-list-item .mini-icon.assessment-icon,
+[data-theme="modern"] .upcoming-event .mini-icon.assessment-icon,
+[data-theme="modern"] #folder-contents-table .item-icon.assessment-icon,
+[data-theme="modern"] #folder-contents-table .course-materials-simple .item-icon.assessment-icon,
+[data-theme="modern"] #folder-contents-table .planner-right-cell .item-icon.assessment-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .item-icon.assessment-icon,
+[data-theme="modern"] #s-grade-item-manager .item-icon.item-assessment {
+    background-image: var(--sgy-icon-test-quiz);
+    background-position-y: center;
+}
+
+[data-theme="modern"] .course-content-action-links .action-links .action-create-assessment a,
+[data-theme="modern"] #course-materials-action-links-inline .action-create-assessment a,
+[data-theme="modern"] #toolbar-add-list #collection-add-assessment a {
+    background-image: var(--sgy-icon-test-quiz);
+    background-position-x: 12px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .course-content-action-links .action-links .action-create-assessment a,
+[dir="rtl"][data-theme="modern"] #course-materials-action-links-inline .action-create-assessment a,
+[dir="rtl"][data-theme="modern"] #toolbar-add-list #collection-add-assessment a {
+    background-position-x: calc(100% - 12px);
+}
+
+[data-theme="modern"] .materials-filter-wrapper .action-links .action-view-assessments a {
+    background-image: var(--sgy-icon-test-quiz);
+    background-position-x: 24px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .materials-filter-wrapper .action-links .action-view-assessments a {
+    background-position-x: calc(100% - 24px);
+}
+
+[data-theme="modern"] .calendar-preview .assessment-icon {
+    margin: unset;
+}

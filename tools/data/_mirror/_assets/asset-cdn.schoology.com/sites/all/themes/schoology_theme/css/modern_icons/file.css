@@ -1,0 +1,155 @@
+:root {
+    --sgy-icon-file: url(/sites/all/themes/schoology_theme/images/modern_icons/file.svg);
+    --sgy-icon-file-audio: url(/sites/all/themes/schoology_theme/images/modern_icons/file-audio.svg);
+    --sgy-icon-file-video: url(/sites/all/themes/schoology_theme/images/modern_icons/file-video.svg);
+    --sgy-icon-file-ai: url(/sites/all/themes/schoology_theme/images/modern_icons/file-ai.svg);
+    --sgy-icon-file-doc: url(/sites/all/themes/schoology_theme/images/modern_icons/file-doc.svg);
+    --sgy-icon-file-indd: url(/sites/all/themes/schoology_theme/images/modern_icons/file-indd.svg);
+    --sgy-icon-file-pdf: url(/sites/all/themes/schoology_theme/images/modern_icons/file-pdf.svg);
+    --sgy-icon-file-ppt: url(/sites/all/themes/schoology_theme/images/modern_icons/file-ppt.svg);
+    --sgy-icon-file-psd: url(/sites/all/themes/schoology_theme/images/modern_icons/file-psd.svg);
+    --sgy-icon-file-xls: url(/sites/all/themes/schoology_theme/images/modern_icons/file-xls.svg);
+    --sgy-icon-file-zip: url(/sites/all/themes/schoology_theme/images/modern_icons/file-zip.svg);
+}
+
+/* DEFAULT file icon */
+[data-theme="modern"] .default-icon,
+[data-theme="modern"] .inline-icon.default-icon,
+[data-theme="modern"] .popups-add-document .action-create-file span,
+[data-theme="modern"] #folder-contents-table .inline-icon.default-icon,
+[data-theme="modern"] #resource-types .default-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.default-icon {
+    background-image: var(--sgy-icon-file);
+    background-position-y: center;
+}
+
+[data-theme="modern"] #toolbar-add-list #collection-add-file a {
+    background-image: var(--sgy-icon-file);
+    background-position-x: 12px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] #toolbar-add-list #collection-add-file a {
+    background-position-x: calc(100% - 12px);
+}
+
+[data-theme="modern"] .materials-filter-wrapper .action-links .action-view-documents-files a {
+    background-image: var(--sgy-icon-file);
+    background-position-x: 24px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .materials-filter-wrapper .action-links .action-view-documents-files a {
+    background-position-x: calc(100% - 24px);
+}
+/* end DEFAULT file icon */
+
+/* AUDIO file icon */
+[data-theme="modern"] .music-icon,
+[data-theme="modern"] .inline-icon.music-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.music-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.music-icon {
+    background-image: var(--sgy-icon-file-audio);
+    background-position-y: center;
+}
+/* end AUDIO file icon */
+
+/* VIDEO file icon */
+[data-theme="modern"] .video-icon,
+[data-theme="modern"] .inline-icon.video-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.video-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.video-icon {
+    background-image: var(--sgy-icon-file-video);
+    background-position-y: center;
+}
+/* end VIDEO file icon */
+
+/* .AI file icon */
+[data-theme="modern"] .ai-icon,
+[data-theme="modern"] .inline-icon.ai-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.ai-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.ai-icon {
+    background-image: var(--sgy-icon-file-ai);
+    background-position-y: center;
+}
+/* end .AI file icon */
+
+/* .DOC / .DOCX file icon */
+[data-theme="modern"] .doc-icon,
+[data-theme="modern"] .inline-icon.doc-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.doc-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.doc-icon {
+    background-image: var(--sgy-icon-file-doc);
+    background-position-y: center;
+}
+/* end .DOC / .DOCX file icon */
+
+/* .INDD file icon */
+[data-theme="modern"] .indd-icon,
+[data-theme="modern"] .inline-icon.indd-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.indd-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.indd-icon {
+    background-image: var(--sgy-icon-file-indd);
+    background-position-y: center;
+}
+/* end .INDD file icon */
+
+/* .PDF file icon */
+[data-theme="modern"] .pdf-icon,
+[data-theme="modern"] .inline-icon.pdf-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.pdf-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.pdf-icon {
+    background-image: var(--sgy-icon-file-pdf);
+    background-position-y: center;
+}
+/* end .PDF file icon */
+
+/* .PPT / .PPTX file icon */
+[data-theme="modern"] .ppt-icon,
+[data-theme="modern"] .inline-icon.ppt-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.ppt-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.ppt-icon {
+    background-image: var(--sgy-icon-file-ppt);
+    background-position-y: center;
+}
+/* end .PPT / .PPTX file icon */
+
+/* .PSD file icon */
+[data-theme="modern"] .psd-icon,
+[data-theme="modern"] .inline-icon.psd-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.psd-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.psd-icon {
+    background-image: var(--sgy-icon-file-psd);
+    background-position-y: center;
+}
+/* end .PSD file icon */
+
+/* .TXT file icon */
+[data-theme="modern"] .txt-icon,
+[data-theme="modern"] .inline-icon.txt-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.txt-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.txt-icon {
+    background-image: var(--sgy-icon-file);
+    background-position-y: center;
+}
+/* end .TXT file icon */
+
+/* .XLX / .XLSX file icon */
+[data-theme="modern"] .xls-icon,
+[data-theme="modern"] .inline-icon.xls-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.xls-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.xls-icon {
+    background-image: var(--sgy-icon-file-xls);
+    background-position-y: center;
+}
+/* end .XLX / .XLSX file icon */
+
+/* .ZIP file icon */
+[data-theme="modern"] .zip-icon,
+[data-theme="modern"] .inline-icon.zip-icon,
+[data-theme="modern"] #folder-contents-table .inline-icon.zip-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .inline-icon.zip-icon {
+    background-image: var(--sgy-icon-file-zip);
+    background-position-y: center;
+}
+/* end .ZIP file icon */

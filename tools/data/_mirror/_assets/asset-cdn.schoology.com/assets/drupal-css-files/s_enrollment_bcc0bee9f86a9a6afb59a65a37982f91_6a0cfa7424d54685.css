@@ -1,0 +1,421 @@
+input.ac_input, div.userlist_input { width: 215px; }
+#edit-ids { width: 220px; }
+#s-enrollments-hold-temp-enrollee-form { display: none; margin-bottom: 10px; }
+.enrollments-header div span { font-weight: bold; font-size: 14px; }
+.pager { /* rtl-processor:ignore */ float: right; margin-bottom: 5px; }
+[dir="rtl"] .pager { float: left; }
+.pages { margin-top: 5px; /* rtl-processor:ignore */ float:left; }
+[dir="rtl"] .pages { float: right; }
+#s-enrollments-hold-temp-enrollee-form { background: #e9f0f6; border: 1px solid #cedbe8; text-align: center; }
+#temp-list .tiny { /* rtl-processor:ignore */ float: left; border-bottom: 1px dashed #cedbe8; width: 488px; padding: 5px; }
+[dir="rtl"] #temp-list .tiny { float: right; }
+.tiny .name { width: 420px; font-size: 12px; /* rtl-processor:ignore */ float: left; margin-top: 7px; }
+[dir="rtl"] .tiny .name { float: right; }
+.tiny .school { width: 315px; color: #9a9fa8; }
+#temp-list { text-align: start; }
+#temp-list .delete-button { margin-top: -20px; }
+#temp-list .tiny .name { margin-top: 1px; }
+#remove-btn, #remove-admin-btn, #make-admin-btn { margin-top: 7px; }
+#edit-confirm { margin-bottom: 5px; }
+.enrollments-list .action-links-wrapper { position: absolute; inset-inline-end: 11px; float: none; }
+.enrollments-list .action-links { position: relative; /* rtl-processor:ignore */ float: right; clear: both; }
+[dir="rtl"] .enrollments-list .action-links { float: left; }
+.enrollments-list .action-links-unfold { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .enrollments-list .action-links-unfold { float: left; }
+.enrollments-list .list-item { height: 32px; }
+#s-enrollment-edit-roster-add-enroll-form { height: 260px; overflow-x: hidden; overflow-y: auto; padding: 0; font-size: 11px; }
+#s-enrollment-edit-roster-add-enroll-form table{ width: 675px; text-align: start; margin-inline-start: 10px; }
+#s-enrollment-edit-roster-add-enroll-form .instructions { padding: 5px 10px; background: #e9f0f6; border-bottom: 1px solid #cedbe8; margin: 0 0 15px; }
+#s-enrollment-edit-roster-add-enroll-form label { /* rtl-processor:ignore */ float: left; width: 100px; }
+[dir="rtl"] #s-enrollment-edit-roster-add-enroll-form label { float: right; }
+#s-enrollment-edit-roster-add-enroll-form #edit-send-email-wrapper label { float: none; width: auto; }
+#s-enrollment-edit-roster-add-enroll-form #edit-school-uid-wrapper .description { margin-inline-start: 100px; }
+#s-enrollment-edit-roster-add-enroll-form #edit-send-email-wrapper { margin-inline-start: 10px; bottom: 7px; inset-inline-start: 0; position: absolute; z-index: 10000; }
+#s-enrollment-edit-roster-add-enroll-form .form-text { width: 155px; }
+#s-enrollment-edit-roster-add-enroll-form .submit-buttons { padding-top: 5px; }
+#s-enrollment-edit-roster-add-enroll-form #edit-submit { margin-top: 0; }
+#s-enrollment-edit-roster-add-enroll-form #edit-mail-wrapper .form-required, #s-enrollment-edit-roster-add-enroll-form #edit-username-wrapper .form-required { position: absolute; margin-inline-start: 6px; }
+.popups-large.invite-new { width: 700px; }
+#edit-users-wrapper-add-user { margin: 4px 0 15px; margin-inline-start: 10px; }
+#edit-auto-enroll-wrapper { margin-inline-start: 215px; }
+#edit-auto-enroll-wrapper label { /* rtl-processor:ignore */ float: left; width: 540px; padding: 5px 0; font-size: 12px; }
+[dir="rtl"] #edit-auto-enroll-wrapper label { float: right; }
+.invite-container-wrapper table { width: 100%; }
+.course-member-area #center-top, .group-member-area #center-top { background: #fff; }
+.course-member-area #center-inner, .group-member-area #center-inner { background: url('/sites/all/themes/schoology_theme/images/border.gif?6a0cfa7424d54685') repeat-y 68% 0; }
+[dir="rtl"] .course-member-area #center-inner, [dir="rtl"] .group-member-area #center-inner { background-position-x: calc(100% - 68%); }
+
+/* fixes pc text 2 line text for right nav link */
+body .right-col-reg .right-nav ul.block { padding: 0; }
+
+body #center-wrapper #center-inner { position: relative;}
+
+/* edit members form */
+.enrollments-wrapper { background: #e9f0f6; }
+.enrollment-view-wrapper td { padding: 5px 0 5px; padding-inline-start: 6px; border-bottom: 1px solid #eaeaea; }
+.enrollment-view-wrapper .enrollment-count-row td { padding: 15px 0 15px; padding-inline-start: 46px; color: #9a9fa8; }
+.enrollment-view-wrapper td .picture { width: 30px; padding: 5px 10px; }
+.enrollment-view-wrapper td .picture a { height: 32px; }
+.enrollment-view-wrapper { height: 325px; width: 100%; overflow-y: auto; overflow-x: hidden; border-top: 1px solid #cedbe8; background: #fff; }
+.enrollment-view-wrapper table{ width: 100%; }
+.enrollment-view-wrapper table td.user-picture{ width: 25px; vertical-align: top; }
+.enrollment-view-wrapper .user-picture-container { position: relative; /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .enrollment-view-wrapper .user-picture-container { float: right; }
+.enrollment-view-wrapper .user-picture-container .parent-icon { position: absolute; inset-inline-end: -3px; bottom: 0; }
+.enrollment-view-wrapper .user-name a { font-weight: normal; font-size: 12px; }
+.enrollment-view-nav { width: 100%; height: 34px; text-align: center; position: absolute; bottom: 0; border-top: 1px solid #cedbe8; background-color: #e9f0f6; -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-start-start-radius: 0; border-start-end-radius: 0; border-end-end-radius: 4px; border-end-start-radius: 4px; line-height: 28px; font-weight: bold; }
+#s-enrollment-change-pwd-form .change-password-submitter { padding: 4px 6px; font-size: 11px; height: 14px; }
+.popups-box .enrollment-view-nav { bottom: 11px; }
+.enrollment-view-nav .prev { /* rtl-processor:ignore */ float: left; padding-inline-start: 5%; width: 15%; height:100%; text-align: start; color: #5387B6; cursor: pointer; font-size: 13px; }
+[dir="rtl"] .enrollment-view-nav .prev { float: right; }
+.enrollment-view-nav .next { /* rtl-processor:ignore */ float: left; padding-inline-end: 5%; width: 15%; height:100%; text-align: end; color: #5387B6; cursor: pointer; font-size: 13px; }
+[dir="rtl"] .enrollment-view-nav .next { float: right; }
+.enrollment-view-nav .prev:hover, .enrollment-view-nav .next:hover { cursor: pointer; }
+.enrollment-view-nav .count { width: 60%; /* rtl-processor:ignore */ float: left; height: 100%; }
+[dir="rtl"] .enrollment-view-nav .count { float: right; display: flex; justify-content: center; align-items: center; white-space: break-spaces; }
+.enrollment-view-nav div.disabled { color: #e9f0f6; cursor: default; }
+.enrollment-view-nav div.disabled:hover { cursor: default; }
+.enrollment-view-wrapper .search-results { background-color: #CEDBE8; font-size: 11px; font-weight: bold; padding: 5px; }
+.search-results .close-btn { /* rtl-processor:ignore */ float: right; cursor: pointer; height: 20px; width: 20px; background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') no-repeat -2px -79px; text-indent: -9999px; margin-top: -4px; }
+[dir="rtl"] .search-results .close-btn { float: left; }
+td.enrollment-actions { text-align: end; width: 65px; vertical-align: top; padding-top: 15px; }
+td.enrollment-actions .link-btn { margin-inline-end: 5px; font-weight: normal; display: inline-block; text-transform: capitalize; }
+/* if javascript doesn't load */
+.popups-box .enrollments-wrapper { position: relative; padding-bottom: 35px; }
+.popups-enrollments-mgr .popups-body { padding-bottom: 0; }
+/* fixes gear bug */
+body #center-inner { position: static; }
+.popups-box.popups-enrollments-mgr { width: 573px; }
+.popups-enrollments-mgr .messages { margin-bottom: 0; display: block !important; font-size: 11px; }
+.enrollment-filters { padding: 10px; }
+.enrollment-filters span { margin-inline-end: 3px; padding: 4px 6px; display: inline-block; font-weight: bold; color: #2E66A3; }
+.enrollment-filters span:hover { cursor: pointer; background: #f2f2f2; }
+.enrollment-filters span.active { background: #2E66A3; color: #fff; cursor: default; }
+.enrollment-filters span span { padding: 0; margin: 0; }
+.enrollment-filters span.active span { color: #fff; }
+.enrollment-search { text-align: end; padding: 8px 10px; position: absolute; width: 200px; inset-inline-end: 5px; top: 0; }
+.popups-enrollments-mgr .enrollment-search { inset-inline-end: 15px; top: 0; padding-top: 9px; }
+.enrollment-member .enrollment-actions .enrollment-demote,
+.enrollment-member .enrollment-actions .enrollment-assign-role{ display: none; }
+.enrollment-admin .enrollment-actions .enrollment-promote { display: none; }
+.enrollment-actions .action-links-wrapper { position: relative; }
+.enrollment-actions .action-links { inset-inline-end: 0; text-align: start; }
+.enrollment-actions .enrollment-print-qr-codes a { background-image: url('/sites/all/themes/schoology_theme/images/qr_code_icon_black.svg?6a0cfa7424d54685'); background-position: 13px 5px; background-size: 16px 16px;}
+[dir="rtl"] .enrollment-actions .enrollment-print-qr-codes a { background-position-x: calc(100% - 13px); }
+.enrollment-actions .enrollment-print-qr-codes a:hover { background-image: url('/sites/all/themes/schoology_theme/images/qr_code_icon_white.svg?6a0cfa7424d54685'); background-position: 13px 5px; background-size: 16px 16px;}
+[dir="rtl"] .enrollment-actions .enrollment-print-qr-codes a:hover { background-position-x: calc(100% - 13px); }
+.enrollment-actions .enrollment-message a { background-image: url('/sites/all/themes/schoology_theme/images/mail_icon.png?6a0cfa7424d54685'); background-position: 13px 5px; }
+[dir="rtl"] .enrollment-actions .enrollment-message a { background-position-x: calc(100% - 13px); }
+.enrollment-actions .enrollment-demote a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685'); background-position: 13px -106px; }
+[dir="rtl"] .enrollment-actions .enrollment-demote a { background-position-x: calc(100% - 13px); }
+.enrollment-actions .enrollment-promote a, .enrollment-actions .enrollment-assign-role a { background: url('/sites/all/themes/schoology_theme/images/admin-badge.svg?6a0cfa7424d54685') no-repeat 13px 6px; background-size: 16px 16px; }
+[dir="rtl"] .enrollment-actions .enrollment-promote a, [dir="rtl"] .enrollment-actions .enrollment-assign-role a { background-position-x: calc(100% - 13px); }
+.enrollment-actions .enrollment-remove a, .enrollment-actions .enrollment-unenroll a { background-position: 9px -397px; }
+[dir="rtl"] .enrollment-actions .enrollment-remove a, [dir="rtl"] .enrollment-actions .enrollment-unenroll a { background-position-x: calc(100% - 9px); }
+.enrollment-actions .enrollment-remove a:hover, .enrollment-actions .enrollment-unenroll a:hover { background-position: 9px -417px; }
+[dir="rtl"] .enrollment-actions .enrollment-remove a:hover, [dir="rtl"] .enrollment-actions .enrollment-unenroll a:hover { background-position-x: calc(100% - 9px); }
+.enrollment-actions .enrollment-approve a { background-position: 8px -236px; }
+[dir="rtl"] .enrollment-actions .enrollment-approve a { background-position-x: calc(100% - 8px); }
+.enrollment-actions .enrollment-approve a:hover { background-position: 8px -256px; }
+[dir="rtl"] .enrollment-actions .enrollment-approve a:hover { background-position-x: calc(100% - 8px); }
+.enrollment-actions .enrollment-reenroll a { background-position: 8px -199px; }
+[dir="rtl"] .enrollment-actions .enrollment-reenroll a { background-position-x: calc(100% - 8px); }
+.enrollment-actions .enrollment-reenroll a:hover { background-position: 8px -219px; }
+[dir="rtl"] .enrollment-actions .enrollment-reenroll a:hover { background-position-x: calc(100% - 8px); }
+.enrollment-actions .enrollment-change-pwd a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685'); background-position: 13px -177px; }
+[dir="rtl"] .enrollment-actions .enrollment-change-pwd a { background-position-x: calc(100% - 13px); }
+.enrollment-actions .enrollment-preview a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685'); background-position: 13px -1151px; }
+[dir="rtl"] .enrollment-actions .enrollment-preview a { background-position-x: calc(100% - 13px); }
+.current-password-wrapper { padding: 5px; color: #9a9fa8; font-size: 11px; }
+#s-enrollment-change-pwd-form { overflow: visible; padding: 5px; }
+#s-enrollment-change-pwd-form .click-submit { height: 14px; font-size: 11px; }
+#enrollment-change-password-form .loader { background: url('/sites/all/themes/schoology_theme/images/ajax-loader.gif?6a0cfa7424d54685') no-repeat; width: 43px; height: 11px; padding: 0; margin-top: 28px; margin-inline-end: 10px; /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] #enrollment-change-password-form .loader { float: left; }
+#enrollment-change-password-form { display: none; height: 65px; }
+.enrollment-search .go-btn { background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685') no-repeat 50% -977px #fff; position: absolute; inset-inline-end: 10px; top: 10px; border: none; height: 14px; width: 8px; text-indent: -9999px; text-align: start; -moz-box-shadow: none; webkit-box-shadow: none; box-shadow: none; }
+.enrollment-search input { height: 14px; width: 170px; }
+#s-enrollment-access-code-settings-form #edit-require-approval-wrapper { margin-top: 8px; }
+#s-enrollment-access-code-settings-form .submit-span-wrapper { display: none; }
+#s-enrollment-access-code-settings-form h3 { font-size: 11px; }
+#s-enrollment-access-code-settings-form .clickable { font-weight: normal; }
+.s-user-remove-warning .popups-body p, .s-user-promote-warning .popups-body p { font-size: 12px; display: inline-block; max-width: 70%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.curr-pass { padding: 15px 15px 5px; color: #9a9fa8; font-size: 11px; }
+.curr-pass span { font-weight: bold; color: #333; /* rtl-processor:ignore */ float: left; width: 125px; }
+[dir="rtl"] .curr-pass span { float: right; }
+#s-enrollment-password-change-form { padding: 10px 15px 15px; }
+#s-enrollment-password-change-form h3 { margin-bottom: 10px; }
+#s-enrollment-password-change-form .form-item { margin-bottom: 10px; }
+#s-enrollment-password-change-form .form-text { width: 225px; }
+#s-enrollment-password-change-form label { /* rtl-processor:ignore */ float: left; width: 125px; color: #333; }
+[dir="rtl"] #s-enrollment-password-change-form label { float: right; }
+#s-enrollment-password-change-form #edit-password-wrapper label { margin-top: 5px; }
+#s-enrollment-password-change-form .account-meta { color: #9a9fa8; }
+#s-enrollment-assign-role-form { padding: 10px 15px 15px; }
+#s-enrollment-assign-role-form p.radio-description { margin-bottom: 10px; }
+#s-enrollment-assign-role-form fieldset, #s-enrollment-assign-role-form fieldset legend { padding: 0 }
+.parent-access-popup .popups-body { padding: 15px 20px 42px; }
+.parent-access-popup .instructions { text-align: center; line-height: 1.3; padding-bottom: 15px; }
+.print-qr-code-confirm-modal {font-weight: bold !important;}
+
+/* invite form */
+.people-chooser-wrapper { height: 350px; overflow-y: auto; }
+.s-enrollment-invite-form .unhide-on-load { display: block; }
+.s-enrollment-invite-form .user-invite-wrapper {
+    /* rtl-processor:ignore */
+    float: left;
+    padding: 9px 0;
+    width: 33.33%;
+    display: block;
+    height: 68px;
+    border: 1px dotted #c7c7c7;
+    margin: -1px;
+    cursor: pointer;
+    background: #fff;
+    position: relative;
+}
+[dir="rtl"] .s-enrollment-invite-form .user-invite-wrapper { float: right; }
+.s-enrollment-invite-form .user-invite-wrapper .picture a { height: 40px; }
+.s-enrollment-invite-form .user-invite-wrapper .picture { width: auto; padding: 9px 12px 0; padding-inline-start: 14px; }
+.s-enrollment-invite-form .user-invite-wrapper.highlight, .s-enrollment-invite-form .user-invite-wrapper.highlight:hover { background: url('/sites/all/themes/schoology_theme/images/attendance_present.gif?6a0cfa7424d54685') no-repeat 97% center #E3FFD8; }
+[dir="rtl"] .s-enrollment-invite-form .user-invite-wrapper.highlight, [dir="rtl"] .s-enrollment-invite-form .user-invite-wrapper.highlight:hover { background-position-x: 3%; }
+.s-enrollment-invite-form .user-invite-wrapper.highlight .user-name-wrapper {
+    color: #469823;
+    width: calc(100% - 95px);
+}
+.s-enrollment-invite-form .s-enrollment-invite-list-wrapper, .s-enrollment-invite-form #network-selected { height: 300px; overflow-y: auto; overflow-x: hidden; border: 1px solid #c7c7c7; background: #fff; display: none; }
+.s-enrollment-invite-form .user-picture-wrapper { display: inline-block; vertical-align: middle; }
+.s-enrollment-invite-form .user-name-wrapper {
+    font-size: 14px;
+    color: #5387B6;
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    width: calc(100% - 85px);
+    top: 17px;
+    inset-inline-start: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.s-enrollment-invite-form .metadata-wrapper {
+    font-size: 10px;
+    font-weight: normal;
+    color: #757575;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 3px;
+}
+.s-enrollment-invite-form .metadata-wrapper .label {
+    padding-inline-end: 5px;
+}
+.s-enrollment-invite-form .user-name-wrapper .school-title { margin-inline-start: 5px; font-size: 11px; font-weight: normal; color: #9a9fa8; }
+.s-enrollment-invite-form .user-invite-wrapper.hidden { display: none; }
+.s-enrollment-invite-form .user-name-wrapper-original { display: none; }
+.s-enrollment-invite-form #edit-people-search-wrapper { margin: 0; height: 28px; width: 100%; padding: 0 0 10px; }
+.s-enrollment-invite-form #edit-people-search-wrapper #edit-people-search, .s-enrollment-invite-form #edit-people-search-wrapper #edit-people-search-ac { width: 200px; }
+.s-enrollment-invite-form #edit-people-search-wrapper #edit-people-search-ac { display: none; }
+.s-enrollment-invite-form #edit-people-search-wrapper #edit-people-search { padding-inline-end: 33px; }
+.s-enrollment-invite-form #edit-people-search-wrapper label { display: none; }
+.s-enrollment-invite-list-wrapper .description { margin: 0; padding: 10px 5px; text-align: center; }
+.s-enrollment-invite-form #edit-people-search-wrapper label { /* rtl-processor:ignore */ float: left; margin: 5px 10px 0; margin-inline-start: 0; width: auto; }
+[dir="rtl"] .s-enrollment-invite-form #edit-people-search-wrapper label { float: right; }
+.s-enrollment-invite-form #edit-people-search-wrapper .link-btn, .s-enrollment-invite-form #edit-people-search { /* rtl-processor:ignore */ float: left; }
+[dir="rtl"] .s-enrollment-invite-form #edit-people-search-wrapper .link-btn, [dir="rtl"] .s-enrollment-invite-form #edit-people-search { float: right; position: relative; }
+#s-enrollment-edit-members-invite-form { padding: 15px 20px; }
+#s-enrollment-edit-members-invite-form.access-code-allowed { width: auto; }
+.invite-right .loading-text { background: #fff url('/sites/all/themes/schoology_theme/images/ajax-loader.gif?6a0cfa7424d54685') no-repeat center center; height: 300px; border: 1px solid #c7c7c7; }
+#s-enrollment-edit-members-invite-form .enrollment-code { font-size: 18px; color: #EC9638; font-weight: bold; padding: 5px 0; display: block; }
+#s-enrollment-edit-members-invite-form .action-regenerate-code { text-transform: capitalize; margin-bottom: 5px; }
+#s-enrollment-edit-members-invite-form p { color: #9a9fa8; margin: 5px 0; }
+#s-enrollment-edit-members-invite-form .empty p { text-align: center; padding-top: 15px; }
+#s-enrollment-edit-members-invite-form h3 { padding: 18px 0 3px; }
+#s-enrollment-edit-members-invite-form #edit-people-search-wrapper { width: 100%; text-align: start; height: 30px; }
+#s-enrollment-edit-members-invite-form #edit-share-field { width: 100%; margin: 0 -6px; }
+#s-enrollment-edit-members-invite-form #edit-share-field-wrapper { padding: 0 6px; }
+#s-event-invite-members-form { font-size: 11px; }
+.people-filters { /* rtl-processor:ignore */ float: right; padding-top: 5px; }
+[dir="rtl"] .people-filters { float: left; }
+.people-filters ul { padding: 3px 0; }
+.people-filters li { padding: 3px 20px 3px; padding-inline-start: 5px; cursor: pointer; }
+.people-filters li:hover, .people-filters li.highlight:hover { background: #3875d7; color: #fff; }
+.people-filters li.highlight { background: #fff; font-weight: bold; }
+.people-filters .selected-users, .people-filters .show-all-users { padding: 3px 5px; margin-inline-end: 2px; display: inline-block; cursor: pointer; color: #327CBB; font-weight: bold; }
+.people-filters td.first { width: 445px; }
+.people-filters td.second { text-align: end; padding-inline-end: 3px; }
+.people-filters table { width: 100%; }
+.people-filters .item-list { position: absolute; z-index: 21; background: #fff; border: 1px solid #444; margin: 2px 0 0; margin-inline-start: 5px; display: none; max-width: 400px; max-height: 200px; overflow-y: auto; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+.people-filters .selected-filter { color: #327CBB; background: url('/sites/all/themes/schoology_theme/images/arrow-down.png?6a0cfa7424d54685') no-repeat right 8px; padding: 3px 20px 3px; padding-inline-start: 5px; margin-inline-start: 5px; cursor: pointer; display: block; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; }
+.people-filters .selected-filter.active { background: #444 url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') no-repeat right -596px; color: #fff; }
+.people-filters .selected-users.active, .people-filters .show-all-users.active { background: #577aa8; color: #fff; }
+.invite-container-wrapper .empty { color: #9a9fa8; text-align: center; padding-top: 10px; }
+.invite-container-wrapper .more-btn { background:url('/sites/all/themes/schoology_theme/images/arrow-down.png?6a0cfa7424d54685') no-repeat 38px 50%; display: block; height: 14px; padding: 8px 53px; color: #327CBB; font-weight: bold; }
+.invite-container-wrapper .more-btn.more-loader { background:url('/sites/all/themes/schoology_theme/images/ajax-loader.gif?6a0cfa7424d54685') no-repeat 10px 50%; }
+.popups-large.add-members-popups { width: 600px; }
+.popups-large.add-members-popups .submit-buttons { width: 598px; }
+.s-group-enrollment-invite-wrapper .s-enrollment-invite-form .submit-buttons.has-import-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px !important;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+}
+.s-group-enrollment-invite-wrapper .s-enrollment-invite-form .submit-buttons.has-import-link > span:last-child {
+  text-align: end;
+}
+.s-enrollment-invite-form .import-enrollments-link {
+  text-decoration: underline;
+}
+#edit-people-search-wrapper .link-btn { background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685') no-repeat 6px -975px; text-align: start; text-indent: -9999px; /* rtl-processor:ignore */ float: left; margin-inline-start: -28px; width: 28px; height: 27px; padding: 0; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+[dir="rtl"] #edit-people-search-wrapper .link-btn { float: right; }
+#edit-people-search-wrapper .edit-people-search-qmark {
+    position: relative;
+    top: 7px;
+}
+#s-enrollment-edit-members-invite-form .invite-left h3 { font-size: 14px; }
+.invite-left a { font-weight: normal; }
+#roster-wrapper .right { width: 68%; /* rtl-processor:ignore */ float: left; }
+#roster-wrapper .right .enrollments-wrapper { padding: 15px 20px 0; padding-inline-start: 0; width: auto; min-height: 450px; }
+#roster-wrapper .left { /* rtl-processor:ignore */ float: right; width: 30%; padding-top: 15px; }
+[dir="rtl"] #roster-wrapper .left { float: left; }
+[dir="rtl"] #roster-wrapper .right { float: right; }
+#roster-wrapper .left h3 { font-size: 14px; }
+#roster-wrapper .left a { font-weight: normal; }
+#roster-wrapper .left a.disabled { color: #9a9fa8; }
+#roster-wrapper .left a.disabled:hover { text-decoration: none; cursor: default; }
+#roster-wrapper .left a.link-btn { font-weight: bold; margin-bottom: 10px; }
+#roster-wrapper .roster-top .action-invite span, .grading-group-add-member span { background:url('/sites/all/themes/schoology_theme/images/network_icons.png?6a0cfa7424d54685'); display: inline-block; /* rtl-processor:ignore */ float: left; height: 16px; width: 16px; margin: 0 7px 0; margin-inline-start: -2px; }
+[dir="rtl"] #roster-wrapper .roster-top .action-invite span, [dir="rtl"] .grading-group-add-member span { float: right; }
+#roster-wrapper .enrollments-wrapper { background: none; position: relative; padding-top: 15px; }
+#roster-wrapper .enrollment-view-wrapper { border-top: none; height: auto; overflow: visible; margin-top: -15px; }
+#roster-wrapper .enrollment-view-nav { position: static; border: none; background: none; }
+#roster-wrapper .enrollment-view-wrapper table td.user-picture, #roster-wrapper .enrollment-view-wrapper td .picture { padding-inline-start: 0; }
+#roster-wrapper .enrollment-view-wrapper .user-name a { font-size: 14px; display: inline-block; text-overflow: ellipsis; overflow: hidden; max-width: 400px; white-space: nowrap;}
+#roster-wrapper .enrollment-view-wrapper .ajax-loader { margin-top: 21px; }
+#roster-wrapper .enrollment-filters { padding: 0; }
+#roster-wrapper .enrollment-filters span { font-size: 13px; }
+#roster-wrapper .enrollment-filters span.hidden { display: none; }
+#roster-wrapper .enrollment-view-nav .count { font-size: 13px; }
+#roster-wrapper .enrollment-search { padding: 0; inset-inline-end: 0; top: 10px; width: 30%; }
+#roster-wrapper .enrollment-search input { width: 100%; height: auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+#roster-wrapper .right .enrollment-search { inset-inline-end: 20px; }
+#roster-wrapper .enrollment-search .go-btn { top: 1px; inset-inline-end: 1px; }
+#roster-wrapper .enrollment-view-wrapper .search-results { background: none; font-size: 13px; padding: 10px 0; border-bottom: 1px solid #eaeaea; }
+#roster-wrapper .access-code.left-block-wrapper .show-infotip { position: absolute; inset-inline-end: 10px; }
+.popups-enrollments-mgr .s-edit-enrollments-wrapper { max-height: 400px; overflow: auto; }
+.popups-enrollments-mgr #roster-wrapper .enrollment-view-wrapper { margin: 0; }
+.popups-enrollments-mgr #roster-wrapper .enrollments-wrapper { padding: 0 12px; }
+.roster-top { background: #fff; border-bottom: 1px solid #ddd; padding: 12px 0; position: relative; }
+.roster-top .action-invite, .grading-group-add-member, .enrollments-wrapper .action-invite { /* rtl-processor:ignore */ float: left; margin: -1px 10px 0; margin-inline-start: 0; }
+[dir="rtl"] .roster-top .action-invite, [dir="rtl"] .grading-group-add-member, [dir="rtl"] .enrollments-wrapper .action-invite { float: right; }
+.roster-top .action-invite.hidden { display: none; }
+.access-code.ac-right { margin-bottom: 1px; }
+.access-delete { background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a0cfa7424d54685') no-repeat -4px -81px; width: 16px; height: 16px; /* rtl-processor:ignore */ float: right; margin: -2px -5px 0; margin-inline-start: 0; opacity: .5; filter: brightness(0.5) contrast(2.5); display: none; }
+[dir="rtl"] .access-delete { float: left; }
+.access-code:hover .access-delete { display: inline-block; }
+.access-code .access-delete:hover { opacity: 1; filter: none; cursor: pointer; }
+.show-in-left { background: url('/sites/all/themes/schoology_theme/images/shortcut_sprite.png?6a0cfa7424d54685') no-repeat -1px -23px; width: 16px; height: 16px; display: block; margin: -2px 0 0 0; }
+.show-in-left:hover { cursor: pointer; }
+#grading-groups-wrapper { margin-bottom: 10px; }
+.s-grading-group-create-wrapper { display: table; width: 100%; margin-bottom: 10px; }
+#grading-group-create { display: table-cell; height: 40px; border: 2px dashed #ddd; padding: 0 10px; color: #556370; text-align: center; vertical-align: middle;width: 100%; background-color: transparent; }
+#grading-group-create:hover, #grading-group-create.hover { cursor: pointer; color: #327cbb; border-color: #becddd;width: 100%; }
+#grading-group-create span { display: inline-block; height: 20px; width: 20px; margin: -5px 5px -5px; margin-inline-start: 0; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a0cfa7424d54685') no-repeat scroll 0 -88px; }
+#s-course-grading-group-edit-form { padding: 15px 20px; height: 435px; }
+#s-course-grading-group-edit-form #edit-title-wrapper .form-text { width: 100%; margin: 0 -6px; }
+#s-course-grading-group-edit-form #edit-title-wrapper label { /* rtl-processor:ignore */ float: left; margin: 5px 0 0; margin-inline-start: -125px; }
+[dir="rtl"] #s-course-grading-group-edit-form #edit-title-wrapper label { float: right; }
+#s-course-grading-group-edit-form #edit-title-wrapper { padding: 0 6px 15px; padding-inline-start: 125px; border-bottom: 1px solid #ddd; margin-bottom: 15px; }
+.grading-groups-list { border-top: 1px solid #eaeaea; }
+.grading-groups-list .grading-group { padding: 10px 0 10px; padding-inline-start: 10px; font-size: 14px; font-weight: bold; color: #327cbb; border-bottom: 1px solid #eaeaea; }
+.grading-groups-list .grading-group:hover { cursor: pointer; background: #f5f5f5; }
+.grading-groups-list .grading-group.active { background: #577AA8; color: #fff; }
+.grading-groups-list .grading-group.active .action-links-unfold, .grading-groups-list .grading-group.active .action-links-unfold:hover { background: none; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; padding: 1px; }
+.grading-groups-list .grading-group.active .action-links-unfold .action-links-unfold-text, .grading-groups-list .grading-group.active .action-links-unfold:hover .action-links-unfold-text { background-position: 0 -20px; }
+.grading-groups-list .action-links-wrapper { margin-top: -3px; }
+.grading-group-tag-wrapper { display: block; margin-top: 5px; }
+.grading-group-tag-wrapper .grading-group-tag:hover { cursor: pointer; }
+.grading-group .action-links li div { display: inline; }
+.grading-group .action-links .hidden { display: none; }
+#send-via-email { color: #327cbb; font-weight: bold; margin-top: 15px; display: inline-block; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') no-repeat 0 0; padding-inline-start: 28px; }
+[dir="rtl"] #send-via-email { background-position-x: 100%; }
+#send-via-email:hover { cursor: pointer; }
+td.enrollment-actions .link-btn, td.enrollment-actions .link-btn:hover { background: none; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; padding: 4px 6px; margin: 0; }
+
+.enrollment-admin .user-name .small { display: inline-block; height: 16px; width: 16px; text-indent: -9999px; margin-inline-start: 5px; background-size: 100% 100%;}
+.enrollment-admin .user-name .admin-icon { background: url('/sites/all/themes/schoology_theme/images/admin-badge.svg?6a0cfa7424d54685') no-repeat; }
+.enrollment-admin .user-name .admin-icon-shield { background: url('/sites/all/themes/schoology_theme/images/shield-badge.svg?6a0cfa7424d54685') no-repeat; }
+
+.code-instructions, .s-course-regenerate-invites { display: none; }
+.s-course-disable-invites, .s-course-enable-invites { /* rtl-processor:ignore */ float: right; }
+[dir="rtl"] .s-course-disable-invites, [dir="rtl"] .s-course-enable-invites { float: left; }
+
+#s-enrollment-registration-form { padding: 20px 25px; }
+#s-enrollment-registration-form label { /* rtl-processor:ignore */ float: left; width: 110px; margin: 5px 5px 0; margin-inline-start: 0; }
+[dir="rtl"] #s-enrollment-registration-form label { float: right; }
+#s-enrollment-registration-form .form-text { width: 200px; }
+.right-col-sm.has-right-col .courses-enroll-popup #main { float:none; width: auto; }
+.s-enrollment-link-container { margin-bottom: 10px; }
+.s-enrollment-login {font-weight: normal;}
+#s-enrollment-registration-form #edit-invite-code-wrapper .description, #s-enrollment-registration-form #registration-disclaimer { display: none; }
+.popups-box.groups-enroll-popup .messages { float: none; width: 100%; margin-top: 0; }
+
+.direct-add-wrapper { padding-top: 15px; }
+.direct-add-wrapper #edit-direct-add-wrapper { display: inline; }
+
+/* preview */
+.preview-members-popup.popups-box .popups-body { padding: 0; }
+.preview-members-popup.popups-box .enrollments-wrapper { margin: 0; border: none; }
+.preview-members-popup.popups-box .enrollment-view-wrapper { height: 212px; }
+.preview-members-popup.popups-box .enrollment-view-nav { bottom: 0; }
+.preview-members-popup.popups-box .csm-course-switcher {padding-inline-start: 15px; padding-bottom:5px; margin-top:-10px;}
+
+/* temp */
+.email-username-wrapper .description { position: absolute; inset-inline-start: 350px; padding-top: 5px; }
+
+/* Infotip */
+.enrollment-actions .action-links .enrollment-preview .infotip { opacity: .5; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; display: block; margin-inline-start: 0; padding: 5px 25px 5px; padding-inline-start: 37px; width: auto; background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a0cfa7424d54685'); background-position: 13px -1150px; }
+.enrollment-actions .action-links .enrollment-preview .infotip:hover { background-position: 13px -1150px; color: #333; }
+.preview-members-popup .enrollment-memberno-inactive-access .infotip { background-image: none; padding-inline-end: 0; color: #333; }
+
+/* Archived Members */
+.archived-member-icon { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a0cfa7424d54685') top -100px left 0; }
+
+/* select2 dropdowns in course invite and Student analytics */
+#edit-network-filters-wrapper .select2-container .select2-choice {height: 21px; line-height: 21px;}
+#edit-network-filters-wrapper.form-item {margin-bottom: 0;}
+#s-event-invite-members-form #edit-network-filters-wrapper .s-school-buildings-select2-inputwrapper {height: 22px;}
+#s-enrollment-edit-members-invite-form #edit-network-filters-wrapper .s-school-buildings-select2-inputwrapper {height: 22px;}
+#s-library-collection-share-people-form #edit-network-filters-wrapper .s-school-buildings-select2-inputwrapper { height: 20px;  }
+.s-enrollment-pacc-view{color: #000; margin: 30px auto;}
+.s-enrollment-pacc-view th, .s-enrollment-pacc-view td{border: 1px solid #e1e1e1; padding: 15px 8px; text-align: start;}
+.s-enrollment-pacc-view th{background-color: #f1f1f1; font-size: 12px; font-weight: normal;}
+.s-enrollment-pacc-view td{font-size: 13px;}
+.s-school-buildings-select2-hidden {visibility: hidden;}
+
+/* Special Programs */
+#s-course-grading-group-edit-form .special-programs-filter {
+    /* rtl-processor:ignore */
+    float: left;
+    position: absolute;
+    inset-inline-start: 305px;
+}
+[dir="rtl"] #s-course-grading-group-edit-form .special-programs-filter { float: right; }
+
+/* Add Members search total */
+#search-total-wrapper {
+    /* rtl-processor:ignore */
+    float: right;
+    margin-top: 15px;
+}
+[dir="rtl"] #search-total-wrapper { float: left; }
+.personal-id-wrapper {
+    font-size: 10px;
+    font-weight: normal;
+    color: #757575;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 3px;
+}
+.personal-id-wrapper .label {
+    padding-inline-end: 5px;
+}

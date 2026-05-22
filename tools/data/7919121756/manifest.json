@@ -1,0 +1,86 @@
+{
+  "id": "7919121756",
+  "title": "Adv Thea Arts I: Section 1-05",
+  "source": "active",
+  "scrapedAt": "2026-05-22T04:12:19.818Z",
+  "downloaded": 10,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "link",
+      "title": "data",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/link/view/8380818664",
+      "localPath": "data.url"
+    },
+    {
+      "type": "link",
+      "title": "Check in 1/20",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/link/view/8215741601",
+      "localPath": "Check in 1_20.url"
+    },
+    {
+      "type": "document",
+      "title": "Melodrama Cast list 5th period",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8332446177",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3439150695/source/2f32cbe8a69bc137376d4ce38f09d762.pdf",
+      "ext": "pdf",
+      "localPath": "Melodrama Cast list 5th period.pdf"
+    },
+    {
+      "type": "document",
+      "title": "Grip Top Sock",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8332433169",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3439145417/source/a8a0ecc9c5cc5bb4d6b3210e25edfe56.pdf",
+      "ext": "pdf",
+      "localPath": "Grip Top Sock.pdf"
+    },
+    {
+      "type": "document",
+      "title": "The Lowly Milkman",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8282741523",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3408556596/source/1d3b7fa9d76fcbd5fc4c77e2a0d79d6d.pdf",
+      "ext": "pdf",
+      "localPath": "The Lowly Milkman.pdf"
+    },
+    {
+      "type": "document",
+      "title": "stolen submarine",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8282742459",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3408557100/source/ea46a1402c2a0bdcbe938f4b86af4800.pdf",
+      "ext": "pdf",
+      "localPath": "stolen submarine.pdf"
+    },
+    {
+      "type": "document",
+      "title": "Out of the storm",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8284513244",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3409291687/source/28a41368c147486f0e017fdd20da32e5.pdf",
+      "ext": "pdf",
+      "localPath": "Out of the storm.pdf"
+    },
+    {
+      "type": "document",
+      "title": "when the west was young",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8284513970",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3409291928/source/0af18de9df0d6e3c768ecb68f81eadcd.pdf",
+      "ext": "pdf",
+      "localPath": "when the west was young.pdf"
+    },
+    {
+      "type": "document",
+      "title": "Tragedy at sea",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8284514731",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3409292214/source/de7aa53885277bb83ed92d3590da9eaa.pdf",
+      "ext": "pdf",
+      "localPath": "Tragedy at sea.pdf"
+    },
+    {
+      "type": "document",
+      "title": "A Thief in the House",
+      "href": "https://roundrockisd.schoology.com/course/7919121756/materials/gp/8284542968",
+      "downloadLink": "https://roundrockisd.schoology.com/attachment/3409302859/source/d34d99b42f4571a39d6662d1e057cefa.pdf",
+      "ext": "pdf",
+      "localPath": "A Thief in the House.pdf"
+    }
+  ]
+}

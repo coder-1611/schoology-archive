@@ -1,0 +1,610 @@
+{
+  "id": "7919124205",
+  "title": "Adv Alg II Spring: Section 11-06",
+  "source": "active",
+  "scrapedAt": "2026-05-22T03:49:23.797Z",
+  "downloaded": 37,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "page",
+      "title": "General Information",
+      "href": "https://roundrockisd.schoology.com/page/8180663765",
+      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\">&nbsp;</p>\n<p><iframe src=\"https://docs.google.com/presentation/d/1ErZ6yaxfmfpC298tMb7rCKNpskAzQ28GfUxX4U-Xg6I/preview?ouid=114232169114544648762\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p></div>",
+      "images": [],
+      "localPath": "General Information.html"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 6 - Polynomials (Cubics & Quartics)",
+      "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=969441587",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 1 - Attributes of Cubics & Quartics (1/6-7)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=969441589",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignments",
+              "href": "https://roundrockisd.schoology.com/page/8180701996",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1PtjstPni-gzWU6GHj5T0H5JxV0HY82Ic/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/16rs9rynVQcbXdiTrm5l8YEJeiMvdwvde9uguo9DdjP8/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 1 - Attributes of Cubics & Quartics (1_6-7)/Notes & Assignments.html"
+            }
+          ],
+          "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 1 - Attributes of Cubics & Quartics (1_6-7)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 - Finding Equations of Cubics/Quartics (1/8-9)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=969441596",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8180702013",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/16kCjO9MNhnkoVOdGCli8-QmRsoOMvFBt/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1QkokrMmVZ8gibvdUVtiNbnxmrhPwR76QU6smpAUE3yc/view?usp=sharing\">Assignment</a></p>\n<p>If you miss class, here are a couple of videos going through a couple of the problems on the notes:</p>\n<p><a href=\"https://drive.google.com/file/d/1hyX5w0OUJmby6PvGP7VbPhf7XgShM_pw/view?usp=sharing\">Video #1</a></p>\n<p><a href=\"https://drive.google.com/file/d/1tKCEleqd_PyBO_Gl9UAdVqKZbWDh-bRF/view?usp=sharing\">Video #2</a></p></div>",
+              "images": [],
+              "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 2 - Finding Equations of Cubics_Quartics (1_8-9)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 2 - Finding Equations of Cubics_Quartics (1_8-9)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 3 - Factoring Polynomials by Grouping (1/12-13)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=969441608",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignments",
+              "href": "https://roundrockisd.schoology.com/page/8180702033",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1Z-GSffCaxnJIYaGmhugb0nn6oERLrE8E/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1Xi9qCOin0kPkc8GebGPV8xlA9LezS6rZ/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 3 - Factoring Polynomials by Grouping (1_12-13)/Notes & Assignments.html"
+            }
+          ],
+          "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 3 - Factoring Polynomials by Grouping (1_12-13)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 - Sum & Difference of Perfect Cubes (SOAP Formulas) (1/14-15)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=969441615",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8180702050",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1ksVIMovvEQkJTe07m2-5WwXSFVpsiAcUOGshIjgccZQ/view?usp=sharing\">Notes Template</a> (or you can do it on your own paper)</p>\n<p><a href=\"https://drive.google.com/file/d/1yECQrKdR4gexjlChSkbEXnw6hcmlfLaX/view?usp=sharing\">NOTES</a>Already filled out</p>\n<p><a href=\"https://drive.google.com/file/d/1QAl4481TVl0iIIOV3vYHg1bzi5FMERsI/view?usp=sharing\">Video Lesson Part 1</a>&nbsp;(from 2 years ago)</p>\n<p><a href=\"https://drive.google.com/file/d/1ffdtBwWr7tCq8o60lFlRbF0v2Ywj-32t/view?usp=sharing\">Video Lesson Part 2</a>&nbsp;(from 2 years)ago</p>\n<p><a href=\"https://docs.google.com/document/d/1f_jia-aCAUTZNcah1LkVtGr2OqQy8puZq7WmeegnuUI/view?usp=sharing\">Assignment</a>&nbsp;</p></div>",
+              "images": [],
+              "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 4 - Sum & Difference of Perfect Cubes (SOAP Formulas) (1_14-15)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 4 - Sum & Difference of Perfect Cubes (SOAP Formulas) (1_14-15)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 - Polynomial Long Division (1/16-20)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=969441623",
+          "children": [
+            {
+              "type": "page",
+              "title": "Lesson/Notes",
+              "href": "https://roundrockisd.schoology.com/page/8180702074",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1vC_MTGZ2RW8SKnLL186Ee0A8MmtxBSmD/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1AJbcAUh7iDobrOrvZv5PD6VfoiLE4Lc48oMvWOmCqIQ/view?usp=sharing\">Assignment</a></p>\n<p dir=\"ltr\">&nbsp;</p>\n<p>1.&nbsp; This <a href=\"https://drive.google.com/file/d/1hDvXham8R55pJQvYmejTRYqcvUeZk5Ti/view?usp=sharing\">VIDEO LESSON PART 1</a> shows examples of Polynomial Long Division with and without a remainder.</p>\n<p>2.&nbsp; This <a href=\"https://drive.google.com/file/d/1KJqav7fOxwfE-nvCURYOzCs1ywtu45aJ/view?usp=sharing\">VIDEO LESSON PART 2</a> shows how to perform Polynomial Synthetic Division.</p>\n<p>(Note:&nbsp; Searching either of these topics on YouTube will bring you to more example problems.)</p></div>",
+              "images": [],
+              "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 5 - Polynomial Long Division (1_16-20)/Lesson_Notes.html"
+            }
+          ],
+          "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 5 - Polynomial Long Division (1_16-20)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 6 - Synthetic Division & Rational Root Theorem (1/21-22)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=977300403",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8223327442",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/16tuOlrT5U2SCBcksAxC1iYtYBWxjKFtSxYOepzNfBoQ/view?usp=sharing\">WU</a></p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1ijd_uyd_V0bJwHCiY-dGwgDq17N_lP7y/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/18wXm-or5QBj5QvPbNQ07_c0jAFd3Ri5P/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 6 - Synthetic Division & Rational Root Theorem (1_21-22)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 6 - Synthetic Division & Rational Root Theorem (1_21-22)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 7 - Group Quiz & Review (1/23-26)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=969441631",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/8180702095",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1l1dgGINVzKppNcgtI4uV1L0oLBK6qDVYj1dzu1m6ccY/view?usp=sharing\">Blank Review</a></p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1L_WTXi13ChgEHWuF5aWxMXdH0RxqvGWe/view?usp=sharing\">Review KEY</a></p>\n<p dir=\"ltr\">&nbsp;</p></div>",
+              "images": [],
+              "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 7 - Group Quiz & Review (1_23-26)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 6 - Polynomials (Cubics & Quartics)/Day 7 - Group Quiz & Review (1_23-26)"
+        }
+      ],
+      "localPath": "Unit 6 - Polynomials (Cubics & Quartics)"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 7 - Rational Functions",
+      "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=980145555",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 1 - Simple Rational Functions (2/2-3)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=980145557",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8241253533",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://student.amplify.com/join/3BB7D7\">Marbleslides Activity</a></p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/17_Jz4cIUgcuIIECT1NrHj-yHf4d2GSeS/view?usp=share_link\">Notes</a></p>\n<p><a href=\"https://drive.google.com/file/d/10gWjdp9Ke8IqgGizXYSUt7T-gYKBXDn_/view?usp=share_link\">Lesson Video #1</a></p>\n<p><a href=\"https://drive.google.com/file/d/1Icyh2YZpJmSdB8igcL41M3iFlfK_gN5i/view?usp=share_link\">Lesson Video #2</a></p>\n<p><a href=\"https://docs.google.com/document/d/12g7-080UNMVdJ6A5Fv8ufUIfSMQhl3J4L9IfJwFAqXA/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 7 - Rational Functions/Day 1 - Simple Rational Functions (2_2-3)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 7 - Rational Functions/Day 1 - Simple Rational Functions (2_2-3)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 - Removable Discontinuities/HOLES (2/4-5)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=980877287",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8246971669",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1mxMNicCKppgaQ5XHxe0k61luqcyHcfek/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1VV-MFhGvXmOXkzS5GEw4aJ7HXz_CpzQh59kQyC97kc4/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 7 - Rational Functions/Day 2 - Removable Discontinuities_HOLES (2_4-5)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 7 - Rational Functions/Day 2 - Removable Discontinuities_HOLES (2_4-5)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 3 - Vertical Asymptotes (2/6-9)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=980145558",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8241253543",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/15Ei8WvdKIwSl7PJvGPOrK4wPbqIcSFs-/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://drive.google.com/file/d/1xqlGrjcAyJ3V4cYCweXwIb32inLC79Yd/view?usp=share_link\">Lesson Video #1</a>&nbsp;- old</p>\n<p><a href=\"https://drive.google.com/file/d/1dT13p2w9hOLsCc3lKtP_EiFkUWfcm4XJ/view?usp=share_link\">Lesson Video #2</a>&nbsp;- old</p>\n<p><a href=\"https://docs.google.com/document/d/1TKYnrpsEBJ3n4k9gBE2S5oInImBP0o69J1IOt_Fxwjc/view?usp=sharing\">Assignment</a></p>\n<p>&nbsp;</p></div>",
+              "images": [],
+              "localPath": "Unit 7 - Rational Functions/Day 3 - Vertical Asymptotes (2_6-9)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 7 - Rational Functions/Day 3 - Vertical Asymptotes (2_6-9)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 - Horizontal Asymptotes (2/10-11)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=980145559",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8241253553",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/13ffXp4u16NJz1wdj3SAKKcYLE8NdbZcsYcDr-6AyUYc/view?usp=share_link\">Intro Slides</a></p>\n<p><a href=\"https://drive.google.com/file/d/1WimKRix6UJmRyxH8CyRNxzbfquj2RkGj/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://drive.google.com/file/d/1EHg41dlDEIcr5ZQEIlBr4WUk7Oukinn2/view?usp=share_link\">Lesson Video #1</a></p>\n<p><a href=\"https://drive.google.com/file/d/1WRFI65sqwbxhSFeCro8qLmDM4Lnip_Xm/view?usp=share_link\">Lesson Video #2</a></p>\n<p><a href=\"https://docs.google.com/document/d/1RiK6mYuGbqgqi7Wtg-CLGliQgc9dv8ow7PtUBaTipEM/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 7 - Rational Functions/Day 4 - Horizontal Asymptotes (2_10-11)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 7 - Rational Functions/Day 4 - Horizontal Asymptotes (2_10-11)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 - Review & Group Quiz (2/12-13)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=980145561",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/8241253562",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1oAJj57QRI9_DpVzlDMJZ0dM64Ukz8v-SLbwQAYpYpEo/view?usp=sharing\">Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1uE2TJWh0Iq8vXwhtkIZQtUBO4YU2h9z4/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 7 - Rational Functions/Day 5 - Review & Group Quiz (2_12-13)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 7 - Rational Functions/Day 5 - Review & Group Quiz (2_12-13)"
+        }
+      ],
+      "localPath": "Unit 7 - Rational Functions"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 8 - Applications of Rational Functions",
+      "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=983672971",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 1 - Multiplying and Dividing Rational Functions (2/20-23)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=983672976",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8266084707",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1Ax_cJ_mPbWL79Hb-xr_1_yoEzpmjctPz/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1i67tEiBbfjkGA4eZo3ZqC6iA-4fzXYEIiGMTJS0gYCo/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 8 - Applications of Rational Functions/Day 1 - Multiplying and Dividing Rational Functions (2_20-23)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 8 - Applications of Rational Functions/Day 1 - Multiplying and Dividing Rational Functions (2_20-23)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 - Adding/Subtracting Rationals (2/24-25)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=983672972",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8266084702",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1shRsy_8ssbEn6v6IsoFy7RsA0H-hnPJl/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/18DnqTBv1i4mi6ISrPCsenOFgZiqJkcIXHnNlvQ_8lC0/view?usp=sharing\">Assignment</a>&nbsp;</p>\n<p>Here is a YouTube <a href=\"https://www.youtube.com/results?sp=mAEB&amp;search_query=adding+and+subtracting+rational+expressions\">LINK</a> with several videos on this subject if you need them.</p></div>",
+              "images": [],
+              "localPath": "Unit 8 - Applications of Rational Functions/Day 2 - Adding_Subtracting Rationals (2_24-25)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 8 - Applications of Rational Functions/Day 2 - Adding_Subtracting Rationals (2_24-25)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 - Solving Rational Equations (2/26-27)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=983672975",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8266084705",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1GP-MseT9YoVTsVNk-v4N7K805-IodEFt/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1Z3tde1yNKVW2lVO_ww2gQkcmgCwqnG_mlnyuxkuJo6o/view?usp=sharing\">Assignment</a>- please make sure you write RESTRICTIONS for each problem, as that will be part of the grade.</p>\n<p dir=\"ltr\">Extra Help below. . .</p>\n<p dir=\"ltr\">This is a good video showing a good example of how to solve Rational Equations.&nbsp; When he says LCM and LCD, he's finding the \"least common denominator\" for the equation:&nbsp; <a href=\"https://www.youtube.com/watch?v=3jHB8D2LSkc&amp;list=PL0G-Nd0V5ZMoiWHx3Is2fkrFPB5e-vyoI&amp;index=6&amp;ab_channel=BrianMcLogan\">LINK</a></p>\n<p>This is a Khan Academy Video on the same subject where he does 2 good examples:&nbsp; <a href=\"https://www.youtube.com/watch?v=6eqgIZyXgK8&amp;t=490s&amp;ab_channel=KhanAcademy\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 8 - Applications of Rational Functions/Day 2 - Solving Rational Equations (2_26-27)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 8 - Applications of Rational Functions/Day 2 - Solving Rational Equations (2_26-27)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 - Word Problems (3/2-3)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=983672977",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8266084710",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1dM_nRnCJFVZhaRr1x7q5GQ8dlJYcxMoM/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/18L1wOt4iGW82N6X0j-uaSMMYvoxul-Y-rhhJpGg0_pE/view?usp=sharing\">Assignment</a>&nbsp;</p></div>",
+              "images": [],
+              "localPath": "Unit 8 - Applications of Rational Functions/Day 4 - Word Problems (3_2-3)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 8 - Applications of Rational Functions/Day 4 - Word Problems (3_2-3)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 - Review & KEY (3/4-5)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=983672979",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/8266084714",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1ov6KOTHjlWEFOUvxzGhKzWdF2kU12PG4bj2Ce-YQuNo/view?usp=sharing\">Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1Q__hvveR4D4LkqxLxTeTebtEAG5EaU37/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 8 - Applications of Rational Functions/Day 5 - Review & KEY (3_4-5)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 8 - Applications of Rational Functions/Day 5 - Review & KEY (3_4-5)"
+        }
+      ],
+      "localPath": "Unit 8 - Applications of Rational Functions"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 9 - Radical Functions",
+      "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987246392",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 1 - Rational Exponents & Composition of Functions (3/11-12)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987246393",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8291189195",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1YkMvJnTx3G4FI_EQ2PWWBlrjlFrLh8hL/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1bMW4qLjqmtMj15TCCQxpig32nh5Uj0vkcMCiAk38U2Q/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 1 - Rational Exponents & Composition of Functions (3_11-12)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 9 - Radical Functions/Day 1 - Rational Exponents & Composition of Functions (3_11-12)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 Regression with Radicals (3/13-23)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987611054",
+          "children": [
+            {
+              "type": "page",
+              "title": "Activity LINK",
+              "href": "https://roundrockisd.schoology.com/page/8294057907",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://student.amplify.com/join/KRWRKM\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 2 Regression with Radicals (3_13-23)/Activity LINK.html"
+            }
+          ],
+          "localPath": "Unit 9 - Radical Functions/Day 2 Regression with Radicals (3_13-23)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 3 - Radical Attributes (3/24-25)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987246396",
+          "children": [
+            {
+              "type": "page",
+              "title": "Transformation Cheat Sheet",
+              "href": "https://roundrockisd.schoology.com/page/8291189200",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p><a href=\"https://docs.google.com/document/d/1eKuBkxF0qMFrRAyBcjxfHMRSozB1r8rgHH2-WRZiVSg/edit?usp=sharing\">LINK</a></p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 3 - Radical Attributes (3_24-25)/Transformation Cheat Sheet.html"
+            },
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8291189202",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1vE98nUk9doj-XGiatBX-FDuFGzcCpgyU/edit?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Warm Up Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1YC7SYxQxypY6RUWl5BRKLSbSpHid_DH_/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1GiD7HmYRietOoCwxZfz4cJHRAFXkL7Pn/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 3 - Radical Attributes (3_24-25)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 9 - Radical Functions/Day 3 - Radical Attributes (3_24-25)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 - Solving Radical Equations (3/26-27)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987246394",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8291189197",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1tK_bxs3fWcw7a5q1AAftDKAo2GBNCdPE/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1dImAiXQ6TnuWlS8VxJAA52h1-2omcdwPYmewB_LkErA/view?usp=sharing\">Assignment</a>&nbsp;</p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 4 - Solving Radical Equations (3_26-27)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 9 - Radical Functions/Day 4 - Solving Radical Equations (3_26-27)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 - Inverses (3/30-31)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987246395",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8291189199",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1ze11qJZi92UpMnCBqwiAh6C0giOa1Es4/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1vqjzqLuIcOGIaWLtFh31PXIA1SmHGM98SL17Sos5n_4/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 5 - Inverses (3_30-31)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 9 - Radical Functions/Day 5 - Inverses (3_30-31)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 6 - Word Problem Applications (4/1-2)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987246398",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8291189208",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/19sWZDngZF4AFXwoH-9p1cLWvxZE24AXzSO19OYUP1Lk/edit?usp=share_link\">WU with answers</a></p>\n<p><a href=\"https://drive.google.com/file/d/1JB9hH118xRt5JGjtufAKdHFDotidONDA/view?usp=share_link\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1hYoWp6EBxhBZUATI2mII9FCrWsQYYuif/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 6 - Word Problem Applications (4_1-2)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 9 - Radical Functions/Day 6 - Word Problem Applications (4_1-2)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 7 - Group Quiz and Review (4/7-9)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=987246399",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/8291189211",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1TzAuknnb3SYmvzKqcA1tXVBEB2xlI-B7qv4FRbAFiy4/view?usp=sharing\">Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/1xmrUFroz5VkK-lLD_d7BzIj0DHHZLXLX/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 9 - Radical Functions/Day 7 - Group Quiz and Review (4_7-9)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 9 - Radical Functions/Day 7 - Group Quiz and Review (4_7-9)"
+        },
+        {
+          "type": "page",
+          "title": "Course Verification Survey",
+          "href": "https://roundrockisd.schoology.com/page/8324864700",
+          "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://forms.gle/rSQ8KqWczp7RdqhaA\">LINK</a></p></div>",
+          "images": [],
+          "localPath": "Unit 9 - Radical Functions/Course Verification Survey.html"
+        }
+      ],
+      "localPath": "Unit 9 - Radical Functions"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 10 - Exponential & Logarithm Functions",
+      "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447157",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 1 - Exponential & Logarithm Function Intro (4/14-15)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447159",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8348258143",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1ioTZ65FA1lDSfLOF-3iktYH-NVgQqHRk/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1zat6KCSnjoEmBowrcibi4f5vK-rJZto_g3fS33tD6Cs/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 10 - Exponential & Logarithm Functions/Day 1 - Exponential & Logarithm Function Intro (4_14-15)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 10 - Exponential & Logarithm Functions/Day 1 - Exponential & Logarithm Function Intro (4_14-15)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 - Exponential & Logarithm Graphs (4/16 (A), 4/21(B))",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993987090",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8352053818",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/15dh9ULAY6dwaD-odcroYkKusudFU9Iz5/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1e0IxpcDCClEWF8rADMk5VnK4FxTiIotKf4IhhNWJ19A/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 10 - Exponential & Logarithm Functions/Day 2 - Exponential & Logarithm Graphs (4_16 (A), 4_21(B))/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 10 - Exponential & Logarithm Functions/Day 2 - Exponential & Logarithm Graphs (4_16 (A), 4_21(B))"
+        }
+      ],
+      "localPath": "Unit 10 - Exponential & Logarithm Functions"
+    },
+    {
+      "type": "folder",
+      "title": "Unit 11 - Applications of Logarithms",
+      "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447195",
+      "children": [
+        {
+          "type": "folder",
+          "title": "Day 1 - Properties of Logs (4/17-21)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447196",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assigment",
+              "href": "https://roundrockisd.schoology.com/page/8348258562",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1puKMuXuv6zYqGc4_6r4uRYyecq9lm0nF/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1MiTNFqKmuJr8PQ7fPr-FC-L94tPYwcKISbt1DnJtrcg/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 11 - Applications of Logarithms/Day 1 - Properties of Logs (4_17-21)/Notes & Assigment.html"
+            }
+          ],
+          "localPath": "Unit 11 - Applications of Logarithms/Day 1 - Properties of Logs (4_17-21)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 2 - Solving Log Equations (4/28-29)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447197",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8348258567",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\">Hello 6th/7th Period,</p>\n<p dir=\"ltr\">Unfortunately, I am out sick, but I believe you will be able to follow the notes linked here to work through the notes on your own, and then do the assignment please.&nbsp; The lesson is using the 3 log formulas we learned last time to solve log problems and check for extraneous solutions.&nbsp; Please help each other understand.&nbsp; I believe in you!</p>\n<p dir=\"ltr\">We will check the 2 homeworks next class (this one and the one that was due today).</p>\n<p dir=\"ltr\">Take care,</p>\n<p dir=\"ltr\">Bad Habetz</p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1VVzZwWvxF7UyCqsgQMAggxVtN1Oayx1c/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1KTG2oHwg_UHPSPRead0I2ptf6ZQj0vIe/view?usp=sharing&amp;ouid=114232169114544648762&amp;rtpof=true&amp;sd=true\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 11 - Applications of Logarithms/Day 2 - Solving Log Equations (4_28-29)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 11 - Applications of Logarithms/Day 2 - Solving Log Equations (4_28-29)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 3 - Solving Exponential Equations (4/30-5/1)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447198",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8348258572",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1kpP1Yf9iM4fSKMLQJhX3T-qvQtOPjbP9/view?usp=sharing\">Notes</a>&nbsp;(Don't worry about the \"log rolling\" part - it's just another method of solving.&nbsp; You can just take the log of both sides.)</p>\n<p><a href=\"https://docs.google.com/document/d/1-jLonMzPzjr_46hYmVM1iwuierWB3gO52JYuHPuQ1os/edit?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 11 - Applications of Logarithms/Day 3 - Solving Exponential Equations (4_30-5_1)/Notes & Assignment.html"
+            },
+            {
+              "type": "page",
+              "title": "Video Lesson from Ms. Habetz herself!",
+              "href": "https://roundrockisd.schoology.com/page/8348258574",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p>Hello Students,</p>\n<p>These are different problems than the ones on the notes from class because this video is from the virtual year, but it still has the same content if you need a refresher.</p>\n<p>:-)</p>\n<p>Ms. H</p>\n<p><a href=\"https://youtu.be/Ltk2waXp61s\">Video Lesson</a></p></div>",
+              "images": [],
+              "localPath": "Unit 11 - Applications of Logarithms/Day 3 - Solving Exponential Equations (4_30-5_1)/Video Lesson from Ms. Habetz herself!.html"
+            }
+          ],
+          "localPath": "Unit 11 - Applications of Logarithms/Day 3 - Solving Exponential Equations (4_30-5_1)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 4 - Exponential Growth & Decay & Regression (5/4-5)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447200",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignment",
+              "href": "https://roundrockisd.schoology.com/page/8348258587",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\">Hello Dear 4th Period,</p>\n<p dir=\"ltr\">I know this is getting ridiculous that I'm still out.&nbsp; I'm going to be fine. . .it's some sort of mean virus that has now gone from my throat to my head and I'm still feeling very lousy.&nbsp; I appreciate you soldiering on without me!&nbsp; Please help each other learn and just hang on to all of your assignments and keep bringing them to class and I will answer questions when I return.&nbsp; Don't let yourself get behind.&nbsp; Keep up with the assignments. . .you all know there are classmates that can help if you are struggling.&nbsp; Don't hesistate to ask for help.&nbsp; For today. . .</p>\n<p dir=\"ltr\">1.&nbsp; The sub will give you the notes template.&nbsp; Please work through it using the filled out notes below as needed, but you will only learn it if you try it yourself. . .in other words, don't just copy the template and not actually learn anything.&nbsp; Then you'll be stumped on the assignment.</p>\n<p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/15J93ZDy3PRjM__p1FNxNa0hCK59xvRH-/view?usp=sharing\">Notes</a></p>\n<p dir=\"ltr\">2.&nbsp; The sub will then give you the assignment.</p>\n<p><a href=\"https://docs.google.com/document/d/134XyKiiTlsb8AENJBo1rxbJfMZbpyVn8EhkA6IIMKqg/view?usp=sharing\">Assignment</a></p>\n<p>Take care and I REALLY hope to see you all on Wednesday!</p>\n<p>Peace,</p>\n<p>Bad Habetz :-)</p></div>",
+              "images": [],
+              "localPath": "Unit 11 - Applications of Logarithms/Day 4 - Exponential Growth & Decay & Regression (5_4-5)/Notes & Assignment.html"
+            }
+          ],
+          "localPath": "Unit 11 - Applications of Logarithms/Day 4 - Exponential Growth & Decay & Regression (5_4-5)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 5 - Log Applications (5/6-7)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447202",
+          "children": [
+            {
+              "type": "page",
+              "title": "Notes & Assignments",
+              "href": "https://roundrockisd.schoology.com/page/8348258598",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://drive.google.com/file/d/1riZm3c8cvJLVJRrYDzE6A-_txLTUThBg/view?usp=sharing\">Notes</a></p>\n<p><a href=\"https://docs.google.com/document/d/1M_ANFMfKSPrSgznGiia7arwLODbEJ2ew7K3nG2FN7QI/view?usp=sharing\">Assignment</a></p></div>",
+              "images": [],
+              "localPath": "Unit 11 - Applications of Logarithms/Day 5 - Log Applications (5_6-7)/Notes & Assignments.html"
+            }
+          ],
+          "localPath": "Unit 11 - Applications of Logarithms/Day 5 - Log Applications (5_6-7)"
+        },
+        {
+          "type": "folder",
+          "title": "Day 6 - Review (5/6-7)",
+          "href": "https://roundrockisd.schoology.com/course/7919124205/materials?f=993447203",
+          "children": [
+            {
+              "type": "page",
+              "title": "Review & KEY",
+              "href": "https://roundrockisd.schoology.com/page/8348258605",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/document/d/1jXEomhPjMTom5nheHUEBY5lhNMeUBjXrLH1ADNGPlgk/view?usp=sharing\">Review</a></p>\n<p><a href=\"https://drive.google.com/file/d/19mNpLPB5mIafm5b8MyBgXaCMqaDxAVXC/view?usp=sharing\">KEY</a></p></div>",
+              "images": [],
+              "localPath": "Unit 11 - Applications of Logarithms/Day 6 - Review (5_6-7)/Review & KEY.html"
+            }
+          ],
+          "localPath": "Unit 11 - Applications of Logarithms/Day 6 - Review (5_6-7)"
+        }
+      ],
+      "localPath": "Unit 11 - Applications of Logarithms"
+    },
+    {
+      "type": "page",
+      "title": "End of Year Survey",
+      "href": "https://roundrockisd.schoology.com/page/8392377692",
+      "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://forms.gle/mcs6Hgx8SRqdggTp7\">LINK</a></p></div>",
+      "images": [],
+      "localPath": "End of Year Survey.html"
+    }
+  ]
+}

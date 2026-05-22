@@ -1,0 +1,9 @@
+/* LTI Gradable Assignment Icon and External Tool Custom Icon */
+[data-theme="modern"] .recently-completed-event .mini-icon.lti-gradable-assignment-icon,
+[data-theme="modern"] .reminder-list-item .mini-icon.lti-gradable-assignment-icon,
+[data-theme="modern"] .upcoming-event .mini-icon.lti-gradable-assignment-icon,
+[data-theme="modern"] .recently-completed-event .mini-icon.external-tool-custom-icon,
+[data-theme="modern"] .reminder-list-item .mini-icon.external-tool-custom-icon,
+[data-theme="modern"] .upcoming-event .mini-icon.external-tool-custom-icon {
+    background: none;
+}

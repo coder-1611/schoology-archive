@@ -1,0 +1,49 @@
+<form action="https://edpuzzle.com/lti/assignments/69a9ff51639c2c1250b3dc6d/launch" name="ltiLaunchForm" id="ltiLaunchForm" method="post" encType="application/x-www-form-urlencoded">
+<input type="hidden" name="lti_message_type" value="basic-lti-launch-request"/><br>
+<input type="hidden" name="lti_version" value="LTI-1p0"/><br>
+<input type="hidden" name="launch_presentation_document_target" value="iframe"/><br>
+<input type="hidden" name="tool_consumer_info_product_family_code" value="schoology"/><br>
+<input type="hidden" name="tool_consumer_info_version" value="1.0"/><br>
+<input type="hidden" name="ext_lms" value="schoology-1"/><br>
+<input type="submit" name="ext_submit" value="Submit"/><br>
+<input type="hidden" name="oauth_callback" value="about:blank"/><br>
+<input type="hidden" name="user_id" value="118394018::903bcaaa526450a88b72d0d75d3170c4"/><br>
+<input type="hidden" name="roles" value="Learner"/><br>
+<input type="hidden" name="launch_presentation_locale" value="en"/><br>
+<input type="hidden" name="lis_person_name_given" value="Soham"/><br>
+<input type="hidden" name="lis_person_name_family" value="Sthitpragya"/><br>
+<input type="hidden" name="lis_person_name_full" value="Soham Sthitpragya"/><br>
+<input type="hidden" name="lis_person_contact_email_primary" value="s189070@student.roundrockisd.org"/><br>
+<input type="hidden" name="lis_person_sourcedid" value="118394018::903bcaaa526450a88b72d0d75d3170c4"/><br>
+<input type="hidden" name="context_id" value="7919113211"/><br>
+<input type="hidden" name="context_type" value="CourseSection"/><br>
+<input type="hidden" name="context_title" value="Adv Biology: Section 3-01"/><br>
+<input type="hidden" name="context_label" value="C7919113211"/><br>
+<input type="hidden" name="resource_link_id" value="8283808971"/><br>
+<input type="hidden" name="resource_link_title" value="Yellowstone Wolves EdPuzzle"/><br>
+<input type="hidden" name="resource_link_description" value=""/><br>
+<input type="hidden" name="launch_presentation_return_url" value="https://roundrockisd.schoology.com/apps/lti/return/course/7919113211"/><br>
+<input type="hidden" name="lis_result_sourcedid" value="3409000438::118394018::17c9303db0c34036cc5a8748ce063560"/><br>
+<input type="hidden" name="lis_outcome_service_url" value="https://roundrockisd.schoology.com/external_tool/outcome_service/c/109022"/><br>
+<input type="hidden" name="ext_ims_lis_basic_outcome_url" value="https://roundrockisd.schoology.com/external_tool/outcome_service/c/109022"/><br>
+<input type="hidden" name="tool_consumer_instance_guid" value="2589655242::0d2c6d1b6256c552705c4b90efe5d823"/><br>
+<input type="hidden" name="tool_consumer_instance_name" value="Round Rock ISD"/><br>
+<input type="hidden" name="custom_username" value="s189070"/><br>
+<input type="hidden" name="oauth_signature_method" value="HMAC-SHA1"/><br>
+<input type="hidden" name="oauth_signature" value="yRzSoE/adJsoynTERw/zkfZN1d0="/><br>
+<input type="hidden" name="oauth_nonce" value="6a10304949229"/><br>
+<input type="hidden" name="oauth_timestamp" value="1779445833"/><br>
+<input type="hidden" name="oauth_consumer_key" value="OR%wg3QT99n0PSXU(NJg"/><br>
+<input type="hidden" name="oauth_version" value="1.0"/><br>
+</form>
+ <script type="text/javascript"> 
+  //<![CDATA[ 
+    document.getElementById("ltiLaunchForm").style.display = "none";
+    nei = document.createElement('input');
+    nei.setAttribute('type', 'hidden');
+    nei.setAttribute('name', 'ext_submit');
+    nei.setAttribute('value', 'Submit');
+    document.getElementById("ltiLaunchForm").appendChild(nei);
+    document.ltiLaunchForm.submit(); 
+  //]]> 
+ </script> 

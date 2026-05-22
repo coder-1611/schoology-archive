@@ -1,0 +1,833 @@
+{
+  "id": "7371659521",
+  "title": "Spring Semester Gateway 2025: Section 3-04",
+  "source": "archived",
+  "scrapedAt": "2026-05-22T06:17:40.103Z",
+  "downloaded": 47,
+  "failed": 0,
+  "materials": [
+    {
+      "type": "folder",
+      "title": "April 17, 21, 2025-Tinkercad Activity",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903235037",
+      "children": [
+        {
+          "type": "assignment",
+          "title": "Spring Tinkercad Story and Creation",
+          "href": "https://roundrockisd.schoology.com/assignment/7805851410",
+          "assignmentDetails": {
+            "score": null,
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": true,
+            "usesLtiGoogleSubmission": true
+          },
+          "localPath": "April 17, 21, 2025-Tinkercad Activity/Spring Tinkercad Story and Creation.html"
+        }
+      ],
+      "localPath": "April 17, 21, 2025-Tinkercad Activity"
+    },
+    {
+      "type": "folder",
+      "title": "Spring 2025 - 4th 9wks",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=900052462",
+      "children": [
+        {
+          "type": "folder",
+          "title": "April 16, 2025 - Complete All missing assignments",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903097972",
+          "children": [],
+          "localPath": "Spring 2025 - 4th 9wks/April 16, 2025 - Complete All missing assignments"
+        },
+        {
+          "type": "folder",
+          "title": "April 14, 15, 2025 VEX VR Challenges",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=902641725",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Algorithm Trash Challenge",
+              "href": "https://roundrockisd.schoology.com/assignment/7801782832",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025 - 4th 9wks/April 14, 15, 2025 VEX VR Challenges/Algorithm Trash Challenge.html"
+            },
+            {
+              "type": "assignment",
+              "title": "Spiral Drawing",
+              "href": "https://roundrockisd.schoology.com/assignment/7801783727",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025 - 4th 9wks/April 14, 15, 2025 VEX VR Challenges/Spiral Drawing.html"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/April 14, 15, 2025 VEX VR Challenges"
+        },
+        {
+          "type": "folder",
+          "title": "April 11, 2025 - Quizzes over 1.2, 1.3, 1.4, .15, 1.6",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=902347363",
+          "children": [
+            {
+              "type": "link",
+              "title": "AR 1.2 Quiz - On the Move",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7799577752",
+              "localPath": "Spring 2025 - 4th 9wks/April 11, 2025 - Quizzes over 1.2, 1.3, 1.4, .15, 1.6/AR 1.2 Quiz - On the Move.url"
+            },
+            {
+              "type": "link",
+              "title": "AR 1.3, 1.4, .1.6 Quiz",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7799579902",
+              "localPath": "Spring 2025 - 4th 9wks/April 11, 2025 - Quizzes over 1.2, 1.3, 1.4, .15, 1.6/AR 1.3, 1.4, .1.6 Quiz.url"
+            },
+            {
+              "type": "link",
+              "title": "AR Summative Quiz",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7799581024",
+              "localPath": "Spring 2025 - 4th 9wks/April 11, 2025 - Quizzes over 1.2, 1.3, 1.4, .15, 1.6/AR Summative Quiz.url"
+            },
+            {
+              "type": "link",
+              "title": "Programming Quiz",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7799593658",
+              "localPath": "Spring 2025 - 4th 9wks/April 11, 2025 - Quizzes over 1.2, 1.3, 1.4, .15, 1.6/Programming Quiz.url"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/April 11, 2025 - Quizzes over 1.2, 1.3, 1.4, .15, 1.6"
+        },
+        {
+          "type": "folder",
+          "title": "April, 10, 2025 - Complete your review. Do not turn in until tomorrow",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=902167622",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Loops with VEXcode VR",
+              "href": "https://roundrockisd.schoology.com/assignment/7798120453",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025 - 4th 9wks/April, 10, 2025 - Complete your review. Do not turn in until tomorrow/Loops with VEXcode VR.html"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/April, 10, 2025 - Complete your review. Do not turn in until tomorrow"
+        },
+        {
+          "type": "folder",
+          "title": "April 8, 2025 Review for AR 1.2, 1.4, 1.5, 1.6 Quiz",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=901729535",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Review for AR 1.2, 1.4, 1.5, 1.6",
+              "href": "https://roundrockisd.schoology.com/assignment/7794547292",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025 - 4th 9wks/April 8, 2025 Review for AR 1.2, 1.4, 1.5, 1.6 Quiz/Review for AR 1.2, 1.4, 1.5, 1.6.html"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/April 8, 2025 Review for AR 1.2, 1.4, 1.5, 1.6 Quiz"
+        },
+        {
+          "type": "folder",
+          "title": "April 4, 7,  2025 AR 1.5 Looping Shuffle Due",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=900820130",
+          "children": [
+            {
+              "type": "page",
+              "title": "4th Period Looping Shuffle Code",
+              "href": "https://roundrockisd.schoology.com/page/7789947766",
+              "content": "<div class=\"s-page-summary reset s-rte clearfix\"><p dir=\"ltr\"><a href=\"https://docs.google.com/presentation/d/1jNu2JVLFYzh72VvFfYxkTyrmnviM5hZu205f3Xah08U/edit?usp=drive_link\">4th Period </a></p></div>",
+              "images": [],
+              "localPath": "Spring 2025 - 4th 9wks/April 4, 7,  2025 AR 1.5 Looping Shuffle Due/4th Period Looping Shuffle Code.html"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/April 4, 7,  2025 AR 1.5 Looping Shuffle Due"
+        },
+        {
+          "type": "folder",
+          "title": "April 2, 2025 - Robot Build and Robot Shuffle",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=900402536",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Grade for your Robot Build",
+              "href": "https://roundrockisd.schoology.com/assignment/7786137061",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025 - 4th 9wks/April 2, 2025 - Robot Build and Robot Shuffle/Grade for your Robot Build.html"
+            },
+            {
+              "type": "link",
+              "title": "AR 1.5 Looping Shuffle-Journal Assignment",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7786198135",
+              "localPath": "Spring 2025 - 4th 9wks/April 2, 2025 - Robot Build and Robot Shuffle/AR 1.5 Looping Shuffle-Journal Assignment.url"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/April 2, 2025 - Robot Build and Robot Shuffle"
+        },
+        {
+          "type": "folder",
+          "title": "April 1, 2025 - Robot Completion and Robot Shuffle",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=900052259",
+          "children": [],
+          "localPath": "Spring 2025 - 4th 9wks/April 1, 2025 - Robot Completion and Robot Shuffle"
+        },
+        {
+          "type": "folder",
+          "title": "March 26-28 Robot Dance",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=899320315",
+          "children": [
+            {
+              "type": "link",
+              "title": "How to update Firimware",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7779451123",
+              "localPath": "Spring 2025 - 4th 9wks/March 26-28 Robot Dance/How to update Firimware.url"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/March 26-28 Robot Dance"
+        },
+        {
+          "type": "folder",
+          "title": "March 24, 2025-VEX VR Activities",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=898285839",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "#3 - VEX VR On Target",
+              "href": "https://roundrockisd.schoology.com/assignment/7772760024",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025 - 4th 9wks/March 24, 2025-VEX VR Activities/#3 - VEX VR On Target.html"
+            },
+            {
+              "type": "assignment",
+              "title": "#2 - VEX VR SKIBOT",
+              "href": "https://roundrockisd.schoology.com/assignment/7772761550",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025 - 4th 9wks/March 24, 2025-VEX VR Activities/#2 - VEX VR SKIBOT.html"
+            },
+            {
+              "type": "link",
+              "title": "Skibot",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7773578604",
+              "localPath": "Spring 2025 - 4th 9wks/March 24, 2025-VEX VR Activities/Skibot.url"
+            },
+            {
+              "type": "link",
+              "title": "On Target",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7773581573",
+              "localPath": "Spring 2025 - 4th 9wks/March 24, 2025-VEX VR Activities/On Target.url"
+            }
+          ],
+          "localPath": "Spring 2025 - 4th 9wks/March 24, 2025-VEX VR Activities"
+        }
+      ],
+      "localPath": "Spring 2025 - 4th 9wks"
+    },
+    {
+      "type": "folder",
+      "title": "Spring 2025- 3rd 9wks",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=888028110",
+      "children": [
+        {
+          "type": "link",
+          "title": "Parent Safety Form",
+          "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7666776080",
+          "localPath": "Spring 2025- 3rd 9wks/Parent Safety Form.url"
+        },
+        {
+          "type": "folder",
+          "title": "March 4-5, 2025 - AR 1.6 Gears",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=894285864",
+          "children": [
+            {
+              "type": "link",
+              "title": "AR 1.6 Gears Journal Assignment",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7745578982",
+              "localPath": "Spring 2025- 3rd 9wks/March 4-5, 2025 - AR 1.6 Gears/AR 1.6 Gears Journal Assignment.url"
+            },
+            {
+              "type": "link",
+              "title": "AR 1.6 Gears Journal Part 2",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7777855477",
+              "localPath": "Spring 2025- 3rd 9wks/March 4-5, 2025 - AR 1.6 Gears/AR 1.6 Gears Journal Part 2.url"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/March 4-5, 2025 - AR 1.6 Gears"
+        },
+        {
+          "type": "folder",
+          "title": "February 25, 2024-Algortihms and Flowcharts",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=892786562",
+          "children": [
+            {
+              "type": "link",
+              "title": "AR 1.4 Introduction to Algorithms and Flowcharts",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7735168886",
+              "localPath": "Spring 2025- 3rd 9wks/February 25, 2024-Algortihms and Flowcharts/AR 1.4 Introduction to Algorithms and Flowcharts.url"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/February 25, 2024-Algortihms and Flowcharts"
+        },
+        {
+          "type": "folder",
+          "title": "FEbruary 24, 2025 - Makeup work and Creating Virtual Art in Vexcode VR",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=892352301",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Creating Virtual Art with Vexcode VR",
+              "href": "https://roundrockisd.schoology.com/assignment/7732761697",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/FEbruary 24, 2025 - Makeup work and Creating Virtual Art in Vexcode VR/Creating Virtual Art with Vexcode VR.html"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/FEbruary 24, 2025 - Makeup work and Creating Virtual Art in Vexcode VR"
+        },
+        {
+          "type": "folder",
+          "title": "March 3, 2025 - Silicon Chip Videos",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=893826242",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Silicon Chip Videos",
+              "href": "https://roundrockisd.schoology.com/assignment/7743125903",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/March 3, 2025 - Silicon Chip Videos/Silicon Chip Videos.html"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/March 3, 2025 - Silicon Chip Videos"
+        },
+        {
+          "type": "folder",
+          "title": "January 23-24 - Begin Birdhouse - Sanding and Template",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=885447751",
+          "children": [
+            {
+              "type": "folder",
+              "title": "February 5, 7,  2025 - Continue to complete Jan 27, 2025 assignments and Jan 30-31, 2025 assignments",
+              "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=888717108",
+              "children": [
+                {
+                  "type": "assignment",
+                  "title": "Storm the Castle - VEX VR",
+                  "href": "https://roundrockisd.schoology.com/assignment/7709074931",
+                  "assignmentDetails": {
+                    "score": null,
+                    "description": "",
+                    "googleLinks": [],
+                    "questions": [],
+                    "submissionsLink": null,
+                    "viaBrowser": true,
+                    "usesLtiGoogleSubmission": true
+                  },
+                  "localPath": "Spring 2025- 3rd 9wks/January 23-24 - Begin Birdhouse - Sanding and Template/February 5, 7,  2025 - Continue to complete Jan 27, 2025 assignments and Jan 30-31, 2025 assignments/Storm the Castle - VEX VR.html"
+                }
+              ],
+              "localPath": "Spring 2025- 3rd 9wks/January 23-24 - Begin Birdhouse - Sanding and Template/February 5, 7,  2025 - Continue to complete Jan 27, 2025 assignments and Jan 30-31, 2025 assignments"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/January 23-24 - Begin Birdhouse - Sanding and Template"
+        },
+        {
+          "type": "folder",
+          "title": "Week of February 3-7, 2025 - Shop and Complete Birdhouse",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=887984281",
+          "children": [],
+          "localPath": "Spring 2025- 3rd 9wks/Week of February 3-7, 2025 - Shop and Complete Birdhouse"
+        },
+        {
+          "type": "folder",
+          "title": "January 22, 2025 - Introduce Automation and Robotics.",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=884768851",
+          "children": [],
+          "localPath": "Spring 2025- 3rd 9wks/January 22, 2025 - Introduce Automation and Robotics"
+        },
+        {
+          "type": "folder",
+          "title": "February 27-28, 2025 -WALLE - Movie Notes",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=893222823",
+          "children": [],
+          "localPath": "Spring 2025- 3rd 9wks/February 27-28, 2025 -WALLE - Movie Notes"
+        },
+        {
+          "type": "folder",
+          "title": "January 30-31, 2025 - Getting Started with VEXcode VR",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=887175962",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Getting Started with VEXcode VR - Assignment #1",
+              "href": "https://roundrockisd.schoology.com/assignment/7698541336",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/January 30-31, 2025 - Getting Started with VEXcode VR/Getting Started with VEXcode VR - Assignment #1.html"
+            },
+            {
+              "type": "assignment",
+              "title": "Trash Collecton - VEXcode VR Activity",
+              "href": "https://roundrockisd.schoology.com/assignment/7698542256",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/January 30-31, 2025 - Getting Started with VEXcode VR/Trash Collecton - VEXcode VR Activity.html"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/January 30-31, 2025 - Getting Started with VEXcode VR"
+        },
+        {
+          "type": "folder",
+          "title": "January 17, 2025 -Misc Day",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=883683385",
+          "children": [],
+          "localPath": "Spring 2025- 3rd 9wks/January 17, 2025 -Misc Day"
+        },
+        {
+          "type": "folder",
+          "title": "Week of February 18-21 2025 Birdhouses, AR1.1 Quiz, etc.",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=891113464",
+          "children": [
+            {
+              "type": "link",
+              "title": "AR 1.2 On the Mve Journal Assignment",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7725168152",
+              "localPath": "Spring 2025- 3rd 9wks/Week of February 18-21 2025 Birdhouses, AR1.1 Quiz, etc/AR 1.2 On the Mve Journal Assignment.url"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/Week of February 18-21 2025 Birdhouses, AR1.1 Quiz, etc"
+        },
+        {
+          "type": "folder",
+          "title": "January 27, 2025 - AR 1.1 Meet the Mentors",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=885448837",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "AR 1.1 Meet the Mentors",
+              "href": "https://roundrockisd.schoology.com/assignment/7689882387",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/January 27, 2025 - AR 1.1 Meet the Mentors/AR 1.1 Meet the Mentors.html"
+            },
+            {
+              "type": "link",
+              "title": "AR 1.1 Welcome Interns Journal Assignment Part 1",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7689885521",
+              "localPath": "Spring 2025- 3rd 9wks/January 27, 2025 - AR 1.1 Meet the Mentors/AR 1.1 Welcome Interns Journal Assignment Part 1.url"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/January 27, 2025 - AR 1.1 Meet the Mentors"
+        },
+        {
+          "type": "folder",
+          "title": "January 16, 2025- Shop Safety  and Power Tool Quizzes",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=880149347",
+          "children": [
+            {
+              "type": "common_assessment",
+              "title": "General Shop Rules - True/False",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/assessments/7655952753",
+              "commonAssessmentDetails": {
+                "score": "100/100",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/January 16, 2025- Shop Safety  and Power Tool Quizzes/General Shop Rules - True_False.html"
+            },
+            {
+              "type": "common_assessment",
+              "title": "Tool Safety Quiz",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/assessments/7655953004",
+              "commonAssessmentDetails": {
+                "score": "100/100",
+                "screenshotPath": null,
+                "renderedHtmlPath": null,
+                "viaBrowser": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/January 16, 2025- Shop Safety  and Power Tool Quizzes/Tool Safety Quiz.html"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/January 16, 2025- Shop Safety  and Power Tool Quizzes"
+        },
+        {
+          "type": "folder",
+          "title": "January 10, 13, 2025 - Continue Safety Notes using the Videos in the Link",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=881622226",
+          "children": [
+            {
+              "type": "link",
+              "title": "Shop Safety and Power Tool Videos",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7663795209",
+              "localPath": "Spring 2025- 3rd 9wks/January 10, 13, 2025 - Continue Safety Notes using the Videos in the Link/Shop Safety and Power Tool Videos.url"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/January 10, 13, 2025 - Continue Safety Notes using the Videos in the Link"
+        },
+        {
+          "type": "folder",
+          "title": "Januarry 15, 2025 Safety Review is due, Parent Contract is due",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=883063431",
+          "children": [],
+          "localPath": "Spring 2025- 3rd 9wks/Januarry 15, 2025 Safety Review is due, Parent Contract is due"
+        },
+        {
+          "type": "folder",
+          "title": "January 7, 2025 - Complete Birdhouse Templates, Begin Shop Safety",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=880173297",
+          "children": [],
+          "localPath": "Spring 2025- 3rd 9wks/January 7, 2025 - Complete Birdhouse Templates, Begin Shop Safety"
+        },
+        {
+          "type": "folder",
+          "title": "January 14, 2025-Safety Quiz Review",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=882701560",
+          "children": [
+            {
+              "type": "assignment",
+              "title": "Safety Quiz Review",
+              "href": "https://roundrockisd.schoology.com/assignment/7669598311",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/January 14, 2025-Safety Quiz Review/Safety Quiz Review.html"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/January 14, 2025-Safety Quiz Review"
+        },
+        {
+          "type": "folder",
+          "title": "February 10-14, 2025 - Shop, AR 1.1",
+          "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=889635472",
+          "children": [
+            {
+              "type": "link",
+              "title": "AR 1.1 Welcome Interns! Quiz",
+              "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7720254432",
+              "localPath": "Spring 2025- 3rd 9wks/February 10-14, 2025 - Shop, AR 1.1/AR 1.1 Welcome Interns! Quiz.url"
+            },
+            {
+              "type": "assignment",
+              "title": "The Great Garbage Patch of the Pacific",
+              "href": "https://roundrockisd.schoology.com/assignment/7720257382",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/February 10-14, 2025 - Shop, AR 1.1/The Great Garbage Patch of the Pacific.html"
+            },
+            {
+              "type": "assignment",
+              "title": "AR1.1 Welcome Interns Review",
+              "href": "https://roundrockisd.schoology.com/assignment/7720465709",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/February 10-14, 2025 - Shop, AR 1.1/AR1.1 Welcome Interns Review.html"
+            },
+            {
+              "type": "assignment",
+              "title": "Distance Drill",
+              "href": "https://roundrockisd.schoology.com/assignment/7714992742",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/February 10-14, 2025 - Shop, AR 1.1/Distance Drill.html"
+            },
+            {
+              "type": "assignment",
+              "title": "Basketball Drill",
+              "href": "https://roundrockisd.schoology.com/assignment/7714995520",
+              "assignmentDetails": {
+                "score": null,
+                "description": "",
+                "googleLinks": [],
+                "questions": [],
+                "submissionsLink": null,
+                "viaBrowser": true,
+                "usesLtiGoogleSubmission": true
+              },
+              "localPath": "Spring 2025- 3rd 9wks/February 10-14, 2025 - Shop, AR 1.1/Basketball Drill.html"
+            }
+          ],
+          "localPath": "Spring 2025- 3rd 9wks/February 10-14, 2025 - Shop, AR 1.1"
+        }
+      ],
+      "localPath": "Spring 2025- 3rd 9wks"
+    },
+    {
+      "type": "folder",
+      "title": "DL AR 1.7 It's Universal Part 1 Journal Assignment",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903503909",
+      "children": [
+        {
+          "type": "link",
+          "title": "DL AR 1.7 It's Universal Part 1 Journal ...",
+          "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7807742829",
+          "localPath": "DL AR 1.7 It's Universal Part 1 Journal Assignment/DL AR 1.7 It's Universal Part 1 Journal.url"
+        }
+      ],
+      "localPath": "DL AR 1.7 It's Universal Part 1 Journal Assignment"
+    },
+    {
+      "type": "folder",
+      "title": "DL AR 1.7 It's Universal Part 2 Journal Assignment",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903504213",
+      "children": [
+        {
+          "type": "link",
+          "title": "DL AR 1.7 It's Universal Part 2 Journal ...",
+          "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7807743720",
+          "localPath": "DL AR 1.7 It's Universal Part 2 Journal Assignment/DL AR 1.7 It's Universal Part 2 Journal.url"
+        }
+      ],
+      "localPath": "DL AR 1.7 It's Universal Part 2 Journal Assignment"
+    },
+    {
+      "type": "folder",
+      "title": "DL AR 1.8 Bevel Up Journal Assignment",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903504749",
+      "children": [
+        {
+          "type": "link",
+          "title": "DL AR 1.8 Bevel Up Journal Assignment",
+          "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7807746958",
+          "localPath": "DL AR 1.8 Bevel Up Journal Assignment/DL AR 1.8 Bevel Up Journal Assignment.url"
+        }
+      ],
+      "localPath": "DL AR 1.8 Bevel Up Journal Assignment"
+    },
+    {
+      "type": "folder",
+      "title": "DL AR 2.3 Follow Me Journal Assignment",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903505037",
+      "children": [
+        {
+          "type": "link",
+          "title": "DL AR 2.3 Follow Me Journal Assignment",
+          "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7807747440",
+          "localPath": "DL AR 2.3 Follow Me Journal Assignment/DL AR 2.3 Follow Me Journal Assignment.url"
+        }
+      ],
+      "localPath": "DL AR 2.3 Follow Me Journal Assignment"
+    },
+    {
+      "type": "folder",
+      "title": "DL AR 2.4 End of the Line Journal Assignment",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903505111",
+      "children": [
+        {
+          "type": "link",
+          "title": "DL AR 2.4 End of the Line Journal Assignment",
+          "href": "https://roundrockisd.schoology.com/course/7371659517/materials/link/view/7807747747",
+          "localPath": "DL AR 2.4 End of the Line Journal Assignment/DL AR 2.4 End of the Line Journal Assignment.url"
+        }
+      ],
+      "localPath": "DL AR 2.4 End of the Line Journal Assignment"
+    },
+    {
+      "type": "folder",
+      "title": "Creating Virtual Art in VEXcode VR",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903505186",
+      "children": [
+        {
+          "type": "assignment",
+          "title": "Creating Virtual Art with VEXcode VR",
+          "href": "https://roundrockisd.schoology.com/assignment/7807748086",
+          "assignmentDetails": {
+            "score": null,
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": true,
+            "usesLtiGoogleSubmission": true
+          },
+          "localPath": "Creating Virtual Art in VEXcode VR/Creating Virtual Art with VEXcode VR.html"
+        }
+      ],
+      "localPath": "Creating Virtual Art in VEXcode VR"
+    },
+    {
+      "type": "folder",
+      "title": "Variables in VEXcode VR Part 1",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903505345",
+      "children": [
+        {
+          "type": "assignment",
+          "title": "Variables in VEXcode VR",
+          "href": "https://roundrockisd.schoology.com/assignment/7807748648",
+          "assignmentDetails": {
+            "score": null,
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": true,
+            "usesLtiGoogleSubmission": true
+          },
+          "localPath": "Variables in VEXcode VR Part 1/Variables in VEXcode VR.html"
+        }
+      ],
+      "localPath": "Variables in VEXcode VR Part 1"
+    },
+    {
+      "type": "folder",
+      "title": "Variables in VEXcode VR Part 2",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903505402",
+      "children": [
+        {
+          "type": "assignment",
+          "title": "Variables in VEXcode VR",
+          "href": "https://roundrockisd.schoology.com/assignment/7807748972",
+          "assignmentDetails": {
+            "score": null,
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": true,
+            "usesLtiGoogleSubmission": true
+          },
+          "localPath": "Variables in VEXcode VR Part 2/Variables in VEXcode VR.html"
+        }
+      ],
+      "localPath": "Variables in VEXcode VR Part 2"
+    },
+    {
+      "type": "folder",
+      "title": "Functions in VEXcode VR",
+      "href": "https://roundrockisd.schoology.com/course/7371659521/materials?f=903505461",
+      "children": [
+        {
+          "type": "assignment",
+          "title": "Functions in VEXcode VR",
+          "href": "https://roundrockisd.schoology.com/assignment/7807749292",
+          "assignmentDetails": {
+            "score": null,
+            "description": "",
+            "googleLinks": [],
+            "questions": [],
+            "submissionsLink": null,
+            "viaBrowser": true,
+            "usesLtiGoogleSubmission": true
+          },
+          "localPath": "Functions in VEXcode VR/Functions in VEXcode VR.html"
+        }
+      ],
+      "localPath": "Functions in VEXcode VR"
+    }
+  ]
+}

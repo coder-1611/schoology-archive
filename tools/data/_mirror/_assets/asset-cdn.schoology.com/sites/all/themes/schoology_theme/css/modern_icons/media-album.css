@@ -1,0 +1,54 @@
+:root {
+    --sgy-icon-media-album: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/media-album.svg");
+    --sgy-icon-media-album-gray: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/media-album-gray.svg");
+}
+
+/* MEDIA ALBUM icon */
+[data-theme="modern"] .media-album-icon,
+[data-theme="modern"] .inline-icon.mini.album-icon,
+[data-theme="modern"] #folder-contents-table .item-icon.media-album-icon,
+[data-theme="modern"] #folder-contents-table .course-materials-simple .item-icon.media-album-icon,
+[data-theme="modern"] #folder-contents-table .planner-right-cell .item-icon.media-album-icon,
+[data-theme="modern"] #left-nav #menu-s-main .menu .group-albums-left-menu.active-trail-dist-1 span,
+[data-theme="modern"] #left-nav #menu-s-main .menu .group-albums-left-menu:hover span,
+[data-theme="modern"] #resource-types .media-album-icon,
+[data-theme="modern"] #s-course-materials-folder-completion-form .item-icon.media-album-icon {
+    background-image: var(--sgy-icon-media-album);
+    background-position-y: center;
+}
+
+[data-theme="modern"] .album-actions .add-media-btn span,
+[data-theme="modern"] .create-album-btn span {
+    background-image: var(--sgy-icon-media-album);
+    background-position-y: -2px;
+}
+
+[data-theme="modern"] .course-content-action-links .action-links .action-create-album a,
+[data-theme="modern"] #course-materials-action-links-inline .action-create-album a {
+    background-image: var(--sgy-icon-media-album);
+    background-position-x: 12px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .course-content-action-links .action-links .action-create-album a,
+[dir="rtl"][data-theme="modern"] #course-materials-action-links-inline .action-create-album a {
+    background-position-x: calc(100% - 12px);
+}
+
+[data-theme="modern"] .materials-filter-wrapper .action-links .action-view-album a {
+    background-image: var(--sgy-icon-media-album);
+    background-position-x: 24px;
+    background-position-y: center;
+    background-size: 16px;
+}
+[dir="rtl"][data-theme="modern"] .materials-filter-wrapper .action-links .action-view-album a {
+    background-position-x: calc(100% - 24px);
+}
+/* end MEDIA ALBUM icon */
+
+/* GRAY MEDIA ALBUM icon */
+[data-theme="modern"] #left-nav #menu-s-main .menu .group-albums-left-menu span {
+    background-image: var(--sgy-icon-media-album-gray);
+    background-position-y: center;
+}
+/* end GRAY MEDIA ALBUM icon */
