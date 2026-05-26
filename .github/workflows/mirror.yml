@@ -1,0 +1,79 @@
+name: Mirror Schoology
+
+on:
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout (code + manifests only)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            tools/scrape.mjs
+            tools/mirror.mjs
+            tools/server.mjs
+            tools/package.json
+            tools/package-lock.json
+            tools/lib
+            tools/data/index.json
+          sparse-checkout-cone-mode: false
+
+      - name: Fetch manifests from repo tree
+        run: |
+          git ls-tree -r --name-only HEAD | grep '/manifest\.json$' | while IFS= read -r f; do
+            mkdir -p "$(dirname "$f")"
+            git show "HEAD:$f" > "$f"
+          done
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: tools/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: tools
+
+      - name: Write config.json
+        env:
+          SCHOOLOGY_COOKIE: ${{ secrets.SCHOOLOGY_COOKIE }}
+        run: |
+          python3 -c "
+          import json, os
+          cfg = {
+            'domain': 'https://roundrockisd.schoology.com',
+            'cookie': os.environ['SCHOOLOGY_COOKIE'],
+            'userAgent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
+            'includeArchived': True,
+            'dataDir': './data',
+            'port': 3000
+          }
+          json.dump(cfg, open('tools/config.json', 'w'), indent=2)
+          "
+
+      - name: Run mirror
+        run: node mirror.mjs
+        working-directory: tools
+
+      - name: Commit and push mirror output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/data/_mirror/
+          if git diff --cached --quiet; then
+            echo "No new pages to commit."
+          else
+            COUNT=$(git diff --cached --name-only | wc -l | tr -d ' ')
+            git commit -m "Mirror update — $COUNT pages ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase origin main
+            git push origin main
+          fi
