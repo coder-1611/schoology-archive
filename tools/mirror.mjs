@@ -141,6 +141,11 @@ async function main() {
     console.log('Enumerating courses…');
     courses = await enumerateCourses(http, { includeArchived: config.includeArchived });
     console.log(`  found ${courses.length} courses`);
+    if (courses.length === 0) {
+      console.error('FATAL: 0 courses found — likely expired cookie or auth redirect to login page. Refresh SCHOOLOGY_COOKIE and retry.');
+      await browser.close().catch(() => {});
+      process.exit(2);
+    }
   }
 
   // Build course-ID alias map across all courses we're about to mirror.
@@ -157,9 +162,16 @@ async function main() {
   console.log(`Mirror root: ${mirrorRoot}`);
   console.log(`Mirroring ${targets.length} pages…`);
 
-  let okCount = 0, failCount = 0;
+  let okCount = 0, failCount = 0, skipCount = 0;
   for (let i = 0; i < targets.length; i++) {
     const url = targets[i];
+    const pageAbs = path.join(mirrorRoot, pageLocalPath(url));
+    try {
+      await fs.access(pageAbs);
+      skipCount++;
+      continue; // already mirrored
+    } catch { /* not yet mirrored — proceed */ }
+
     process.stdout.write(`  [${i + 1}/${targets.length}] ${url} … `);
     try {
       const { pageRel, assetsCaptured } = await mirrorPage(browser, http, url, { mirrorRoot, mirroredPages, aliasMap });
@@ -182,7 +194,7 @@ async function main() {
   indexLines.push('</ul>');
   await fs.writeFile(path.join(mirrorRoot, 'index.html'), indexLines.join('\n'));
 
-  console.log(`\nDone. ${okCount} succeeded, ${failCount} failed.`);
+  console.log(`\nDone. ${okCount} saved, ${skipCount} already done, ${failCount} failed.`);
   console.log(`Open http://localhost:${config.port}/mirror/index.html (start server with: npm run serve)`);
   await browser.close();
 }
