@@ -3,10 +3,15 @@ name: Mirror Schoology
 on:
   workflow_dispatch:
 
+# Prevent two dispatches from racing on git push.
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
 jobs:
   mirror:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 359
 
     permissions:
       contents: write
@@ -32,6 +37,12 @@ jobs:
             mkdir -p "$(dirname "$f")"
             git show "HEAD:$f" > "$f"
           done
+
+      - name: Pull existing _mirror so resume skips already-done pages
+        run: |
+          git sparse-checkout add tools/data/_mirror/
+          git checkout HEAD -- tools/data/_mirror/ 2>/dev/null || true
+          echo "_mirror size: $(du -sh tools/data/_mirror 2>/dev/null | cut -f1 || echo 'empty')"
 
       - uses: actions/setup-node@v4
         with:
@@ -60,21 +71,43 @@ jobs:
           json.dump(cfg, open('tools/config.json', 'w'), indent=2)
           "
 
-      - name: Run mirror
-        run: node mirror.mjs
-        working-directory: tools
-
-      - name: Commit and push mirror output
+      - name: Configure git identity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git sparse-checkout add tools/data/_mirror/
-          git add tools/data/_mirror/
-          if git diff --cached --quiet; then
-            echo "No new pages to commit."
-          else
+
+      - name: Run mirror with periodic commits
+        working-directory: ${{ github.workspace }}
+        run: |
+          set -uo pipefail
+
+          commit_progress() {
+            git add tools/data/_mirror/ 2>/dev/null || true
+            if git diff --cached --quiet; then
+              return 0
+            fi
             COUNT=$(git diff --cached --name-only | wc -l | tr -d ' ')
-            git commit -m "Mirror update — $COUNT pages ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-            git pull --rebase origin main
-            git push origin main
-          fi
+            git commit -m "Mirror progress — $COUNT files ($(date -u '+%Y-%m-%d %H:%M UTC'))" >/dev/null 2>&1 || return 0
+            # Retry pull+push up to 3 times to ride out transient network blips
+            for i in 1 2 3; do
+              git pull --rebase origin main >/dev/null 2>&1 && \
+              git push origin main >/dev/null 2>&1 && { echo "  ✓ pushed $COUNT files"; return 0; }
+              echo "  ⚠ push attempt $i failed; retrying in 10s"
+              sleep 10
+            done
+            echo "  ✗ push gave up after 3 attempts"
+          }
+
+          # Background auto-committer: snapshot progress every 5 min so a
+          # workflow-timeout kill never loses an entire run's work.
+          (
+            while sleep 300; do
+              echo "── auto-commit tick $(date -u +%H:%M:%S) ──"
+              commit_progress
+            done
+          ) &
+          AUTO_PID=$!
+          # Final flush on any exit (success, mirror failure, or timeout SIGTERM)
+          trap 'kill $AUTO_PID 2>/dev/null || true; echo "── final flush ──"; commit_progress' EXIT
+
+          cd tools && node mirror.mjs
