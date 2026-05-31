@@ -42,7 +42,7 @@ input.ac_input, div.userlist_input { width: 215px; }
 [dir="rtl"] #edit-auto-enroll-wrapper label { float: right; }
 .invite-container-wrapper table { width: 100%; }
 .course-member-area #center-top, .group-member-area #center-top { background: #fff; }
-.course-member-area #center-inner, .group-member-area #center-inner { background: url('/sites/all/themes/schoology_theme/images/border.gif?6a16f82f54450577') repeat-y 68% 0; }
+.course-member-area #center-inner, .group-member-area #center-inner { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/border.gif__q_6a16f82f54450577") repeat-y 68% 0; }
 [dir="rtl"] .course-member-area #center-inner, [dir="rtl"] .group-member-area #center-inner { background-position-x: calc(100% - 68%); }
 
 /* fixes pc text 2 line text for right nav link */
@@ -76,7 +76,7 @@ body #center-wrapper #center-inner { position: relative;}
 .enrollment-view-nav div.disabled { color: #e9f0f6; cursor: default; }
 .enrollment-view-nav div.disabled:hover { cursor: default; }
 .enrollment-view-wrapper .search-results { background-color: #CEDBE8; font-size: 11px; font-weight: bold; padding: 5px; }
-.search-results .close-btn { /* rtl-processor:ignore */ float: right; cursor: pointer; height: 20px; width: 20px; background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a16f82f54450577') no-repeat -2px -79px; text-indent: -9999px; margin-top: -4px; }
+.search-results .close-btn { /* rtl-processor:ignore */ float: right; cursor: pointer; height: 20px; width: 20px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a16f82f54450577") no-repeat -2px -79px; text-indent: -9999px; margin-top: -4px; }
 [dir="rtl"] .search-results .close-btn { float: left; }
 td.enrollment-actions { text-align: end; width: 65px; vertical-align: top; padding-top: 15px; }
 td.enrollment-actions .link-btn { margin-inline-end: 5px; font-weight: normal; display: inline-block; text-transform: capitalize; }
@@ -100,15 +100,15 @@ body #center-inner { position: static; }
 .enrollment-admin .enrollment-actions .enrollment-promote { display: none; }
 .enrollment-actions .action-links-wrapper { position: relative; }
 .enrollment-actions .action-links { inset-inline-end: 0; text-align: start; }
-.enrollment-actions .enrollment-print-qr-codes a { background-image: url('/sites/all/themes/schoology_theme/images/qr_code_icon_black.svg?6a16f82f54450577'); background-position: 13px 5px; background-size: 16px 16px;}
+.enrollment-actions .enrollment-print-qr-codes a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/qr_code_icon_black.svg__q_6a16f82f54450577"); background-position: 13px 5px; background-size: 16px 16px;}
 [dir="rtl"] .enrollment-actions .enrollment-print-qr-codes a { background-position-x: calc(100% - 13px); }
-.enrollment-actions .enrollment-print-qr-codes a:hover { background-image: url('/sites/all/themes/schoology_theme/images/qr_code_icon_white.svg?6a16f82f54450577'); background-position: 13px 5px; background-size: 16px 16px;}
+.enrollment-actions .enrollment-print-qr-codes a:hover { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/qr_code_icon_white.svg__q_6a16f82f54450577"); background-position: 13px 5px; background-size: 16px 16px;}
 [dir="rtl"] .enrollment-actions .enrollment-print-qr-codes a:hover { background-position-x: calc(100% - 13px); }
-.enrollment-actions .enrollment-message a { background-image: url('/sites/all/themes/schoology_theme/images/mail_icon.png?6a16f82f54450577'); background-position: 13px 5px; }
+.enrollment-actions .enrollment-message a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/mail_icon.png__q_6a16f82f54450577"); background-position: 13px 5px; }
 [dir="rtl"] .enrollment-actions .enrollment-message a { background-position-x: calc(100% - 13px); }
-.enrollment-actions .enrollment-demote a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a16f82f54450577'); background-position: 13px -106px; }
+.enrollment-actions .enrollment-demote a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a16f82f54450577"); background-position: 13px -106px; }
 [dir="rtl"] .enrollment-actions .enrollment-demote a { background-position-x: calc(100% - 13px); }
-.enrollment-actions .enrollment-promote a, .enrollment-actions .enrollment-assign-role a { background: url('/sites/all/themes/schoology_theme/images/admin-badge.svg?6a16f82f54450577') no-repeat 13px 6px; background-size: 16px 16px; }
+.enrollment-actions .enrollment-promote a, .enrollment-actions .enrollment-assign-role a { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/admin-badge.svg__q_6a16f82f54450577") no-repeat 13px 6px; background-size: 16px 16px; }
 [dir="rtl"] .enrollment-actions .enrollment-promote a, [dir="rtl"] .enrollment-actions .enrollment-assign-role a { background-position-x: calc(100% - 13px); }
 .enrollment-actions .enrollment-remove a, .enrollment-actions .enrollment-unenroll a { background-position: 9px -397px; }
 [dir="rtl"] .enrollment-actions .enrollment-remove a, [dir="rtl"] .enrollment-actions .enrollment-unenroll a { background-position-x: calc(100% - 9px); }
@@ -122,17 +122,17 @@ body #center-inner { position: static; }
 [dir="rtl"] .enrollment-actions .enrollment-reenroll a { background-position-x: calc(100% - 8px); }
 .enrollment-actions .enrollment-reenroll a:hover { background-position: 8px -219px; }
 [dir="rtl"] .enrollment-actions .enrollment-reenroll a:hover { background-position-x: calc(100% - 8px); }
-.enrollment-actions .enrollment-change-pwd a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a16f82f54450577'); background-position: 13px -177px; }
+.enrollment-actions .enrollment-change-pwd a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a16f82f54450577"); background-position: 13px -177px; }
 [dir="rtl"] .enrollment-actions .enrollment-change-pwd a { background-position-x: calc(100% - 13px); }
-.enrollment-actions .enrollment-preview a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a16f82f54450577'); background-position: 13px -1151px; }
+.enrollment-actions .enrollment-preview a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a16f82f54450577"); background-position: 13px -1151px; }
 [dir="rtl"] .enrollment-actions .enrollment-preview a { background-position-x: calc(100% - 13px); }
 .current-password-wrapper { padding: 5px; color: #9a9fa8; font-size: 11px; }
 #s-enrollment-change-pwd-form { overflow: visible; padding: 5px; }
 #s-enrollment-change-pwd-form .click-submit { height: 14px; font-size: 11px; }
-#enrollment-change-password-form .loader { background: url('/sites/all/themes/schoology_theme/images/ajax-loader.gif?6a16f82f54450577') no-repeat; width: 43px; height: 11px; padding: 0; margin-top: 28px; margin-inline-end: 10px; /* rtl-processor:ignore */ float: right; }
+#enrollment-change-password-form .loader { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/ajax-loader.gif__q_6a16f82f54450577") no-repeat; width: 43px; height: 11px; padding: 0; margin-top: 28px; margin-inline-end: 10px; /* rtl-processor:ignore */ float: right; }
 [dir="rtl"] #enrollment-change-password-form .loader { float: left; }
 #enrollment-change-password-form { display: none; height: 65px; }
-.enrollment-search .go-btn { background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a16f82f54450577') no-repeat 50% -977px #fff; position: absolute; inset-inline-end: 10px; top: 10px; border: none; height: 14px; width: 8px; text-indent: -9999px; text-align: start; -moz-box-shadow: none; webkit-box-shadow: none; box-shadow: none; }
+.enrollment-search .go-btn { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a16f82f54450577") no-repeat 50% -977px #fff; position: absolute; inset-inline-end: 10px; top: 10px; border: none; height: 14px; width: 8px; text-indent: -9999px; text-align: start; -moz-box-shadow: none; webkit-box-shadow: none; box-shadow: none; }
 .enrollment-search input { height: 14px; width: 170px; }
 #s-enrollment-access-code-settings-form #edit-require-approval-wrapper { margin-top: 8px; }
 #s-enrollment-access-code-settings-form .submit-span-wrapper { display: none; }
@@ -176,7 +176,7 @@ body #center-inner { position: static; }
 [dir="rtl"] .s-enrollment-invite-form .user-invite-wrapper { float: right; }
 .s-enrollment-invite-form .user-invite-wrapper .picture a { height: 40px; }
 .s-enrollment-invite-form .user-invite-wrapper .picture { width: auto; padding: 9px 12px 0; padding-inline-start: 14px; }
-.s-enrollment-invite-form .user-invite-wrapper.highlight, .s-enrollment-invite-form .user-invite-wrapper.highlight:hover { background: url('/sites/all/themes/schoology_theme/images/attendance_present.gif?6a16f82f54450577') no-repeat 97% center #E3FFD8; }
+.s-enrollment-invite-form .user-invite-wrapper.highlight, .s-enrollment-invite-form .user-invite-wrapper.highlight:hover { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_present.gif__q_6a16f82f54450577") no-repeat 97% center #E3FFD8; }
 [dir="rtl"] .s-enrollment-invite-form .user-invite-wrapper.highlight, [dir="rtl"] .s-enrollment-invite-form .user-invite-wrapper.highlight:hover { background-position-x: 3%; }
 .s-enrollment-invite-form .user-invite-wrapper.highlight .user-name-wrapper {
     color: #469823;
@@ -222,7 +222,7 @@ body #center-inner { position: static; }
 [dir="rtl"] .s-enrollment-invite-form #edit-people-search-wrapper .link-btn, [dir="rtl"] .s-enrollment-invite-form #edit-people-search { float: right; position: relative; }
 #s-enrollment-edit-members-invite-form { padding: 15px 20px; }
 #s-enrollment-edit-members-invite-form.access-code-allowed { width: auto; }
-.invite-right .loading-text { background: #fff url('/sites/all/themes/schoology_theme/images/ajax-loader.gif?6a16f82f54450577') no-repeat center center; height: 300px; border: 1px solid #c7c7c7; }
+.invite-right .loading-text { background: #fff url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/ajax-loader.gif__q_6a16f82f54450577") no-repeat center center; height: 300px; border: 1px solid #c7c7c7; }
 #s-enrollment-edit-members-invite-form .enrollment-code { font-size: 18px; color: #EC9638; font-weight: bold; padding: 5px 0; display: block; }
 #s-enrollment-edit-members-invite-form .action-regenerate-code { text-transform: capitalize; margin-bottom: 5px; }
 #s-enrollment-edit-members-invite-form p { color: #9a9fa8; margin: 5px 0; }
@@ -243,12 +243,12 @@ body #center-inner { position: static; }
 .people-filters td.second { text-align: end; padding-inline-end: 3px; }
 .people-filters table { width: 100%; }
 .people-filters .item-list { position: absolute; z-index: 21; background: #fff; border: 1px solid #444; margin: 2px 0 0; margin-inline-start: 5px; display: none; max-width: 400px; max-height: 200px; overflow-y: auto; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
-.people-filters .selected-filter { color: #327CBB; background: url('/sites/all/themes/schoology_theme/images/arrow-down.png?6a16f82f54450577') no-repeat right 8px; padding: 3px 20px 3px; padding-inline-start: 5px; margin-inline-start: 5px; cursor: pointer; display: block; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; }
-.people-filters .selected-filter.active { background: #444 url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a16f82f54450577') no-repeat right -596px; color: #fff; }
+.people-filters .selected-filter { color: #327CBB; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a16f82f54450577") no-repeat right 8px; padding: 3px 20px 3px; padding-inline-start: 5px; margin-inline-start: 5px; cursor: pointer; display: block; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: normal; }
+.people-filters .selected-filter.active { background: #444 url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a16f82f54450577") no-repeat right -596px; color: #fff; }
 .people-filters .selected-users.active, .people-filters .show-all-users.active { background: #577aa8; color: #fff; }
 .invite-container-wrapper .empty { color: #9a9fa8; text-align: center; padding-top: 10px; }
-.invite-container-wrapper .more-btn { background:url('/sites/all/themes/schoology_theme/images/arrow-down.png?6a16f82f54450577') no-repeat 38px 50%; display: block; height: 14px; padding: 8px 53px; color: #327CBB; font-weight: bold; }
-.invite-container-wrapper .more-btn.more-loader { background:url('/sites/all/themes/schoology_theme/images/ajax-loader.gif?6a16f82f54450577') no-repeat 10px 50%; }
+.invite-container-wrapper .more-btn { background:url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/arrow-down.png__q_6a16f82f54450577") no-repeat 38px 50%; display: block; height: 14px; padding: 8px 53px; color: #327CBB; font-weight: bold; }
+.invite-container-wrapper .more-btn.more-loader { background:url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/ajax-loader.gif__q_6a16f82f54450577") no-repeat 10px 50%; }
 .popups-large.add-members-popups { width: 600px; }
 .popups-large.add-members-popups .submit-buttons { width: 598px; }
 .s-group-enrollment-invite-wrapper .s-enrollment-invite-form .submit-buttons.has-import-link {
@@ -265,7 +265,7 @@ body #center-inner { position: static; }
 .s-enrollment-invite-form .import-enrollments-link {
   text-decoration: underline;
 }
-#edit-people-search-wrapper .link-btn { background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a16f82f54450577') no-repeat 6px -975px; text-align: start; text-indent: -9999px; /* rtl-processor:ignore */ float: left; margin-inline-start: -28px; width: 28px; height: 27px; padding: 0; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+#edit-people-search-wrapper .link-btn { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a16f82f54450577") no-repeat 6px -975px; text-align: start; text-indent: -9999px; /* rtl-processor:ignore */ float: left; margin-inline-start: -28px; width: 28px; height: 27px; padding: 0; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
 [dir="rtl"] #edit-people-search-wrapper .link-btn { float: right; }
 #edit-people-search-wrapper .edit-people-search-qmark {
     position: relative;
@@ -283,7 +283,7 @@ body #center-inner { position: static; }
 #roster-wrapper .left a.disabled { color: #9a9fa8; }
 #roster-wrapper .left a.disabled:hover { text-decoration: none; cursor: default; }
 #roster-wrapper .left a.link-btn { font-weight: bold; margin-bottom: 10px; }
-#roster-wrapper .roster-top .action-invite span, .grading-group-add-member span { background:url('/sites/all/themes/schoology_theme/images/network_icons.png?6a16f82f54450577'); display: inline-block; /* rtl-processor:ignore */ float: left; height: 16px; width: 16px; margin: 0 7px 0; margin-inline-start: -2px; }
+#roster-wrapper .roster-top .action-invite span, .grading-group-add-member span { background:url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/network_icons.png__q_6a16f82f54450577"); display: inline-block; /* rtl-processor:ignore */ float: left; height: 16px; width: 16px; margin: 0 7px 0; margin-inline-start: -2px; }
 [dir="rtl"] #roster-wrapper .roster-top .action-invite span, [dir="rtl"] .grading-group-add-member span { float: right; }
 #roster-wrapper .enrollments-wrapper { background: none; position: relative; padding-top: 15px; }
 #roster-wrapper .enrollment-view-wrapper { border-top: none; height: auto; overflow: visible; margin-top: -15px; }
@@ -309,17 +309,17 @@ body #center-inner { position: static; }
 [dir="rtl"] .roster-top .action-invite, [dir="rtl"] .grading-group-add-member, [dir="rtl"] .enrollments-wrapper .action-invite { float: right; }
 .roster-top .action-invite.hidden { display: none; }
 .access-code.ac-right { margin-bottom: 1px; }
-.access-delete { background: url('/sites/all/themes/schoology_theme/images/btn-sprite.png?6a16f82f54450577') no-repeat -4px -81px; width: 16px; height: 16px; /* rtl-processor:ignore */ float: right; margin: -2px -5px 0; margin-inline-start: 0; opacity: .5; filter: brightness(0.5) contrast(2.5); display: none; }
+.access-delete { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a16f82f54450577") no-repeat -4px -81px; width: 16px; height: 16px; /* rtl-processor:ignore */ float: right; margin: -2px -5px 0; margin-inline-start: 0; opacity: .5; filter: brightness(0.5) contrast(2.5); display: none; }
 [dir="rtl"] .access-delete { float: left; }
 .access-code:hover .access-delete { display: inline-block; }
 .access-code .access-delete:hover { opacity: 1; filter: none; cursor: pointer; }
-.show-in-left { background: url('/sites/all/themes/schoology_theme/images/shortcut_sprite.png?6a16f82f54450577') no-repeat -1px -23px; width: 16px; height: 16px; display: block; margin: -2px 0 0 0; }
+.show-in-left { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/shortcut_sprite.png__q_6a16f82f54450577") no-repeat -1px -23px; width: 16px; height: 16px; display: block; margin: -2px 0 0 0; }
 .show-in-left:hover { cursor: pointer; }
 #grading-groups-wrapper { margin-bottom: 10px; }
 .s-grading-group-create-wrapper { display: table; width: 100%; margin-bottom: 10px; }
 #grading-group-create { display: table-cell; height: 40px; border: 2px dashed #ddd; padding: 0 10px; color: #556370; text-align: center; vertical-align: middle;width: 100%; background-color: transparent; }
 #grading-group-create:hover, #grading-group-create.hover { cursor: pointer; color: #327cbb; border-color: #becddd;width: 100%; }
-#grading-group-create span { display: inline-block; height: 20px; width: 20px; margin: -5px 5px -5px; margin-inline-start: 0; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a16f82f54450577') no-repeat scroll 0 -88px; }
+#grading-group-create span { display: inline-block; height: 20px; width: 20px; margin: -5px 5px -5px; margin-inline-start: 0; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_realm.png__q_6a16f82f54450577") no-repeat scroll 0 -88px; }
 #s-course-grading-group-edit-form { padding: 15px 20px; height: 435px; }
 #s-course-grading-group-edit-form #edit-title-wrapper .form-text { width: 100%; margin: 0 -6px; }
 #s-course-grading-group-edit-form #edit-title-wrapper label { /* rtl-processor:ignore */ float: left; margin: 5px 0 0; margin-inline-start: -125px; }
@@ -336,14 +336,14 @@ body #center-inner { position: static; }
 .grading-group-tag-wrapper .grading-group-tag:hover { cursor: pointer; }
 .grading-group .action-links li div { display: inline; }
 .grading-group .action-links .hidden { display: none; }
-#send-via-email { color: #327cbb; font-weight: bold; margin-top: 15px; display: inline-block; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a16f82f54450577') no-repeat 0 0; padding-inline-start: 28px; }
+#send-via-email { color: #327cbb; font-weight: bold; margin-top: 15px; display: inline-block; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png__q_6a16f82f54450577") no-repeat 0 0; padding-inline-start: 28px; }
 [dir="rtl"] #send-via-email { background-position-x: 100%; }
 #send-via-email:hover { cursor: pointer; }
 td.enrollment-actions .link-btn, td.enrollment-actions .link-btn:hover { background: none; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; padding: 4px 6px; margin: 0; }
 
 .enrollment-admin .user-name .small { display: inline-block; height: 16px; width: 16px; text-indent: -9999px; margin-inline-start: 5px; background-size: 100% 100%;}
-.enrollment-admin .user-name .admin-icon { background: url('/sites/all/themes/schoology_theme/images/admin-badge.svg?6a16f82f54450577') no-repeat; }
-.enrollment-admin .user-name .admin-icon-shield { background: url('/sites/all/themes/schoology_theme/images/shield-badge.svg?6a16f82f54450577') no-repeat; }
+.enrollment-admin .user-name .admin-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/admin-badge.svg__q_6a16f82f54450577") no-repeat; }
+.enrollment-admin .user-name .admin-icon-shield { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/shield-badge.svg__q_6a16f82f54450577") no-repeat; }
 
 .code-instructions, .s-course-regenerate-invites { display: none; }
 .s-course-disable-invites, .s-course-enable-invites { /* rtl-processor:ignore */ float: right; }
@@ -373,12 +373,12 @@ td.enrollment-actions .link-btn, td.enrollment-actions .link-btn:hover { backgro
 .email-username-wrapper .description { position: absolute; inset-inline-start: 350px; padding-top: 5px; }
 
 /* Infotip */
-.enrollment-actions .action-links .enrollment-preview .infotip { opacity: .5; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; display: block; margin-inline-start: 0; padding: 5px 25px 5px; padding-inline-start: 37px; width: auto; background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a16f82f54450577'); background-position: 13px -1150px; }
+.enrollment-actions .action-links .enrollment-preview .infotip { opacity: .5; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; display: block; margin-inline-start: 0; padding: 5px 25px 5px; padding-inline-start: 37px; width: auto; background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a16f82f54450577"); background-position: 13px -1150px; }
 .enrollment-actions .action-links .enrollment-preview .infotip:hover { background-position: 13px -1150px; color: #333; }
 .preview-members-popup .enrollment-memberno-inactive-access .infotip { background-image: none; padding-inline-end: 0; color: #333; }
 
 /* Archived Members */
-.archived-member-icon { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_med.png?6a16f82f54450577') top -100px left 0; }
+.archived-member-icon { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_med.png__q_6a16f82f54450577") top -100px left 0; }
 
 /* select2 dropdowns in course invite and Student analytics */
 #edit-network-filters-wrapper .select2-container .select2-choice {height: 21px; line-height: 21px;}
