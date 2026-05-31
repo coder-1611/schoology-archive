@@ -76,7 +76,23 @@ Use query-string form: `/course/<id>/materials?f=<folderId>` — NOT `/folder/`.
 The tab loads an LTI iframe (`/apps/lti/<id>/run/assignment/<aid>?context=assignment_submission`) which is X-Frame-Options blocked when iframed. Fix: visit the LTI URL **top-level** in Puppeteer — it redirects to `lti-submission-google.app.schoology.com/assignment/student/<id>` whose rendered HTML contains the real Google doc URL. Save as `<basename>__my_document.html` with a yellow banner injected with the recovered URL.
 
 ### Cookie expiry
-Sessions last ~2 weeks. When 401s or login redirects start: re-paste the `Cookie` header from DevTools → Network tab → any request → Request Headers.
+Sessions last ~2 weeks. When 401s or login redirects start, refresh the cookie automatically — do NOT ask the user to paste it from DevTools.
+
+**Use `tools/refresh-cookie.py`** — it reads cookies straight from logged-in Chrome, decrypts via macOS Keychain, and updates whichever target needs the cookie. Pick the right invocation:
+
+```bash
+python3 tools/refresh-cookie.py --print-only            # just print, don't touch anything
+python3 tools/refresh-cookie.py --also-local --skip-secret   # local mirror/scrape only
+python3 tools/refresh-cookie.py --also-local --trigger  # local + GH secret + dispatch workflow
+python3 tools/refresh-cookie.py --trigger               # GH secret + dispatch workflow
+```
+
+Prerequisites:
+- User is logged into Schoology in **Chrome** (not Safari/Firefox/Arc)
+- For anything touching GitHub: `GITHUB_TOKEN` env var, or `tools/.github-token` file (gitignored), with `repo` scope
+- First run will pop a macOS Keychain GUI prompt — user clicks "Always Allow"
+
+Only fall back to asking the user to paste the cookie if the script fails (e.g. Chrome encryption scheme changed, Keychain access denied).
 
 ### Rate limit
 ~15 requests per 5 seconds. `lib/http.mjs` handles this. Schoology 429s past that.

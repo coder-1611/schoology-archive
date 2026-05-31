@@ -1,5 +1,6 @@
 node_modules/
 config.json
+.github-token
 *.log
 .npm-cache/
 # Single file over GitHub's 100MB per-file limit
