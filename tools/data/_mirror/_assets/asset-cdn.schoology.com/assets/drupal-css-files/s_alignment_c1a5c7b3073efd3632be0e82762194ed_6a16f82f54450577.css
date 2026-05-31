@@ -1,0 +1,250 @@
+.alignment-breadcrumbs .breadcrumb-item:last-child { color: #333; cursor: default; }
+.alignment-breadcrumbs .breadcrumb-item:last-child:hover { text-decoration: none; }
+.alignment-form-container { border: 1px solid #c7c7c7; border-bottom: none; }
+.alignment-form-container li, .selected-container .selected-item { display: block; margin: 0; padding: 15px 10px; height: auto; border-bottom: 1px solid #EAEAEA; float: none; text-align: start; cursor: pointer; color: #2E66A3; }
+.alignment-form-container li.standard { padding-inline-end: 30px; }
+.search-container { display: none; }
+.browse-container, .selected-container, .search-container { height: 250px; overflow-y: auto; }
+.guid-container ul ul { margin-inline-start: 20px; }
+.alignment-form-container .selected-container { display: none; }
+.guid-item:active { background: #f9f9f9; }
+.alignment-breadcrumbs { text-align: start; padding: 5px 10px; border-bottom: 1px solid #DDD; font-size: 11px; }
+.alignment-breadcrumbs .breadcrumb-item:first-child,.alignment-breadcrumbs .breadcrumb-item { color: #2E66A3; background: none; cursor: pointer; }
+.alignment-breadcrumbs .breadcrumb-item:first-child:hover,.alignment-breadcrumbs .breadcrumb-item:hover { text-decoration: underline; }
+.alignment-form-container .arrow { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/expandable.gif__q_6a16f82f54450577") no-repeat -2px -18px; display: inline-block; height: 12px; }
+[dir="rtl"] .alignment-breadcrumbs { display: flow-root; }
+[dir="rtl"] .alignment-breadcrumbs .breadcrumb-item:first-child, [dir="rtl"] .alignment-breadcrumbs .breadcrumb-item { float: right; }
+[dir="rtl"] .alignment-form-container .arrow { -webkit-transform: scaleX(-1); transform: scaleX(-1); }
+[dir="rtl"] .alignment-form-container .title { display: inline-block; }
+[dir="rtl"] .alignment-form-container .selected-count { display: inline-block; }
+.alignment-form-container li.active, .alignment-form-container div.active { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_present.gif__q_6a16f82f54450577") no-repeat 98% center #E3FFD8; border-color: #44505d; color: #333; }
+[dir="rtl"] .alignment-form-container li.active, [dir="rtl"] .alignment-form-container div.active { background-position-x: 2%; }
+.alignment-form-container input[type=checkbox] { display: none; }
+.alignment-form-container .header .buttons { position: absolute; inset-inline-end: 15px; text-align: end; }
+.alignment-form-container .header .search-tab.active { background-color: #2E66A3; color: white; }
+.alignment-form-container .header .search-tab.active:hover { text-decoration: none; cursor: default; }
+.alignment-form-container .header .search-tab {	padding: 5px 8px; display: inline-block; }
+.alignment-form-container .header .selected-btn { color: #2E66A3; }
+.alignment-form-container .header #edit-alignment-search-field { width: 200px; /* rtl-processor:ignore */ float: left; }
+.alignment-form-container .header #edit-alignment-search-field::placeholder { color: #5c5c5c; }
+[dir="rtl"] .alignment-form-container .header #edit-alignment-search-field { float: right; }
+.alignment-form-container .header .mag-glass { display: block; width: 28px; height: 28px; margin-inline-start: -28px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a16f82f54450577") no-repeat 7px -975px; cursor: pointer; /* rtl-processor:ignore */ float: left; filter: brightness(0.75); }
+[dir="rtl"] .alignment-form-container .header .mag-glass { float: right; }
+.alignment-form-container .search-block-filters {	/* rtl-processor:ignore */	float: left;	display:none; }
+[dir="rtl"] .alignment-form-container .search-block-filters { float: right; }
+.alignment-form-container .header { background-color: #E9F0F6; height: 28px; padding: 10px; border-bottom: 1px solid #CEDBE8; text-align: start; position: relative; }
+.alignment-form-container .search-block-filters .available-filters input { display: block; }
+.alignment-inline-wrapper { min-height: 38px; }
+.alignment-inline-wrapper.hidden { display: none; }
+.alignment-form-container { display: none; }
+
+/* mastery library selector */
+.alignment-mastery-library-selector {
+  display: none;
+  border: none;
+  padding: 20px;
+}
+.alignment-mastery-library-selector .select-mastery-library-wrapper {
+  margin-top: 10px;
+}
+
+.alignment-container { padding-top: 5px; }
+.popups-box.popups-library-add-link .alignment-container { padding-inline-start: 105px; }
+.alignment-inline-wrapper label { /* rtl-processor:ignore */ float: left; margin-top: 5px; }
+[dir="rtl"] .alignment-inline-wrapper label { float: right; }
+.alignment-inline-wrapper .alignment-container {
+  #s-alignment-align-button, #usm-align-button {
+    display: inline-block;
+    border: solid 1px #d3d3d3;
+    border-radius: 2px;
+    margin: 2px 0px 5px;
+    margin-inline-start: 10px;
+    cursor: pointer;
+    padding: 7px 15px 7px 15px;
+    font-family: var(--sgy-font-default);
+    font-size: 12px;
+  }
+}
+.alignment-inline-wrapper .alignment-container {
+  #s-alignment-align-button:not(.disabled):hover, #s-alignment-align-button:not(.disabled):focus,
+  #usm-align-button:not(.disabled):hover, #usm-align-button:not(.disabled):focus {
+    background-color: #f4f5f5;
+  }
+}
+
+.alignment-inline-wrapper .alignment-container {
+  #s-alignment-align-button:not(.disabled):focus-visible,
+  #usm-align-button:not(.disabled):focus-visible {
+    outline: 2px solid #327cbb;
+    outline-offset: 2px;
+  }
+}
+
+.alignment-inline-wrapper .alignment-container {
+  #s-alignment-align-button .alignment-btn,
+  #usm-align-button .alignment-btn  {
+    vertical-align: middle;
+    padding: 1px 2px;
+    height: 18px;
+  }
+}
+.alignment-inline-wrapper .alignment-container {
+  #s-alignment-align-button label,
+  #usm-align-button label {
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    float: none;
+    display: inline-block;
+    width: auto;
+    margin-top: 0;
+    vertical-align: middle;
+    padding-bottom: 1px;
+  }
+}
+.alignment-inline-wrapper {
+  #s-alignment-align-button .alignment-icon,
+  #usm-align-button .alignment-icon  {
+  cursor: pointer;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  margin-inline-end: 10px;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_library.png__q_6a16f82f54450577") no-repeat;
+  background-position: 0px -374px;
+  vertical-align: middle;
+  }
+}
+.alignment-inline-wrapper {
+  #s-alignment-align-button.disabled,
+  #usm-align-button.disabled{
+  cursor: auto;
+  }
+}
+.alignment-inline-wrapper {
+  #s-alignment-align-button.disabled .alignment-icon,
+  #usm-align-button.disabled .alignment-icon {
+  cursor: auto;
+  background-position: 0px -400px;
+  }
+}
+.alignment-inline-wrapper {
+  #s-alignment-align-button.disabled label,
+  #usm-align-button.disabled label {
+  cursor: auto;
+  color: #ccc;
+  }
+}
+
+.alignment-inline-wrapper .alignment-item-container,
+.alignment-inline-wrapper .remove-rubric-align-message,
+.alignment-inline-wrapper .material-is-locked-align-message {
+  padding-inline-start: 120px;
+}
+.alignment-inline-wrapper .alignment-container .remove-rubric-align-message {
+  display: none;
+}
+.alignment-inline-wrapper .alignment-container .remove-rubric-align-message,
+.alignment-inline-wrapper .alignment-container .material-is-locked-align-message {
+  font-size: 12px;
+  color: #677583;
+  margin-top: 5px;
+}
+.alignment-inline-wrapper .alignment-container.is-from-rubric .remove-rubric-align-message {
+  display: block;
+}
+.alignment-inline-wrapper .alignment-container.material-is-locked .material-is-locked-align-message {
+  display: block;
+}
+
+.alignment-form-container .loader { position: absolute; margin: 15px 0 0; margin-inline-start: -15px; inset-inline-start: 50%; }
+
+.adv-option-link {
+  cursor: pointer;
+}
+
+.course-objectives-enabled .s-common-adv-options-label {
+  margin-top: 0;
+}
+
+.course-objectives-enabled .alignment-container {
+  padding-inline-start: 140px;
+}
+
+.course-objectives-enabled .alignment-inline-wrapper label {
+  display: none;
+}
+
+.district_mastery_gradebook_scale #edit-grading-scale-id-wrapper label {
+  /* revert custom #edit-grading-scale-id-wrapper for district mastery (allow line wrap) */
+  white-space: normal;
+  box-sizing: border-box;
+  padding-inline-end: 1rem;
+  margin-top: -1px;
+}
+
+.district_mastery_gradebook_scale #edit-grading-scale-id-wrapper label span {
+  inset-inline-start: 0;
+}
+
+.alignment-inline-wrapper .tag-item {
+  position: relative;
+  max-width: 18em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-inline-end: 22px;
+}
+
+[data-theme="modern"] .alignment-inline-wrapper .tag-item {
+  background: #f1f4f4;
+  font-size: 12px;
+  color: #4d5557;
+  border: #a8b1b2 solid 1px;
+  border-radius: 100vh;
+  padding-inline-start: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.alignment-inline-wrapper .tag-item .delete-btn {
+  inset-inline-end: 0;
+  position: absolute;
+}
+
+[data-theme="modern"] .alignment-inline-wrapper .tag-item .delete-btn {
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/circle-close.svg__q_6a16f82f54450577") no-repeat;
+  background-position-x: -1px;
+  background-size: 14px;
+}
+
+[dir="rtl"][data-theme="modern"] .alignment-inline-wrapper .tag-item .delete-btn {
+  background-position-x: 1px;
+}
+
+[dir="rtl"] .recharts-surface {
+  direction: ltr;
+}
+
+/* Accessibility CSS */
+.alignment-form-container .browse-container .guids-container li:focus-within .title,
+.alignment-form-container .alignment-breadcrumbs span:focus,
+.alignment-form-container .browse-btn:focus,
+.alignment-form-container .selected-btn:focus {
+  outline: 2px solid #327CBB;
+}
+
+#s-alignment-align-button:not(.disabled):focus,
+#usm-align-button:not(.disabled):focus {
+  outline: 2px solid #327CBB;
+  outline-offset: 2px;
+}
+
+/* Darken "Add Learning Objectives" button - Overwrites defaults from schoology_theme/style.css */
+.popups-box.add-alignment-popup .popups-buttons span:first-child {
+  background: #2E66A3; /* Solid blue, no gradient */
+  border-color: #2E66A3 #1a4a75 #333;
+}
+
+.popups-box.add-alignment-popup .popups-buttons span:first-child input {
+  color: #ffffff; /* Ensure text stays pure white */
+}
