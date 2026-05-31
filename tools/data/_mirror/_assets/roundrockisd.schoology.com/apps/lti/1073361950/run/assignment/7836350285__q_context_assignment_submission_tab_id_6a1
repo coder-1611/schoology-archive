@@ -1,0 +1,60 @@
+<div><form action="https://lti-submission-google.app.schoology.com/lti/assignment-template/117042550" name="ltiLaunchForm" id="ltiLaunchForm" method="post" encType="application/x-www-form-urlencoded">
+<input type="hidden" name="lti_message_type" value="basic-lti-launch-request"/><br>
+<input type="hidden" name="lti_version" value="LTI-1p0"/><br>
+<input type="hidden" name="launch_presentation_document_target" value="iframe"/><br>
+<input type="hidden" name="tool_consumer_info_product_family_code" value="schoology"/><br>
+<input type="hidden" name="tool_consumer_info_version" value="1.0"/><br>
+<input type="hidden" name="ext_lms" value="schoology-1"/><br>
+<input type="submit" name="ext_submit" value="Submit"/><br>
+<input type="hidden" name="oauth_callback" value="about:blank"/><br>
+<input type="hidden" name="user_id" value="118394018::903bcaaa526450a88b72d0d75d3170c4"/><br>
+<input type="hidden" name="roles" value="Learner"/><br>
+<input type="hidden" name="launch_presentation_locale" value="en"/><br>
+<input type="hidden" name="lis_person_name_given" value="Soham"/><br>
+<input type="hidden" name="lis_person_name_family" value="Sthitpragya"/><br>
+<input type="hidden" name="lis_person_name_full" value="Soham Sthitpragya"/><br>
+<input type="hidden" name="lis_person_contact_email_primary" value="s189070@student.roundrockisd.org"/><br>
+<input type="hidden" name="lis_person_sourcedid" value="118394018::903bcaaa526450a88b72d0d75d3170c4"/><br>
+<input type="hidden" name="context_id" value="7371658150"/><br>
+<input type="hidden" name="context_type" value="CourseSection"/><br>
+<input type="hidden" name="context_title" value="Lang Arts 8 Tag: Section 1-08"/><br>
+<input type="hidden" name="context_label" value="C7371658150"/><br>
+<input type="hidden" name="resource_link_id" value="1073361950-course-7371658150"/><br>
+<input type="hidden" name="resource_link_title" value="Google Drive Assignments"/><br>
+<input type="hidden" name="resource_link_description" value="This is an application from Schoology that enables instructors to assign Google Docs, Spreadsheets, Slideshows and Drawings directly within the Schoology platform. Once assigned, students can make their own copies of the content to work on and submit, and the instructor can then provide feedback and grade the assignment, all without leaving Schoology. Once the app is installed, click Add Materials at the top of your Course Materials page and select Add Assignment. The Google Drive Assignment App will appear on your Create Assignment&amp;nbsp;screen."/><br>
+<input type="hidden" name="launch_presentation_return_url" value="https://roundrockisd.schoology.com/apps/lti/return/course/7371658150"/><br>
+<input type="hidden" name="tool_consumer_instance_guid" value="2589655242::0d2c6d1b6256c552705c4b90efe5d823"/><br>
+<input type="hidden" name="tool_consumer_instance_name" value="Round Rock ISD"/><br>
+<input type="hidden" name="custom_assignment_id" value="7836350285"/><br>
+<input type="hidden" name="custom_assignment_title" value="&quot;The Outsiders&quot; SCR"/><br>
+<input type="hidden" name="custom_course_section_title" value="Lang Arts 8 Tag: Section 1-08"/><br>
+<input type="hidden" name="custom_preferred_name" value=""/><br>
+<input type="hidden" name="custom_context_teacher_id" value="62871655::c1a5a5502b0f7f4cb2c7305a3ed1ed53"/><br>
+<input type="hidden" name="custom_username" value="s189070"/><br>
+<input type="hidden" name="custom_submission_status" value="1"/><br>
+<input type="hidden" name="oauth_signature_method" value="HMAC-SHA1"/><br>
+<input type="hidden" name="oauth_signature" value="MwYdblk8hbFmXuBfjHsH+KYueTA="/><br>
+<input type="hidden" name="oauth_nonce" value="6a1c5837f306d"/><br>
+<input type="hidden" name="oauth_timestamp" value="1780242487"/><br>
+<input type="hidden" name="oauth_token" value=""/><br>
+<input type="hidden" name="oauth_consumer_key" value="CVqmkGkc9jjKenjSLPmGPsNKyU4ClwaI"/><br>
+<input type="hidden" name="oauth_version" value="1.0"/><br>
+</form>
+ <script type="text/javascript"> 
+  //<![CDATA[ 
+    document.getElementById("ltiLaunchForm").style.display = "none";
+    nei = document.createElement('input');
+    nei.setAttribute('type', 'hidden');
+    nei.setAttribute('name', 'ext_submit');
+    nei.setAttribute('value', 'Submit');
+    document.getElementById("ltiLaunchForm").appendChild(nei);
+    if (!window.sAppLtiSubmissionSessionManager && (window.parent && window.parent.sAppLtiSubmissionSessionManager)) {
+       window.sAppLtiSubmissionSessionManager = window.parent.sAppLtiSubmissionSessionManager;
+    }
+    if (window.sAppLtiSubmissionSessionManager && window.sAppLtiSubmissionSessionManager.trackUrl) {
+       window.sAppLtiSubmissionSessionManager.trackUrl('https://lti-submission-google.app.schoology.com/lti/assignment-template/117042550')
+    }
+    document.ltiLaunchForm.submit(); 
+  //]]> 
+ </script> 
+</div>
