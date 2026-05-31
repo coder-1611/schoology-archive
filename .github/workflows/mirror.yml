@@ -81,33 +81,54 @@ jobs:
         run: |
           set -uo pipefail
 
+          # Pin the repo root so commit_progress always runs at the right cwd
+          # regardless of where the caller (foreground or trap) is.
+          REPO_ROOT="$(pwd)"
+          export REPO_ROOT
+
           commit_progress() {
-            git add tools/data/_mirror/ 2>/dev/null || true
+            cd "$REPO_ROOT" || { echo "  ✗ cd to REPO_ROOT failed"; return 1; }
+            git add tools/data/_mirror/ || { echo "  ! git add failed"; return 0; }
             if git diff --cached --quiet; then
+              echo "  · nothing new to commit"
               return 0
             fi
             COUNT=$(git diff --cached --name-only | wc -l | tr -d ' ')
-            git commit -m "Mirror progress — $COUNT files ($(date -u '+%Y-%m-%d %H:%M UTC'))" >/dev/null 2>&1 || return 0
+            if ! git commit -m "Mirror progress — $COUNT files ($(date -u '+%Y-%m-%d %H:%M UTC'))" >/dev/null; then
+              echo "  ! commit failed"
+              return 0
+            fi
             # Retry pull+push up to 3 times to ride out transient network blips
             for i in 1 2 3; do
-              git pull --rebase origin main >/dev/null 2>&1 && \
-              git push origin main >/dev/null 2>&1 && { echo "  ✓ pushed $COUNT files"; return 0; }
+              if git pull --rebase origin main >/dev/null 2>&1 && \
+                 git push origin main >/dev/null 2>&1; then
+                echo "  ✓ pushed $COUNT files"
+                return 0
+              fi
               echo "  ⚠ push attempt $i failed; retrying in 10s"
               sleep 10
             done
-            echo "  ✗ push gave up after 3 attempts"
+            echo "  ✗ push gave up after 3 attempts; commit remains local on runner"
           }
 
           # Background auto-committer: snapshot progress every 5 min so a
-          # workflow-timeout kill never loses an entire run's work.
+          # workflow-timeout kill never loses an entire run's work. Pinned to
+          # REPO_ROOT so it always finds tools/data/_mirror/.
           (
+            cd "$REPO_ROOT"
             while sleep 300; do
               echo "── auto-commit tick $(date -u +%H:%M:%S) ──"
-              commit_progress
+              commit_progress || echo "  ! commit_progress errored (continuing)"
             done
           ) &
           AUTO_PID=$!
-          # Final flush on any exit (success, mirror failure, or timeout SIGTERM)
-          trap 'kill $AUTO_PID 2>/dev/null || true; echo "── final flush ──"; commit_progress' EXIT
+          # Final flush on any exit (success, mirror failure, or timeout SIGTERM).
+          # cd back to REPO_ROOT first since mirror.mjs runs from tools/.
+          trap '
+            kill $AUTO_PID 2>/dev/null || true
+            echo "── final flush ──"
+            commit_progress
+          ' EXIT
 
-          cd tools && node mirror.mjs
+          # Subshell keeps the outer cwd at REPO_ROOT so the trap is consistent.
+          ( cd tools && node mirror.mjs )
