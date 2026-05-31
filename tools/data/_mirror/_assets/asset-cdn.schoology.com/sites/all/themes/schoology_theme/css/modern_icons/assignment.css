@@ -1,6 +1,6 @@
 :root {
-    --sgy-icon-assignment: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/assignment.svg");
-    --sgy-icon-assignment-rtl: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/assignment-rtl.svg");
+    --sgy-icon-assignment: url(/sites/all/themes/schoology_theme/images/modern_icons/assignment.svg);
+    --sgy-icon-assignment-rtl: url(/sites/all/themes/schoology_theme/images/modern_icons/assignment-rtl.svg);
 }
 
 /* ASSIGNMENT / GRADE COLUMN icon */

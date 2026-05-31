@@ -1,6 +1,6 @@
 :root {
-    --sgy-icon-assessment: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/assessment.svg");
-    --sgy-icon-assessment-rtl: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/assessment-rtl.svg");
+    --sgy-icon-assessment: url(/sites/all/themes/schoology_theme/images/modern_icons/assessment.svg);
+    --sgy-icon-assessment-rtl: url(/sites/all/themes/schoology_theme/images/modern_icons/assessment-rtl.svg);
 }
 
 [dir="rtl"] {
