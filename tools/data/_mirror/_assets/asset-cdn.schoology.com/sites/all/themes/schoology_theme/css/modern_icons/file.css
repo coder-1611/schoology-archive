@@ -1,15 +1,15 @@
 :root {
-    --sgy-icon-file: url(/sites/all/themes/schoology_theme/images/modern_icons/file.svg);
-    --sgy-icon-file-audio: url(/sites/all/themes/schoology_theme/images/modern_icons/file-audio.svg);
-    --sgy-icon-file-video: url(/sites/all/themes/schoology_theme/images/modern_icons/file-video.svg);
-    --sgy-icon-file-ai: url(/sites/all/themes/schoology_theme/images/modern_icons/file-ai.svg);
-    --sgy-icon-file-doc: url(/sites/all/themes/schoology_theme/images/modern_icons/file-doc.svg);
-    --sgy-icon-file-indd: url(/sites/all/themes/schoology_theme/images/modern_icons/file-indd.svg);
-    --sgy-icon-file-pdf: url(/sites/all/themes/schoology_theme/images/modern_icons/file-pdf.svg);
-    --sgy-icon-file-ppt: url(/sites/all/themes/schoology_theme/images/modern_icons/file-ppt.svg);
-    --sgy-icon-file-psd: url(/sites/all/themes/schoology_theme/images/modern_icons/file-psd.svg);
-    --sgy-icon-file-xls: url(/sites/all/themes/schoology_theme/images/modern_icons/file-xls.svg);
-    --sgy-icon-file-zip: url(/sites/all/themes/schoology_theme/images/modern_icons/file-zip.svg);
+    --sgy-icon-file: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file.svg");
+    --sgy-icon-file-audio: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-audio.svg");
+    --sgy-icon-file-video: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-video.svg");
+    --sgy-icon-file-ai: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-ai.svg");
+    --sgy-icon-file-doc: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-doc.svg");
+    --sgy-icon-file-indd: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-indd.svg");
+    --sgy-icon-file-pdf: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-pdf.svg");
+    --sgy-icon-file-ppt: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-ppt.svg");
+    --sgy-icon-file-psd: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-psd.svg");
+    --sgy-icon-file-xls: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-xls.svg");
+    --sgy-icon-file-zip: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/file-zip.svg");
 }
 
 /* DEFAULT file icon */

@@ -1,0 +1,27 @@
+.s-app-ldb-view-start div#body, .s-app-ldb-view div#body  { visibility: hidden !important; }
+.s-app-ldb-exit-message { padding: 3px 0px; }
+.s-app-ldb-download-view-single-student-wrapper { padding-bottom: 8px; }
+.s-app-ldb-view-hide-nav .content-top-upper, .s-app-ldb-view-hide-nav #footer-links, .s-app-ldb-view-hide-nav #header { display: none; }
+.s-app-ldb-view-hide-nav #user-language-selector .current-language {background-image: none; }
+.s-app-ldb-view-hide-nav #search, .s-app-ldb-view-hide-nav #primary-home, .s-app-ldb-view-hide-nav #primary-courses, .s-app-ldb-view-hide-nav #primary-groups, .s-app-ldb-view-hide-nav #primary-library, .s-app-ldb-view-hide-nav #private-messages, .s-app-ldb-view-hide-nav #primary-requests, .s-app-ldb-view-hide-nav #primary-notifications, .s-app-ldb-view-hide-nav #primary-settings { visibility: hidden !important;}
+.s-app-ldb-view-hide-nav .with-tabs #main-content-wrapper { padding: 0px; border: none; min-height: 300px; }
+.s-app-ldb-view-hide-nav .with-tabs #main { border: none; box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2); }
+.s-app-ldb-view-hide-nav .with-tabs #center-top { padding: 14px 20px; }
+.s-app-ldb-view-hide-nav .s-assessment-ldb-return-message-wrapper { margin-top: 80px; margin-bottom: 30px; text-align: center; }
+.s-app-ldb-view-hide-nav .s-assessment-ldb-return-buttons-wrapper { text-align: center; }
+.s-app-ldb-view-hide-nav .s-assessment-ldb-return-buttons-wrapper a { margin-inline-start: 30px; }
+.s-app-ldb-view-hide-nav.s-assessment-ldb-return-view .with-tabs #main { min-height: 600px; }
+.s-app-ldb-view-hide-nav #tabs-wrapper, .s-app-ldb-view-hide-nav #footer, .s-app-ldb-view-hide-nav .s-assessment-view-submissions-back-btn, .s-app-ldb-view-hide-nav #site-navigation-footer, .s-app-ldb-view-hide-nav #navigation-header-banners {
+    display: none;
+}
+.s-app-ldb-view-hide-nav #header .s-app-ldb-banner-wrapper { color: #fff; text-align: center; padding-top: 12px; }
+.s-app-ldb-view-hide-nav #header.s-app-ldb-banner-assessment-wrapper { background-color: #0677BA; display: block; }
+.s-app-ldb-view-hide-nav #header.s-app-ldb-banner-assessment-wrapper div { color: #fff; text-align: center; padding-top: 12px; }
+.s-app-ldb-view-hide-nav.s-app-ldb-view-show-close-btns #center-top { background: none; background-color: #ffc; height: 33px; }
+.s-app-ldb-view-hide-nav.s-app-ldb-view-show-close-btns #center-top h2 { /* rtl-processor:ignore */ float: left; margin-top: 10px; }
+[dir="rtl"] .s-app-ldb-view-hide-nav.s-app-ldb-view-show-close-btns #center-top h2  { float: right; }
+.s-app-ldb-view-hide-nav.s-app-ldb-view-show-close-btns #center-top .s-assessment-ldb-close-btn-wrapper-top { /* rtl-processor:ignore */ float: right; margin-top: 2px; margin-bottom: 15px; }
+[dir="rtl"] .s-app-ldb-view-hide-nav.s-app-ldb-view-show-close-btns #center-top .s-assessment-ldb-close-btn-wrapper-top  { float: left; }
+.s-app-ldb-view-hide-nav.s-app-ldb-view-show-close-btns #container .s-assessment-ldb-close-btn-wrapper-bottom { /* rtl-processor:ignore */ float: right; padding-top: 15px; }
+[dir="rtl"] .s-app-ldb-view-hide-nav.s-app-ldb-view-show-close-btns #container .s-assessment-ldb-close-btn-wrapper-bottom  { float: left; }
+

@@ -1,0 +1,105 @@
+.s-grade-item-annotation-attachment {
+    display: none;
+    padding: 0px 0px 7px;
+    padding-inline-start: 15px;
+    border-radius: 2px;
+    margin: 0 0px 0;
+    margin-inline-start: 105px;
+    position: relative;
+    z-index: 1;
+}
+
+.s-grade-item-annotation-attachment-title {
+    padding: 8px 15px 7px 15px;
+    border-top: 1px solid #c7c7c7;
+    border-inline-start: 1px solid #c7c7c7;
+    border-inline-end: 1px solid #c7c7c7;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+    border-end-end-radius: 0;
+    border-end-start-radius: 0;
+    background: #f9f9f9;
+    position: relative;
+    top: 1px;
+    width: 175px;
+    z-index: 1;
+}
+
+.s-grade-item-annotation-attachment-text {
+    /* rtl-processor:ignore */
+    float: right;
+    margin-top: 6px;
+    padding-inline-end: 10px;
+    font-weight: normal;
+    justify-self: flex-end;
+}
+
+[dir="rtl"] .s-grade-item-annotation-attachment-text { float: left; }
+
+
+.s-grade-item-annotation-attachment-progress-container {
+    margin: -1px 0 0;
+    padding: 15px 5px 10px;
+    padding-inline-start: 15px;
+    min-height: 32px;
+    border: 1px solid #c7c7c7;
+    background: #f9f9f9;
+    font-size: 12px;
+    text-align: start;
+}
+
+.s-grade-item-annotation-attachment-progress-name {
+    margin-top: 6px;
+    /* rtl-processor:ignore */
+    float: left;
+}
+
+[dir="rtl"] .s-grade-item-annotation-attachment-progress-name { float: right; }
+
+
+.s-grade-item-annotation-attachment-status {
+    padding-inline-start: 5px;
+    font-size: 9px;
+    display: inline;
+    font-size: 10px;
+    color: #9a9fa8;
+    display: inline-block;
+    /* rtl-processor:ignore */
+    float: left;
+    margin-top: 8px;
+}
+
+[dir="rtl"] .s-grade-item-annotation-attachment-status { float: right; }
+
+
+.s-grade-item-annotation-attachment-icon {
+    /* rtl-processor:ignore */
+    float:left;
+}
+
+[dir="rtl"] .s-grade-item-annotation-attachment-icon { float: right; }
+
+
+.s-grade-item-annotation-attachment-delete {
+    background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a16f82f54450577") -4px -82px;
+    width: 15px;
+    height: 15px;
+    /* rtl-processor:ignore */
+    float: right;
+    margin: 0 3px 0;
+    margin-inline-start: 0;
+    margin-top: 6px;
+    opacity: .5;
+}
+
+[dir="rtl"] .s-grade-item-annotation-attachment-delete { float: left; }
+
+
+.s-grade-item-annotation-attachment-cancel {
+    margin-top: 6px;
+}
+
+.s-grade-item-annotation-attachment-progress-bar {
+    position: relative;
+    top: 35px;
+}
