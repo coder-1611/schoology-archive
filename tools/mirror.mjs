@@ -17,6 +17,7 @@ import { makeHttpClient } from './lib/http.mjs';
 import { makeBrowserClient } from './lib/browser.mjs';
 import { enumerateCourses } from './lib/courses.mjs';
 import { mirrorPage, pageLocalPath } from './lib/mirror.mjs';
+import { buildIndexHtml } from './lib/index-html.mjs';
 
 function parseArgs(argv) {
   const args = { courseIds: [], dashboardOnly: false, shallow: false };
@@ -183,16 +184,19 @@ async function main() {
     }
   }
 
-  // Write a small index.html listing every mirrored page.
-  const indexLines = ['<!doctype html><meta charset="utf-8"><title>Schoology Mirror</title>',
-    '<style>body{font:14px/1.5 system-ui;max-width:780px;margin:2rem auto;padding:0 1rem}h1{font-size:1.2rem}a{color:#1a4fcf;text-decoration:none}a:hover{text-decoration:underline}li{padding:2px 0}</style>',
-    '<h1>Schoology Mirror</h1><p>Snapshots taken on ' + new Date().toLocaleString() + '. Click any page to view the offline copy.</p><ul>'];
-  for (const url of targets) {
-    const local = '/mirror/' + pageLocalPath(url).split(path.sep).join('/');
-    indexLines.push(`<li><a href="${local}">${url}</a></li>`);
-  }
-  indexLines.push('</ul>');
-  await fs.writeFile(path.join(mirrorRoot, 'index.html'), indexLines.join('\n'));
+  // Write a categorized landing page (courses by source, with materials/info
+  // tabs per course) plus an appendix with the flat list of every mirrored URL.
+  const flatTargets = targets.map((url) => ({
+    url,
+    href: '/mirror/' + pageLocalPath(url).split(path.sep).join('/'),
+  }));
+  const indexHtml = await buildIndexHtml({
+    dataDir: config.dataDir,
+    mirrorRoot,
+    courses,
+    targets: flatTargets,
+  });
+  await fs.writeFile(path.join(mirrorRoot, 'index.html'), indexHtml);
 
   console.log(`\nDone. ${okCount} saved, ${skipCount} already done, ${failCount} failed.`);
   console.log(`Open http://localhost:${config.port}/mirror/index.html (start server with: npm run serve)`);
