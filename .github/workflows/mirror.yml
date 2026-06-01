@@ -81,54 +81,110 @@ jobs:
         run: |
           set -uo pipefail
 
-          # Pin the repo root so commit_progress always runs at the right cwd
-          # regardless of where the caller (foreground or trap) is.
           REPO_ROOT="$(pwd)"
           export REPO_ROOT
+          LOCK_FILE="$REPO_ROOT/.git-ops.lock"
+          touch "$LOCK_FILE"
 
+          # All git operations run inside a flock'd subshell so the background
+          # ticker and the EXIT trap can never race. Network ops are wrapped in
+          # `timeout` so a hung pull/push (the suspected cause of run #6's
+          # 2h38m commit blackout) can't freeze the whole pipeline.
           commit_progress() {
-            cd "$REPO_ROOT" || { echo "  ✗ cd to REPO_ROOT failed"; return 1; }
-            git add tools/data/_mirror/ || { echo "  ! git add failed"; return 0; }
-            if git diff --cached --quiet; then
-              echo "  · nothing new to commit"
-              return 0
-            fi
-            COUNT=$(git diff --cached --name-only | wc -l | tr -d ' ')
-            if ! git commit -m "Mirror progress — $COUNT files ($(date -u '+%Y-%m-%d %H:%M UTC'))" >/dev/null; then
-              echo "  ! commit failed"
-              return 0
-            fi
-            # Retry pull+push up to 3 times to ride out transient network blips
-            for i in 1 2 3; do
-              if git pull --rebase origin main >/dev/null 2>&1 && \
-                 git push origin main >/dev/null 2>&1; then
-                echo "  ✓ pushed $COUNT files"
-                return 0
+            local who="${1:-tick}"
+            (
+              # Wait up to 120s for the lock; if we can't get it, log and bail.
+              flock -x -w 120 200 || { echo "  ⚠ [$who] lock acquire timed out (120s); skipping"; exit 0; }
+              cd "$REPO_ROOT" || { echo "  ✗ [$who] cd to REPO_ROOT failed"; exit 0; }
+
+              # Clear any stale index.lock left behind by an interrupted git op (>60s old)
+              if [ -e .git/index.lock ]; then
+                age=$(( $(date +%s) - $(stat -c %Y .git/index.lock 2>/dev/null || echo 0) ))
+                if [ "$age" -gt 60 ]; then
+                  echo "  ! [$who] removing stale .git/index.lock (${age}s old)"
+                  rm -f .git/index.lock
+                fi
               fi
-              echo "  ⚠ push attempt $i failed; retrying in 10s"
-              sleep 10
-            done
-            echo "  ✗ push gave up after 3 attempts; commit remains local on runner"
+
+              if ! timeout 30 git add tools/data/_mirror/ 2>&1 | sed "s/^/  [add] /"; then
+                echo "  ! [$who] git add timed out or failed"
+                exit 0
+              fi
+
+              if git diff --cached --quiet; then
+                echo "  · [$who] nothing new to commit"
+                exit 0
+              fi
+
+              local count
+              count=$(git diff --cached --name-only | wc -l | tr -d ' ')
+
+              if ! git commit -m "Mirror progress — $count files ($(date -u '+%Y-%m-%d %H:%M UTC'))" >/dev/null; then
+                echo "  ! [$who] git commit failed"
+                exit 0
+              fi
+
+              local i
+              for i in 1 2 3 4 5; do
+                if timeout 90 git pull --rebase origin main >/dev/null 2>&1 \
+                   && timeout 240 git push origin main >/dev/null 2>&1; then
+                  echo "  ✓ [$who] pushed $count files"
+                  exit 0
+                fi
+                echo "  ⚠ [$who] push attempt $i failed (timeout or error); retrying in 15s"
+                sleep 15
+              done
+              echo "  ✗ [$who] push gave up after 5 attempts; commit is local-only and will be lost when runner shuts down"
+            ) 200>"$LOCK_FILE" || true
+            return 0
           }
 
-          # Background auto-committer: snapshot progress every 5 min so a
-          # workflow-timeout kill never loses an entire run's work. Pinned to
-          # REPO_ROOT so it always finds tools/data/_mirror/.
+          # Background ticker — every 5 min, take a snapshot. All git ops are
+          # serialized via flock above, so this can never collide with the trap.
           (
             cd "$REPO_ROOT"
             while sleep 300; do
-              echo "── auto-commit tick $(date -u +%H:%M:%S) ──"
-              commit_progress || echo "  ! commit_progress errored (continuing)"
+              # Log a heartbeat with current file count so we can see progress
+              # in the workflow log even when commits aren't happening
+              file_count=$(find tools/data/_mirror -type f 2>/dev/null | wc -l | tr -d ' ')
+              echo "── tick $(date -u +%H:%M:%S) ── files-on-disk=$file_count"
+              commit_progress tick
             done
           ) &
           AUTO_PID=$!
-          # Final flush on any exit (success, mirror failure, or timeout SIGTERM).
-          # cd back to REPO_ROOT first since mirror.mjs runs from tools/.
+
+          # EXIT trap: cleanly stop the ticker, clear any stale lock, then
+          # do the final flush — up to 3 separate attempts with the lock.
           trap '
+            ec=$?
+            echo "── exit-trap: mirror finished with exit code $ec ──"
             kill $AUTO_PID 2>/dev/null || true
-            echo "── final flush ──"
-            commit_progress
+            # Give the ticker up to 30s to wind down on its own
+            for w in $(seq 1 30); do
+              if ! kill -0 $AUTO_PID 2>/dev/null; then break; fi
+              sleep 1
+            done
+            kill -9 $AUTO_PID 2>/dev/null || true
+            wait $AUTO_PID 2>/dev/null
+            # Clear any stale lock state
+            rm -f "$REPO_ROOT/.git/index.lock"
+            echo "── final flush: starting (with retries) ──"
+            for attempt in 1 2 3; do
+              echo "── final flush attempt $attempt ──"
+              commit_progress "final-$attempt"
+              # Confirm everything is pushed: are there any staged or local-only commits left?
+              cd "$REPO_ROOT"
+              ahead=$(git rev-list --count @{u}..HEAD 2>/dev/null || echo "?")
+              dirty=$(git status --porcelain tools/data/_mirror/ 2>/dev/null | wc -l | tr -d " ")
+              echo "── after attempt $attempt: ahead-of-origin=$ahead dirty-in-_mirror=$dirty ──"
+              if [ "$ahead" = "0" ] && [ "$dirty" = "0" ]; then
+                echo "── final flush: clean ──"
+                break
+              fi
+              sleep 5
+            done
+            echo "── exit-trap: done ──"
           ' EXIT
 
-          # Subshell keeps the outer cwd at REPO_ROOT so the trap is consistent.
+          # Run mirror in a subshell so the outer cwd stays at REPO_ROOT
           ( cd tools && node mirror.mjs )

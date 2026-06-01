@@ -41,9 +41,23 @@ REPO = "coder-1611/schoology-archive"
 SECRET_NAME = "SCHOOLOGY_COOKIE"
 WORKFLOW = "mirror.yml"
 
-CHROME_COOKIES = Path.home() / "Library/Application Support/Google/Chrome/Default/Cookies"
+CHROME_ROOT = Path.home() / "Library/Application Support/Google/Chrome"
 DOMAIN_SUFFIX = "schoology.com"
 TOOLS_DIR = Path(__file__).resolve().parent
+
+
+def chrome_cookie_dbs() -> List[Path]:
+    """Every existing Cookies file across Default + Profile N (both legacy and Network/ locations)."""
+    if not CHROME_ROOT.exists():
+        return []
+    profiles = [CHROME_ROOT / "Default"] + sorted(CHROME_ROOT.glob("Profile *"))
+    candidates = []
+    for prof in profiles:
+        for sub in ("Cookies", "Network/Cookies"):
+            p = prof / sub
+            if p.is_file():
+                candidates.append(p)
+    return candidates
 
 
 def keychain_password() -> bytes:
@@ -94,17 +108,13 @@ def decrypt_v10(blob: bytes, key: bytes) -> Optional[str]:
         return None
 
 
-def read_cookies() -> List[Tuple[str, str, str, bytes]]:
-    """Snapshot Chrome's cookie DB (Chrome may have it locked) and return matching rows."""
-    if not CHROME_COOKIES.exists():
-        raise SystemExit(f"Chrome cookies DB not found at {CHROME_COOKIES}")
-
+def _read_cookies_from(db: Path) -> List[Tuple[str, str, str, bytes]]:
+    """Snapshot a single cookies DB (Chrome may have it locked) and return matching rows."""
     with tempfile.NamedTemporaryFile(suffix=".db", delete=False) as f:
         tmp = Path(f.name)
     try:
-        shutil.copy(CHROME_COOKIES, tmp)
+        shutil.copy(db, tmp)
         conn = sqlite3.connect(tmp)
-        # host_key for *.schoology.com cookies is usually `.schoology.com` or `roundrockisd.schoology.com`
         rows = conn.execute(
             "SELECT host_key, name, value, encrypted_value FROM cookies "
             "WHERE host_key LIKE '%' || ? || '%'",
@@ -114,6 +124,23 @@ def read_cookies() -> List[Tuple[str, str, str, bytes]]:
         return rows
     finally:
         tmp.unlink(missing_ok=True)
+
+
+def read_cookies() -> Tuple[List[Tuple[str, str, str, bytes]], Path]:
+    """Find the Chrome profile with the most schoology cookies; return (rows, source_db)."""
+    dbs = chrome_cookie_dbs()
+    if not dbs:
+        raise SystemExit(f"No Chrome cookie DBs found under {CHROME_ROOT}")
+
+    best: Tuple[List, Path] = ([], dbs[0])
+    for db in dbs:
+        try:
+            rows = _read_cookies_from(db)
+        except sqlite3.DatabaseError:
+            continue
+        if len(rows) > len(best[0]):
+            best = (rows, db)
+    return best
 
 
 def format_cookie_header(rows, key: bytes) -> str:
@@ -182,10 +209,15 @@ def main() -> None:
     args = ap.parse_args()
 
     print("Reading Chrome cookies for *.schoology.com…", file=sys.stderr)
-    rows = read_cookies()
+    rows, source = read_cookies()
     if not rows:
-        raise SystemExit("No schoology.com cookies found in Chrome. Are you logged in to Schoology in Chrome?")
-    print(f"  found {len(rows)} cookie rows", file=sys.stderr)
+        raise SystemExit(
+            "No schoology.com cookies found in any Chrome profile. "
+            "Are you logged in to Schoology in Chrome (check every profile)?"
+        )
+    # Show which profile we used so users can spot if it picked the wrong one
+    profile_name = source.parent.parent.name if source.parent.name == "Network" else source.parent.name
+    print(f"  found {len(rows)} cookie rows in profile '{profile_name}'", file=sys.stderr)
 
     print("Requesting Chrome Safe Storage key from Keychain (GUI may prompt)…", file=sys.stderr)
     key = derive_key(keychain_password())
