@@ -188,8 +188,12 @@ function indexPage(courses) {
   const withGrades = sorted.filter((c) => bestAvg(c.grades.summary).pct != null);
   const without = sorted.filter((c) => bestAvg(c.grades.summary).pct == null);
 
-  // Overall = simple mean of per-course best percentages (each course = one data point)
+  // Overall = simple mean of per-course best percentages, but only counting
+  // courses that actually have graded items. A course can have a hollow
+  // course_grade reported by Schoology with 0 underlying item scores
+  // (e.g. legacy data, partial enrollment) — those are excluded from the mean.
   const courseAvgs = withGrades
+    .filter((c) => c.grades.summary.items_graded > 0)
     .map((c) => bestAvg(c.grades.summary).pct)
     .filter((p) => p != null);
   const overall = courseAvgs.length
