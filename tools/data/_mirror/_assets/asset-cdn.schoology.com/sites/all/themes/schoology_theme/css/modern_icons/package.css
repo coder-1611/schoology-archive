@@ -1,5 +1,5 @@
 :root {
-    --sgy-icon-package: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/package.svg");
+    --sgy-icon-package: url(/sites/all/themes/schoology_theme/images/modern_icons/package.svg);
 }
 
 /* PACKAGE icon */
