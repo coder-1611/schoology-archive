@@ -44,6 +44,11 @@ const TABS = [
 
 async function presentTabs(mirrorRoot, courseId) {
   const out = [];
+  // Prefer the manifest-driven tree page if we've generated one — it actually
+  // renders the file/link tree, unlike Schoology's JS-driven materials.html.
+  if (await fileExists(path.join(mirrorRoot, 'courses', `${courseId}.html`))) {
+    out.push({ href: `/mirror/courses/${courseId}.html`, label: 'Files & Links' });
+  }
   for (const [rel, label] of TABS) {
     if (await fileExists(path.join(mirrorRoot, 'pages', 'course', courseId, rel))) {
       out.push({ href: `/mirror/pages/course/${courseId}/${rel}`, label });
@@ -144,8 +149,9 @@ export async function buildIndexHtml({ dataDir, mirrorRoot, courses, targets }) 
     html.push(`<h2>${ESC(SOURCE_LABEL[key])} (${list.length})</h2>`);
     html.push(`<ul class="courses">`);
     for (const c of list) {
-      // Pick the best primary landing: materials > overview > first available tab > nothing
-      let primary = c.tabs.find((t) => t.label === 'Materials')
+      // Pick the best primary landing: tree-view > materials > overview > first tab
+      let primary = c.tabs.find((t) => t.label === 'Files & Links')
+                 || c.tabs.find((t) => t.label === 'Materials')
                  || c.tabs.find((t) => t.label === 'Overview')
                  || c.tabs[0];
       const titleHtml = primary

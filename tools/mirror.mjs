@@ -11,6 +11,8 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { spawn } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 
 import { loadConfig, projectRoot } from './lib/config.mjs';
 import { makeHttpClient } from './lib/http.mjs';
@@ -18,6 +20,8 @@ import { makeBrowserClient } from './lib/browser.mjs';
 import { enumerateCourses } from './lib/courses.mjs';
 import { mirrorPage, pageLocalPath } from './lib/mirror.mjs';
 import { buildIndexHtml } from './lib/index-html.mjs';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 function parseArgs(argv) {
   const args = { courseIds: [], dashboardOnly: false, shallow: false };
@@ -183,6 +187,15 @@ async function main() {
       failCount++;
     }
   }
+
+  // Generate per-course tree-view pages (`_mirror/courses/<id>.html`) from
+  // the manifests. These provide a working file/link browser since Schoology's
+  // own materials.html is JS-driven and doesn't render in the offline mirror.
+  await new Promise((resolve, reject) => {
+    const child = spawn(process.execPath, [path.join(__dirname, 'build-course-pages.mjs')],
+      { stdio: 'inherit', cwd: __dirname });
+    child.on('exit', (code) => code === 0 ? resolve() : reject(new Error(`build-course-pages exited ${code}`)));
+  });
 
   // Write a categorized landing page (courses by source, with materials/info
   // tabs per course) plus an appendix with the flat list of every mirrored URL.

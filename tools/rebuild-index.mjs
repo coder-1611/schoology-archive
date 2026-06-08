@@ -9,16 +9,28 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { spawn } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 
 import { loadConfig } from './lib/config.mjs';
 import { buildIndexHtml } from './lib/index-html.mjs';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function main() {
   const config = loadConfig();
   const mirrorRoot = path.join(config.dataDir, '_mirror');
 
-  // No `courses` or `targets` passed — buildIndexHtml will discover courses
-  // by globbing manifests itself, and the appendix will simply be omitted.
+  // First regenerate every per-course tree-view page so the landing's
+  // "Files & Links" links resolve.
+  await new Promise((resolve, reject) => {
+    const child = spawn(process.execPath, [path.join(__dirname, 'build-course-pages.mjs')],
+      { stdio: 'inherit', cwd: __dirname });
+    child.on('exit', (code) => code === 0 ? resolve() : reject(new Error(`build-course-pages exited ${code}`)));
+  });
+
+  // Then build the landing — no `courses` or `targets` passed, so buildIndexHtml
+  // discovers courses by globbing manifests and the appendix is omitted.
   const html = await buildIndexHtml({
     dataDir: config.dataDir,
     mirrorRoot,
