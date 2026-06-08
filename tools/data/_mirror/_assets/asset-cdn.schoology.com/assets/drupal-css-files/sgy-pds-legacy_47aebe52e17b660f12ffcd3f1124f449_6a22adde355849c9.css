@@ -1,0 +1,9 @@
+/* Stylesheet used when PDS is NOT enabled */
+
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 980px;
+    max-width: 1240px;
+    clear: both;
+}
