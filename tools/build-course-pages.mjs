@@ -132,6 +132,7 @@ function pageHtml(courseId, manifest, treeHtml) {
   <p>${ESC(source)} course · ${ESC(courseId)} · ${ESC(total)} items downloaded</p>
   <p class="nav">
     <a href="/mirror/index.html">← All courses</a> ·
+    <a href="/mirror/grades/${ESC(courseId)}.html">Grades</a> ·
     <a href="/mirror/pages/course/${ESC(courseId)}/materials.html">Schoology materials view</a> ·
     <a href="/mirror/pages/course/${ESC(courseId)}/updates.html">Updates</a> ·
     <a href="/mirror/pages/course/${ESC(courseId)}/info.html">Info</a>

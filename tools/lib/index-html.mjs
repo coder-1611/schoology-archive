@@ -49,6 +49,9 @@ async function presentTabs(mirrorRoot, courseId) {
   if (await fileExists(path.join(mirrorRoot, 'courses', `${courseId}.html`))) {
     out.push({ href: `/mirror/courses/${courseId}.html`, label: 'Files & Links' });
   }
+  if (await fileExists(path.join(mirrorRoot, 'grades', `${courseId}.html`))) {
+    out.push({ href: `/mirror/grades/${courseId}.html`, label: 'Grades' });
+  }
   for (const [rel, label] of TABS) {
     if (await fileExists(path.join(mirrorRoot, 'pages', 'course', courseId, rel))) {
       out.push({ href: `/mirror/pages/course/${courseId}/${rel}`, label });
@@ -112,10 +115,13 @@ export async function buildIndexHtml({ dataDir, mirrorRoot, courses, targets }) 
   const totalWithMirror = enriched.filter((c) => c.tabs.length > 0).length;
   const snapshotDate = new Date().toLocaleString();
 
+  // Surface a top-of-page link to the all-courses grades index if it exists
+  const hasGrades = await fileExists(path.join(mirrorRoot, 'grades', 'index.html'));
+
   const html = [];
   html.push(`<!doctype html>
 <meta charset="utf-8">
-<title>Schoology Mirror</title>
+<title>Schoology Mirror</title>${hasGrades ? '' : ''}
 <style>
   :root { color-scheme: light; }
   body { font: 15px/1.55 -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
@@ -140,7 +146,7 @@ export async function buildIndexHtml({ dataDir, mirrorRoot, courses, targets }) 
                border: 1px solid #eee; padding: 0.6rem 1.2rem; margin-top: 0.6rem; }
 </style>
 <h1>Schoology Archive</h1>
-<p class="meta">${ESC(totalCourses)} courses · ${ESC(totalWithMirror)} with mirrored content · snapshot ${ESC(snapshotDate)}</p>`);
+<p class="meta">${ESC(totalCourses)} courses · ${ESC(totalWithMirror)} with mirrored content · snapshot ${ESC(snapshotDate)}${hasGrades ? ' · <a href="/mirror/grades/index.html"><strong>View grades →</strong></a>' : ''}</p>`);
 
   // Render each group in canonical order
   for (const key of SOURCE_ORDER) {

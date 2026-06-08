@@ -26,6 +26,8 @@ jobs:
             tools/mirror.mjs
             tools/server.mjs
             tools/build-course-pages.mjs
+            tools/build-grades-pages.mjs
+            tools/scrape-grades.py
             tools/rebuild-index.mjs
             tools/package.json
             tools/package-lock.json

@@ -197,6 +197,28 @@ async function main() {
     child.on('exit', (code) => code === 0 ? resolve() : reject(new Error(`build-course-pages exited ${code}`)));
   });
 
+  // Scrape per-course grades, then render `_mirror/grades/` pages. Scrape step
+  // is best-effort: skip silently if it fails (cookie may not have grade access),
+  // but still try to render whatever grades.json files exist on disk.
+  try {
+    await new Promise((resolve, reject) => {
+      const child = spawn('python3', [path.join(__dirname, 'scrape-grades.py')],
+        { stdio: 'inherit', cwd: __dirname });
+      child.on('exit', (code) => code === 0 ? resolve() : reject(new Error(`scrape-grades exited ${code}`)));
+    });
+  } catch (err) {
+    console.warn(`  ! scrape-grades.py failed: ${err.message} — continuing without fresh grades`);
+  }
+  try {
+    await new Promise((resolve, reject) => {
+      const child = spawn(process.execPath, [path.join(__dirname, 'build-grades-pages.mjs')],
+        { stdio: 'inherit', cwd: __dirname });
+      child.on('exit', (code) => code === 0 ? resolve() : reject(new Error(`build-grades-pages exited ${code}`)));
+    });
+  } catch (err) {
+    console.warn(`  ! build-grades-pages.mjs failed: ${err.message}`);
+  }
+
   // Write a categorized landing page (courses by source, with materials/info
   // tabs per course) plus an appendix with the flat list of every mirrored URL.
   const flatTargets = targets.map((url) => ({
