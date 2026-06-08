@@ -11,13 +11,13 @@
 .alignment-breadcrumbs { text-align: start; padding: 5px 10px; border-bottom: 1px solid #DDD; font-size: 11px; }
 .alignment-breadcrumbs .breadcrumb-item:first-child,.alignment-breadcrumbs .breadcrumb-item { color: #2E66A3; background: none; cursor: pointer; }
 .alignment-breadcrumbs .breadcrumb-item:first-child:hover,.alignment-breadcrumbs .breadcrumb-item:hover { text-decoration: underline; }
-.alignment-form-container .arrow { background: url('/sites/all/themes/schoology_theme/images/expandable.gif?6a22adde355849c9') no-repeat -2px -18px; display: inline-block; height: 12px; }
+.alignment-form-container .arrow { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/expandable.gif__q_6a22adde355849c9") no-repeat -2px -18px; display: inline-block; height: 12px; }
 [dir="rtl"] .alignment-breadcrumbs { display: flow-root; }
 [dir="rtl"] .alignment-breadcrumbs .breadcrumb-item:first-child, [dir="rtl"] .alignment-breadcrumbs .breadcrumb-item { float: right; }
 [dir="rtl"] .alignment-form-container .arrow { -webkit-transform: scaleX(-1); transform: scaleX(-1); }
 [dir="rtl"] .alignment-form-container .title { display: inline-block; }
 [dir="rtl"] .alignment-form-container .selected-count { display: inline-block; }
-.alignment-form-container li.active, .alignment-form-container div.active { background: url('/sites/all/themes/schoology_theme/images/attendance_present.gif?6a22adde355849c9') no-repeat 98% center #E3FFD8; border-color: #44505d; color: #333; }
+.alignment-form-container li.active, .alignment-form-container div.active { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/attendance_present.gif__q_6a22adde355849c9") no-repeat 98% center #E3FFD8; border-color: #44505d; color: #333; }
 [dir="rtl"] .alignment-form-container li.active, [dir="rtl"] .alignment-form-container div.active { background-position-x: 2%; }
 .alignment-form-container input[type=checkbox] { display: none; }
 .alignment-form-container .header .buttons { position: absolute; inset-inline-end: 15px; text-align: end; }
@@ -28,7 +28,7 @@
 .alignment-form-container .header #edit-alignment-search-field { width: 200px; /* rtl-processor:ignore */ float: left; }
 .alignment-form-container .header #edit-alignment-search-field::placeholder { color: #5c5c5c; }
 [dir="rtl"] .alignment-form-container .header #edit-alignment-search-field { float: right; }
-.alignment-form-container .header .mag-glass { display: block; width: 28px; height: 28px; margin-inline-start: -28px; background: url('/sites/all/themes/schoology_theme/images/icons_sprite.png?6a22adde355849c9') no-repeat 7px -975px; cursor: pointer; /* rtl-processor:ignore */ float: left; filter: brightness(0.75); }
+.alignment-form-container .header .mag-glass { display: block; width: 28px; height: 28px; margin-inline-start: -28px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite.png__q_6a22adde355849c9") no-repeat 7px -975px; cursor: pointer; /* rtl-processor:ignore */ float: left; filter: brightness(0.75); }
 [dir="rtl"] .alignment-form-container .header .mag-glass { float: right; }
 .alignment-form-container .search-block-filters {	/* rtl-processor:ignore */	float: left;	display:none; }
 [dir="rtl"] .alignment-form-container .search-block-filters { float: right; }
@@ -110,7 +110,7 @@
   height: 17px;
   width: 17px;
   margin-inline-end: 10px;
-  background: url('/sites/all/themes/schoology_theme/images/icons_sprite_library.png?6a22adde355849c9') no-repeat;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_library.png__q_6a22adde355849c9") no-repeat;
   background-position: 0px -374px;
   vertical-align: middle;
   }
@@ -212,7 +212,7 @@
 }
 
 [data-theme="modern"] .alignment-inline-wrapper .tag-item .delete-btn {
-  background: url('/sites/all/themes/schoology_theme/images/circle-close.svg?6a22adde355849c9') no-repeat;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/circle-close.svg__q_6a22adde355849c9") no-repeat;
   background-position-x: -1px;
   background-size: 14px;
 }
