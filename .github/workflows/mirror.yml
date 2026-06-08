@@ -126,12 +126,21 @@ jobs:
 
               local i
               for i in 1 2 3 4 5; do
-                if timeout 90 git pull --rebase origin main >/dev/null 2>&1 \
-                   && timeout 240 git push origin main >/dev/null 2>&1; then
-                  echo "  ✓ [$who] pushed $count files"
-                  exit 0
+                # Capture errors instead of silencing them so failures are diagnosable in the run log.
+                local pull_err push_err
+                pull_err=$(timeout 120 git pull --rebase origin main 2>&1 >/dev/null)
+                if [ $? -eq 0 ]; then
+                  push_err=$(timeout 600 git push origin main 2>&1 >/dev/null)
+                  if [ $? -eq 0 ]; then
+                    echo "  ✓ [$who] pushed $count files"
+                    exit 0
+                  fi
+                  echo "  ⚠ [$who] push attempt $i failed; push stderr:"
+                  printf '%s\n' "$push_err" | sed "s/^/        /"
+                else
+                  echo "  ⚠ [$who] pull attempt $i failed; pull stderr:"
+                  printf '%s\n' "$pull_err" | sed "s/^/        /"
                 fi
-                echo "  ⚠ [$who] push attempt $i failed (timeout or error); retrying in 15s"
                 sleep 15
               done
               echo "  ✗ [$who] push gave up after 5 attempts; commit is local-only and will be lost when runner shuts down"
@@ -154,25 +163,41 @@ jobs:
           AUTO_PID=$!
 
           # EXIT trap: cleanly stop the ticker, clear any stale lock, then
-          # do the final flush — up to 3 separate attempts with the lock.
+          # do the final flush — up to 5 separate attempts with the lock.
+          # Run #8 hit this same trap and exit 143'd after 5s — set +e is
+          # critical so non-zero returns from kill/wait/etc don't abort
+          # the trap before it can flush the local-only backlog.
           trap '
+            set +e
             ec=$?
             echo "── exit-trap: mirror finished with exit code $ec ──"
-            kill $AUTO_PID 2>/dev/null || true
+            # Diagnostic: how much work do we have to flush right now?
+            cd "$REPO_ROOT" 2>/dev/null
+            init_ahead=$(git rev-list --count @{u}..HEAD 2>/dev/null || echo "?")
+            init_dirty=$(git status --porcelain tools/data/_mirror/ 2>/dev/null | wc -l | tr -d " ")
+            echo "── exit-trap: starting state: ahead-of-origin=$init_ahead dirty-in-_mirror=$init_dirty ──"
+
+            kill $AUTO_PID 2>/dev/null
             # Give the ticker up to 30s to wind down on its own
-            for w in $(seq 1 30); do
-              if ! kill -0 $AUTO_PID 2>/dev/null; then break; fi
+            for w in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30; do
+              kill -0 $AUTO_PID 2>/dev/null || break
               sleep 1
             done
-            kill -9 $AUTO_PID 2>/dev/null || true
-            wait $AUTO_PID 2>/dev/null
+            kill -9 $AUTO_PID 2>/dev/null
+            # `wait` without an arg waits for any remaining children; tolerate any exit code
+            wait 2>/dev/null
+            # Kill any straggling git child processes that the ticker spawned
+            pkill -9 -P $AUTO_PID 2>/dev/null
+            pkill -9 -f "git push" 2>/dev/null
+            pkill -9 -f "git pull" 2>/dev/null
             # Clear any stale lock state
             rm -f "$REPO_ROOT/.git/index.lock"
-            echo "── final flush: starting (with retries) ──"
-            for attempt in 1 2 3; do
+            rm -f "$REPO_ROOT/.git-ops.lock.lock" 2>/dev/null
+
+            echo "── final flush: starting (up to 5 attempts) ──"
+            for attempt in 1 2 3 4 5; do
               echo "── final flush attempt $attempt ──"
               commit_progress "final-$attempt"
-              # Confirm everything is pushed: are there any staged or local-only commits left?
               cd "$REPO_ROOT"
               ahead=$(git rev-list --count @{u}..HEAD 2>/dev/null || echo "?")
               dirty=$(git status --porcelain tools/data/_mirror/ 2>/dev/null | wc -l | tr -d " ")
@@ -181,7 +206,7 @@ jobs:
                 echo "── final flush: clean ──"
                 break
               fi
-              sleep 5
+              sleep 10
             done
             echo "── exit-trap: done ──"
           ' EXIT
