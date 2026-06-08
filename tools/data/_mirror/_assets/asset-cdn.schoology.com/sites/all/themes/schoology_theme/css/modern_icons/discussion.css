@@ -1,6 +1,6 @@
 :root {
-    --sgy-icon-discussion: url(/sites/all/themes/schoology_theme/images/modern_icons/discussion.svg);
-    --sgy-icon-discussion-gray: url(/sites/all/themes/schoology_theme/images/modern_icons/discussion-gray.svg);
+    --sgy-icon-discussion: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/discussion.svg");
+    --sgy-icon-discussion-gray: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/discussion-gray.svg");
 }
 
 /* DISCUSSION icon */

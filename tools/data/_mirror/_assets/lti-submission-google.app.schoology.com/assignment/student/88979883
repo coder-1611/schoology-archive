@@ -1,0 +1,17 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" media="screen" href="/css/styles.css?PE-144102">
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js?PE-144102"></script>
+</head>
+<body>
+    <div class="body-content">    <div class="content-body">
+        <p class="message error">
+            We couldn&#039;t load your document because there is a problem with your instructor&#039;s account. Please ask your instructor to reconnect their account to Schoology.
+        </p>
+        <p class="message support-lookup-key">
+            1e8a0d5c-c350-449e-a6c8-5d5015897fd1
+        </p>
+    </div>
+</div>
+</body>
+</html>
