@@ -1,0 +1,16 @@
+.stats-tables table { width: 225px; /* rtl-processor:ignore */ float: left; text-align: start; margin-inline-end: 20px; font-size: 11px; border-inline-end: 1px solid #eaeaea; }
+[dir="rtl"] .stats-tables table { float: right; }
+.stats-tables th { padding: 3px; }
+.stats-tables td { padding: 3px; }
+.return-to { /* rtl-processor:ignore */ float: right; margin: 5px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/btn-sprite.png__q_6a22adde355849c9") no-repeat 0 -283px; padding-inline-start: 22px; }
+[dir="rtl"] .return-to { float: left; }
+#assignment-stats-graph { margin-inline-start: 11px; height: 200px; margin-bottom: 10px; }
+.header-stats { display: none; }
+.stats-tables .stats-table-row-param { font-weight: bold; }
+.popups-body .received-grade { /* rtl-processor:ignore */ float: right; margin-top: 20px; width: 170px; padding-inline-end: 20px; text-align: center; }
+[dir="rtl"] .popups-body .received-grade { float: left; }
+.stats-tables { padding: 15px; border-bottom: 1px solid #eaeaea; margin-bottom: 20px; }
+.s-stats-popup .messages.warning { font-size: 11px; margin: 0;  }
+.s-stats-popup.popups-box { width: 700px; }
+.s-stats-popup.popups-box .submit-buttons { width: 698px; bottom: 9px; }
+.s-stats-popup.popups-box .popups-body { }
