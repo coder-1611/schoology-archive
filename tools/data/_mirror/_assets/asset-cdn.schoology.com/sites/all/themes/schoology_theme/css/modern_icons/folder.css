@@ -1,13 +1,13 @@
 :root {
-  --sgy-icon-folder-black: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-black.svg);
-  --sgy-icon-folder-blue: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-blue.svg);
-  --sgy-icon-folder-gray: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-gray.svg);
-  --sgy-icon-folder-green: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-green.svg);
-  --sgy-icon-folder-orange: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-orange.svg);
-  --sgy-icon-folder-pink: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-pink.svg);
-  --sgy-icon-folder-purple: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-purple.svg);
-  --sgy-icon-folder-red: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-red.svg);
-  --sgy-icon-folder-yellow: url(/sites/all/themes/schoology_theme/images/modern_icons/folder-yellow.svg);
+  --sgy-icon-folder-black: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-black.svg");
+  --sgy-icon-folder-blue: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-blue.svg");
+  --sgy-icon-folder-gray: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-gray.svg");
+  --sgy-icon-folder-green: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-green.svg");
+  --sgy-icon-folder-orange: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-orange.svg");
+  --sgy-icon-folder-pink: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-pink.svg");
+  --sgy-icon-folder-purple: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-purple.svg");
+  --sgy-icon-folder-red: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-red.svg");
+  --sgy-icon-folder-yellow: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/modern_icons/folder-yellow.svg");
 }
 
 /* DEFAULT folder icon */

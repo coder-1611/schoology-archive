@@ -26,7 +26,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 100;
     src: local("Roboto Thin"), local("Roboto-Thin"),
-    url(fonts/Roboto/Roboto-Thin.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Thin.ttf") format("truetype")
 }
 
 @font-face {
@@ -34,7 +34,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 300;
     src: local("Roboto Light"), local("Roboto-Light"),
-    url(fonts/Roboto/Roboto-Light.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Light.ttf") format("truetype")
 }
 
 @font-face {
@@ -42,7 +42,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 400;
     src: local("Roboto Regular"), local("Roboto-Regular"),
-    url(fonts/Roboto/Roboto-Regular.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Regular.ttf") format("truetype")
 }
 
 @font-face {
@@ -50,7 +50,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 500;
     src: local("Roboto Medium"), local("Roboto-Medium"),
-    url(fonts/Roboto/Roboto-Medium.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Medium.ttf") format("truetype")
 }
 
 /* max weight rendered is 500/medium. 700 included to prevent font synthesis when using 700/bold. */
@@ -59,7 +59,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 700;
     src: local("Roboto Medium"), local("Roboto-Medium"),
-    url(fonts/Roboto/Roboto-Medium.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Medium.ttf") format("truetype")
 }
 
 /*
@@ -71,7 +71,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 100;
     src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts/Roboto/Roboto-ThinItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-ThinItalic.ttf") format("truetype")
 }
 
 @font-face {
@@ -79,7 +79,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 300;
     src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/Roboto/Roboto-LightItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-LightItalic.ttf") format("truetype")
 }
 
 @font-face {
@@ -87,7 +87,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 400;
     src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(fonts/Roboto/Roboto-Italic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Italic.ttf") format("truetype")
 }
 
 @font-face {
@@ -95,7 +95,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 500;
     src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"),
-    url(fonts/Roboto/Roboto-MediumItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype")
 }
 
 /* max weight rendered is 500/medium. 700 included to prevent font synthesis when using 700/bold. */
@@ -104,7 +104,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 700;
     src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"),
-    url(fonts/Roboto/Roboto-MediumItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype")
 }
 
 /*
@@ -118,7 +118,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 400;
     src: local("Roboto Light"), local("Roboto-Light"),
-    url(fonts/Roboto/Roboto-Light.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Light.ttf") format("truetype")
 }
 
 @font-face {
@@ -126,7 +126,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 500;
     src: local("Roboto Medium"), local("Roboto-Medium"),
-    url(fonts/Roboto/Roboto-Medium.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Medium.ttf") format("truetype")
 }
 
 @font-face {
@@ -134,7 +134,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 400;
     src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/Roboto/Roboto-LightItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-LightItalic.ttf") format("truetype")
 }
 
 @font-face {
@@ -142,7 +142,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 500;
     src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"),
-    url(fonts/Roboto/Roboto-MediumItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype")
 }
 
 /*
@@ -156,7 +156,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 400;
     src: local("Roboto Bold"), local("Roboto-Bold"),
-    url(fonts/Roboto/Roboto-Bold.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Bold.ttf") format("truetype")
 }
 
 @font-face {
@@ -164,7 +164,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 500;
     src: local("Roboto Black"), local("Roboto-Black"),
-    url(fonts/Roboto/Roboto-Black.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-Black.ttf") format("truetype")
 }
 
 @font-face {
@@ -172,7 +172,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 400;
     src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"),
-    url(fonts/Roboto/Roboto-BoldItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype")
 }
 
 @font-face {
@@ -180,7 +180,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 500;
     src: local("Roboto Black Italic"), local("Roboto-BlackItalic"),
-    url(fonts/Roboto/Roboto-BlackItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype")
 }
 
 /*
@@ -192,7 +192,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 100;
     src: local("Roboto Mono Thin"), local("RobotoMono-Thin"),
-    url(fonts/RobotoMono/RobotoMono-Thin.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-Thin.ttf") format("truetype")
 }
 
 @font-face {
@@ -200,7 +200,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 200;
     src: local("Roboto Mono Extra Light"), local("RobotoMono-ExtraLight"),
-    url(fonts/RobotoMono/RobotoMono-ExtraLight.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-ExtraLight.ttf") format("truetype")
 }
 
 @font-face {
@@ -208,7 +208,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 300;
     src: local("Roboto Mono Light"), local("RobotoMono-Light"),
-    url(fonts/RobotoMono/RobotoMono-Light.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-Light.ttf") format("truetype")
 }
 
 @font-face {
@@ -216,7 +216,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 400;
     src: local("Roboto Mono Regular"), local("RobotoMono-Regular"),
-    url(fonts/RobotoMono/RobotoMono-Regular.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-Regular.ttf") format("truetype")
 }
 
 @font-face {
@@ -224,7 +224,7 @@ body.mceContentBody a {
     font-style: normal;
     font-weight: 500;
     src: local("Roboto Mono Medium"), local("RobotoMono-Medium"),
-    url(fonts/RobotoMono/RobotoMono-Medium.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-Medium.ttf") format("truetype")
 }
 
 /*
@@ -236,7 +236,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 100;
     src: local("Roboto Mono Thin Italic"), local("RobotoMono-ThinItalic"),
-    url(fonts/RobotoMono/RobotoMono-ThinItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-ThinItalic.ttf") format("truetype")
 }
 
 @font-face {
@@ -244,7 +244,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 200;
     src: local("Roboto Mono Extra Light Italic"), local("RobotoMono-ExtraLightItalic"),
-    url(fonts/RobotoMono/RobotoMono-ExtraLightItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-ExtraLightItalic.ttf") format("truetype")
 }
 
 @font-face {
@@ -252,7 +252,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 300;
     src: local("Roboto Mono Light Italic"), local("RobotoMono-LightItalic"),
-    url(fonts/RobotoMono/RobotoMono-LightItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-LightItalic.ttf") format("truetype")
 }
 
 @font-face {
@@ -260,7 +260,7 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 400;
     src: local("Roboto Mono Italic"), local("RobotoMono-Italic"),
-    url(fonts/RobotoMono/RobotoMono-Italic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-Italic.ttf") format("truetype")
 }
 
 @font-face {
@@ -268,5 +268,5 @@ body.mceContentBody a {
     font-style: italic;
     font-weight: 500;
     src: local("Roboto Mono Medium Italic"), local("RobotoMono-MediumItalic"),
-    url(fonts/RobotoMono/RobotoMono-MediumItalic.ttf) format("truetype")
+    url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/fonts/RobotoMono/RobotoMono-MediumItalic.ttf") format("truetype")
 }
