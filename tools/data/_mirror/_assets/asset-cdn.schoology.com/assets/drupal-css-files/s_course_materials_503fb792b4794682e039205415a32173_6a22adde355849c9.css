@@ -3,10 +3,10 @@
 [dir="rtl"] .course-content-action-links .action-links-wrapper { float: right; }
 .course-content-action-links .action-links-wrapper .action-links { text-align: start; position: absolute; inset-inline-start: 0; top: 26px; }
 .course-content-action-links .action-links-wrapper-expanded .action-links-unfold { float: none; }
-.course-content-action-links .action-links-wrapper-expanded .action-links-unfold span span { width: 16px; height: 18px; /* rtl-processor:ignore */ float: left; background: url('/sites/all/themes/schoology_theme/images/icons_sprite_new.png?6a22adde355849c9') no-repeat 0 -272px; padding: 0; margin: 2px 7px 0; margin-inline-start: -23px; }
+.course-content-action-links .action-links-wrapper-expanded .action-links-unfold span span { width: 16px; height: 18px; /* rtl-processor:ignore */ float: left; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a22adde355849c9") no-repeat 0 -272px; padding: 0; margin: 2px 7px 0; margin-inline-start: -23px; }
 [dir="rtl"] .course-content-action-links .action-links-wrapper-expanded .action-links-unfold span span { float: right; padding-inline-start: 18px; }
 .course-content-action-links .action-links-wrapper-expanded .action-links-unfold span { padding: 0 21px 0; padding-inline-start: 24px; }
-#save-folders-to-resources a { background-image: url('/sites/all/themes/schoology_theme/images/icons_sprite_new.png?6a22adde355849c9'); background-position: 12px -720px ; }
+#save-folders-to-resources a { background-image: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_new.png__q_6a22adde355849c9"); background-position: 12px -720px ; }
 [dir="rtl"] #save-folders-to-resources a { background-position-x: calc(100% - 12px); }
 #s-course-materials-library-save-all-form { padding: 15px 20px; }
 #s-course-materials-library-save-all-form label { /* rtl-processor:ignore */ float: left; width: 100px; margin: 5px 5px 0; margin-inline-start: 0; }
@@ -14,9 +14,9 @@
 #s-course-materials-library-save-all-form select { max-width: 300px; }
 #s-course-materials-library-save-all-form label.option { float: none; }
 #s-course-materials-library-save-all-form .form-radios { padding: 5px 0 0; padding-inline-start: 105px; }
-#s-course-materials-library-save-all-form .form-radio-title { padding: 3px 0 3px; padding-inline-start: 32px; display: inline-block; background: url('/sites/all/themes/schoology_theme/images/folder.png?6a22adde355849c9') no-repeat 7px 3px; }
+#s-course-materials-library-save-all-form .form-radio-title { padding: 3px 0 3px; padding-inline-start: 32px; display: inline-block; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/folder.png__q_6a22adde355849c9") no-repeat 7px 3px; }
 [dir="rtl"] #s-course-materials-library-save-all-form .form-radio-title { background-position-x: calc(100% - 7px); }
-#s-course-materials-library-save-all-form #edit-save-as-template-wrapper .form-radio-title { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_realm.png?6a22adde355849c9') no-repeat 5px 2px; }
+#s-course-materials-library-save-all-form #edit-save-as-template-wrapper .form-radio-title { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_realm.png__q_6a22adde355849c9") no-repeat 5px 2px; }
 [dir="rtl"] #s-course-materials-library-save-all-form #edit-save-as-template-wrapper .form-radio-title { background-position-x: calc(100% - 2px); }
 #mastery-compatibility-warning { color: #5a6268; background-color: #f8d7da; border: 1px solid #f5c6cb; margin: 0 0 10px 0; padding: 5px 12px; border-radius: 4px; }
 #main #s-generic-post-new-display-form { padding: 0; }
@@ -36,9 +36,9 @@ li.action-create-folder.folder-no-materials { border: none; margin: 0; padding: 
 .popups-add-document .action-create-file, .popups-add-document .action-create-link, .popups-add-document .action-create-external-tool-link { flex-grow: 1; padding: 25px 0; font-size: 16px;  text-align: center; display: block; /* rtl-processor:ignore */ float: left; border-inline-end: 1px solid #becddd; height: 70px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
 [dir="rtl"] .popups-add-document .action-create-file, [dir="rtl"] .popups-add-document .action-create-link, [dir="rtl"] .popups-add-document .action-create-external-tool-link { float: right; }
 .popups-add-document .action-create-external-tool-link { border: 0 none; }
-.popups-add-document .action-create-file span, .popups-add-document .action-create-link span, .popups-add-document .action-create-external-tool-link span { display: inline-block; height: 32px; width: 32px; background: url('/sites/all/themes/schoology_theme/images/add-file.png?6a22adde355849c9') no-repeat 0 0; margin: -7px 10px -12px; margin-inline-start: 0; }
-.popups-add-document .action-create-link span { background: url('/sites/all/themes/schoology_theme/images/link-icon.png?6a22adde355849c9') no-repeat 0 0; }
-.popups-add-document .action-create-external-tool-link span { background: url('/sites/all/themes/schoology_theme/images/icons_sprite_large.png?6a22adde355849c9') no-repeat 0 -1080px; }
+.popups-add-document .action-create-file span, .popups-add-document .action-create-link span, .popups-add-document .action-create-external-tool-link span { display: inline-block; height: 32px; width: 32px; background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/add-file.png__q_6a22adde355849c9") no-repeat 0 0; margin: -7px 10px -12px; margin-inline-start: 0; }
+.popups-add-document .action-create-link span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/link-icon.png__q_6a22adde355849c9") no-repeat 0 0; }
+.popups-add-document .action-create-external-tool-link span { background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/icons_sprite_large.png__q_6a22adde355849c9") no-repeat 0 -1080px; }
 .popups-add-document.popups-small .popups-body { height: 70px; padding-bottom: 0; }
 .popups-add-document .action-create-file:hover, .popups-add-document .action-create-link:hover, .popups-add-document .action-create-external-tool-link:hover { text-decoration: none; }
 .popups-add-document.popups-box { width: 615px; }
