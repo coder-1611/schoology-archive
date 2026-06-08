@@ -59,8 +59,8 @@ input[type=checkbox], input[type=radio] { margin-inline-end: 5px; }
 
 #menu, #content, #footer { padding: 0 20px; }
 
-#logo{background:url(../img/logo.png) no-repeat 0 0; height: 34px; }
-#header { background: url('../img/header-bg.png') repeat-x 0; height:44px; width:100%;}
+#logo{background:url("/mirror/_assets/lti-submission-google.app.schoology.com/img/logo.png") no-repeat 0 0; height: 34px; }
+#header { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/header-bg.png") repeat-x 0; height:44px; width:100%;}
 #header a { margin-inline-start: 50px; display: block; width: 300px; padding: 10px 0; }
 
 #menu { background: #f5f5f5; padding: 5px; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; }
@@ -73,9 +73,9 @@ input[type=checkbox], input[type=radio] { margin-inline-end: 5px; }
 #menu li a:hover, #menu .menu-item.active a { background: #327cbb; color: #fff; }
 #menu .menu-item.active {  }
 
-.lti-provider-logo { display: inline-block; width: 24px; height: 24px; margin-inline-end: 5px; background: url(../provider/img/lti_provider_icon.png) no-repeat 0 0; vertical-align: bottom; }
-.lti-provider-logo-microsoft { display: inline-block; width: 24px; height: 24px; margin-inline-end: 5px; background: url(../provider/microsoft/img/lti_provider_icon.png) no-repeat 0 0; vertical-align: bottom; }
-.lti-provider-logo-google { display: inline-block; width: 24px; height: 24px; margin-inline-end: 5px; background: url(../provider/google/img/lti_provider_icon.png) no-repeat 0 0; vertical-align: bottom; }
+.lti-provider-logo { display: inline-block; width: 24px; height: 24px; margin-inline-end: 5px; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/provider/img/lti_provider_icon.png") no-repeat 0 0; vertical-align: bottom; }
+.lti-provider-logo-microsoft { display: inline-block; width: 24px; height: 24px; margin-inline-end: 5px; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/provider/microsoft/img/lti_provider_icon.png") no-repeat 0 0; vertical-align: bottom; }
+.lti-provider-logo-google { display: inline-block; width: 24px; height: 24px; margin-inline-end: 5px; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/provider/google/img/lti_provider_icon.png") no-repeat 0 0; vertical-align: bottom; }
 .content-title { font-size: 18px; font-weight: bold; padding: 12px 20px 10px 20px; min-height: 22px; border-bottom: 1px solid #ddd; }
 .content-body { margin: 20px; }
 .drive-list .content-body { margin: 7px 0 0 0; }
@@ -94,19 +94,19 @@ input[type=checkbox], input[type=radio] { margin-inline-end: 5px; }
 /* Action Links */
 .action-links.s-docs-icons a { padding-inline-end: 0; }
 .action-links { display: none; border: 1px solid #555; border-width: 1px 1px 2px; background: #fff; padding: 7px 0; position: absolute; z-index: 21; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  text-align: start; list-style: none; margin: 0; }
-.action-links a, .action-links span { display: block; padding: 5px 25px 5px; padding-inline-start: 37px; font-weight: normal; background-image: url(../img/btn-sprite.png); background-repeat: no-repeat; font-size: 12px; color: #333; vertical-align: middle; white-space: nowrap; }
-.action-links .action-import span, .action-links .action-import a { background-image: url(../img/icons_sprite_new.png); }
-.action-links-add .action-links a { background: url(../img/right-nav-icons.png) no-repeat 8px -210px; padding-inline-start: 30px; }
+.action-links a, .action-links span { display: block; padding: 5px 25px 5px; padding-inline-start: 37px; font-weight: normal; background-image: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png"); background-repeat: no-repeat; font-size: 12px; color: #333; vertical-align: middle; white-space: nowrap; }
+.action-links .action-import span, .action-links .action-import a { background-image: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/icons_sprite_new.png"); }
+.action-links-add .action-links a { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/right-nav-icons.png") no-repeat 8px -210px; padding-inline-start: 30px; }
 .action-links a:hover, .action-links span:hover { color: #89D4FA; text-decoration: none; cursor: pointer; background-color: #333; }
 .action-links li.disabled { opacity: .5; filter: alpha(opacity=50); zoom: 1; }
 .action-links li.disabled span { background: none; }
-.action-links li.disabled span span { background: url(../img/clue-tip.png) no-repeat right center; }
+.action-links li.disabled span span { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/clue-tip.png") no-repeat right center; }
 .action-links li.disabled span:hover, .action-links li.disabled a:hover { cursor: default; background-color: transparent; color: #333; }
 .action-links li.special-components-start { border-top: 1px solid #aaa; margin-top: 5px; padding-top: 5px; }
-.action-links-unfold { background: url(../img/gray-btn-bg.gif) repeat-x #E0E1E0; width: 34px; display: block; border: 1px solid; border-color: #999 #999 #888; cursor: pointer; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); white-space: nowrap; }
+.action-links-unfold { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/gray-btn-bg.gif") repeat-x #E0E1E0; width: 34px; display: block; border: 1px solid; border-color: #999 #999 #888; cursor: pointer; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); white-space: nowrap; }
 .action-links-unfold:active { background: #ddd; }
 .action-links-unfold.active, .action-links-wrapper-junior .action-links-unfold.active, .action-links-wrapper-junior .action-links-unfold.active:hover, .action-links-unfold.active:active  { background: #555; border: 1px solid #333; padding: 0; color: #fff; }
-.action-links-unfold span { background: url(../img/btn-sprite.png) 0 -637px; display: block; height: 24px; width: 21px; margin: 0 6px; cursor: pointer; }
+.action-links-unfold span { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png") 0 -637px; display: block; height: 24px; width: 21px; margin: 0 6px; cursor: pointer; }
 .action-links-unfold.active span { background-position: 0 -18px; }
 .action-links-unfold.disabled { opacity: 0.5; filter: alpha(opacity=50); cursor: default; }
 .action-links-unfold.disabled span { cursor: default; }
@@ -114,14 +114,14 @@ input[type=checkbox], input[type=radio] { margin-inline-end: 5px; }
 .action-links-wrapper-junior .action-links-unfold:hover span { background-position: 0 -639px; }
 .action-links-wrapper-junior .action-links-unfold span { background-position: 0 0; }
 .action-links-wrapper-junior.s-share-checkbox-form-wrapper .action-links-unfold.checkbox-toggler { float: none; }
-.action-links-wrapper-junior.s-share-checkbox-form-wrapper .action-links-unfold.checkbox-toggler span { background: url(../img/network-icons.png) no-repeat 0 1px; }
+.action-links-wrapper-junior.s-share-checkbox-form-wrapper .action-links-unfold.checkbox-toggler span { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/network-icons.png") no-repeat 0 1px; }
 .action-links-wrapper-junior.s-share-checkbox-form-wrapper .action-links-unfold.checkbox-toggler:hover span { background-position: 0 -23px; }
 .action-links-wrapper-junior.s-share-checkbox-form-wrapper .action-links-unfold.checkbox-toggler.active span { background-position: 0 -47px !important; }
 #social-share-wrapper { float: left; margin: 0 4px; }
 [dir="rtl"] #social-share-wrapper{
     float: right;
 }
-.action-links .share-link { background-image: url(../img/social-icons.png); }
+.action-links .share-link { background-image: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/social-icons.png"); }
 .action-links .fb-share .share-link { background-position: 10px 5px; }
 .action-links .twitter-share .share-link { background-position: 10px -30px; }
 .action-links-wrapper { float: left; font-size: 12px; }
@@ -131,24 +131,24 @@ input[type=checkbox], input[type=radio] { margin-inline-end: 5px; }
 .action-links-wrapper.aligned-right { position: relative; }
 .action-links-wrapper.aligned-right .action-links { inset-inline-end: 0; }
 .action-links-wrapper-junior .action-links-unfold { background: none; height: 20px; padding: 1px; border: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
-.action-links-wrapper-junior .action-links-unfold:hover { background: url(../img/gray-btn-bg.gif) repeat-x 0 1px; border: 1px solid; border-color: #999 #999 #888; padding: 0; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
+.action-links-wrapper-junior .action-links-unfold:hover { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/gray-btn-bg.gif") repeat-x 0 1px; border: 1px solid; border-color: #999 #999 #888; padding: 0; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
 .action-links-wrapper-expanded .action-links-unfold { width: auto; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
-.action-links-wrapper-expanded .action-links-unfold span { background: url(../img/btn-sprite.png) no-repeat right -576px; width: auto; padding: 0 21px 0; padding-inline-start: 3px; margin-inline-end: 1px; line-height: 24px; color: #333; font-weight: bold; }
+.action-links-wrapper-expanded .action-links-unfold span { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png") no-repeat right -576px; width: auto; padding: 0 21px 0; padding-inline-start: 3px; margin-inline-end: 1px; line-height: 24px; color: #333; font-weight: bold; }
 [dir="rtl"] .action-links-wrapper-expanded .action-links-unfold span { background-position-x: left; }
-.action-links-wrapper-expanded.action-links-add .action-links-unfold span { padding: 0 3px 0; padding-inline-start: 15px; background: url(../img/btn-sprite.png) no-repeat -5px -359px; margin-inline-end: 6px; }
+.action-links-wrapper-expanded.action-links-add .action-links-unfold span { padding: 0 3px 0; padding-inline-start: 15px; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png") no-repeat -5px -359px; margin-inline-end: 6px; }
 .action-links-wrapper-expanded .action-links-unfold.active span { background-position: right -594px; color: #fff; }
 .action-links-wrapper-expanded.action-links-add .action-links-unfold.active span { background-position: -5px -379px; }
 .action-links-wrapper-gearless { float: none; }
 .action-links-wrapper-gearless .action-links-unfold { background: none; border: none; color: #327cbb; width: auto; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
 .action-links-wrapper-gearless .action-links-unfold.active, .action-links-wrapper-gearless .action-links-unfold:active { color: #333; background: none; border: none; font-weight: bold; }
-.action-links-wrapper-gearless .action-links-unfold span { background: url(../img/arrow-down.png) no-repeat 5px 50%; width: auto; height: auto; padding: 5px 0 5px; padding-inline-start: 22px; }
-.action-links-wrapper-gearless .action-links-unfold.active span { background: url(../img/btn-sprite.png) no-repeat -1px -575px; }
+.action-links-wrapper-gearless .action-links-unfold span { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/arrow-down.png") no-repeat 5px 50%; width: auto; height: auto; padding: 5px 0 5px; padding-inline-start: 22px; }
+.action-links-wrapper-gearless .action-links-unfold.active span { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png") no-repeat -1px -575px; }
 .action-links-wrapper-gearless.single-action .action-links-unfold { display: none; }
 .single-action .action-links { display: block !important; position: static; border: 0 none; box-shadow: none; padding: 0; }
-.return a { background: url(../img/btn-sprite.png) no-repeat 0 -283px; padding-inline-start: 22px; }
+.return a { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png") no-repeat 0 -283px; padding-inline-start: 22px; }
 .action-link-dropdown .action-links { display: block; top: 26px; }
 .action-link-dropdown { position: relative; }
-.action-links .action-copy-to-courses a { background-image: url(../img/icons_sprite.png); background-position: 13px -577px; }
+.action-links .action-copy-to-courses a { background-image: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/icons_sprite.png"); background-position: 13px -577px; }
 .action-edit .clickable { background-position: 9px -36px; }
 .action-edit .clickable:hover { background-position: 9px -55px; }
 .action-delete .clickable { background-position: 9px -76px; }
@@ -159,25 +159,25 @@ input[type=checkbox], input[type=radio] { margin-inline-end: 5px; }
 [dir="rtl"] .action-account-settings a { background-position-x: calc(100% - 9px); }
 .action-account-settings a:hover { background-position: 9px -136px; }
 [dir="rtl"] .action-account-settings a:hover { background-position-x: calc(100% - 9px); }
-.action-copy .clickable { background-image: url(../img/icons_sprite.png); background-position: 13px -577px; } /* TODO: Move image over to local file system */
+.action-copy .clickable { background-image: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/icons_sprite.png"); background-position: 13px -577px; } /* TODO: Move image over to local file system */
 .action-import-file .clickable, .action-select-import-file .clickable { background-position: 13px -70px; }
 .action-import-link .clickable, .action-select-import-link .clickable { background-position: 13px -295px; }
 .action-import-link-private .clickable, .action-select-import-link-private .clickable { background-position: 13px -295px; }
 
 /* Link Btn */
-.link-btn { height: 14px; line-height: 14px; font-weight: bold; font-size: 12px; background: url(../img/gray-btn-bg.gif) repeat-x #fff; padding: 5px 10px; border: 1px solid; border-color: #999 #999 #888; color: #333; display: inline-block; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); cursor: pointer; } /* TODO: Move image over to local file system */
+.link-btn { height: 14px; line-height: 14px; font-weight: bold; font-size: 12px; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/gray-btn-bg.gif") repeat-x #fff; padding: 5px 10px; border: 1px solid; border-color: #999 #999 #888; color: #333; display: inline-block; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); cursor: pointer; } /* TODO: Move image over to local file system */
 .link-btn:hover { text-decoration: none; }
 .link-btn:active { background: #ddd; }
 .link-btn span, .link-btn a { display: inline-block; width: 10px; height: 14px; padding: 5px 8px; text-indent: -9999px; overflow: hidden; }
 .link-btn.return { padding: 0; height: 24px; }
-.link-btn.return a { background: url(../img/btn-sprite.png) no-repeat scroll 0 -278px; }
+.link-btn.return a { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png") no-repeat scroll 0 -278px; }
 [dir="rtl"] .link-btn.return a { transform: scaleX(-1); }
 
 .hidden { display: none; }
 .save-settings-btn-wrapper { margin-top: 10px; }
-.button { border: 1px solid #023d5a; background: #337dbc url(../img/btn-bg-dark.gif) repeat-x; display:-moz-inline-box; display: inline-block; vertical-align: top; white-space: nowrap; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); padding: 5px 10px; color: #fff; font-size: 14px; cursor: pointer; margin-inline-end: 5px; font-weight: bold; } /* TODO: Move image over to local file system */
+.button { border: 1px solid #023d5a; background: #337dbc url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-bg-dark.gif") repeat-x; display:-moz-inline-box; display: inline-block; vertical-align: top; white-space: nowrap; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); padding: 5px 10px; color: #fff; font-size: 14px; cursor: pointer; margin-inline-end: 5px; font-weight: bold; } /* TODO: Move image over to local file system */
 .button:active { background: #337dbc; }
-.button.cancel-btn { background: url(../img/gray-btn-bg.gif) repeat-x 0 1px; color: #333; border-color:#999 #999 #888; }
+.button.cancel-btn { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/gray-btn-bg.gif") repeat-x 0 1px; color: #333; border-color:#999 #999 #888; }
 .button.cancel-btn:active { background: #ddd; }
 
 /* Messages */
@@ -222,13 +222,13 @@ input[type=checkbox], input[type=radio] { margin-inline-end: 5px; }
 /* Modals */
 body .ui-widget { font-family: 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif; }
 body .ui-widget-overlay { background: #fff; opacity: .4; filter: alpha(opacity=40); }
-body .ui-dialog { background: url(../img/popup-shadow.png); padding: 10px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; border: 0 none; width: 450px !important; position: fixed; inset-inline-start: 50% !important; margin-inline-start: -225px; top: 110px !important;  }
+body .ui-dialog { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/popup-shadow.png"); padding: 10px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; border: 0 none; width: 450px !important; position: fixed; inset-inline-start: 50% !important; margin-inline-start: -225px; top: 110px !important;  }
 body .ui-dialog.popups-edit-item { position: fixed; top: 10% !important; inset-inline-start: 20px !important; inset-inline-end: 20px !important; width: auto !important; }
 body .ui-dialog .ui-dialog-titlebar { font-weight: bold; font-size: 13px; padding: 5px 10px; color: #fff; background: #444; border: 1px solid #222; border-bottom: 0 none; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
 body .ui-dialog .ui-dialog-titlebar-close { border: 0 none; background: none; color: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
 body .ui-dialog .ui-dialog-titlebar-close:focus { outline: 0 none; }
 body .ui-dialog .ui-dialog-titlebar-close.ui-state-hover { background: #fff; }
-body .ui-dialog .ui-dialog-titlebar-close .ui-icon-closethick { display: block; height: 16px; width: 15px; padding: 1px 3px; background: url(../img/btn-sprite.png) no-repeat -1px -100px; position: static; margin: 0 -1px; }
+body .ui-dialog .ui-dialog-titlebar-close .ui-icon-closethick { display: block; height: 16px; width: 15px; padding: 1px 3px; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-sprite.png") no-repeat -1px -100px; position: static; margin: 0 -1px; }
 body .ui-dialog .ui-dialog-titlebar-close.ui-state-hover .ui-icon-closethick { background-position: -1px -80px; text-decoration: none; cursor: pointer; }
 body .ui-dialog .ui-dialog-content { font-size: 13px; padding: 0 0 40px; background: #fff; border: 1px solid #333; }
 body .ui-dialog.popups-edit-item .ui-dialog-content { padding-bottom: 0; }
@@ -248,7 +248,7 @@ body .ui-widget-overlay.loading-overlay { text-align: center; z-index: 1000; }
 body .ui-widget-overlay.loading-overlay .loading-image { display: block; width: 30px; height: 8px; margin: 20px auto; }
 
 /* Infotip */
-.infotip { background: url(/img/clue-tip.png) no-repeat 0 0; display: inline-block; height: 16px; width: 16px; overflow: hidden; text-indent: -9999px; }
+.infotip { background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/clue-tip.png") no-repeat 0 0; display: inline-block; height: 16px; width: 16px; overflow: hidden; text-indent: -9999px; }
 
 /* Configuration Page */
 .configuration-page .content-title { padding-inline-start: 0; }
@@ -286,7 +286,7 @@ body .ui-widget-overlay.loading-overlay .loading-image { display: block; width: 
 .drive-list-table .file-item-actions { width: 40px; padding-inline-end: 20px; vertical-align: top; font-size: 12px; }
 .drive-list-table .file-item-actions a { color: #1a5597;  }
 .drive-list-table .shared { color: #666; font-size: 11px; }
-.ajax-load-more { color: #327cbb; display: inline-block; margin: 10px 20px; background: url(../img/arrow-down.png) no-repeat 9px 50%; padding-inline-start: 24px; }
+.ajax-load-more { color: #327cbb; display: inline-block; margin: 10px 20px; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/arrow-down.png") no-repeat 9px 50%; padding-inline-start: 24px; }
 
 /* Progress Bars */
 .progress { height: 10px; background: #f5f5f5; border: 1px solid #ddd; }
@@ -312,7 +312,7 @@ body .popups-import-item.ui-dialog .ui-dialog-content { padding-bottom: 0; }
 .tipsy { padding: 5px; font-size: 10px; position: absolute; z-index: 100000; }
 .tipsy-inner { padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; text-align: center; }
 .tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
-.tipsy-arrow { position: absolute; background: url('../img/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+.tipsy-arrow { position: absolute; background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/tipsy.gif") no-repeat top left; width: 9px; height: 5px; }
 .tipsy-s .tipsy-arrow { bottom: 0; inset-inline-start: 50%; margin-inline-start: -4px; background-position: bottom left; }
 
 .selected-collection {
@@ -320,7 +320,7 @@ body .popups-import-item.ui-dialog .ui-dialog-content { padding-bottom: 0; }
 }
 
 .search-loader {
-    background: url('../img/ajax-loader.gif') no-repeat 0px 12px scroll transparent;
+    background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/ajax-loader.gif") no-repeat 0px 12px scroll transparent;
     width: 42px;
     height: 33px;
 }
@@ -380,7 +380,7 @@ body .popups-import-item.ui-dialog .ui-dialog-content { padding-bottom: 0; }
 /* END: Defining placeholder style for different browsers */
 
 .search-box-cancel {
-    background: url('../img/cancel.svg') no-repeat 0px 0px scroll transparent;
+    background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/cancel.svg") no-repeat 0px 0px scroll transparent;
     position: absolute;
     inset-inline-end: 10px;
     top: 11px;
@@ -392,7 +392,7 @@ body .popups-import-item.ui-dialog .ui-dialog-content { padding-bottom: 0; }
 .search-go {
     border: 1px #DDD solid;
     border-inline-start: 0px none;
-    background: url('../img/search.svg') no-repeat 7px 7px scroll transparent;
+    background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/search.svg") no-repeat 7px 7px scroll transparent;
     width: 32px;
     height: 31px;
     cursor: pointer;
@@ -474,7 +474,7 @@ body .ui-widget-overlay.retry-overlay .loading-image {
 
 #attach-footer .submit-span-wrapper {
     border: 1px solid #023d5a;
-    background: #337dbc url(../img/btn-bg-dark.gif) repeat-x;
+    background: #337dbc url("/mirror/_assets/lti-submission-google.app.schoology.com/img/btn-bg-dark.gif") repeat-x;
     display: -moz-inline-box;
     display: inline-block;
     vertical-align: top;
@@ -502,7 +502,7 @@ body .ui-widget-overlay.retry-overlay .loading-image {
 
 #attach-footer .cancel-btn {
     margin-inline-start: 4px;
-    background: url(../img/gray-btn-bg.gif) repeat-x 0 1px;
+    background: url("/mirror/_assets/lti-submission-google.app.schoology.com/img/gray-btn-bg.gif") repeat-x 0 1px;
     border-color: #999 #999 #888;
     border-style: solid;
     border-width: 1px;
@@ -628,9 +628,9 @@ body .ui-widget-overlay.retry-overlay .loading-image {
     font-style: normal;
     font-weight: 200;
     src: local("Sgy Muli ExtraLight"), local("MuliCore-ExtraLight"),
-    url(https://ui.schoology.com/design-system/assets/muli-latin-200.4387a458edb3bec4e81602c6329a207f.woff2)
+    url("/mirror/_assets/ui.schoology.com/design-system/assets/muli-latin-200.4387a458edb3bec4e81602c6329a207f.woff2")
     format("woff2"),
-    url(https://ui.schoology.com/design-system/assets/muli-latin-200.3ae45760f8b0b342216bd55f131a68ec.woff)
+    url("/mirror/_assets/ui.schoology.com/design-system/assets/muli-latin-200.3ae45760f8b0b342216bd55f131a68ec.woff")
     format("woff")
 }
 
