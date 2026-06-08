@@ -25,6 +25,8 @@ jobs:
             tools/scrape.mjs
             tools/mirror.mjs
             tools/server.mjs
+            tools/build-course-pages.mjs
+            tools/rebuild-index.mjs
             tools/package.json
             tools/package-lock.json
             tools/lib
@@ -168,8 +170,8 @@ jobs:
           # critical so non-zero returns from kill/wait/etc don't abort
           # the trap before it can flush the local-only backlog.
           trap '
-            set +e
             ec=$?
+            set +e
             echo "── exit-trap: mirror finished with exit code $ec ──"
             # Diagnostic: how much work do we have to flush right now?
             cd "$REPO_ROOT" 2>/dev/null
