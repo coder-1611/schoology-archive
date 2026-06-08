@@ -63,11 +63,13 @@ def chrome_cookie_dbs() -> List[Path]:
 def keychain_password() -> bytes:
     """Fetch the Chrome Safe Storage key from macOS Keychain.
 
+    The Keychain stores Chrome's key under service='Chrome Safe Storage',
+    account='Chrome' — so we look it up by service name (`-s`), not account.
     Pops a GUI password prompt the first time per terminal session.
     """
     try:
         out = subprocess.check_output(
-            ["security", "find-generic-password", "-wa", "Chrome Safe Storage"],
+            ["security", "find-generic-password", "-w", "-s", "Chrome Safe Storage"],
             stderr=subprocess.PIPE,
         )
     except subprocess.CalledProcessError as e:
