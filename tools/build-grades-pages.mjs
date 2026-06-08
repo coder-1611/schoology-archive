@@ -26,6 +26,60 @@ async function readJson(p) {
   try { return JSON.parse(await fs.readFile(p, 'utf8')); } catch { return null; }
 }
 
+// Apply manual overrides from data/<cid>/grades.overrides.json onto grades.rows.
+// Matches by case-insensitive substring of `item.match` against the row title;
+// first hit wins. Marks the row with `_override: true` and copies the note for
+// rendering so users can see what was changed. Returns the same grades object
+// (mutated) with `_hasOverrides` set if any override took effect.
+function applyOverrides(grades, overrides) {
+  if (!overrides || !Array.isArray(overrides.items) || !grades || !Array.isArray(grades.rows)) return grades;
+  let applied = 0;
+  for (const ov of overrides.items) {
+    if (!ov || !ov.match) continue;
+    const needle = String(ov.match).toLowerCase();
+    for (const r of grades.rows) {
+      if (r.type !== 'item') continue;
+      if (r._override) continue; // already overridden by an earlier entry
+      if (String(r.title || '').toLowerCase().includes(needle)) {
+        if (ov.grade !== undefined) r.grade = String(ov.grade);
+        if (ov.max !== undefined) r.max = String(ov.max);
+        r._override = true;
+        if (ov.note) r._overrideNote = ov.note;
+        applied++;
+        break;
+      }
+    }
+  }
+  if (applied > 0) grades._hasOverrides = true;
+  return grades;
+}
+
+// Recompute summary fields (items_graded, avg_percent) from possibly-overridden
+// rows. Uses the same scoring rules as scrape-grades.py: when an item has no
+// explicit max, assume 100. This keeps the all-courses index consistent
+// whether overrides have been applied or not.
+function recomputeSummary(grades) {
+  if (!grades || !Array.isArray(grades.rows)) return grades;
+  const items = grades.rows.filter((r) => r.type === 'item');
+  const graded = items.filter((r) => r.grade && r.grade !== '—' && r.grade !== 'Exempt');
+  let awarded = 0, total = 0;
+  for (const r of graded) {
+    const a = parseFloat(r.grade);
+    if (Number.isNaN(a)) continue;
+    const m = r.max ? parseFloat(r.max) : 100;
+    if (!m) continue;
+    awarded += a;
+    total += m;
+  }
+  grades.summary = {
+    ...grades.summary,
+    items_total: items.length,
+    items_graded: graded.length,
+    avg_percent: total ? +(100 * awarded / total).toFixed(2) : null,
+  };
+  return grades;
+}
+
 async function findCourses(dataDir) {
   const out = [];
   const ents = await fs.readdir(dataDir, { withFileTypes: true });
@@ -76,9 +130,12 @@ function parseCourseGradePercent(s) {
   return m ? parseFloat(m[1]) : null;
 }
 
-// Prefer Schoology's reported course_grade. Fall back to computed avg only
-// when no course_grade is recorded.
-function bestAvg(summary) {
+// Prefer Schoology's reported course_grade. If overrides have been applied,
+// the Schoology number is stale, so use the (override-aware) computed avg.
+function bestAvg(summary, grades) {
+  if (grades && grades._hasOverrides && summary.avg_percent != null) {
+    return { pct: summary.avg_percent, source: 'override' };
+  }
   const reported = parseCourseGradePercent(summary.course_grade);
   if (reported != null) return { pct: reported, source: 'reported' };
   if (summary.avg_percent != null) return { pct: summary.avg_percent, source: 'computed' };
@@ -97,9 +154,12 @@ function renderRows(rows) {
     if (r.type === 'course') classes.push('row-course');
     if (r.type === 'period') classes.push('row-period');
     if (r.type === 'category') classes.push('row-category');
+    const overrideBadge = r._override
+      ? ` <span class="override-badge" title="${ESC(r._overrideNote || 'manual override')}">override</span>`
+      : '';
     out.push(
-      `<tr class="${classes.join(' ')}">` +
-      `<td ${indent} class="title-cell"><span class="icon">${icon}</span> ${ESC(r.title || '(untitled)')}</td>` +
+      `<tr class="${classes.join(' ')}${r._override ? ' is-override' : ''}">` +
+      `<td ${indent} class="title-cell"><span class="icon">${icon}</span> ${ESC(r.title || '(untitled)')}${overrideBadge}</td>` +
       `<td class="grade-cell" style="color:${gradeColor}">${ESC(grade)}</td>` +
       `</tr>`
     );
@@ -111,9 +171,10 @@ function coursePage(courseId, manifest, grades) {
   const title = (manifest && manifest.title) || `Course ${courseId}`;
   const source = (manifest && manifest.source) || 'unknown';
   const s = grades.summary;
-  const best = bestAvg(s);
+  const best = bestAvg(s, grades);
   const avgStr = best.pct != null ? `${best.pct.toFixed(2)}%` : '—';
-  const avgLabel = best.source === 'reported' ? 'Schoology grade'
+  const avgLabel = best.source === 'override' ? 'recomputed w/ overrides'
+                : best.source === 'reported' ? 'Schoology grade'
                 : best.source === 'computed' ? 'computed avg'
                 : '';
   const courseGrade = s.course_grade && s.course_grade !== '—' ? s.course_grade : null;
@@ -145,6 +206,11 @@ function coursePage(courseId, manifest, grades) {
                 font-variant-numeric: tabular-nums; text-align: right; width: 12em; }
   .icon { display: inline-block; width: 1.4em; text-align: center; }
   .empty { color: #999; font-style: italic; padding: 1rem 0; }
+  .override-badge { display: inline-block; margin-left: 0.5em; padding: 1px 6px;
+                    font-size: 10px; background: #fff3cd; color: #856404;
+                    border: 1px solid #ffeeba; border-radius: 8px;
+                    vertical-align: middle; }
+  tr.is-override .grade-cell { background: #fffbeb; }
 </style>
 <header>
   <h1>${ESC(title)}</h1>
@@ -177,16 +243,16 @@ ${grades.rows.length === 0
 function indexPage(courses) {
   // Sort by best-available average desc (no-grade last)
   const sorted = [...courses].sort((a, b) => {
-    const av = bestAvg(a.grades.summary).pct;
-    const bv = bestAvg(b.grades.summary).pct;
+    const av = bestAvg(a.grades.summary, a.grades).pct;
+    const bv = bestAvg(b.grades.summary, b.grades).pct;
     if (av == null && bv == null) return a.title.localeCompare(b.title);
     if (av == null) return 1;
     if (bv == null) return -1;
     return bv - av;
   });
 
-  const withGrades = sorted.filter((c) => bestAvg(c.grades.summary).pct != null);
-  const without = sorted.filter((c) => bestAvg(c.grades.summary).pct == null);
+  const withGrades = sorted.filter((c) => bestAvg(c.grades.summary, c.grades).pct != null);
+  const without = sorted.filter((c) => bestAvg(c.grades.summary, c.grades).pct == null);
 
   // Overall = simple mean of per-course best percentages, but only counting
   // courses that actually have graded items. A course can have a hollow
@@ -194,7 +260,7 @@ function indexPage(courses) {
   // (e.g. legacy data, partial enrollment) — those are excluded from the mean.
   const courseAvgs = withGrades
     .filter((c) => c.grades.summary.items_graded > 0)
-    .map((c) => bestAvg(c.grades.summary).pct)
+    .map((c) => bestAvg(c.grades.summary, c.grades).pct)
     .filter((p) => p != null);
   const overall = courseAvgs.length
     ? courseAvgs.reduce((a, b) => a + b, 0) / courseAvgs.length
@@ -202,10 +268,13 @@ function indexPage(courses) {
 
   const renderRow = (c) => {
     const s = c.grades.summary;
-    const best = bestAvg(s);
+    const best = bestAvg(s, c.grades);
     const color = pillColor(best.pct);
     const avgStr = best.pct != null ? `${best.pct.toFixed(2)}%` : '—';
-    const srcBadge = best.source === 'computed' ? ' <span style="font-size:9px;color:#999">(calc)</span>' : '';
+    const srcBadge = best.source === 'override'
+      ? ' <span style="font-size:9px;color:#856404">★</span>'
+      : best.source === 'computed' ? ' <span style="font-size:9px;color:#999">(calc)</span>'
+      : '';
     return `<tr>
       <td><a href="/mirror/grades/${ESC(c.courseId)}.html"><strong>${ESC(c.title)}</strong></a>
           <div class="meta">${ESC(c.source)} · ${ESC(c.courseId)}</div></td>
@@ -284,7 +353,10 @@ async function main() {
   // Build per-course pages + collect for index
   const courses = [];
   for (const cid of allIds) {
-    const grades = await readJson(path.join(dataDir, cid, 'grades.json'));
+    const grades = recomputeSummary(applyOverrides(
+      await readJson(path.join(dataDir, cid, 'grades.json')),
+      await readJson(path.join(dataDir, cid, 'grades.overrides.json'))
+    ));
     if (!grades) continue;
     const manifest = await readJson(path.join(dataDir, cid, 'manifest.json'));
     const html = coursePage(cid, manifest, grades);
@@ -304,7 +376,10 @@ async function main() {
     const fullList = await findCourses(dataDir);
     const all = [];
     for (const cid of fullList) {
-      const grades = await readJson(path.join(dataDir, cid, 'grades.json'));
+      const grades = recomputeSummary(applyOverrides(
+      await readJson(path.join(dataDir, cid, 'grades.json')),
+      await readJson(path.join(dataDir, cid, 'grades.overrides.json'))
+    ));
       if (!grades) continue;
       const manifest = await readJson(path.join(dataDir, cid, 'manifest.json'));
       all.push({

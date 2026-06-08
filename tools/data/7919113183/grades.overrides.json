@@ -1,0 +1,11 @@
+{
+  "_doc": "Manual grade overrides — survive re-scraping. Matched by title substring (first hit wins). Set 'grade' to the awarded score and 'max' to the maximum; leave either unset to keep the scraped value. Add 'note' for explanation.",
+  "items": [
+    {
+      "match": "End of Semester Assessment",
+      "grade": "100",
+      "max": "100",
+      "note": "manual override — 12/17/25 assignment was a — in Schoology"
+    }
+  ]
+}
