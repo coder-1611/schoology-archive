@@ -1,10 +1,10 @@
 span.ext {
-  background: url('/sites/all/modules/schoology_core/s_extlink/s_extlink.png?6a22adde355849c9') right center no-repeat;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_extlink/s_extlink.png__q_6a22adde355849c9") right center no-repeat;
   padding-inline-end: 12px;
   zoom: 1;
 }
 span.mailto {
-  background: url('/sites/all/modules/schoology_core/s_extlink/mailto.png?6a22adde355849c9') right center no-repeat;
+  background: url("/mirror/_assets/asset-cdn.schoology.com/sites/all/modules/schoology_core/s_extlink/mailto.png__q_6a22adde355849c9") right center no-repeat;
   padding-inline-end: 12px;
   zoom: 1;
   margin-inline-start: 4px;
