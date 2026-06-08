@@ -1,0 +1,53 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" media="screen" href="/css/styles.css?PE-144102">
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js?PE-144102"></script>
+</head>
+<body>
+    <div class="body-content">    <script type="text/javascript">
+        $(function() {
+
+            /**
+             * Render authorize button
+             */
+            var renderAuthorizeButton = function () {
+                            };
+
+            /**
+             * Render the document viewer iframe if the user has an active provider session,
+             * otherwise render the login button for authorization
+             */
+                            var img = new Image();
+                img.onerror = renderAuthorizeButton;
+                img.src = 'https://accounts.google.com/CheckCookie?continue=https://www.google.com/intl/en/images/logos/accounts_logo.png';
+            
+            // After 5 seconds, hide the loader animation and show a
+            // "connect" iframe. This will only be seen if the document
+            // iFrame fails; otherwise it will be hidden behind the document.
+            setTimeout(function(){
+                $('#loader').hide();
+                $('#loading-error').show();
+            }, 5000);
+        });
+    </script>
+
+            <div id="provider-iframe-login-error">
+            <div id="loader">
+                <img
+                    width="30"
+                    height="8"
+                    src="/img/ajax-loader.gif"
+                />
+            </div>
+
+            <div id="loading-error">
+                <p>
+                    We&rsquo;re sorry but we are unable to load your document. It looks like you may be logged into another account in your browser. Please go to google.com to log out of all additional accounts and log in as <b>s189070@student.roundrockisd.org</b>.
+                </p>
+            </div>
+        </div>
+    
+            <iframe src="https://docs.google.com/presentation/d/1JIU8sSE8el0M-C3QQ-C46Mm6IsK7HQRo9sXuiyAuAi4/edit?usp=drivesdk" width="100%" style="height: 100vh; border: none;"></iframe>
+    </div>
+</body>
+</html>
