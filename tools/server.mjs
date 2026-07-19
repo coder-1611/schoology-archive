@@ -106,13 +106,37 @@ app.get('/course/:id', async (req, res) => {
 
 // Serve raw files out of the course directory. We use a manual handler (not express.static)
 // because filenames contain unicode/spaces and we want strict path scoping.
-app.get('/file/:id/*', (req, res) => {
+app.get('/file/:id/*', async (req, res) => {
   const id = req.params.id.replace(/[^0-9a-zA-Z_-]/g, '');
   const rel = req.params[0] || '';
   const courseDir = path.join(DATA, id);
   const target = path.resolve(courseDir, rel);
   if (!target.startsWith(path.resolve(courseDir))) return res.status(400).send('bad path');
   if (!fs.existsSync(target)) return res.status(404).send('not found');
+
+  // Material trees link folders as well as files. sendFile can't serve a directory,
+  // so browse it instead — otherwise every folder click dead-ends in a 404.
+  if (fs.statSync(target).isDirectory()) {
+    const entries = await fsp.readdir(target, { withFileTypes: true });
+    entries.sort((a, b) => (a.isDirectory() === b.isDirectory() ? a.name.localeCompare(b.name) : a.isDirectory() ? -1 : 1));
+    const href = e => `/file/${encodeURIComponent(id)}/` +
+      [...rel.split('/').filter(Boolean), e.name].map(encodeURIComponent).join('/');
+    const up = rel.split('/').filter(Boolean).slice(0, -1);
+    const upHref = up.length
+      ? `/file/${encodeURIComponent(id)}/${up.map(encodeURIComponent).join('/')}`
+      : `/course/${encodeURIComponent(id)}`;
+    const list = entries.length
+      ? '<ul>' + entries.map(e =>
+          `<li><a href="${esc(href(e))}">${esc(e.name)}</a>` +
+          `<span class="type">${e.isDirectory() ? 'folder' : 'file'}</span></li>`).join('') + '</ul>'
+      : '<p class="empty">(empty folder — nothing was scraped here)</p>';
+    return res.send(layout(rel || id, `
+      <h1 style="margin-bottom:0">${esc(rel.split('/').filter(Boolean).pop() || id)}</h1>
+      <p class="stat"><a href="${esc(upHref)}">← up</a> · ${entries.length} item(s)</p>
+      ${list}
+    `));
+  }
+
   res.sendFile(target);
 });
 
