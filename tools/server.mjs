@@ -8,6 +8,7 @@ import path from 'node:path';
 import express from 'express';
 
 import { loadConfig } from './lib/config.mjs';
+import { pageLocalPath } from './lib/mirror.mjs';
 
 const config = loadConfig();
 const app = express();
@@ -173,32 +174,49 @@ function renderMirrorIndex() {
   return layout('Schoology Mirror', `<p class="stat">${found.length} page(s) mirrored so far</p>${sections}`);
 }
 
-app.get('/mirror/index.html', (_req, res) => {
+app.get('/mirror/index.html', async (_req, res) => {
   // Prefer the on-disk index.html if it exists (final post-run version);
   // otherwise generate dynamically.
   const onDisk = path.join(MIRROR_ROOT, 'index.html');
-  if (fs.existsSync(onDisk)) return res.sendFile(onDisk);
-  res.set('Content-Type', 'text/html; charset=utf-8').send(renderMirrorIndex());
+  const html = fs.existsSync(onDisk)
+    ? relinkMirroredPages(await fsp.readFile(onDisk, 'utf8'))
+    : renderMirrorIndex();
+  res.set('Content-Type', 'text/html; charset=utf-8').send(html);
 });
 
-app.get('/mirror/*', (req, res) => {
+// The capture-time rewriter could only localize a link if that page had already
+// been mirrored, so pages captured early still point at live Schoology for pages
+// mirrored later. Re-point those links now that the mirror is complete; anything
+// genuinely absent (calendar, resources, /apps) is left alone to fall through.
+function relinkMirroredPages(html) {
+  return html.replace(/(href|src)="(https:\/\/[a-z0-9.-]*schoology\.com[^"]*)"/gi, (whole, attr, url) => {
+    try {
+      const local = pageLocalPath(url.replace(/&amp;/g, '&'));
+      if (!fs.existsSync(path.join(MIRROR_ROOT, local))) return whole;
+      const href = '/mirror/' + local.split(path.sep).map(encodeURIComponent).join('/');
+      return `${attr}="${href}"`;
+    } catch {
+      return whole;
+    }
+  });
+}
+
+async function serveMirrorFile(req, res) {
   const rel = decodeURIComponent(req.params[0] || '');
   const target = path.resolve(MIRROR_ROOT, rel);
   if (!target.startsWith(path.resolve(MIRROR_ROOT))) return res.status(400).send('bad path');
   if (!fs.existsSync(target)) return res.status(404).send('mirror file not found');
-  res.sendFile(target);
-});
+  if (!target.endsWith('.html')) return res.sendFile(target);
+  const html = await fsp.readFile(target, 'utf8');
+  res.set('Content-Type', 'text/html; charset=utf-8').send(relinkMirroredPages(html));
+}
+
+app.get('/mirror/*', serveMirrorFile);
 
 // Backward-compat alias: the mirrored HTML uses GitHub-Pages-absolute paths
 // (/schoology-archive/tools/data/_mirror/...) so it works when published. Serve
 // the same files locally too so npm run serve keeps working.
-app.get('/schoology-archive/tools/data/_mirror/*', (req, res) => {
-  const rel = decodeURIComponent(req.params[0] || '');
-  const target = path.resolve(MIRROR_ROOT, rel);
-  if (!target.startsWith(path.resolve(MIRROR_ROOT))) return res.status(400).send('bad path');
-  if (!fs.existsSync(target)) return res.status(404).send('mirror file not found');
-  res.sendFile(target);
-});
+app.get('/schoology-archive/tools/data/_mirror/*', serveMirrorFile);
 
 app.listen(config.port, () => {
   console.log(`Schoology archive viewer running:  http://localhost:${config.port}`);
