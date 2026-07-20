@@ -144,6 +144,11 @@ app.get('/file/:id/*', async (req, res) => {
 // Serve the Schoology static mirror. Path scoping to data/_mirror prevents traversal.
 const MIRROR_ROOT = path.join(DATA, '_mirror');
 
+// The live /grades pages are teacher-restricted (403) and were never mirrored;
+// we built our own grade pages instead (data/_mirror/grades/). Point the header's
+// Grades links there.
+app.get(['/grades', '/grades/*'], (_req, res) => res.redirect('/mirror/grades/index.html'));
+
 // The live "My Courses" page (/courses) was never mirrored — the header link on
 // every mirrored page dead-ends without this. List the courses we do have,
 // linking into their mirrored Schoology-UI landing pages.
@@ -169,7 +174,7 @@ app.get(['/courses', '/courses/*'], async (_req, res) => {
   const section = (label, list) => list.length ? `<h2>${label} (${list.length})</h2><div class="courses">${list.map(card).join('')}</div>` : '';
   res.send(layout('My Courses', `
     <h1>My Courses</h1>
-    <p class="stat"><a href="/mirror/pages/home.html">← dashboard</a></p>
+    <p class="stat"><a href="/mirror/pages/home.html">← dashboard</a> · <a href="/mirror/grades/index.html">grades</a></p>
     ${section('Active', grouped.active)}${section('Archived', grouped.archived)}${section('Other', grouped.other)}
   `));
 });
