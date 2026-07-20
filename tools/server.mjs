@@ -143,6 +143,36 @@ app.get('/file/:id/*', async (req, res) => {
 
 // Serve the Schoology static mirror. Path scoping to data/_mirror prevents traversal.
 const MIRROR_ROOT = path.join(DATA, '_mirror');
+
+// The live "My Courses" page (/courses) was never mirrored — the header link on
+// every mirrored page dead-ends without this. List the courses we do have,
+// linking into their mirrored Schoology-UI landing pages.
+app.get(['/courses', '/courses/*'], async (_req, res) => {
+  const entries = await fsp.readdir(DATA, { withFileTypes: true });
+  const courses = [];
+  for (const e of entries) {
+    if (!e.isDirectory()) continue;
+    try {
+      courses.push(JSON.parse(await fsp.readFile(path.join(DATA, e.name, 'manifest.json'), 'utf8')));
+    } catch { /* skip dirs without manifest */ }
+  }
+  courses.sort((a, b) => (a.source === b.source ? a.title.localeCompare(b.title) : a.source.localeCompare(b.source)));
+  const card = c => {
+    const uiPage = path.join(MIRROR_ROOT, 'pages', 'course', `${c.id}.html`);
+    const href = fs.existsSync(uiPage) ? `/mirror/pages/course/${esc(c.id)}.html` : `/course/${esc(c.id)}`;
+    const badge = c.source === 'archived' ? '<span class="badge archived">archived</span>' : '<span class="badge">active</span>';
+    return `<div class="course"><a href="${href}">${esc(c.title)}</a> ${badge}
+      <div class="stat"><a href="/course/${esc(c.id)}">materials</a> · <a href="/mirror/grades/${esc(c.id)}.html">grades</a></div></div>`;
+  };
+  const grouped = { active: [], archived: [], other: [] };
+  for (const c of courses) (grouped[c.source] || grouped.other).push(c);
+  const section = (label, list) => list.length ? `<h2>${label} (${list.length})</h2><div class="courses">${list.map(card).join('')}</div>` : '';
+  res.send(layout('My Courses', `
+    <h1>My Courses</h1>
+    <p class="stat"><a href="/mirror/pages/home.html">← dashboard</a></p>
+    ${section('Active', grouped.active)}${section('Archived', grouped.archived)}${section('Other', grouped.other)}
+  `));
+});
 app.get('/mirror', (_req, res) => res.redirect('/mirror/index.html'));
 
 // Dynamically generate the index by walking pages/ — works while mirror is mid-run.
