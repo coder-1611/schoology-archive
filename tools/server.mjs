@@ -2,6 +2,7 @@
 // Local viewer for the archived Schoology data. Serves browse pages + raw files at
 // http://localhost:<port>/.
 
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import fsp from 'node:fs/promises';
 import path from 'node:path';
@@ -13,6 +14,55 @@ import { pageLocalPath } from './lib/mirror.mjs';
 const config = loadConfig();
 const app = express();
 const DATA = config.dataDir;
+
+// Optional password gate: set "password" in config.json (gitignored) to require
+// login. The cookie holds a hash, never the password itself.
+const AUTH_COOKIE = 'archive_auth';
+const AUTH_TOKEN = config.password
+  ? crypto.createHash('sha256').update(`schoology-archive:${config.password}`).digest('hex')
+  : null;
+
+app.use(express.urlencoded({ extended: false }));
+app.use((req, res, next) => {
+  if (!AUTH_TOKEN || req.path === '/login') return next();
+  const cookies = Object.fromEntries((req.headers.cookie || '')
+    .split(';').map(c => c.trim().split('=').map(s => decodeURIComponent(s || ''))).filter(p => p[0]));
+  if (cookies[AUTH_COOKIE] === AUTH_TOKEN) return next();
+  res.redirect('/login?next=' + encodeURIComponent(req.originalUrl));
+});
+
+function loginPage(error, nextUrl) {
+  return layout('Sign in', `
+    <div style="max-width:340px;margin:15vh auto 0;text-align:center">
+      <h1 style="margin-bottom:.25rem">🔒 Schoology Archive</h1>
+      <p class="stat" style="margin-top:0">This archive is password-protected.</p>
+      ${error ? '<p style="color:#b00020">Wrong password, try again.</p>' : ''}
+      <form method="post" action="/login">
+        <input type="hidden" name="next" value="${esc(nextUrl)}">
+        <input type="password" name="password" placeholder="Password" autofocus required
+          style="width:100%;box-sizing:border-box;padding:.55rem .7rem;font-size:15px;border:1px solid #ccc;border-radius:6px">
+        <button type="submit"
+          style="margin-top:.6rem;width:100%;padding:.55rem;font-size:15px;border:0;border-radius:6px;background:#1a4fcf;color:#fff;cursor:pointer">
+          Sign in</button>
+      </form>
+    </div>
+  `);
+}
+
+const safeNext = n => (typeof n === 'string' && n.startsWith('/') && !n.startsWith('//')) ? n : '/';
+
+app.get('/login', (req, res) => {
+  if (!AUTH_TOKEN) return res.redirect('/');
+  res.send(loginPage(false, safeNext(req.query.next)));
+});
+
+app.post('/login', (req, res) => {
+  if (!AUTH_TOKEN) return res.redirect('/');
+  const next = safeNext(req.body.next);
+  if (req.body.password !== config.password) return res.status(401).send(loginPage(true, next));
+  res.set('Set-Cookie', `${AUTH_COOKIE}=${AUTH_TOKEN}; Path=/; HttpOnly; SameSite=Lax; Max-Age=2592000`);
+  res.redirect(next);
+});
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({
