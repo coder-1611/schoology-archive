@@ -18,5 +18,8 @@
   "license": "MIT",
   "author": "azharr",
   "type": "commonjs",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }

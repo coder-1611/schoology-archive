@@ -1,0 +1,7 @@
+# The 10 GB archive is served from GitHub raw at runtime — never upload it to Vercel.
+tools
+src
+images
+CLAUDE.md
+README.md
+firebase-debug.log
