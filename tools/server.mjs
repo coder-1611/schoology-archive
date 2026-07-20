@@ -236,6 +236,22 @@ function relinkMirroredPages(html) {
   });
 }
 
+// The header's Grades item is a React dropdown (dead offline), not a link.
+// Route clicks on it straight to our grades pages.
+const GRADES_NAV_SHIM = `<script>
+document.addEventListener('click', function (e) {
+  var b = e.target && e.target.closest && e.target.closest('button[data-sgy-sitenav="nav-trigger"]');
+  if (b && /^\\s*Grades\\b/.test(b.textContent)) {
+    e.preventDefault(); e.stopImmediatePropagation();
+    location.href = '/grades';
+  }
+}, true);
+</script>`;
+
+function injectNavShim(html) {
+  return html.includes('data-sgy-sitenav') ? html.replace(/<\/body>/i, GRADES_NAV_SHIM + '</body>') : html;
+}
+
 async function serveMirrorFile(req, res) {
   const rel = decodeURIComponent(req.params[0] || '');
   const target = path.resolve(MIRROR_ROOT, rel);
@@ -243,7 +259,7 @@ async function serveMirrorFile(req, res) {
   if (!fs.existsSync(target)) return res.status(404).send('mirror file not found');
   if (!target.endsWith('.html')) return res.sendFile(target);
   const html = await fsp.readFile(target, 'utf8');
-  res.set('Content-Type', 'text/html; charset=utf-8').send(relinkMirroredPages(html));
+  res.set('Content-Type', 'text/html; charset=utf-8').send(injectNavShim(relinkMirroredPages(html)));
 }
 
 app.get('/mirror/*', serveMirrorFile);
